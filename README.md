@@ -1,4 +1,4 @@
-# Engels-app — V1.2.1
+# POLYVO — V1.2.1
 
 Adaptive English practice for Dutch beginners.
 
