@@ -213,12 +213,12 @@
       "id": "ps4",
       "topic": "present-simple",
       "type": "typed",
-      "prompt": "He ___ English every day.",
+      "prompt": "He ___ for his English exam every day.",
       "answer": "studies",
       "accepted": [
         "studies"
       ],
-      "explanation": "Study wordt studies bij he/she/it.",
+      "explanation": "Als je leert voor een examen, gebruik je in deze zin studies. Bij he krijgt study de vorm studies.",
       "difficulty": 2
     },
     {
@@ -581,12 +581,12 @@
       "id": "v2",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'huis'",
-      "answer": "house",
+      "prompt": "Translate: 'Mijn huis is groot.'",
+      "answer": "My house is big",
       "accepted": [
-        "house"
+        "my house is big"
       ],
-      "explanation": "Huis = house.",
+      "explanation": "House = huis en big = groot.",
       "difficulty": 1
     },
     {
@@ -607,12 +607,12 @@
       "id": "v4",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'werk'",
-      "answer": "work",
+      "prompt": "Translate: 'Ik werk vandaag.'",
+      "answer": "I work today",
       "accepted": [
-        "work"
+        "i work today"
       ],
-      "explanation": "Werk = work.",
+      "explanation": "Work = werken.",
       "difficulty": 1
     },
     {
@@ -633,10 +633,10 @@
       "id": "v6",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'water'",
-      "answer": "water",
+      "prompt": "Translate: 'Ik drink water.'",
+      "answer": "I drink water",
       "accepted": [
-        "water"
+        "i drink water"
       ],
       "explanation": "Water = water.",
       "difficulty": 1
@@ -659,12 +659,12 @@
       "id": "v8",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'eten'",
-      "answer": "food",
+      "prompt": "Translate: 'Het eten is lekker.'",
+      "answer": "The food is good",
       "accepted": [
-        "food"
+        "the food is good"
       ],
-      "explanation": "Eten als zelfstandig naamwoord = food.",
+      "explanation": "Food = eten. In deze zin betekent lekker: good.",
       "difficulty": 1
     },
     {
@@ -685,12 +685,12 @@
       "id": "v10",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'vriendin'",
-      "answer": "girlfriend",
+      "prompt": "Translate: 'Mijn vriendin is mijn partner.'",
+      "answer": "My girlfriend is my partner",
       "accepted": [
-        "girlfriend"
+        "my girlfriend is my partner"
       ],
-      "explanation": "In deze context betekent vriendin = girlfriend.",
+      "explanation": "Als je met vriendin je partner bedoelt, is girlfriend het juiste woord.",
       "difficulty": 2
     },
     {
