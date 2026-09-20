@@ -1,0 +1,33 @@
+{
+  "version": "1.2.0",
+  "topics": [
+    {"id":"be-verbs","name":"To be","description":"am, is, are"},
+    {"id":"present-simple","name":"Present simple","description":"Dagelijkse handelingen en routines"},
+    {"id":"questions","name":"Questions","description":"Do, does, is, are"},
+    {"id":"pronouns","name":"Pronouns","description":"I, you, he, she, it, we, they"},
+    {"id":"vocabulary-daily","name":"Daily vocabulary","description":"Veelgebruikte woorden"},
+    {"id":"prepositions","name":"Prepositions","description":"in, on, at, to"}
+  ],
+  "items": [
+    {"id":"be1","topic":"be-verbs","type":"mcq","prompt":"I ___ from the Netherlands.","answer":"am","options":["am","is","are"],"explanation":"Bij I hoort altijd am.","difficulty":1},
+    {"id":"be2","topic":"be-verbs","type":"typed","prompt":"She ___ happy.","answer":"is","accepted":["is"],"explanation":"Bij he/she/it hoort is.","difficulty":1},
+    {"id":"be3","topic":"be-verbs","type":"mcq","prompt":"They ___ at home.","answer":"are","options":["am","is","are"],"explanation":"Bij they hoort are.","difficulty":1},
+    {"id":"be4","topic":"be-verbs","type":"typed","prompt":"We ___ ready.","answer":"are","accepted":["are"],"explanation":"Bij we hoort are.","difficulty":1},
+    {"id":"ps1","topic":"present-simple","type":"mcq","prompt":"I ___ coffee every morning.","answer":"drink","options":["drink","drinks","drinking"],"explanation":"Bij I gebruik je de basisvorm: drink.","difficulty":1},
+    {"id":"ps2","topic":"present-simple","type":"mcq","prompt":"She ___ to work by bus.","answer":"goes","options":["go","goes","going"],"explanation":"Bij he/she/it krijgt het werkwoord in de present simple meestal -s/-es.","difficulty":2},
+    {"id":"ps3","topic":"present-simple","type":"typed","prompt":"They ___ football every Sunday. They are members of the local football club.","answer":"play","accepted":["play"],"explanation":"Door de extra context is duidelijk dat ze zelf voetballen. Bij they gebruik je de basisvorm: play.","difficulty":1},
+    {"id":"ps4","topic":"present-simple","type":"typed","prompt":"He ___ English every day.","answer":"studies","accepted":["studies"],"explanation":"Study wordt studies bij he/she/it.","difficulty":2},
+    {"id":"q1","topic":"questions","type":"mcq","prompt":"___ you like pizza?","answer":"Do","options":["Do","Does","Are"],"explanation":"Bij you gebruik je Do.","difficulty":1},
+    {"id":"q2","topic":"questions","type":"mcq","prompt":"___ she work here?","answer":"Does","options":["Do","Does","Is"],"explanation":"Bij she gebruik je Does.","difficulty":1},
+    {"id":"q3","topic":"questions","type":"typed","prompt":"___ they at home?","answer":"Are","accepted":["are"],"explanation":"Bij een vraag met to be komt Are voor they.","difficulty":1},
+    {"id":"pr1","topic":"pronouns","type":"mcq","prompt":"Tom is my brother. ___ is 20.","answer":"He","options":["He","She","They"],"explanation":"Tom is mannelijk, dus he.","difficulty":1},
+    {"id":"pr2","topic":"pronouns","type":"mcq","prompt":"Anna is my friend. ___ lives in London.","answer":"She","options":["He","She","It"],"explanation":"Anna is vrouwelijk, dus she.","difficulty":1},
+    {"id":"pr3","topic":"pronouns","type":"typed","prompt":"My parents are nice. ___ are funny.","answer":"They","accepted":["they"],"explanation":"Meervoudige personen: they.","difficulty":1},
+    {"id":"v1","topic":"vocabulary-daily","type":"mcq","prompt":"What is 'boodschappen doen' in English?","answer":"go shopping","options":["go shopping","go sleeping","go working"],"explanation":"Go shopping betekent boodschappen doen/winkelen.","difficulty":1},
+    {"id":"v2","topic":"vocabulary-daily","type":"typed","prompt":"Translate: 'vriend'","answer":"friend","accepted":["friend"],"explanation":"Vriend = friend.","difficulty":1},
+    {"id":"v3","topic":"vocabulary-daily","type":"mcq","prompt":"What does 'usually' mean?","answer":"meestal","options":["meestal","nooit","morgen"],"explanation":"Usually = meestal.","difficulty":2},
+    {"id":"p1","topic":"prepositions","type":"mcq","prompt":"I live ___ the Netherlands.","answer":"in","options":["in","on","at"],"explanation":"Voor landen gebruik je meestal in.","difficulty":1},
+    {"id":"p2","topic":"prepositions","type":"mcq","prompt":"The meeting is ___ Monday.","answer":"on","options":["in","on","at"],"explanation":"Voor dagen gebruik je on.","difficulty":1},
+    {"id":"p3","topic":"prepositions","type":"mcq","prompt":"The lesson starts ___ 9 o'clock.","answer":"at","options":["in","on","at"],"explanation":"Voor een specifiek tijdstip gebruik je at.","difficulty":1}
+  ]
+}
