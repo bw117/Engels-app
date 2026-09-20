@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.6.1",
   "topics": [
     {
       "id": "be-verbs",
@@ -99,7 +99,9 @@
         "is"
       ],
       "explanation": "Bij he, she en it hoort is.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Zij is blij.",
+      "solutionEnglish": "She is happy."
     },
     {
       "id": "be3",
@@ -125,7 +127,9 @@
         "are"
       ],
       "explanation": "Bij we hoort are.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Wij zijn er klaar voor.",
+      "solutionEnglish": "We are ready."
     },
     {
       "id": "be5",
@@ -151,7 +155,9 @@
         "are"
       ],
       "explanation": "Bij you hoort are.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Jij bent erg aardig.",
+      "solutionEnglish": "You are very kind."
     },
     {
       "id": "be7",
@@ -177,7 +183,9 @@
         "am"
       ],
       "explanation": "Bij I hoort am.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Ik ben niet moe.",
+      "solutionEnglish": "I am not tired."
     },
     {
       "id": "be9",
@@ -203,7 +211,9 @@
         "is"
       ],
       "explanation": "Bij het weer gebruiken we it/is.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Het weer is vandaag mooi.",
+      "solutionEnglish": "The weather is nice today."
     },
     {
       "id": "ps1",
@@ -243,7 +253,9 @@
         "play"
       ],
       "explanation": "De extra context maakt duidelijk dat ze zelf voetballen.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Zij voetballen elke zondag. Ze zijn lid van de plaatselijke voetbalclub.",
+      "solutionEnglish": "They play football every Sunday. They are members of the local football club."
     },
     {
       "id": "ps4",
@@ -255,7 +267,9 @@
         "studies"
       ],
       "explanation": "Als je leert voor een examen, gebruik je in deze zin studies. Bij he krijgt study de vorm studies.",
-      "difficulty": 2
+      "difficulty": 2,
+      "translationNl": "Hij studeert elke dag voor zijn Engelse examen.",
+      "solutionEnglish": "He studies for his English exam every day."
     },
     {
       "id": "ps5",
@@ -281,7 +295,9 @@
         "watches"
       ],
       "explanation": "Bij she krijgt watch -es.",
-      "difficulty": 2
+      "difficulty": 2,
+      "translationNl": "Mijn zus kijkt na het eten televisie.",
+      "solutionEnglish": "My sister watches TV after dinner."
     },
     {
       "id": "ps7",
@@ -307,7 +323,9 @@
         "lives"
       ],
       "explanation": "Bij he krijgt live -s.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Tom woont in Amsterdam.",
+      "solutionEnglish": "Tom lives in Amsterdam."
     },
     {
       "id": "ps9",
@@ -333,7 +351,9 @@
         "works"
       ],
       "explanation": "Bij he krijgt work -s.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Mijn vader werkt elke dag vroeg.",
+      "solutionEnglish": "My dad works early every day."
     },
     {
       "id": "q1",
@@ -373,7 +393,9 @@
         "Are"
       ],
       "explanation": "Bij een vraag met to be hoort Are bij they.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Zijn zij thuis?",
+      "solutionEnglish": "Are they at home?"
     },
     {
       "id": "q4",
@@ -399,7 +421,9 @@
         "Are"
       ],
       "explanation": "Bij you + to be gebruik je Are.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Ben je er klaar voor?",
+      "solutionEnglish": "Are you ready?"
     },
     {
       "id": "q6",
@@ -425,7 +449,9 @@
         "Is"
       ],
       "explanation": "Bij she + to be gebruik je Is.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Is zij moe?",
+      "solutionEnglish": "Is she tired?"
     },
     {
       "id": "q8",
@@ -451,7 +477,9 @@
         "Is"
       ],
       "explanation": "Bij he + to be gebruik je Is.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Komt hij uit Engeland?",
+      "solutionEnglish": "Is he from England?"
     },
     {
       "id": "q10",
@@ -505,7 +533,9 @@
         "They"
       ],
       "explanation": "Parents is meervoud, dus they.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Mijn ouders zijn aardig. Ze zijn grappig.",
+      "solutionEnglish": "My parents are nice. They are funny."
     },
     {
       "id": "pr4",
@@ -531,7 +561,9 @@
         "We"
       ],
       "explanation": "John and I = we.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "John en ik zijn vrienden. Wij voetballen.",
+      "solutionEnglish": "John and I are friends. We play football."
     },
     {
       "id": "pr6",
@@ -557,7 +589,9 @@
         "It"
       ],
       "explanation": "Een ding = it.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Dit is mijn telefoon. Hij is nieuw.",
+      "solutionEnglish": "This is my phone. It is new."
     },
     {
       "id": "pr8",
@@ -583,7 +617,9 @@
         "She"
       ],
       "explanation": "Lisa is vrouwelijk, dus she.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Lisa is mijn zus. Ze is 24.",
+      "solutionEnglish": "Lisa is my sister. She is 24."
     },
     {
       "id": "pr10",
@@ -623,7 +659,9 @@
         "my house is big"
       ],
       "explanation": "House = huis en big = groot.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Mijn huis is groot.",
+      "solutionEnglish": "My house is big"
     },
     {
       "id": "v3",
@@ -649,7 +687,9 @@
         "i work today"
       ],
       "explanation": "Work = werken.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Ik werk vandaag.",
+      "solutionEnglish": "I work today"
     },
     {
       "id": "v5",
@@ -675,7 +715,9 @@
         "i drink water"
       ],
       "explanation": "Water = water.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Ik drink water.",
+      "solutionEnglish": "I drink water"
     },
     {
       "id": "v7",
@@ -701,7 +743,9 @@
         "the food is good"
       ],
       "explanation": "Food = eten. In deze zin betekent lekker: good.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Het eten is lekker.",
+      "solutionEnglish": "The food is good"
     },
     {
       "id": "v9",
@@ -727,7 +771,9 @@
         "my girlfriend is my partner"
       ],
       "explanation": "Als je met vriendin je partner bedoelt, is girlfriend het juiste woord.",
-      "difficulty": 2
+      "difficulty": 2,
+      "translationNl": "Mijn vriendin is mijn partner.",
+      "solutionEnglish": "My girlfriend is my partner"
     },
     {
       "id": "p1",
@@ -781,7 +827,9 @@
         "on"
       ],
       "explanation": "Voor iets dat op een oppervlak ligt, gebruik je on.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "De sleutels liggen op de tafel.",
+      "solutionEnglish": "The keys are on the table."
     },
     {
       "id": "p5",
@@ -807,7 +855,9 @@
         "in"
       ],
       "explanation": "Voor steden gebruik je in.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Zij woont in Londen.",
+      "solutionEnglish": "She lives in London."
     },
     {
       "id": "p7",
@@ -833,7 +883,9 @@
         "at"
       ],
       "explanation": "Voor een specifieke locatie gebruik je hier at.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "We ontmoeten elkaar op het station.",
+      "solutionEnglish": "We meet at the station."
     },
     {
       "id": "p9",
@@ -859,7 +911,9 @@
         "on"
       ],
       "explanation": "Voor dagen gebruik je on.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Tot vrijdag.",
+      "solutionEnglish": "See you on Friday."
     },
     {
       "id": "be-verbs-001",
@@ -4091,7 +4145,9 @@
         "I am at home"
       ],
       "explanation": "To be: I am + place.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Ik ben thuis.",
+      "solutionEnglish": "I am at home"
     },
     {
       "id": "sb-t2",
@@ -4103,7 +4159,9 @@
         "She works in a shop"
       ],
       "explanation": "She + works in a shop.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Zij werkt in een winkel.",
+      "solutionEnglish": "She works in a shop"
     },
     {
       "id": "sb-t3",
@@ -4115,7 +4173,9 @@
         "We have a car"
       ],
       "explanation": "We + have + object.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Wij hebben een auto.",
+      "solutionEnglish": "We have a car"
     },
     {
       "id": "sb-t4",
@@ -4127,7 +4187,9 @@
         "He can swim"
       ],
       "explanation": "Na can komt de basisvorm.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Hij kan zwemmen.",
+      "solutionEnglish": "He can swim"
     },
     {
       "id": "sb-t5",
@@ -4139,7 +4201,9 @@
         "I drink coffee every morning"
       ],
       "explanation": "Present simple bij I gebruikt de basisvorm.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Ik drink elke ochtend koffie.",
+      "solutionEnglish": "I drink coffee every morning"
     },
     {
       "id": "sb-t6",
@@ -4151,7 +4215,9 @@
         "She is watching TV now"
       ],
       "explanation": "Present continuous: is + watching.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Zij kijkt nu televisie.",
+      "solutionEnglish": "She is watching TV now"
     },
     {
       "id": "sb-t7",
@@ -4163,7 +4229,9 @@
         "Yesterday I worked at home"
       ],
       "explanation": "Past simple: worked.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Gisteren werkte ik thuis.",
+      "solutionEnglish": "Yesterday I worked at home"
     },
     {
       "id": "sb-t8",
@@ -4175,7 +4243,9 @@
         "Where do you live?"
       ],
       "explanation": "Question word + do + subject + base verb.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Waar woon je?",
+      "solutionEnglish": "Where do you live?"
     },
     {
       "id": "sb-t9",
@@ -4187,7 +4257,9 @@
         "My brother has a dog"
       ],
       "explanation": "Brother = he, dus has.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "Mijn broer heeft een hond.",
+      "solutionEnglish": "My brother has a dog"
     },
     {
       "id": "sb-t10",
@@ -4199,7 +4271,9 @@
         "We are not late"
       ],
       "explanation": "We + are not + adjective.",
-      "difficulty": 1
+      "difficulty": 1,
+      "translationNl": "We zijn niet te laat.",
+      "solutionEnglish": "We are not late"
     },
     {
       "id": "advanced-001",
@@ -4253,7 +4327,9 @@
       "difficulty": 3,
       "accepted": [
         "My brother is not at the office today"
-      ]
+      ],
+      "translationNl": "Mijn broer is vandaag niet op kantoor.",
+      "solutionEnglish": "My brother is not at the office today"
     },
     {
       "id": "advanced-005",
@@ -4321,7 +4397,9 @@
       "difficulty": 3,
       "accepted": [
         "How often do you go to work by train?"
-      ]
+      ],
+      "translationNl": "Hoe vaak ga je met de trein naar je werk?",
+      "solutionEnglish": "How often do you go to work by train?"
     },
     {
       "id": "advanced-010",
@@ -4403,7 +4481,9 @@
       "difficulty": 3,
       "accepted": [
         "What does your brother do at the weekend?"
-      ]
+      ],
+      "translationNl": "Wat doet je broer in het weekend?",
+      "solutionEnglish": "What does your brother do at the weekend?"
     },
     {
       "id": "advanced-016",
@@ -4457,7 +4537,9 @@
       "difficulty": 3,
       "accepted": [
         "I found my keys, but I can't find them."
-      ]
+      ],
+      "translationNl": "Ik heb mijn sleutels gevonden, maar ik kan ze niet vinden.",
+      "solutionEnglish": "I found my keys, but I can't find them."
     },
     {
       "id": "advanced-020",
@@ -4525,7 +4607,9 @@
       "difficulty": 3,
       "accepted": [
         "I agree."
-      ]
+      ],
+      "translationNl": "Ik ben het ermee eens.",
+      "solutionEnglish": "I agree."
     },
     {
       "id": "advanced-025",
@@ -4593,7 +4677,9 @@
       "difficulty": 3,
       "accepted": [
         "I am interested in music."
-      ]
+      ],
+      "translationNl": "Ik ben geïnteresseerd in muziek.",
+      "solutionEnglish": "I am interested in music."
     },
     {
       "id": "advanced-030",
@@ -4661,7 +4747,9 @@
       "difficulty": 3,
       "accepted": [
         "Have you ever lived in London?"
-      ]
+      ],
+      "translationNl": "Heb je ooit in Londen gewoond?",
+      "solutionEnglish": "Have you ever lived in London?"
     },
     {
       "id": "advanced-035",
@@ -4729,7 +4817,9 @@
       "difficulty": 3,
       "accepted": [
         "Could you help me?"
-      ]
+      ],
+      "translationNl": "Zou je me kunnen helpen?",
+      "solutionEnglish": "Could you help me?"
     },
     {
       "id": "advanced-040",
@@ -4797,7 +4887,9 @@
       "difficulty": 3,
       "accepted": [
         "I have an idea. The idea is good."
-      ]
+      ],
+      "translationNl": "Ik heb een idee. Het idee is goed.",
+      "solutionEnglish": "I have an idea. The idea is good."
     },
     {
       "id": "advanced-045",
@@ -4865,7 +4957,9 @@
       "difficulty": 3,
       "accepted": [
         "What are you doing?"
-      ]
+      ],
+      "translationNl": "Wat ben je aan het doen?",
+      "solutionEnglish": "What are you doing?"
     },
     {
       "id": "advanced-050",
@@ -4933,7 +5027,9 @@
       "difficulty": 3,
       "accepted": [
         "When I got home, I cooked dinner."
-      ]
+      ],
+      "translationNl": "Toen ik thuiskwam, maakte ik eten.",
+      "solutionEnglish": "When I got home, I cooked dinner."
     },
     {
       "id": "advanced-055",
@@ -5001,7 +5097,9 @@
       "difficulty": 3,
       "accepted": [
         "I don't know where he lives."
-      ]
+      ],
+      "translationNl": "Ik weet niet waar hij woont.",
+      "solutionEnglish": "I don't know where he lives."
     },
     {
       "id": "advanced-060",
