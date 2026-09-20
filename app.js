@@ -175,7 +175,8 @@ function answer(value,clicked){
  const text=accepted.join(" / ");
  const bilingual=(q.type==="typed"||q.type==="word")?'<div class="solution-lines"><div><span class="solution-label">Nederlands</span><strong>'+escapeHtml(q.translationNl||"—")+'</strong></div><div><span class="solution-label">English</span><strong>'+escapeHtml(q.solutionEnglish||text)+'</strong></div></div>':"";
  const why='<div class="why"><span class="why-label">Waarom?</span><span>'+escapeHtml(q.explanation||"Dit antwoord past bij de grammaticaregel of woordkeuze van deze vraag.")+'</span></div>';
- document.getElementById("feedback").innerHTML='<div class="feedback '+(correct?"good":"bad")+'"><strong>'+(correct?"Goed!":"Nog niet.")+'</strong><p>'+(correct?"Precies.":"Het antwoord dat we zoeken is: <b>"+escapeHtml(text)+"</b>.")+'</p>'+bilingual+why+'</div><button class="btn primary next-btn" id="next-btn">'+(state.index+1===state.session.length?"Bekijk resultaat":"Volgende →")+'</button>';
+ const expected=accepted.length>1?"Een goed antwoord is: ":"Het antwoord dat we zoeken is: ";
+ document.getElementById("feedback").innerHTML='<div class="feedback '+(correct?"good":"bad")+'"><strong>'+(correct?"Goed!":"Nog niet.")+'</strong><p>'+(correct?"Precies.":expected+"<b>"+escapeHtml(text)+"</b>.")+'</p>'+bilingual+why+'</div><button class="btn primary next-btn" id="next-btn">'+(state.index+1===state.session.length?"Bekijk resultaat":"Volgende →")+'</button>';
  document.getElementById("next-btn").addEventListener("click",nextQuestion);
 }
 function escapeHtml(value){return String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[ch]))}
