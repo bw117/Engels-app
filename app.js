@@ -148,7 +148,9 @@ function answer(value,clicked){
  document.querySelectorAll(".answer").forEach(b=>{if(accepted.map(normalize).includes(normalize(b.textContent)))b.classList.add("correct");if(!correct&&normalize(b.textContent)===normalize(value))b.classList.add("wrong")});
  if(clicked&&correct)clicked.classList.add("correct");if(clicked&&!correct)clicked.classList.add("wrong");
  const text=accepted.join(" / ");
- document.getElementById("feedback").innerHTML=`<div class="feedback ${correct?"good":"bad"}"><strong>${correct?"Goed!":"Nog niet."}</strong><p>${correct?"Precies.":"Het antwoord dat we zoeken is: <b>"+text+"</b>."}</p><span>${q.explanation}</span></div><button class="btn primary next-btn" id="next-btn">${state.index+1===state.session.length?"Bekijk resultaat":"Volgende →"}</button>`;
+ const bilingual=q.type==="typed" ? \`<div class="solution-lines"><div><span class="solution-label">Nederlands</span><strong>\${q.translationNl||"—"}</strong></div><div><span class="solution-label">English</span><strong>\${q.solutionEnglish||text}</strong></div></div>\` : "";
+ const why=\`<div class="why"><span class="why-label">Waarom?</span><span>\${q.explanation}</span></div>\`;
+ document.getElementById("feedback").innerHTML=\`<div class="feedback \${correct?"good":"bad"}"><strong>\${correct?"Goed!":"Nog niet."}</strong><p>\${correct?"Precies.":"Het antwoord dat we zoeken is: <b>"+text+"</b>."}</p>\${bilingual}\${why}</div><button class="btn primary next-btn" id="next-btn">\${state.index+1===state.session.length?"Bekijk resultaat":"Volgende →"}</button>\`;
  document.getElementById("next-btn").addEventListener("click",nextQuestion);
 }
 function nextQuestion(){state.index++;state.answered=false;renderQuestion()}
