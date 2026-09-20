@@ -1,10 +1,35 @@
-const state={content:null,db:null,session:[],index:0,answered:false};
+const state={content:null,db:null,session:[],index:0,answered:false,placement:[],placementIndex:0,placementScore:0};
 async function load(){state.content=await fetch("/data/content.json").then(r=>r.json());state.db=JSON.parse(localStorage.getItem("english-db")||JSON.stringify({version:1,profile:{name:"",placementScore:null},states:{},sessions:[]}));renderHome()}
 function save(){localStorage.setItem("english-db",JSON.stringify(state.db))}
 function itemState(id){return state.db.states[id]||{}}
 function avgTopic(topic){const items=state.content.items.filter(i=>i.topic===topic);return items.length?items.reduce((s,i)=>s+Number(itemState(i.id).mastery||0),0)/items.length:0}
-function renderHome(){document.getElementById("app").innerHTML=`<section class="hero"><span class="tag">English practice</span><h1>Leer Engels op jouw tempo.</h1><p>Korte sessies die zich aanpassen aan wat je al kunt — en vooral aan wat nog niet goed genoeg zit.</p><button class="btn primary" id="start-session">Start oefening →</button></section><div class="grid">${state.content.topics.map(t=>{const p=Math.round(avgTopic(t.id)*100);return `<article class="card topic" data-topic="${t.id}"><div class="row"><h3>${t.name}</h3><span class="small">${p}%</span></div><div class="muted">${t.description}</div><div class="progress"><span style="width:${p}%"></span></div></article>`}).join("")}</div><div class="card" style="margin-top:20px"><div class="row"><div><strong>Je voortgang</strong><div class="muted">Mastery over alle onderdelen.</div></div><div class="big">${Math.round(state.content.items.reduce((s,i)=>s+Number(itemState(i.id).mastery||0),0)/state.content.items.length*100)}%</div></div></div>`;
-document.getElementById("start-session").addEventListener("click",startSession);document.querySelectorAll("[data-topic]").forEach(el=>el.addEventListener("click",()=>startTopic(el.dataset.topic)))}
+function renderHome(){document.getElementById("app").innerHTML=`<section class="hero"><span class="tag">English practice</span><h1>Leer Engels op jouw tempo.</h1><p>Korte sessies die zich aanpassen aan wat je al kunt — en vooral aan wat nog niet goed genoeg zit.</p><button class="btn primary" id="start-session">${hasPlacement?"Start oefening →":"Doe niveautest →"}</button></section><div class="grid">${state.content.topics.map(t=>{const p=Math.round(avgTopic(t.id)*100);return `<article class="card topic" data-topic="${t.id}"><div class="row"><h3>${t.name}</h3><span class="small">${p}%</span></div><div class="muted">${t.description}</div><div class="progress"><span style="width:${p}%"></span></div></article>`}).join("")}</div><div class="card" style="margin-top:20px"><div class="row"><div><strong>Je voortgang</strong><div class="muted">Mastery over alle onderdelen.</div></div><div class="big">${Math.round(state.content.items.reduce((s,i)=>s+Number(itemState(i.id).mastery||0),0)/state.content.items.length*100)}%</div></div></div>`;
+document.getElementById("start-session").addEventListener("click",hasPlacement?startSession:startPlacement);document.querySelectorAll("[data-topic]").forEach(el=>el.addEventListener("click",()=>startTopic(el.dataset.topic)))}
+function startPlacement(){state.placement=[...state.content.placement];state.placementIndex=0;state.placementScore=0;state.answered=false;renderPlacement()}
+function renderPlacement(){
+ if(state.placementIndex>=state.placement.length)return finishPlacement();
+ const q=state.placement[state.placementIndex],total=state.placement.length;
+ document.getElementById("app").innerHTML=`<div class="question-head"><button class="btn secondary" id="home-btn">← Home</button><div class="row"><span class="small">Niveautest ${state.placementIndex+1} van ${total}</span><span class="tag">Geen invloed op je mastery</span></div></div><div class="progress"><span style="width:${state.placementIndex/total*100}%"></span></div><div class="card" style="margin-top:24px"><div class="small">Kies het antwoord dat jij denkt dat goed is</div><div class="question">${q.prompt}</div><div class="answers">${q.options.map((o,i)=>`<button class="answer" type="button" data-placement="${i}">${o}</button>`).join("")}</div><div id="placement-feedback"></div></div>`;
+ document.getElementById("home-btn").addEventListener("click",renderHome);
+ document.querySelectorAll("[data-placement]").forEach(btn=>btn.addEventListener("click",()=>answerPlacement(q,btn)));
+}
+function answerPlacement(q,btn){
+ if(state.answered)return;
+ state.answered=true;
+ const correct=String(btn.textContent).trim().toLowerCase()===String(q.answer).trim().toLowerCase();
+ if(correct)state.placementScore++;
+ btn.classList.add(correct?"correct":"wrong");
+ document.querySelectorAll("[data-placement]").forEach(b=>{if(String(b.textContent).trim().toLowerCase()===String(q.answer).trim().toLowerCase())b.classList.add("correct");b.disabled=true});
+ document.getElementById("placement-feedback").innerHTML=`<div class="feedback ${correct?"good":"bad"}"><strong>${correct?"Goed!":"Niet erg."}</strong><br><span class="small">${q.explanation}</span></div><button class="btn primary" id="placement-next" style="margin-top:14px">${state.placementIndex+1===state.placement.length?"Bekijk niveau":"Volgende →"}</button>`;
+ document.getElementById("placement-next").addEventListener("click",()=>{state.placementIndex++;state.answered=false;renderPlacement()});
+}
+function finishPlacement(){
+ const score=state.placementScore/state.placement.length;
+ state.db.profile.placementScore=score;state.db.profile.placementAt=new Date().toISOString();save();
+ const label=score<.4?"Starter":score<.7?"Beginner":"Beginner+";
+ document.getElementById("app").innerHTML=`<div class="center"><span class="tag">Niveautest klaar</span><h1>Je startniveau: ${label}</h1><div class="card"><div class="big">${Math.round(score*100)}%</div><p class="muted">We gebruiken dit als startpunt. Je score verandert je mastery niet.</p><button class="btn primary" id="start-after-placement">Start je eerste sessie →</button></div></div>`;
+ document.getElementById("start-after-placement").addEventListener("click",startSession);
+}
 function startSession(){state.session=selectItems(state.content.items,10);state.index=0;state.answered=false;renderQuestion()}
 function startTopic(topic){state.session=selectItems(state.content.items.filter(i=>i.topic===topic),8);state.index=0;state.answered=false;renderQuestion()}
 function selectItems(items,n){return [...items].sort((a,b)=>score(b)-score(a)).slice(0,n)}
