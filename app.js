@@ -21,16 +21,44 @@ function updateStreak(){
  const el=document.getElementById("streak");if(el)el.textContent="🔥 "+streak+" "+(streak===1?"dag":"dagen");
 }
 function todayStats(){const k=todayKey();const s=state.db.sessions.filter(x=>x.date===k);return{sessions:s.length,questions:s.reduce((n,x)=>n+x.total,0),correct:s.reduce((n,x)=>n+x.correct,0),minutes:s.reduce((n,x)=>n+x.minutes,0)}}
+function learnerLevel(){
+ const m=overall(),covered=state.content.topics.filter(t=>avgTopic(t.id)>=.65).length;
+ if(m>=.72&&covered>=8)return {name:"A2 · Zelfverzekerd",next:"B1",progress:Math.round(m*100)};
+ if(m>=.50&&covered>=5)return {name:"A1+ · Op weg",next:"A2",progress:Math.round(m*100)};
+ if(m>=.22&&covered>=2)return {name:"A1 · Basis",next:"A1+",progress:Math.max(4,Math.round(m*100))};
+ return {name:"A1 · Beginner",next:"A1+",progress:Math.max(4,Math.round(m*100))};
+}
+function topicAttempts(id){return state.content.items.filter(i=>i.topic===id).reduce((n,i)=>n+Number(itemState(i.id).attempts||0),0)}
+function difficultyUnlocked(item){
+ const m=avgTopic(item.topic),attempts=topicAttempts(item.topic),d=Number(item.difficulty||1);
+ if(d<=1)return true;
+ if(d===2)return m>=.35&&attempts>=4;
+ return m>=.62&&attempts>=8;
+}
 function renderHome(){
- const first=state.db.profile.placementScore===null,stats=todayStats(),pct=Math.round(overall()*100);
- const due=state.content.items.filter(i=>{const s=itemState(i.id);return !!s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date()}).length; const fresh=state.content.items.filter(i=>!itemState(i.id).attempts).length;
- document.getElementById("app").innerHTML=`<section class="hero"><div class="eyebrow">${first?"EERSTE KEER":"VANDAAG"}</div><h1>${first?"Eerst even kijken wat je al kunt.":"Klaar voor een korte sessie?"}</h1><p>${first?"Een korte niveautest zorgt ervoor dat de app daarna beter aansluit op jouw niveau.":"Je hoeft niet zelf te kiezen wat je moet oefenen. De app kiest vragen op basis van wat je nog moet leren en wat aan herhaling toe is."}</p><div class="hero-actions"><button class="btn primary" id="main-action">${first?"Doe niveautest →":"Start oefening →"}</button>${first?"":'<button class="btn secondary" id="placement-again">Niveautest opnieuw</button>'}</div></section>
- <section class="stats"><div class="stat card"><span>Vandaag</span><strong>${stats.questions}</strong><small>vragen</small></div><div class="stat card"><span>Goed</span><strong>${stats.questions?Math.round(stats.correct/stats.questions*100):0}%</strong><small>vandaag</small></div><div class="stat card"><span>Streak</span><strong>${state.streak||0}</strong><small>${(state.streak||0)===1?"dag":"dagen"}</small></div><div class="stat card"><span>Mastery</span><strong>${pct}%</strong><small>totaal</small></div></section>
- <div class="section-title"><div><h2>Jouw onderdelen</h2><p>${due} vragen zijn klaar voor herhaling${fresh?` · ${fresh} nieuwe vragen beschikbaar`:""}.</p></div></div>
- <div class="grid">${state.content.topics.map(t=>{const p=Math.round(avgTopic(t.id)*100);return `<article class="card topic" data-topic="${t.id}"><div class="row"><div><h3>${t.name}</h3><div class="muted">${t.description}</div></div><span class="percent">${p}%</span></div><div class="progress"><span style="width:${p}%"></span></div></article>`}).join("")}</div>
- <section class="card next-card"><div><span class="tag">Slimme herhaling</span><h2>De app kiest wat je nodig hebt.</h2><p class="muted">Foute antwoorden komen sneller terug. Wat je goed beheerst, schuift automatisch verder vooruit.</p></div><div class="next-icon">↻</div></section>`;
+ const first=state.db.profile.placementScore===null,stats=todayStats(),pct=Math.round(overall()*100),level=learnerLevel();
+ const due=state.content.items.filter(i=>{const s=itemState(i.id);return !!s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date()}).length;
+ const fresh=state.content.items.filter(i=>!itemState(i.id).attempts).length;
+ const weak=[...state.content.items].sort((a,b)=>Number(itemState(a.id).mastery||0)-Number(itemState(b.id).mastery||0)).find(i=>Number(itemState(i.id).attempts||0)>0);
+ const recommended=weak?topic(weak.topic):state.content.topics[0];
+ document.getElementById("app").innerHTML=\`
+ <section class="hero hero-horizon"><div class="hero-copy">
+ <div class="eyebrow">\${first?"EERSTE STAP":"VANDAAG"}</div>
+ <h1>\${first?"Small steps.<br><em>A bigger you.</em>":"Goedemorgen.<br><em>Klaar voor je volgende stap?</em>"}</h1>
+ <p>\${first?"Een korte starttest brengt je op het juiste beginpunt. Daarna groeit de moeilijkheid mee met wat je laat zien.":"Je hoeft niet te kiezen wat je moet oefenen. ENGELS kijkt naar je fouten, beheersing en herhaling en bouwt van daaruit verder."}</p>
+ <div class="hero-actions"><button class="btn primary" id="main-action">\${first?"Start niveautest →":"Start een sessie →"}</button>\${first?"":'<button class="btn secondary" id="placement-again">Niveautest opnieuw</button>'}</div>
+ </div><div class="hero-orb"><div class="orb-sun"></div><div class="orb-ring"></div><span>\${level.name.split(" · ")[0]}</span></div></section>
+ <section class="level-card card"><div><div class="small">JOUW LEERREIS</div><h2>\${level.name}</h2><p class="muted">Je groeit automatisch door naar moeilijkere vragen zodra je de basis voldoende beheerst.</p></div>
+ <div class="level-progress"><div class="level-line"><span style="width:\${Math.min(100,pct)}%"></span></div><div class="level-foot"><span>\${pct}% beheerst</span><span>Volgende: \${level.next}</span></div></div></section>
+ <section class="stats"><div class="stat card"><span>Vandaag</span><strong>\${stats.questions}</strong><small>vragen</small></div><div class="stat card"><span>Goed</span><strong>\${stats.questions?Math.round(stats.correct/stats.questions*100):0}%</strong><small>vandaag</small></div><div class="stat card"><span>Streak</span><strong>\${state.streak||0}</strong><small>\${(state.streak||0)===1?"dag":"dagen"}</small></div><div class="stat card"><span>Herhaling</span><strong>\${due}</strong><small>klaar voor vandaag</small></div></section>
+ <div class="section-title"><div><div class="eyebrow">GA VERDER</div><h2>Aanbevolen voor jou</h2><p>\${weak?\`We pakken eerst <b>\${recommended.name}</b> weer op.\`:"Begin met een korte sessie en ontdek je niveau."}</p></div></div>
+ <section class="card recommendation"><div class="rec-icon">↗</div><div class="rec-copy"><span class="tag">Slim gekozen</span><h3>\${recommended.name}</h3><p class="muted">\${recommended.description}</p></div><button class="btn primary" id="recommended">Oefen →</button></section>
+ <div class="section-title section-spaced"><div><div class="eyebrow">JOUW ONDERDELEN</div><h2>Skills die met je meegroeien</h2><p>\${due} vragen staan klaar voor herhaling\${fresh?\` · \${fresh} nieuwe vragen beschikbaar\`:""}.</p></div></div>
+ <div class="grid">\${state.content.topics.map(t=>{const p=Math.round(avgTopic(t.id)*100);return \`<article class="card topic topic-horizon" data-topic="\${t.id}"><div class="row"><div><span class="topic-level">\${t.level||"A1"}</span><h3>\${t.name}</h3><div class="muted">\${t.description}</div></div><span class="percent">\${p}%</span></div><div class="progress"><span style="width:\${p}%"></span></div></article>\`}).join("")}</div>
+ <section class="card next-card"><div><span class="tag">Adaptive learning</span><h2>De app wordt moeilijker als jij beter wordt.</h2><p class="muted">Eerst de basis. Daarna meer context, langere zinnen en minder hulp. Je hoeft geen niveau te kiezen — je antwoorden laten zien wanneer je klaar bent.</p></div><div class="next-icon">↗</div></section>\`;
  document.getElementById("main-action").addEventListener("click",first?startPlacement:startSession);
  document.getElementById("placement-again")?.addEventListener("click",startPlacement);
+ document.getElementById("recommended").addEventListener("click",()=>startTopic(recommended.id));
  document.querySelectorAll("[data-topic]").forEach(el=>el.addEventListener("click",()=>startTopic(el.dataset.topic)));
  updateStreak();
 }
@@ -57,20 +85,27 @@ function finishPlacement(){
  document.getElementById("start-after-placement").addEventListener("click",startSession);
 }
 function startSession(){state.session=selectItems(state.content.items,10);beginSession()}
-function startTopic(id){state.session=selectItems(state.content.items.filter(i=>i.topic===id),8);beginSession()}
+function startTopic(id){state.session=selectItems(state.content.items.filter(i=>i.topic===id),8,true);beginSession()}
 function beginSession(){state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
-function selectItems(items,n){
- const scored=[...items].sort((a,b)=>score(b)-score(a));
+function topicAttempts(id){return state.content.items.filter(i=>i.topic===id).reduce((n,i)=>n+Number(itemState(i.id).attempts||0),0)}
+function difficultyUnlocked(item){
+ const m=avgTopic(item.topic),attempts=topicAttempts(item.topic),d=Number(item.difficulty||1);
+ if(d<=1)return true;
+ if(d===2)return m>=.35&&attempts>=4;
+ return m>=.62&&attempts>=8;
+}
+function selectItems(items,n,topicOnly=false){
+ const available=items.filter(i=>difficultyUnlocked(i));
+ const pool=available.length?available:items.filter(i=>Number(i.difficulty||1)===1);
+ const scored=[...pool].sort((a,b)=>score(b)-score(a));
  const chosen=[],topicCounts={},typeCounts={};
- // Keep sessions varied: max 3 questions per topic and avoid a wall of identical question types.
  for(const item of scored){
    if(chosen.length>=n)break;
    const tc=topicCounts[item.topic]||0,ty=item.type;
-   if(tc>=3)continue;
+   if(!topicOnly&&tc>=3)continue;
    if(typeCounts[ty]>=7)continue;
    chosen.push(item);topicCounts[item.topic]=tc+1;typeCounts[ty]=(typeCounts[ty]||0)+1;
  }
- // If constraints left a gap, fill it with the next strongest items.
  for(const item of scored){
    if(chosen.length>=n)break;
    if(!chosen.some(x=>x.id===item.id))chosen.push(item);
@@ -81,14 +116,15 @@ function score(item){
  const s=itemState(item.id),m=Number(s.mastery||0),attempts=Number(s.attempts||0);
  const due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date();
  const fresh=attempts===0,recentWrong=s.lastResult===false;
- return (1-m)*1.7+(due?1.5:0)+(recentWrong?1.2:0)+(fresh?0.4:0)+(Number(item.difficulty||1)-1)*.08-Math.min((s.streak||0)*.05,.25);
+ const difficultyBonus=Number(item.difficulty||1)*0.12;
+ return (1-m)*1.9+(due?1.7:0)+(recentWrong?1.25:0)+(fresh?0.35:0)+difficultyBonus-Math.min((s.streak||0)*.06,.3);
 }
 function normalize(s){return String(s||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[.!?,]+$/g,"").replace(/\s+/g," ")}
 function renderQuestion(){
  if(state.index>=state.session.length)return finishSession();
- const q=state.session[state.index],total=state.session.length;
+ const q=state.session[state.index],total=state.session.length,diff=Number(q.difficulty||1),diffLabel=diff===1?"Basis":diff===2?"Op weg":"Uitdaging";
  const input=q.type==="typed"?`<div class="typed-wrap"><input id="typed" autocomplete="off" placeholder="Typ je antwoord..."><button class="btn primary" id="submit-typed">Controleer →</button></div>`:`<div class="answers">${q.options.map((o,i)=>`<button class="answer" type="button" data-answer-index="${i}">${o}</button>`).join("")}</div>`;
- document.getElementById("app").innerHTML=`<div class="question-head"><button class="btn secondary" id="home-btn">← Home</button><div class="session-meta"><span>${state.index+1} / ${total}</span><span class="tag">${topic(q.topic).name}</span></div></div><div class="progress session-progress"><span style="width:${state.index/total*100}%"></span></div><div class="card question-card"><div class="small">${q.type==="typed"?"Typ het ontbrekende woord":"Kies het ontbrekende woord"}</div><div class="question">${q.prompt}</div>${input}<div id="feedback"></div></div>`;
+ document.getElementById("app").innerHTML=`<div class="question-head"><button class="btn secondary" id="home-btn">← Home</button><div class="session-meta"><span>${state.index+1} / ${total}</span><span class="tag">${topic(q.topic).name}</span></div></div><div class="progress session-progress"><span style="width:${state.index/total*100}%"></span></div><div class="card question-card"><div class="question-instruction"><span class="small">${q.type==="typed"?"Typ het antwoord":"Kies het beste antwoord"}</span><span class="difficulty difficulty-${diff}">${diffLabel}</span></div><div class="question">${q.prompt}</div>${input}<div id="feedback"></div></div>`;
  document.getElementById("home-btn").addEventListener("click",renderHome);
  if(q.type==="typed"){const inputEl=document.getElementById("typed");document.getElementById("submit-typed").addEventListener("click",checkTyped);inputEl.addEventListener("keydown",e=>{if(e.key==="Enter")checkTyped()});inputEl.focus()}
  else document.querySelectorAll("[data-answer-index]").forEach(btn=>btn.addEventListener("click",()=>answer(q.options[Number(btn.dataset.answerIndex)],btn)));
