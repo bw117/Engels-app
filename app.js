@@ -45,21 +45,23 @@ function renderHome(){
  const fresh=state.content.items.filter(i=>!itemState(i.id).attempts).length;
  const weak=[...state.content.items].sort((a,b)=>Number(itemState(a.id).mastery||0)-Number(itemState(b.id).mastery||0)).find(i=>Number(itemState(i.id).attempts||0)>0);
  const recommended=weak?topic(weak.topic):state.content.topics[0];
- document.getElementById("app").innerHTML=\`
+ const continueText=weak?"We pakken eerst <b>"+recommended.name+"</b> weer op.":"Begin met een korte sessie en ontdek je niveau.";
+ const freshText=fresh?" · "+fresh+" nieuwe vragen beschikbaar":"";
+ document.getElementById("app").innerHTML=`
  <section class="hero hero-horizon"><div class="hero-copy">
- <div class="eyebrow">\${first?"EERSTE STAP":"VANDAAG"}</div>
- <h1>\${first?"Small steps.<br><em>A bigger you.</em>":"Goedemorgen.<br><em>Klaar voor je volgende stap?</em>"}</h1>
- <p>\${first?"Een korte starttest brengt je op het juiste beginpunt. Daarna groeit de moeilijkheid mee met wat je laat zien.":"Je hoeft niet te kiezen wat je moet oefenen. ENGELS kijkt naar je fouten, beheersing en herhaling en bouwt van daaruit verder."}</p>
- <div class="hero-actions"><button class="btn primary" id="main-action">\${first?"Start niveautest →":"Start een sessie →"}</button>\${first?"":'<button class="btn secondary" id="placement-again">Niveautest opnieuw</button>'}</div>
- </div><div class="hero-orb"><div class="orb-sun"></div><div class="orb-ring"></div><span>\${level.name.split(" · ")[0]}</span></div></section>
- <section class="level-card card"><div><div class="small">JOUW LEERREIS</div><h2>\${level.name}</h2><p class="muted">Je groeit automatisch door naar moeilijkere vragen zodra je de basis voldoende beheerst.</p></div>
- <div class="level-progress"><div class="level-line"><span style="width:\${Math.min(100,pct)}%"></span></div><div class="level-foot"><span>\${pct}% beheerst</span><span>Volgende: \${level.next}</span></div></div></section>
- <section class="stats"><div class="stat card"><span>Vandaag</span><strong>\${stats.questions}</strong><small>vragen</small></div><div class="stat card"><span>Goed</span><strong>\${stats.questions?Math.round(stats.correct/stats.questions*100):0}%</strong><small>vandaag</small></div><div class="stat card"><span>Streak</span><strong>\${state.streak||0}</strong><small>\${(state.streak||0)===1?"dag":"dagen"}</small></div><div class="stat card"><span>Herhaling</span><strong>\${due}</strong><small>klaar voor vandaag</small></div></section>
- <div class="section-title"><div><div class="eyebrow">GA VERDER</div><h2>Aanbevolen voor jou</h2><p>\${weak?\`We pakken eerst <b>\${recommended.name}</b> weer op.\`:"Begin met een korte sessie en ontdek je niveau."}</p></div></div>
- <section class="card recommendation"><div class="rec-icon">↗</div><div class="rec-copy"><span class="tag">Slim gekozen</span><h3>\${recommended.name}</h3><p class="muted">\${recommended.description}</p></div><button class="btn primary" id="recommended">Oefen →</button></section>
- <div class="section-title section-spaced"><div><div class="eyebrow">JOUW ONDERDELEN</div><h2>Skills die met je meegroeien</h2><p>\${due} vragen staan klaar voor herhaling\${fresh?\` · \${fresh} nieuwe vragen beschikbaar\`:""}.</p></div></div>
- <div class="grid">\${state.content.topics.map(t=>{const p=Math.round(avgTopic(t.id)*100);return \`<article class="card topic topic-horizon" data-topic="\${t.id}"><div class="row"><div><span class="topic-level">\${t.level||"A1"}</span><h3>\${t.name}</h3><div class="muted">\${t.description}</div></div><span class="percent">\${p}%</span></div><div class="progress"><span style="width:\${p}%"></span></div></article>\`}).join("")}</div>
- <section class="card next-card"><div><span class="tag">Adaptive learning</span><h2>De app wordt moeilijker als jij beter wordt.</h2><p class="muted">Eerst de basis. Daarna meer context, langere zinnen en minder hulp. Je hoeft geen niveau te kiezen — je antwoorden laten zien wanneer je klaar bent.</p></div><div class="next-icon">↗</div></section>\`;
+ <div class="eyebrow">${first?"EERSTE STAP":"VANDAAG"}</div>
+ <h1>${first?"Small steps.<br><em>A bigger you.</em>":"Goedemorgen.<br><em>Klaar voor je volgende stap?</em>"}</h1>
+ <p>${first?"Een korte starttest brengt je op het juiste beginpunt. Daarna groeit de moeilijkheid mee met wat je laat zien.":"Je hoeft niet te kiezen wat je moet oefenen. ENGELS kijkt naar je fouten, beheersing en herhaling en bouwt van daaruit verder."}</p>
+ <div class="hero-actions"><button class="btn primary" id="main-action">${first?"Start niveautest →":"Start een sessie →"}</button>${first?"":'<button class="btn secondary" id="placement-again">Niveautest opnieuw</button>'}</div>
+ </div><div class="hero-orb"><div class="orb-sun"></div><div class="orb-ring"></div><span>${level.name.split(" · ")[0]}</span></div></section>
+ <section class="level-card card"><div><div class="small">JOUW LEERREIS</div><h2>${level.name}</h2><p class="muted">Je groeit automatisch door naar moeilijkere vragen zodra je de basis voldoende beheerst.</p></div>
+ <div class="level-progress"><div class="level-line"><span style="width:${Math.min(100,pct)}%"></span></div><div class="level-foot"><span>${pct}% beheerst</span><span>Volgende: ${level.next}</span></div></div></section>
+ <section class="stats"><div class="stat card"><span>Vandaag</span><strong>${stats.questions}</strong><small>vragen</small></div><div class="stat card"><span>Goed</span><strong>${stats.questions?Math.round(stats.correct/stats.questions*100):0}%</strong><small>vandaag</small></div><div class="stat card"><span>Streak</span><strong>${state.streak||0}</strong><small>${(state.streak||0)===1?"dag":"dagen"}</small></div><div class="stat card"><span>Herhaling</span><strong>${due}</strong><small>klaar voor vandaag</small></div></section>
+ <div class="section-title"><div><div class="eyebrow">GA VERDER</div><h2>Aanbevolen voor jou</h2><p>${continueText}</p></div></div>
+ <section class="card recommendation"><div class="rec-icon">↗</div><div class="rec-copy"><span class="tag">Slim gekozen</span><h3>${recommended.name}</h3><p class="muted">${recommended.description}</p></div><button class="btn primary" id="recommended">Oefen →</button></section>
+ <div class="section-title section-spaced"><div><div class="eyebrow">JOUW ONDERDELEN</div><h2>Skills die met je meegroeien</h2><p>${due} vragen staan klaar voor herhaling${freshText}.</p></div></div>
+ <div class="grid">${state.content.topics.map(t=>{const p=Math.round(avgTopic(t.id)*100);return '<article class="card topic topic-horizon" data-topic="'+t.id+'"><div class="row"><div><span class="topic-level">'+(t.level||"A1")+'</span><h3>'+t.name+'</h3><div class="muted">'+t.description+'</div></div><span class="percent">'+p+'%</span></div><div class="progress"><span style="width:'+p+'%"></span></div></article>'}).join("")}</div>
+ <section class="card next-card"><div><span class="tag">Adaptive learning</span><h2>De app wordt moeilijker als jij beter wordt.</h2><p class="muted">Eerst de basis. Daarna meer context, langere zinnen en minder hulp. Je hoeft geen niveau te kiezen — je antwoorden laten zien wanneer je klaar bent.</p></div><div class="next-icon">↗</div></section>`;
  document.getElementById("main-action").addEventListener("click",first?startPlacement:startSession);
  document.getElementById("placement-again")?.addEventListener("click",startPlacement);
  document.getElementById("recommended").addEventListener("click",()=>startTopic(recommended.id));
