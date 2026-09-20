@@ -153,7 +153,7 @@ function renderQuestion(){
  if(state.index>=state.session.length)return finishSession();
  const q=state.session[state.index],total=state.session.length,diff=Number(q.difficulty||1),diffLabel=diff===1?"Basis":diff===2?"Op weg":"Uitdaging";
  let input;
- if(q.type==="typed")input='<div class="typed-wrap"><input id="typed" autocomplete="off" placeholder="Typ je antwoord..."><button class="btn primary" id="submit-typed">Controleer →</button></div>';
+ if(q.type==="typed"||q.type==="word")input='<div class="typed-wrap"><input id="typed" autocomplete="off" placeholder="Typ het Engelse woord..."><button class="btn primary" id="submit-typed">Controleer →</button></div>';
  else input='<div class="answers">'+q.options.map((o,i)=>'<button class="answer" type="button" data-answer-index="'+i+'">'+o+'</button>').join("")+'</div>';
  document.getElementById("app").innerHTML='<div class="question-head"><button class="btn secondary" id="home-btn">← Home</button><div class="session-meta"><span>'+((state.index+1)+" / "+total)+'</span><span class="tag">'+topic(q.topic).name+'</span></div></div><div class="progress session-progress"><span style="width:'+(state.index/total*100)+'%"></span></div><div class="card question-card"><div class="question-instruction"><span class="small">'+(q.type==="word"?"Vertaal het woord":q.type==="typed"?"Typ het antwoord":"Kies het beste antwoord")+'</span><span class="difficulty difficulty-'+diff+'">'+diffLabel+'</span></div><div class="question">'+q.prompt+'</div>'+input+'<div id="feedback"></div></div>';
  document.getElementById("home-btn").addEventListener("click",renderHome);
