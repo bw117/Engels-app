@@ -86,12 +86,14 @@ function renderHome(){
  '<div class="stat card"><span>Herhaling</span><strong>'+due+'</strong><small>klaar voor vandaag</small></div></section>'+
  '<div class="section-title"><div><div class="eyebrow">GA VERDER</div><h2>Aanbevolen voor jou</h2><p>'+(weak?"We pakken eerst <b>"+recommended.name+"</b> weer op.":"Begin met een korte sessie en ontdek je niveau.")+'</p></div></div>'+
  '<section class="card recommendation"><div class="rec-icon">↗</div><div class="rec-copy"><span class="tag">Slim gekozen</span><h3>'+recommended.name+'</h3><p class="muted">'+recommended.description+'</p></div><button class="btn primary" id="recommended">Oefen →</button></section>'+
+ '<section class="card recommendation word-mode-card"><div class="rec-icon">Aa</div><div class="rec-copy"><span class="tag">Woordtrainer</span><h3>Leer losse Engelse woorden</h3><p class="muted">Vertaal één Nederlands woord naar het Engels. Woorden die je lastig vindt komen automatisch vaker terug.</p></div><button class="btn secondary" id="word-mode">Start →</button></section>'+
  '<div class="section-title section-spaced"><div><div class="eyebrow">JOUW ONDERDELEN</div><h2>Skills die met je meegroeien</h2><p>'+due+' vragen staan klaar voor herhaling'+(fresh?" · "+fresh+" nieuwe vragen beschikbaar":"")+'.</p></div></div>'+
  '<div class="grid">'+topicsHtml+'</div>'+
  '<section class="card next-card"><div><span class="tag">Adaptive learning</span><h2>De app wordt moeilijker als jij beter wordt.</h2><p class="muted">Eerst de basis. Daarna meer context, langere zinnen en minder hulp. Je antwoorden laten zien wanneer je klaar bent voor de volgende stap.</p></div><div class="next-icon">↗</div></section>';
  document.getElementById("main-action").addEventListener("click",first?startPlacement:startSession);
  document.getElementById("placement-again")?.addEventListener("click",startPlacement);
  document.getElementById("recommended").addEventListener("click",()=>startTopic(recommended.id));
+ document.getElementById("word-mode").addEventListener("click",startWordMode);
  document.querySelectorAll("[data-topic]").forEach(el=>el.addEventListener("click",()=>startTopic(el.dataset.topic)));
 }
 function startPlacement(){state.placement=[...state.content.placement];state.placementIndex=0;state.placementScore=0;state.answered=false;renderPlacement()}
@@ -120,6 +122,10 @@ function finishPlacement(){
  document.getElementById("start-after-placement").addEventListener("click",startSession);
 }
 function startSession(){state.session=selectItems(state.content.items,10);beginSession()}
+function startWordMode(){state.session=selectWordItems(10);beginSession()}
+function selectWordItems(n){const words=state.content.items.filter(i=>i.type==="word");return [...words].sort((a,b)=>wordScore(b)-wordScore(a)).slice(0,n)}
+function wordScore(item){const s=itemState(item.id),m=Number(s.mastery||0),due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date(),fresh=!s.attempts,recentWrong=s.lastResult===false;return (1-m)*2.4+(due?2:0)+(recentWrong?1.5:0)+(fresh?.25:0)}
+
 function startTopic(id){state.session=selectItems(state.content.items.filter(i=>i.topic===id),8,true);beginSession()}
 function beginSession(){state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
 function selectItems(items,n,topicOnly=false){
@@ -149,9 +155,9 @@ function renderQuestion(){
  let input;
  if(q.type==="typed")input='<div class="typed-wrap"><input id="typed" autocomplete="off" placeholder="Typ je antwoord..."><button class="btn primary" id="submit-typed">Controleer →</button></div>';
  else input='<div class="answers">'+q.options.map((o,i)=>'<button class="answer" type="button" data-answer-index="'+i+'">'+o+'</button>').join("")+'</div>';
- document.getElementById("app").innerHTML='<div class="question-head"><button class="btn secondary" id="home-btn">← Home</button><div class="session-meta"><span>'+((state.index+1)+" / "+total)+'</span><span class="tag">'+topic(q.topic).name+'</span></div></div><div class="progress session-progress"><span style="width:'+(state.index/total*100)+'%"></span></div><div class="card question-card"><div class="question-instruction"><span class="small">'+(q.type==="typed"?"Typ het antwoord":"Kies het beste antwoord")+'</span><span class="difficulty difficulty-'+diff+'">'+diffLabel+'</span></div><div class="question">'+q.prompt+'</div>'+input+'<div id="feedback"></div></div>';
+ document.getElementById("app").innerHTML='<div class="question-head"><button class="btn secondary" id="home-btn">← Home</button><div class="session-meta"><span>'+((state.index+1)+" / "+total)+'</span><span class="tag">'+topic(q.topic).name+'</span></div></div><div class="progress session-progress"><span style="width:'+(state.index/total*100)+'%"></span></div><div class="card question-card"><div class="question-instruction"><span class="small">'+(q.type==="word"?"Vertaal het woord":q.type==="typed"?"Typ het antwoord":"Kies het beste antwoord")+'</span><span class="difficulty difficulty-'+diff+'">'+diffLabel+'</span></div><div class="question">'+q.prompt+'</div>'+input+'<div id="feedback"></div></div>';
  document.getElementById("home-btn").addEventListener("click",renderHome);
- if(q.type==="typed"){const el=document.getElementById("typed");document.getElementById("submit-typed").addEventListener("click",checkTyped);el.addEventListener("keydown",e=>{if(e.key==="Enter")checkTyped()});el.focus()}
+ if(q.type==="typed"||q.type==="word"){const el=document.getElementById("typed");document.getElementById("submit-typed").addEventListener("click",checkTyped);el.addEventListener("keydown",e=>{if(e.key==="Enter")checkTyped()});el.focus()}
  else document.querySelectorAll("[data-answer-index]").forEach(btn=>btn.addEventListener("click",()=>answer(q.options[Number(btn.dataset.answerIndex)],btn)));
 }
 function checkTyped(){const el=document.getElementById("typed");if(el.value.trim())answer(el.value,el)}
@@ -167,7 +173,7 @@ function answer(value,clicked){
  document.querySelectorAll(".answer").forEach(b=>{if(accepted.map(normalize).includes(normalize(b.textContent)))b.classList.add("correct");if(!correct&&normalize(b.textContent)===normalize(value))b.classList.add("wrong")});
  if(clicked&&correct)clicked.classList.add("correct");if(clicked&&!correct)clicked.classList.add("wrong");
  const text=accepted.join(" / ");
- const bilingual=q.type==="typed"?'<div class="solution-lines"><div><span class="solution-label">Nederlands</span><strong>'+escapeHtml(q.translationNl||"—")+'</strong></div><div><span class="solution-label">English</span><strong>'+escapeHtml(q.solutionEnglish||text)+'</strong></div></div>':"";
+ const bilingual=(q.type==="typed"||q.type==="word")?'<div class="solution-lines"><div><span class="solution-label">Nederlands</span><strong>'+escapeHtml(q.translationNl||"—")+'</strong></div><div><span class="solution-label">English</span><strong>'+escapeHtml(q.solutionEnglish||text)+'</strong></div></div>':"";
  const why='<div class="why"><span class="why-label">Waarom?</span><span>'+escapeHtml(q.explanation||"Dit antwoord past bij de grammaticaregel of woordkeuze van deze vraag.")+'</span></div>';
  document.getElementById("feedback").innerHTML='<div class="feedback '+(correct?"good":"bad")+'"><strong>'+(correct?"Goed!":"Nog niet.")+'</strong><p>'+(correct?"Precies.":"Het antwoord dat we zoeken is: <b>"+escapeHtml(text)+"</b>.")+'</p>'+bilingual+why+'</div><button class="btn primary next-btn" id="next-btn">'+(state.index+1===state.session.length?"Bekijk resultaat":"Volgende →")+'</button>';
  document.getElementById("next-btn").addEventListener("click",nextQuestion);
