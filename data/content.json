@@ -581,7 +581,7 @@
       "id": "v2",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'Mijn huis is groot.'",
+      "prompt": "Vertaal: 'Mijn huis is groot.'",
       "answer": "My house is big",
       "accepted": [
         "my house is big"
@@ -607,7 +607,7 @@
       "id": "v4",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'Ik werk vandaag.'",
+      "prompt": "Vertaal: 'Ik werk vandaag.'",
       "answer": "I work today",
       "accepted": [
         "i work today"
@@ -633,7 +633,7 @@
       "id": "v6",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'Ik drink water.'",
+      "prompt": "Vertaal: 'Ik drink water.'",
       "answer": "I drink water",
       "accepted": [
         "i drink water"
@@ -659,7 +659,7 @@
       "id": "v8",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'Het eten is lekker.'",
+      "prompt": "Vertaal: 'Het eten is lekker.'",
       "answer": "The food is good",
       "accepted": [
         "the food is good"
@@ -685,7 +685,7 @@
       "id": "v10",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'Mijn vriendin is mijn partner.'",
+      "prompt": "Vertaal: 'Mijn vriendin is mijn partner.'",
       "answer": "My girlfriend is my partner",
       "accepted": [
         "my girlfriend is my partner"
