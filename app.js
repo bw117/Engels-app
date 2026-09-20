@@ -30,7 +30,11 @@ function learnerLevel(){
 }
 function topicAttempts(id){return state.content.items.filter(i=>i.topic===id).reduce((n,i)=>n+Number(itemState(i.id).attempts||0),0)}
 function difficultyUnlocked(item){
- const m=avgTopic(item.topic),attempts=topicAttempts(item.topic),d=Number(item.difficulty||1);
+ const topicItems=state.content.items.filter(i=>i.topic===item.topic);
+ const attempted=topicItems.filter(i=>Number(itemState(i.id).attempts||0)>0);
+ const attempts=attempted.reduce((n,i)=>n+Number(itemState(i.id).attempts||0),0);
+ const m=attempted.length?attempted.reduce((s,i)=>s+Number(itemState(i.id).mastery||0),0)/attempted.length:0;
+ const d=Number(item.difficulty||1);
  if(d<=1)return true;
  if(d===2)return m>=.35&&attempts>=4;
  return m>=.62&&attempts>=8;
@@ -98,13 +102,14 @@ function selectItems(items,n,topicOnly=false){
  const available=items.filter(i=>difficultyUnlocked(i));
  const pool=available.length?available:items.filter(i=>Number(i.difficulty||1)===1);
  const scored=[...pool].sort((a,b)=>score(b)-score(a));
- const chosen=[],topicCounts={},typeCounts={};
+ const chosen=[],topicCounts={},typeCounts={},difficultyCounts={};
  for(const item of scored){
    if(chosen.length>=n)break;
-   const tc=topicCounts[item.topic]||0,ty=item.type;
+   const tc=topicCounts[item.topic]||0,ty=item.type,d=Number(item.difficulty||1),dc=difficultyCounts[d]||0;
    if(!topicOnly&&tc>=3)continue;
    if(typeCounts[ty]>=7)continue;
-   chosen.push(item);topicCounts[item.topic]=tc+1;typeCounts[ty]=(typeCounts[ty]||0)+1;
+   if(d===3&&dc>=2)continue;
+   chosen.push(item);topicCounts[item.topic]=tc+1;typeCounts[ty]=(typeCounts[ty]||0)+1;difficultyCounts[d]=dc+1;
  }
  for(const item of scored){
    if(chosen.length>=n)break;
