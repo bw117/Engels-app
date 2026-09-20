@@ -1,5 +1,5 @@
 {
-  "version": "1.7.3",
+  "version": "1.8.0",
   "topics": [
     {
       "id": "be-verbs",
@@ -653,15 +653,15 @@
       "id": "v2",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Vertaal: 'Mijn huis is groot.'",
-      "answer": "My house is big",
+      "prompt": "Vertaal: 'Mijn huis heeft een blauwe voordeur.'",
+      "answer": "My house has a blue front door.",
       "accepted": [
-        "my house is big"
+        "my house has a blue front door"
       ],
-      "explanation": "House = huis en big = groot.",
+      "explanation": "House = huis. Has = heeft bij he/she/it. Front door = voordeur.",
       "difficulty": 1,
-      "translationNl": "Mijn huis is groot.",
-      "solutionEnglish": "My house is big"
+      "translationNl": "Mijn huis heeft een blauwe voordeur.",
+      "solutionEnglish": "My house has a blue front door"
     },
     {
       "id": "v3",
@@ -681,15 +681,16 @@
       "id": "v4",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Vertaal: 'Ik werk vandaag.'",
-      "answer": "I work today",
+      "prompt": "Vertaal: 'Ik ben op dit moment aan het werk.'",
+      "answer": "I am working right now.",
       "accepted": [
-        "i work today"
+        "i am working right now",
+        "i'm working right now"
       ],
-      "explanation": "Work = werken.",
+      "explanation": "Op dit moment wijst op iets dat nu gebeurt: de present continuous. I am working = ik ben aan het werk.",
       "difficulty": 1,
-      "translationNl": "Ik werk vandaag.",
-      "solutionEnglish": "I work today"
+      "translationNl": "Ik ben op dit moment aan het werk.",
+      "solutionEnglish": "I am working right now"
     },
     {
       "id": "v5",
@@ -709,15 +710,15 @@
       "id": "v6",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Vertaal: 'Ik drink water.'",
-      "answer": "I drink water",
+      "prompt": "Vertaal: 'Ik drink elke ochtend een glas water.'",
+      "answer": "I drink a glass of water every morning.",
       "accepted": [
-        "i drink water"
+        "i drink a glass of water every morning"
       ],
-      "explanation": "Water = water.",
+      "explanation": "Bij een gewoonte gebruik je de present simple: I drink.",
       "difficulty": 1,
-      "translationNl": "Ik drink water.",
-      "solutionEnglish": "I drink water"
+      "translationNl": "Ik drink elke ochtend een glas water.",
+      "solutionEnglish": "I drink a glass of water every morning"
     },
     {
       "id": "v7",
@@ -737,15 +738,15 @@
       "id": "v8",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Vertaal: 'Het eten is lekker.'",
-      "answer": "The food is good",
+      "prompt": "Vertaal: 'Het eten smaakt goed.'",
+      "answer": "The food tastes good.",
       "accepted": [
-        "the food is good"
+        "the food tastes good"
       ],
-      "explanation": "Food = eten. In deze zin betekent lekker: good.",
+      "explanation": "Smaakt = tastes. Bij the food krijgt taste een -s.",
       "difficulty": 1,
-      "translationNl": "Het eten is lekker.",
-      "solutionEnglish": "The food is good"
+      "translationNl": "Het eten smaakt goed.",
+      "solutionEnglish": "The food tastes good"
     },
     {
       "id": "v9",
@@ -765,15 +766,15 @@
       "id": "v10",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Vertaal: 'Mijn vriendin is mijn partner.'",
-      "answer": "My girlfriend is my partner",
+      "prompt": "Vertaal: 'Mijn vriendin woont met mij samen.'",
+      "answer": "My girlfriend lives with me.",
       "accepted": [
-        "my girlfriend is my partner"
+        "my girlfriend lives with me"
       ],
-      "explanation": "Als je met vriendin je partner bedoelt, is girlfriend het juiste woord.",
+      "explanation": "Girlfriend = vriendin als je je vrouwelijke partner bedoelt. Bij girlfriend hoort lives.",
       "difficulty": 2,
-      "translationNl": "Mijn vriendin is mijn partner.",
-      "solutionEnglish": "My girlfriend is my partner"
+      "translationNl": "Mijn vriendin woont met mij samen.",
+      "solutionEnglish": "My girlfriend lives with me"
     },
     {
       "id": "p1",
@@ -4139,29 +4140,32 @@
       "id": "sb-t1",
       "topic": "sentence-building",
       "type": "typed",
-      "prompt": "Vertaal: 'Ik ben thuis.'",
-      "answer": "I am at home",
+      "prompt": "Vertaal: 'Ik zit thuis op de bank.'",
+      "answer": "I am sitting at home on the sofa.",
       "accepted": [
-        "I am at home"
+        "i am sitting at home on the sofa",
+        "i'm sitting at home on the sofa",
+        "i am sitting at home on the couch",
+        "i'm sitting at home on the couch"
       ],
-      "explanation": "To be: I am + place.",
+      "explanation": "I am sitting beschrijft wat je nu doet. Sofa en couch betekenen allebei bank.",
       "difficulty": 1,
-      "translationNl": "Ik ben thuis.",
-      "solutionEnglish": "I am at home"
+      "translationNl": "Ik zit thuis op de bank.",
+      "solutionEnglish": "I am sitting at home on the sofa"
     },
     {
       "id": "sb-t2",
       "topic": "sentence-building",
       "type": "typed",
-      "prompt": "Vertaal: 'Zij werkt in een winkel.'",
-      "answer": "She works in a shop",
+      "prompt": "Vertaal: 'Zij werkt in een warenhuis.'",
+      "answer": "She works in a department store.",
       "accepted": [
-        "She works in a shop"
+        "she works in a department store"
       ],
-      "explanation": "She + works in a shop.",
+      "explanation": "Een warenhuis is een department store. Bij she krijgt work de vorm works.",
       "difficulty": 1,
-      "translationNl": "Zij werkt in een winkel.",
-      "solutionEnglish": "She works in a shop"
+      "translationNl": "Zij werkt in een warenhuis.",
+      "solutionEnglish": "She works in a department store"
     },
     {
       "id": "sb-t3",
@@ -4223,15 +4227,16 @@
       "id": "sb-t7",
       "topic": "sentence-building",
       "type": "typed",
-      "prompt": "Vertaal: 'Gisteren werkte ik thuis.'",
-      "answer": "Yesterday I worked at home",
+      "prompt": "Vertaal: 'Gisteren werkte ik vanuit mijn slaapkamer.'",
+      "answer": "Yesterday I worked from my bedroom.",
       "accepted": [
-        "Yesterday I worked at home"
+        "yesterday i worked from my bedroom",
+        "i worked from my bedroom yesterday"
       ],
-      "explanation": "Past simple: worked.",
+      "explanation": "Worked is de past simple van work. From my bedroom maakt duidelijk waarvandaan je werkte.",
       "difficulty": 1,
-      "translationNl": "Gisteren werkte ik thuis.",
-      "solutionEnglish": "Yesterday I worked at home"
+      "translationNl": "Gisteren werkte ik vanuit mijn slaapkamer.",
+      "solutionEnglish": "Yesterday I worked from my bedroom"
     },
     {
       "id": "sb-t8",
@@ -6175,7 +6180,7 @@
         "weather",
         "again"
       ],
-      "explanation": "'Weer' heeft twee verschillende betekenissen: weather = het weer; again = opnieuw. Zonder context zijn beide mogelijk. citeturn1search6",
+      "explanation": "'Weer' heeft twee verschillende betekenissen: weather = het weer; again = opnieuw. Zonder context zijn beide mogelijk.",
       "difficulty": 1,
       "translationNl": "weer",
       "solutionEnglish": "weather / again"
@@ -7280,6 +7285,345 @@
       "difficulty": 1,
       "translationNl": "goed",
       "solutionEnglish": "fine / good"
+    },
+    {
+      "id": "translation-be-001",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn ouders zijn vandaag thuis.'",
+      "answer": "My parents are at home today.",
+      "accepted": [
+        "my parents are at home today",
+        "my parents are home today"
+      ],
+      "explanation": "Bij parents hoort are. At home en home zijn beide natuurlijk in deze zin.",
+      "difficulty": 1,
+      "translationNl": "Mijn ouders zijn vandaag thuis.",
+      "solutionEnglish": "My parents are at home today"
+    },
+    {
+      "id": "translation-be-002",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "Vertaal: 'De winkel is vandaag gesloten.'",
+      "answer": "The shop is closed today.",
+      "accepted": [
+        "the shop is closed today"
+      ],
+      "explanation": "Bij shop hoort is. Closed = gesloten.",
+      "difficulty": 1,
+      "translationNl": "De winkel is vandaag gesloten.",
+      "solutionEnglish": "The shop is closed today"
+    },
+    {
+      "id": "translation-ps-001",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn zus gaat elke maandag naar de sportschool.'",
+      "answer": "My sister goes to the gym every Monday.",
+      "accepted": [
+        "my sister goes to the gym every monday"
+      ],
+      "explanation": "Bij she krijgt go de vorm goes. Every Monday geeft een gewoonte aan.",
+      "difficulty": 2,
+      "translationNl": "Mijn zus gaat elke maandag naar de sportschool.",
+      "solutionEnglish": "My sister goes to the gym every Monday"
+    },
+    {
+      "id": "translation-ps-002",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Wij eten meestal om zes uur.'",
+      "answer": "We usually eat at six.",
+      "accepted": [
+        "we usually eat at six"
+      ],
+      "explanation": "Usually staat voor het hoofdwerkwoord eat in deze zin.",
+      "difficulty": 1,
+      "translationNl": "Wij eten meestal om zes uur.",
+      "solutionEnglish": "We usually eat at six"
+    },
+    {
+      "id": "translation-ps-003",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hij werkt van maandag tot en met vrijdag.'",
+      "answer": "He works from Monday to Friday.",
+      "accepted": [
+        "he works from monday to friday"
+      ],
+      "explanation": "Bij he krijgt work de vorm works.",
+      "difficulty": 1,
+      "translationNl": "Hij werkt van maandag tot en met vrijdag.",
+      "solutionEnglish": "He works from Monday to Friday"
+    },
+    {
+      "id": "translation-q-001",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hoe laat begint de les?'",
+      "answer": "What time does the lesson start?",
+      "accepted": [
+        "what time does the lesson start"
+      ],
+      "explanation": "What time + does + subject + base verb.",
+      "difficulty": 2,
+      "translationNl": "Hoe laat begint de les?",
+      "solutionEnglish": "What time does the lesson start?"
+    },
+    {
+      "id": "translation-q-002",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Waar werkt je zus?'",
+      "answer": "Where does your sister work?",
+      "accepted": [
+        "where does your sister work"
+      ],
+      "explanation": "Where + does + subject + base verb.",
+      "difficulty": 2,
+      "translationNl": "Waar werkt je zus?",
+      "solutionEnglish": "Where does your sister work?"
+    },
+    {
+      "id": "translation-pr-001",
+      "topic": "pronouns",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik zie haar elke vrijdag.'",
+      "answer": "I see her every Friday.",
+      "accepted": [
+        "i see her every friday"
+      ],
+      "explanation": "Na see gebruik je het object pronoun her.",
+      "difficulty": 1,
+      "translationNl": "Ik zie haar elke vrijdag.",
+      "solutionEnglish": "I see her every Friday"
+    },
+    {
+      "id": "translation-pr-002",
+      "topic": "pronouns",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik geef hem mijn telefoon.'",
+      "answer": "I give him my phone.",
+      "accepted": [
+        "i give him my phone"
+      ],
+      "explanation": "Na give kan him het meewerkend voorwerp zijn.",
+      "difficulty": 2,
+      "translationNl": "Ik geef hem mijn telefoon.",
+      "solutionEnglish": "I give him my phone"
+    },
+    {
+      "id": "translation-prep-001",
+      "topic": "prepositions",
+      "type": "typed",
+      "prompt": "Vertaal: 'De auto staat voor het huis.'",
+      "answer": "The car is in front of the house.",
+      "accepted": [
+        "the car is in front of the house"
+      ],
+      "explanation": "In front of = voor, als je de positie bedoelt.",
+      "difficulty": 2,
+      "translationNl": "De auto staat voor het huis.",
+      "solutionEnglish": "The car is in front of the house"
+    },
+    {
+      "id": "translation-prep-002",
+      "topic": "prepositions",
+      "type": "typed",
+      "prompt": "Vertaal: 'De sleutels liggen in mijn tas.'",
+      "answer": "The keys are in my bag.",
+      "accepted": [
+        "the keys are in my bag"
+      ],
+      "explanation": "Voor iets dat zich in een tas bevindt, gebruik je in.",
+      "difficulty": 1,
+      "translationNl": "De sleutels liggen in mijn tas.",
+      "solutionEnglish": "The keys are in my bag"
+    },
+    {
+      "id": "translation-have-001",
+      "topic": "have-has",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn broer heeft twee honden.'",
+      "answer": "My brother has two dogs.",
+      "accepted": [
+        "my brother has two dogs"
+      ],
+      "explanation": "Bij he krijgt have de vorm has.",
+      "difficulty": 1,
+      "translationNl": "Mijn broer heeft twee honden.",
+      "solutionEnglish": "My brother has two dogs"
+    },
+    {
+      "id": "translation-have-002",
+      "topic": "have-has",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hebben jullie een auto?'",
+      "answer": "Do you have a car?",
+      "accepted": [
+        "do you have a car"
+      ],
+      "explanation": "Bij you gebruik je do + have in een present-simplevraag.",
+      "difficulty": 1,
+      "translationNl": "Hebben jullie een auto?",
+      "solutionEnglish": "Do you have a car?"
+    },
+    {
+      "id": "translation-can-001",
+      "topic": "can-cant",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik kan vandaag niet komen.'",
+      "answer": "I can't come today.",
+      "accepted": [
+        "i can't come today",
+        "i cannot come today"
+      ],
+      "explanation": "Can't + basisvorm: can't come.",
+      "difficulty": 1,
+      "translationNl": "Ik kan vandaag niet komen.",
+      "solutionEnglish": "I can't come today"
+    },
+    {
+      "id": "translation-can-002",
+      "topic": "can-cant",
+      "type": "typed",
+      "prompt": "Vertaal: 'Kun je me even helpen?'",
+      "answer": "Can you help me for a moment?",
+      "accepted": [
+        "can you help me for a moment"
+      ],
+      "explanation": "Can + subject + basisvorm voor een vraag over kunnen.",
+      "difficulty": 2,
+      "translationNl": "Kun je me even helpen?",
+      "solutionEnglish": "Can you help me for a moment?"
+    },
+    {
+      "id": "translation-art-001",
+      "topic": "articles",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik heb een nieuwe fiets.'",
+      "answer": "I have a new bicycle.",
+      "accepted": [
+        "i have a new bicycle",
+        "i have a new bike"
+      ],
+      "explanation": "Een niet-specifieke fiets krijgt a. Bicycle en bike zijn beide correct.",
+      "difficulty": 1,
+      "translationNl": "Ik heb een nieuwe fiets.",
+      "solutionEnglish": "I have a new bicycle"
+    },
+    {
+      "id": "translation-art-002",
+      "topic": "articles",
+      "type": "typed",
+      "prompt": "Vertaal: 'De deur is open.'",
+      "answer": "The door is open.",
+      "accepted": [
+        "the door is open"
+      ],
+      "explanation": "The gebruik je omdat het om een specifieke deur gaat.",
+      "difficulty": 1,
+      "translationNl": "De deur is open.",
+      "solutionEnglish": "The door is open"
+    },
+    {
+      "id": "translation-pc-001",
+      "topic": "present-continuous",
+      "type": "typed",
+      "prompt": "Vertaal: 'Kijk! De hond rent in de tuin.'",
+      "answer": "Look! The dog is running in the garden.",
+      "accepted": [
+        "look the dog is running in the garden"
+      ],
+      "explanation": "Look! maakt duidelijk dat iets nu gebeurt: is running.",
+      "difficulty": 2,
+      "translationNl": "Kijk! De hond rent in de tuin.",
+      "solutionEnglish": "Look! The dog is running in the garden"
+    },
+    {
+      "id": "translation-pc-002",
+      "topic": "present-continuous",
+      "type": "typed",
+      "prompt": "Vertaal: 'Wij wachten op de bus.'",
+      "answer": "We are waiting for the bus.",
+      "accepted": [
+        "we are waiting for the bus"
+      ],
+      "explanation": "Are + waiting vormt de present continuous.",
+      "difficulty": 1,
+      "translationNl": "Wij wachten op de bus.",
+      "solutionEnglish": "We are waiting for the bus"
+    },
+    {
+      "id": "translation-past-001",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Vorige week bezocht ik mijn ouders.'",
+      "answer": "I visited my parents last week.",
+      "accepted": [
+        "i visited my parents last week"
+      ],
+      "explanation": "Last week geeft een afgeronde gebeurtenis in het verleden aan.",
+      "difficulty": 2,
+      "translationNl": "Vorige week bezocht ik mijn ouders.",
+      "solutionEnglish": "I visited my parents last week"
+    },
+    {
+      "id": "translation-past-002",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Zij kocht gisteren een nieuwe jas.'",
+      "answer": "She bought a new coat yesterday.",
+      "accepted": [
+        "she bought a new coat yesterday"
+      ],
+      "explanation": "Bought is de past simple van buy.",
+      "difficulty": 2,
+      "translationNl": "Zij kocht gisteren een nieuwe jas.",
+      "solutionEnglish": "She bought a new coat yesterday"
+    },
+    {
+      "id": "translation-sb-001",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik ga elke dag met de bus naar mijn werk.'",
+      "answer": "I go to work by bus every day.",
+      "accepted": [
+        "i go to work by bus every day"
+      ],
+      "explanation": "De vaste combinatie is go to work. Every day staat hier achteraan.",
+      "difficulty": 2,
+      "translationNl": "Ik ga elke dag met de bus naar mijn werk.",
+      "solutionEnglish": "I go to work by bus every day"
+    },
+    {
+      "id": "translation-sb-002",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Waarom leer je Engels?'",
+      "answer": "Why are you learning English?",
+      "accepted": [
+        "why are you learning english"
+      ],
+      "explanation": "Why + are + subject + -ing voor iets dat nu/tegenwoordig speelt.",
+      "difficulty": 2,
+      "translationNl": "Waarom leer je Engels?",
+      "solutionEnglish": "Why are you learning English?"
+    },
+    {
+      "id": "translation-sb-003",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn zus kijkt 's avonds naar televisie.'",
+      "answer": "My sister watches TV in the evening.",
+      "accepted": [
+        "my sister watches tv in the evening"
+      ],
+      "explanation": "Bij she krijgt watch de vorm watches.",
+      "difficulty": 1,
+      "translationNl": "Mijn zus kijkt 's avonds naar televisie.",
+      "solutionEnglish": "My sister watches TV in the evening"
     }
   ],
   "placement": [
