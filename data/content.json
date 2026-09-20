@@ -1,5 +1,5 @@
 {
-  "version": "1.7.1",
+  "version": "1.7.2",
   "topics": [
     {
       "id": "be-verbs",
@@ -5137,9 +5137,10 @@
       "prompt": "Wat is 'auto' in het Engels?",
       "answer": "car",
       "accepted": [
-        "car"
+        "car",
+        "automobile"
       ],
-      "explanation": "auto = car.",
+      "explanation": "'Auto' is car. Automobile is ook correct, maar formeler en minder gebruikelijk in dagelijkse gesprekken.",
       "difficulty": 1,
       "translationNl": "auto",
       "solutionEnglish": "car"
@@ -5151,9 +5152,10 @@
       "prompt": "Wat is 'fiets' in het Engels?",
       "answer": "bike",
       "accepted": [
-        "bike"
+        "bike",
+        "bicycle"
       ],
-      "explanation": "fiets = bike.",
+      "explanation": "'Fiets' is bike of bicycle. Beide zijn correct; bike is in alledaags Engels gebruikelijker.",
       "difficulty": 1,
       "translationNl": "fiets",
       "solutionEnglish": "bike"
@@ -5165,9 +5167,10 @@
       "prompt": "Wat is 'straat' in het Engels?",
       "answer": "street",
       "accepted": [
-        "street"
+        "street",
+        "road"
       ],
-      "explanation": "straat = street.",
+      "explanation": "'Straat' is meestal street. Road betekent weg en kan afhankelijk van de context ook passend zijn.",
       "difficulty": 1,
       "translationNl": "straat",
       "solutionEnglish": "street"
@@ -5239,7 +5242,7 @@
         "shop",
         "store"
       ],
-      "explanation": "'Winkel' kan zowel shop als store zijn. Beide zijn correct; shop is heel gebruikelijk, store komt ook veel voor.",
+      "explanation": "'Winkel' kan shop of store zijn. Beide zijn correct.",
       "difficulty": 1,
       "translationNl": "winkel",
       "solutionEnglish": "shop"
@@ -5254,7 +5257,7 @@
         "friend",
         "boyfriend"
       ],
-      "explanation": "'Vriend' kan friend betekenen, maar in de betekenis van een romantische partner ook boyfriend. De context bepaalt welke je bedoelt.",
+      "explanation": "'Vriend' kan friend betekenen of boyfriend als je een romantische partner bedoelt. De context bepaalt de betekenis.",
       "difficulty": 1,
       "translationNl": "vriend",
       "solutionEnglish": "friend"
@@ -5269,7 +5272,7 @@
         "girlfriend",
         "friend"
       ],
-      "explanation": "'Vriendin' kan girlfriend betekenen als je een romantische partner bedoelt. In andere contexten kan friend ook passend zijn; de context bepaalt de juiste vertaling.",
+      "explanation": "'Vriendin' kan girlfriend betekenen of friend als je een vrouwelijke vriend bedoelt. De context bepaalt de betekenis.",
       "difficulty": 1,
       "translationNl": "vriendin",
       "solutionEnglish": "girlfriend"
@@ -5351,9 +5354,10 @@
       "prompt": "Wat is 'kind' in het Engels?",
       "answer": "child",
       "accepted": [
-        "child"
+        "child",
+        "kid"
       ],
-      "explanation": "kind = child.",
+      "explanation": "'Kind' is child of kid. Kid is informeler; beide zijn correct.",
       "difficulty": 1,
       "translationNl": "kind",
       "solutionEnglish": "child"
@@ -5816,7 +5820,7 @@
         "dinner",
         "supper"
       ],
-      "explanation": "'Avondeten' is meestal dinner. Supper wordt in sommige Engelstalige regio's ook gebruikt.",
+      "explanation": "'Avondeten' is meestal dinner. Supper wordt ook gebruikt, afhankelijk van regio en context.",
       "difficulty": 1,
       "translationNl": "avondeten",
       "solutionEnglish": "dinner"
@@ -6238,7 +6242,7 @@
         "big",
         "large"
       ],
-      "explanation": "'Groot' kan big of large zijn. Beide zijn correct; de keuze hangt af van de context.",
+      "explanation": "'Groot' kan big of large zijn. Beide zijn correct.",
       "difficulty": 1,
       "translationNl": "groot",
       "solutionEnglish": "big"
@@ -6253,7 +6257,7 @@
         "small",
         "little"
       ],
-      "explanation": "'Klein' kan small of little zijn. Small gaat vaak over afmetingen; little kan ook een meer gevoelsmatige betekenis hebben.",
+      "explanation": "'Klein' kan small of little zijn. De keuze hangt af van de context.",
       "difficulty": 1,
       "translationNl": "klein",
       "solutionEnglish": "small"
@@ -6297,7 +6301,7 @@
         "pretty",
         "nice"
       ],
-      "explanation": "'Mooi' kan afhankelijk van de context beautiful, pretty of nice zijn. De precieze keuze hangt af van wat je beschrijft.",
+      "explanation": "'Mooi' kan beautiful, pretty of nice zijn, afhankelijk van wat je beschrijft. Alle drie kunnen correct zijn.",
       "difficulty": 1,
       "translationNl": "mooi",
       "solutionEnglish": "beautiful"
@@ -6351,9 +6355,10 @@
       "prompt": "Wat is 'makkelijk' in het Engels?",
       "answer": "easy",
       "accepted": [
-        "easy"
+        "easy",
+        "simple"
       ],
-      "explanation": "makkelijk = easy.",
+      "explanation": "'Makkelijk' kan easy of simple zijn, afhankelijk van de context. Beide kunnen correct zijn.",
       "difficulty": 1,
       "translationNl": "makkelijk",
       "solutionEnglish": "easy"
@@ -6365,9 +6370,10 @@
       "prompt": "Wat is 'moeilijk' in het Engels?",
       "answer": "difficult",
       "accepted": [
-        "difficult"
+        "difficult",
+        "hard"
       ],
-      "explanation": "moeilijk = difficult.",
+      "explanation": "'Moeilijk' kan difficult of hard zijn. Beide zijn correct in veel contexten.",
       "difficulty": 1,
       "translationNl": "moeilijk",
       "solutionEnglish": "difficult"
@@ -6379,9 +6385,10 @@
       "prompt": "Wat is 'snel' in het Engels?",
       "answer": "fast",
       "accepted": [
-        "fast"
+        "fast",
+        "quick"
       ],
-      "explanation": "snel = fast.",
+      "explanation": "'Snel' kan fast of quick zijn. Fast beschrijft vaak snelheid; quick vaak een korte of snelle handeling.",
       "difficulty": 1,
       "translationNl": "snel",
       "solutionEnglish": "fast"
@@ -6411,7 +6418,7 @@
         "many",
         "a lot"
       ],
-      "explanation": "'Veel' kan much, many of a lot betekenen, afhankelijk van het soort woord en de zin.",
+      "explanation": "'Veel' kan much, many of a lot zijn. Much gebruik je bij ontelbare dingen, many bij telbare dingen; a lot is in veel zinnen natuurlijk.",
       "difficulty": 1,
       "translationNl": "veel",
       "solutionEnglish": "much"
@@ -6649,9 +6656,10 @@
       "prompt": "Wat is 'doen' in het Engels?",
       "answer": "do",
       "accepted": [
-        "do"
+        "do",
+        "make"
       ],
-      "explanation": "doen = do.",
+      "explanation": "'Doen' is meestal do. In sommige contexten vertaal je het als make, bijvoorbeeld bij iets maken. De zin bepaalt de keuze.",
       "difficulty": 1,
       "translationNl": "doen",
       "solutionEnglish": "do"
@@ -6663,9 +6671,10 @@
       "prompt": "Wat is 'maken' in het Engels?",
       "answer": "make",
       "accepted": [
-        "make"
+        "make",
+        "create"
       ],
-      "explanation": "maken = make.",
+      "explanation": "'Maken' kan make of create zijn. Create past vooral bij iets creëren; make is veel algemener.",
       "difficulty": 1,
       "translationNl": "maken",
       "solutionEnglish": "make"
@@ -6719,9 +6728,10 @@
       "prompt": "Wat is 'kijken' in het Engels?",
       "answer": "watch",
       "accepted": [
-        "watch"
+        "watch",
+        "look"
       ],
-      "explanation": "kijken = watch.",
+      "explanation": "'Kijken' kan watch of look betekenen. Watch gebruik je bijvoorbeeld voor tv of iets dat je langere tijd bekijkt; look voor gericht kijken.",
       "difficulty": 1,
       "translationNl": "kijken",
       "solutionEnglish": "watch"
@@ -6735,7 +6745,7 @@
       "accepted": [
         "hear"
       ],
-      "explanation": "horen = hear.",
+      "explanation": "'Horen' is hear. Listen betekent luisteren en is iets anders: je doet bewust moeite om te horen.",
       "difficulty": 1,
       "translationNl": "horen",
       "solutionEnglish": "hear"
@@ -6749,7 +6759,7 @@
       "accepted": [
         "listen"
       ],
-      "explanation": "luisteren = listen.",
+      "explanation": "'Luisteren' is listen. Hear betekent horen, zonder dat je per se bewust luistert.",
       "difficulty": 1,
       "translationNl": "luisteren",
       "solutionEnglish": "listen"
@@ -6761,9 +6771,10 @@
       "prompt": "Wat is 'spreken' in het Engels?",
       "answer": "speak",
       "accepted": [
-        "speak"
+        "speak",
+        "talk"
       ],
-      "explanation": "spreken = speak.",
+      "explanation": "'Spreken' kan speak of talk zijn. Speak is vaak iets formeler; talk is gebruikelijk in gesprekken.",
       "difficulty": 1,
       "translationNl": "spreken",
       "solutionEnglish": "speak"
@@ -6775,9 +6786,10 @@
       "prompt": "Wat is 'zeggen' in het Engels?",
       "answer": "say",
       "accepted": [
-        "say"
+        "say",
+        "tell"
       ],
-      "explanation": "zeggen = say.",
+      "explanation": "'Zeggen' kan say of tell zijn, afhankelijk van de zin. Say gaat om wat iemand zegt; tell vaak om iets aan iemand vertellen.",
       "difficulty": 1,
       "translationNl": "zeggen",
       "solutionEnglish": "say"
@@ -6791,7 +6803,7 @@
       "accepted": [
         "know"
       ],
-      "explanation": "weten = know.",
+      "explanation": "'Weten' is know.",
       "difficulty": 1,
       "translationNl": "weten",
       "solutionEnglish": "know"
@@ -6805,7 +6817,7 @@
       "accepted": [
         "think"
       ],
-      "explanation": "denken = think.",
+      "explanation": "'Denken' is think.",
       "difficulty": 1,
       "translationNl": "denken",
       "solutionEnglish": "think"
@@ -6819,7 +6831,7 @@
       "accepted": [
         "want"
       ],
-      "explanation": "willen = want.",
+      "explanation": "'Willen' is want.",
       "difficulty": 1,
       "translationNl": "willen",
       "solutionEnglish": "want"
@@ -6833,7 +6845,7 @@
       "accepted": [
         "need"
       ],
-      "explanation": "nodig hebben = need.",
+      "explanation": "'Nodig hebben' is need.",
       "difficulty": 1,
       "translationNl": "nodig hebben",
       "solutionEnglish": "need"
@@ -6847,7 +6859,7 @@
       "accepted": [
         "love"
       ],
-      "explanation": "houden van = love.",
+      "explanation": "'Houden van' is love. In sommige contexten is like ook passend voor iets dat je leuk vindt, maar love is de directe vertaling van 'houden van'.",
       "difficulty": 1,
       "translationNl": "houden van",
       "solutionEnglish": "love"
@@ -6861,7 +6873,7 @@
       "accepted": [
         "find"
       ],
-      "explanation": "vinden = find.",
+      "explanation": "'Vinden' is find wanneer je iets ontdekt of aantreft. Bij een mening kan 'vinden' ook think betekenen; daarvoor is een voorbeeldzin duidelijker.",
       "difficulty": 1,
       "translationNl": "vinden",
       "solutionEnglish": "find"
@@ -6875,7 +6887,7 @@
       "accepted": [
         "give"
       ],
-      "explanation": "geven = give.",
+      "explanation": "'Geven' is give.",
       "difficulty": 1,
       "translationNl": "geven",
       "solutionEnglish": "give"
@@ -6889,7 +6901,7 @@
       "accepted": [
         "take"
       ],
-      "explanation": "nemen = take.",
+      "explanation": "'Nemen' is take.",
       "difficulty": 1,
       "translationNl": "nemen",
       "solutionEnglish": "take"
@@ -6903,7 +6915,7 @@
       "accepted": [
         "buy"
       ],
-      "explanation": "kopen = buy.",
+      "explanation": "'Kopen' is buy.",
       "difficulty": 1,
       "translationNl": "kopen",
       "solutionEnglish": "buy"
@@ -6917,7 +6929,7 @@
       "accepted": [
         "pay"
       ],
-      "explanation": "betalen = pay.",
+      "explanation": "'Betalen' is pay.",
       "difficulty": 1,
       "translationNl": "betalen",
       "solutionEnglish": "pay"
@@ -6931,7 +6943,7 @@
       "accepted": [
         "drink"
       ],
-      "explanation": "drinken = drink.",
+      "explanation": "'Drinken' als werkwoord is drink.",
       "difficulty": 1,
       "translationNl": "drinken",
       "solutionEnglish": "drink"
@@ -6945,7 +6957,7 @@
       "accepted": [
         "sleep"
       ],
-      "explanation": "slapen = sleep.",
+      "explanation": "'Slapen' is sleep.",
       "difficulty": 1,
       "translationNl": "slapen",
       "solutionEnglish": "sleep"
@@ -6959,7 +6971,7 @@
       "accepted": [
         "work"
       ],
-      "explanation": "werken = work.",
+      "explanation": "'Werken' is work.",
       "difficulty": 1,
       "translationNl": "werken",
       "solutionEnglish": "work"
@@ -6971,9 +6983,10 @@
       "prompt": "Wat is 'leren' in het Engels?",
       "answer": "learn",
       "accepted": [
-        "learn"
+        "learn",
+        "study"
       ],
-      "explanation": "leren = learn.",
+      "explanation": "'Leren' kan learn of study zijn. Learn gaat om kennis/vaardigheid opdoen; study gaat om studeren.",
       "difficulty": 1,
       "translationNl": "leren",
       "solutionEnglish": "learn"
@@ -6987,7 +7000,7 @@
       "accepted": [
         "read"
       ],
-      "explanation": "lezen = read.",
+      "explanation": "'Lezen' is read.",
       "difficulty": 1,
       "translationNl": "lezen",
       "solutionEnglish": "read"
@@ -7001,7 +7014,7 @@
       "accepted": [
         "write"
       ],
-      "explanation": "schrijven = write.",
+      "explanation": "'Schrijven' is write.",
       "difficulty": 1,
       "translationNl": "schrijven",
       "solutionEnglish": "write"
@@ -7015,7 +7028,7 @@
       "accepted": [
         "live"
       ],
-      "explanation": "wonen = live.",
+      "explanation": "'Wonen' is live.",
       "difficulty": 1,
       "translationNl": "wonen",
       "solutionEnglish": "live"
@@ -7029,7 +7042,7 @@
       "accepted": [
         "walk"
       ],
-      "explanation": "lopen = walk.",
+      "explanation": "'Lopen' is meestal walk. In andere Nederlandse contexten kan lopen ook iets anders betekenen; hier bedoelen we wandelen/lopen te voet.",
       "difficulty": 1,
       "translationNl": "lopen",
       "solutionEnglish": "walk"
@@ -7043,7 +7056,7 @@
       "accepted": [
         "run"
       ],
-      "explanation": "rennen = run.",
+      "explanation": "'Rennen' is run.",
       "difficulty": 1,
       "translationNl": "rennen",
       "solutionEnglish": "run"
@@ -7057,7 +7070,7 @@
       "accepted": [
         "sit"
       ],
-      "explanation": "zitten = sit.",
+      "explanation": "'Zitten' is sit.",
       "difficulty": 1,
       "translationNl": "zitten",
       "solutionEnglish": "sit"
@@ -7071,7 +7084,7 @@
       "accepted": [
         "stand"
       ],
-      "explanation": "staan = stand.",
+      "explanation": "'Staan' is stand.",
       "difficulty": 1,
       "translationNl": "staan",
       "solutionEnglish": "stand"
@@ -7085,7 +7098,7 @@
       "accepted": [
         "open"
       ],
-      "explanation": "openen = open.",
+      "explanation": "'Openen' is open.",
       "difficulty": 1,
       "translationNl": "openen",
       "solutionEnglish": "open"
@@ -7097,9 +7110,10 @@
       "prompt": "Wat is 'sluiten' in het Engels?",
       "answer": "close",
       "accepted": [
-        "close"
+        "close",
+        "shut"
       ],
-      "explanation": "sluiten = close.",
+      "explanation": "'Sluiten' kan close of shut zijn. Shut klinkt vaak wat directer; beide zijn correct in veel contexten.",
       "difficulty": 1,
       "translationNl": "sluiten",
       "solutionEnglish": "close"
@@ -7111,9 +7125,10 @@
       "prompt": "Wat is 'beginnen' in het Engels?",
       "answer": "start",
       "accepted": [
-        "start"
+        "start",
+        "begin"
       ],
-      "explanation": "beginnen = start.",
+      "explanation": "'Beginnen' kan start of begin zijn. Beide zijn correct.",
       "difficulty": 1,
       "translationNl": "beginnen",
       "solutionEnglish": "start"
@@ -7127,7 +7142,7 @@
       "accepted": [
         "stop"
       ],
-      "explanation": "stoppen = stop.",
+      "explanation": "'Stoppen' is stop.",
       "difficulty": 1,
       "translationNl": "stoppen",
       "solutionEnglish": "stop"
@@ -7141,7 +7156,7 @@
       "accepted": [
         "help"
       ],
-      "explanation": "helpen = help.",
+      "explanation": "'Helpen' is help.",
       "difficulty": 1,
       "translationNl": "helpen",
       "solutionEnglish": "help"
@@ -7155,7 +7170,7 @@
       "accepted": [
         "ask"
       ],
-      "explanation": "vragen = ask.",
+      "explanation": "'Vragen' is ask.",
       "difficulty": 1,
       "translationNl": "vragen",
       "solutionEnglish": "ask"
@@ -7167,9 +7182,10 @@
       "prompt": "Wat is 'antwoorden' in het Engels?",
       "answer": "answer",
       "accepted": [
-        "answer"
+        "answer",
+        "reply"
       ],
-      "explanation": "antwoorden = answer.",
+      "explanation": "'Antwoorden' kan answer of reply zijn. Beide zijn correct; reply past vaak bij een reactie op iemand.",
       "difficulty": 1,
       "translationNl": "antwoorden",
       "solutionEnglish": "answer"
@@ -7197,7 +7213,7 @@
       "accepted": [
         "forget"
       ],
-      "explanation": "vergeten = forget.",
+      "explanation": "'Vergeten' is forget.",
       "difficulty": 1,
       "translationNl": "vergeten",
       "solutionEnglish": "forget"
@@ -7211,7 +7227,7 @@
       "accepted": [
         "remember"
       ],
-      "explanation": "onthouden = remember.",
+      "explanation": "'Onthouden' is remember.",
       "difficulty": 1,
       "translationNl": "onthouden",
       "solutionEnglish": "remember"
