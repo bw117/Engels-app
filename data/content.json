@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "topics": [
     {
       "id": "be-verbs",
@@ -5122,9 +5122,10 @@
       "prompt": "Wat is 'huis' in het Engels?",
       "answer": "house",
       "accepted": [
-        "house"
+        "house",
+        "home"
       ],
-      "explanation": "huis = house.",
+      "explanation": "'Huis' is vaak house als je het gebouw bedoelt. Home gebruik je voor je thuis of de plek waar je woont.",
       "difficulty": 1,
       "translationNl": "huis",
       "solutionEnglish": "house"
@@ -5220,9 +5221,10 @@
       "prompt": "Wat is 'werk' in het Engels?",
       "answer": "work",
       "accepted": [
-        "work"
+        "work",
+        "job"
       ],
-      "explanation": "werk = work.",
+      "explanation": "'Werk' kan work betekenen als activiteit of werk in het algemeen. Job betekent een baan of functie.",
       "difficulty": 1,
       "translationNl": "werk",
       "solutionEnglish": "work"
@@ -5234,9 +5236,10 @@
       "prompt": "Wat is 'winkel' in het Engels?",
       "answer": "shop",
       "accepted": [
-        "shop"
+        "shop",
+        "store"
       ],
-      "explanation": "winkel = shop.",
+      "explanation": "'Winkel' kan zowel shop als store zijn. Beide zijn correct; shop is heel gebruikelijk, store komt ook veel voor.",
       "difficulty": 1,
       "translationNl": "winkel",
       "solutionEnglish": "shop"
@@ -5248,9 +5251,10 @@
       "prompt": "Wat is 'vriend' in het Engels?",
       "answer": "friend",
       "accepted": [
-        "friend"
+        "friend",
+        "boyfriend"
       ],
-      "explanation": "vriend = friend.",
+      "explanation": "'Vriend' kan friend betekenen, maar in de betekenis van een romantische partner ook boyfriend. De context bepaalt welke je bedoelt.",
       "difficulty": 1,
       "translationNl": "vriend",
       "solutionEnglish": "friend"
@@ -5262,9 +5266,10 @@
       "prompt": "Wat is 'vriendin' in het Engels?",
       "answer": "girlfriend",
       "accepted": [
-        "girlfriend"
+        "girlfriend",
+        "friend"
       ],
-      "explanation": "vriendin = girlfriend.",
+      "explanation": "'Vriendin' kan girlfriend betekenen als je een romantische partner bedoelt. In andere contexten kan friend ook passend zijn; de context bepaalt de juiste vertaling.",
       "difficulty": 1,
       "translationNl": "vriendin",
       "solutionEnglish": "girlfriend"
@@ -5544,7 +5549,7 @@
       "accepted": [
         "afternoon"
       ],
-      "explanation": "middag = afternoon.",
+      "explanation": "'Middag' is afternoon. Voor het specifieke moment rond 12 uur kan noon worden gebruikt.",
       "difficulty": 1,
       "translationNl": "middag",
       "solutionEnglish": "afternoon"
@@ -5628,7 +5633,7 @@
       "accepted": [
         "food"
       ],
-      "explanation": "eten = food.",
+      "explanation": "'Eten' is food wanneer je het zelfstandig naamwoord bedoelt. Als werkwoord is 'eten' eat.",
       "difficulty": 1,
       "translationNl": "eten",
       "solutionEnglish": "food"
@@ -5808,9 +5813,10 @@
       "prompt": "Wat is 'avondeten' in het Engels?",
       "answer": "dinner",
       "accepted": [
-        "dinner"
+        "dinner",
+        "supper"
       ],
-      "explanation": "avondeten = dinner.",
+      "explanation": "'Avondeten' is meestal dinner. Supper wordt in sommige Engelstalige regio's ook gebruikt.",
       "difficulty": 1,
       "translationNl": "avondeten",
       "solutionEnglish": "dinner"
@@ -6088,9 +6094,10 @@
       "prompt": "Wat is 'vakantie' in het Engels?",
       "answer": "holiday",
       "accepted": [
-        "holiday"
+        "holiday",
+        "vacation"
       ],
-      "explanation": "vakantie = holiday.",
+      "explanation": "'Vakantie' is holiday in Brits Engels en vacation in Amerikaans Engels. Beide zijn correct.",
       "difficulty": 1,
       "translationNl": "vakantie",
       "solutionEnglish": "holiday"
@@ -6228,9 +6235,10 @@
       "prompt": "Wat is 'groot' in het Engels?",
       "answer": "big",
       "accepted": [
-        "big"
+        "big",
+        "large"
       ],
-      "explanation": "groot = big.",
+      "explanation": "'Groot' kan big of large zijn. Beide zijn correct; de keuze hangt af van de context.",
       "difficulty": 1,
       "translationNl": "groot",
       "solutionEnglish": "big"
@@ -6242,9 +6250,10 @@
       "prompt": "Wat is 'klein' in het Engels?",
       "answer": "small",
       "accepted": [
-        "small"
+        "small",
+        "little"
       ],
-      "explanation": "klein = small.",
+      "explanation": "'Klein' kan small of little zijn. Small gaat vaak over afmetingen; little kan ook een meer gevoelsmatige betekenis hebben.",
       "difficulty": 1,
       "translationNl": "klein",
       "solutionEnglish": "small"
@@ -6272,7 +6281,7 @@
       "accepted": [
         "bad"
       ],
-      "explanation": "slecht = bad.",
+      "explanation": "'Slecht' is bad.",
       "difficulty": 1,
       "translationNl": "slecht",
       "solutionEnglish": "bad"
@@ -6284,9 +6293,11 @@
       "prompt": "Wat is 'mooi' in het Engels?",
       "answer": "beautiful",
       "accepted": [
-        "beautiful"
+        "beautiful",
+        "pretty",
+        "nice"
       ],
-      "explanation": "mooi = beautiful.",
+      "explanation": "'Mooi' kan afhankelijk van de context beautiful, pretty of nice zijn. De precieze keuze hangt af van wat je beschrijft.",
       "difficulty": 1,
       "translationNl": "mooi",
       "solutionEnglish": "beautiful"
@@ -6396,9 +6407,11 @@
       "prompt": "Wat is 'veel' in het Engels?",
       "answer": "much",
       "accepted": [
-        "much"
+        "much",
+        "many",
+        "a lot"
       ],
-      "explanation": "veel = much.",
+      "explanation": "'Veel' kan much, many of a lot betekenen, afhankelijk van het soort woord en de zin.",
       "difficulty": 1,
       "translationNl": "veel",
       "solutionEnglish": "much"
@@ -6410,9 +6423,10 @@
       "prompt": "Wat is 'weinig' in het Engels?",
       "answer": "little",
       "accepted": [
-        "little"
+        "little",
+        "few"
       ],
-      "explanation": "weinig = little.",
+      "explanation": "'Weinig' is little bij ontelbare dingen en few bij telbare dingen.",
       "difficulty": 1,
       "translationNl": "weinig",
       "solutionEnglish": "little"
@@ -6426,7 +6440,7 @@
       "accepted": [
         "more"
       ],
-      "explanation": "meer = more.",
+      "explanation": "'Meer' is more.",
       "difficulty": 1,
       "translationNl": "meer",
       "solutionEnglish": "more"
@@ -6438,9 +6452,10 @@
       "prompt": "Wat is 'minder' in het Engels?",
       "answer": "less",
       "accepted": [
-        "less"
+        "less",
+        "fewer"
       ],
-      "explanation": "minder = less.",
+      "explanation": "'Minder' is less bij ontelbare dingen en fewer bij telbare dingen.",
       "difficulty": 1,
       "translationNl": "minder",
       "solutionEnglish": "less"
