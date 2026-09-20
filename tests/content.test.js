@@ -1,0 +1,3 @@
+const test=require("node:test"); const assert=require("node:assert/strict"); const content=require("../data/content.json");
+test("typed questions define accepted answers explicitly",()=>{for(const item of content.items.filter(i=>i.type==="typed")){assert.ok(Array.isArray(item.accepted),item.id+" must define accepted answers");assert.ok(item.accepted.length>0,item.id+" must have at least one accepted answer")}});
+test("present-simple football question is context-specific",()=>{const item=content.items.find(i=>i.id==="ps3");assert.match(item.prompt,/local football club/i);assert.deepEqual(item.accepted,["play"])});
