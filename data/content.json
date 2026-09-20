@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.5.1",
   "topics": [
     {
       "id": "be-verbs",
@@ -4080,6 +4080,126 @@
         "We can meets at the station.",
         "We at the station can meet."
       ]
+    },
+    {
+      "id": "sb-t1",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik ben thuis.'",
+      "answer": "I am at home",
+      "accepted": [
+        "I am at home"
+      ],
+      "explanation": "To be: I am + place.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t2",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Zij werkt in een winkel.'",
+      "answer": "She works in a shop",
+      "accepted": [
+        "She works in a shop"
+      ],
+      "explanation": "She + works in a shop.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t3",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Wij hebben een auto.'",
+      "answer": "We have a car",
+      "accepted": [
+        "We have a car"
+      ],
+      "explanation": "We + have + object.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t4",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hij kan zwemmen.'",
+      "answer": "He can swim",
+      "accepted": [
+        "He can swim"
+      ],
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t5",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik drink elke ochtend koffie.'",
+      "answer": "I drink coffee every morning",
+      "accepted": [
+        "I drink coffee every morning"
+      ],
+      "explanation": "Present simple bij I gebruikt de basisvorm.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t6",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Zij kijkt nu televisie.'",
+      "answer": "She is watching TV now",
+      "accepted": [
+        "She is watching TV now"
+      ],
+      "explanation": "Present continuous: is + watching.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t7",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Gisteren werkte ik thuis.'",
+      "answer": "Yesterday I worked at home",
+      "accepted": [
+        "Yesterday I worked at home"
+      ],
+      "explanation": "Past simple: worked.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t8",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Waar woon je?'",
+      "answer": "Where do you live?",
+      "accepted": [
+        "Where do you live?"
+      ],
+      "explanation": "Question word + do + subject + base verb.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t9",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn broer heeft een hond.'",
+      "answer": "My brother has a dog",
+      "accepted": [
+        "My brother has a dog"
+      ],
+      "explanation": "Brother = he, dus has.",
+      "difficulty": 1
+    },
+    {
+      "id": "sb-t10",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'We zijn niet te laat.'",
+      "answer": "We are not late",
+      "accepted": [
+        "We are not late"
+      ],
+      "explanation": "We + are not + adjective.",
+      "difficulty": 1
     }
   ],
   "placement": [
