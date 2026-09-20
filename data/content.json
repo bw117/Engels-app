@@ -1,5 +1,5 @@
 {
-  "version": "1.7.2",
+  "version": "1.7.3",
   "topics": [
     {
       "id": "be-verbs",
@@ -5125,7 +5125,7 @@
         "house",
         "home"
       ],
-      "explanation": "'Huis' is vaak house als je het gebouw bedoelt. Home gebruik je voor je thuis of de plek waar je woont.",
+      "explanation": "'Huis' kan house of home zijn. House benadrukt het gebouw; home de plek waar iemand woont of zich thuis voelt. citeturn0search4turn0search2",
       "difficulty": 1,
       "translationNl": "huis",
       "solutionEnglish": "house"
@@ -5137,10 +5137,9 @@
       "prompt": "Wat is 'auto' in het Engels?",
       "answer": "car",
       "accepted": [
-        "car",
-        "automobile"
+        "car"
       ],
-      "explanation": "'Auto' is car. Automobile is ook correct, maar formeler en minder gebruikelijk in dagelijkse gesprekken.",
+      "explanation": "'Auto' is car. Automobile bestaat ook, maar is formeler en minder gebruikelijk in gewone gesprekken.",
       "difficulty": 1,
       "translationNl": "auto",
       "solutionEnglish": "car"
@@ -5153,9 +5152,10 @@
       "answer": "bike",
       "accepted": [
         "bike",
-        "bicycle"
+        "bicycle",
+        "cycle"
       ],
-      "explanation": "'Fiets' is bike of bicycle. Beide zijn correct; bike is in alledaags Engels gebruikelijker.",
+      "explanation": "'Fiets' kan bike, bicycle of cycle zijn. Bike is het meest alledaags; alle drie zijn correcte woorden voor een fiets. citeturn1search10",
       "difficulty": 1,
       "translationNl": "fiets",
       "solutionEnglish": "bike"
@@ -5167,10 +5167,9 @@
       "prompt": "Wat is 'straat' in het Engels?",
       "answer": "street",
       "accepted": [
-        "street",
-        "road"
+        "street"
       ],
-      "explanation": "'Straat' is meestal street. Road betekent weg en kan afhankelijk van de context ook passend zijn.",
+      "explanation": "'Straat' is street. Road betekent meestal weg en is niet automatisch hetzelfde als street. citeturn0search0turn0search3",
       "difficulty": 1,
       "translationNl": "straat",
       "solutionEnglish": "street"
@@ -5357,7 +5356,7 @@
         "child",
         "kid"
       ],
-      "explanation": "'Kind' is child of kid. Kid is informeler; beide zijn correct.",
+      "explanation": "'Kind' kan child of kid zijn. Kid is informeler.",
       "difficulty": 1,
       "translationNl": "kind",
       "solutionEnglish": "child"
@@ -5553,7 +5552,7 @@
       "accepted": [
         "afternoon"
       ],
-      "explanation": "'Middag' is afternoon. Voor het specifieke moment rond 12 uur kan noon worden gebruikt.",
+      "explanation": "'Middag' is afternoon. Noon betekent specifiek ongeveer 12 uur en is dus niet hetzelfde als middag in het algemeen.",
       "difficulty": 1,
       "translationNl": "middag",
       "solutionEnglish": "afternoon"
@@ -5637,7 +5636,7 @@
       "accepted": [
         "food"
       ],
-      "explanation": "'Eten' is food wanneer je het zelfstandig naamwoord bedoelt. Als werkwoord is 'eten' eat.",
+      "explanation": "'Eten' als zelfstandig naamwoord is food. Als werkwoord is het eat; daarom krijgt de app daarvoor een aparte oefening.",
       "difficulty": 1,
       "translationNl": "eten",
       "solutionEnglish": "food"
@@ -5820,7 +5819,7 @@
         "dinner",
         "supper"
       ],
-      "explanation": "'Avondeten' is meestal dinner. Supper wordt ook gebruikt, afhankelijk van regio en context.",
+      "explanation": "'Avondeten' is meestal dinner. Supper wordt in sommige regio's ook gebruikt.",
       "difficulty": 1,
       "translationNl": "avondeten",
       "solutionEnglish": "dinner"
@@ -5958,9 +5957,10 @@
       "prompt": "Wat is 'telefoon' in het Engels?",
       "answer": "phone",
       "accepted": [
-        "phone"
+        "phone",
+        "telephone"
       ],
-      "explanation": "telefoon = phone.",
+      "explanation": "'Telefoon' kan phone of telephone zijn. Phone is veel gebruikelijker in alledaagse gesprekken.",
       "difficulty": 1,
       "translationNl": "telefoon",
       "solutionEnglish": "phone"
@@ -6056,9 +6056,11 @@
       "prompt": "Wat is 'vliegtuig' in het Engels?",
       "answer": "plane",
       "accepted": [
-        "plane"
+        "plane",
+        "airplane",
+        "aeroplane"
       ],
-      "explanation": "vliegtuig = plane.",
+      "explanation": "'Vliegtuig' kan plane, airplane of aeroplane zijn. Aeroplane is vooral Brits Engels.",
       "difficulty": 1,
       "translationNl": "vliegtuig",
       "solutionEnglish": "plane"
@@ -6141,9 +6143,10 @@
       "prompt": "Wat is 'land' in het Engels?",
       "answer": "country",
       "accepted": [
-        "country"
+        "country",
+        "land"
       ],
-      "explanation": "land = country.",
+      "explanation": "'Land' kan country betekenen als je een natie bedoelt, of land als je grond/gebied bedoelt. De context bepaalt de vertaling.",
       "difficulty": 1,
       "translationNl": "land",
       "solutionEnglish": "country"
@@ -6169,9 +6172,10 @@
       "prompt": "Wat is 'weer' in het Engels?",
       "answer": "weather",
       "accepted": [
-        "weather"
+        "weather",
+        "again"
       ],
-      "explanation": "weer = weather.",
+      "explanation": "'Weer' heeft twee verschillende betekenissen: weather = het weer; again = opnieuw. Zonder context zijn beide mogelijk. citeturn1search6",
       "difficulty": 1,
       "translationNl": "weer",
       "solutionEnglish": "weather"
@@ -6257,7 +6261,7 @@
         "small",
         "little"
       ],
-      "explanation": "'Klein' kan small of little zijn. De keuze hangt af van de context.",
+      "explanation": "'Klein' kan small of little zijn; de context bepaalt welke natuurlijker is.",
       "difficulty": 1,
       "translationNl": "klein",
       "solutionEnglish": "small"
@@ -6269,9 +6273,11 @@
       "prompt": "Wat is 'goed' in het Engels?",
       "answer": "good",
       "accepted": [
-        "good"
+        "good",
+        "fine",
+        "well"
       ],
-      "explanation": "goed = good.",
+      "explanation": "'Goed' kan good, fine of well zijn, afhankelijk van de grammaticale functie en context. Good/fine zijn vaak bijvoeglijke naamwoorden; well is vaak een bijwoord.",
       "difficulty": 1,
       "translationNl": "goed",
       "solutionEnglish": "good"
@@ -6301,7 +6307,7 @@
         "pretty",
         "nice"
       ],
-      "explanation": "'Mooi' kan beautiful, pretty of nice zijn, afhankelijk van wat je beschrijft. Alle drie kunnen correct zijn.",
+      "explanation": "'Mooi' kan beautiful, pretty of nice zijn, afhankelijk van wat je beschrijft.",
       "difficulty": 1,
       "translationNl": "mooi",
       "solutionEnglish": "beautiful"
@@ -6358,7 +6364,7 @@
         "easy",
         "simple"
       ],
-      "explanation": "'Makkelijk' kan easy of simple zijn, afhankelijk van de context. Beide kunnen correct zijn.",
+      "explanation": "'Makkelijk' kan easy of simple zijn. De context bepaalt welke natuurlijker is.",
       "difficulty": 1,
       "translationNl": "makkelijk",
       "solutionEnglish": "easy"
@@ -6373,7 +6379,7 @@
         "difficult",
         "hard"
       ],
-      "explanation": "'Moeilijk' kan difficult of hard zijn. Beide zijn correct in veel contexten.",
+      "explanation": "'Moeilijk' kan difficult of hard zijn. Beide kunnen correct zijn.",
       "difficulty": 1,
       "translationNl": "moeilijk",
       "solutionEnglish": "difficult"
@@ -6388,7 +6394,7 @@
         "fast",
         "quick"
       ],
-      "explanation": "'Snel' kan fast of quick zijn. Fast beschrijft vaak snelheid; quick vaak een korte of snelle handeling.",
+      "explanation": "'Snel' kan fast of quick zijn. Fast gaat vaak over snelheid; quick vaak over een korte of snelle handeling.",
       "difficulty": 1,
       "translationNl": "snel",
       "solutionEnglish": "fast"
@@ -6418,7 +6424,7 @@
         "many",
         "a lot"
       ],
-      "explanation": "'Veel' kan much, many of a lot zijn. Much gebruik je bij ontelbare dingen, many bij telbare dingen; a lot is in veel zinnen natuurlijk.",
+      "explanation": "'Veel' kan much, many of a lot zijn. Much gebruik je bij ontelbare dingen, many bij telbare dingen; a lot werkt in veel situaties.",
       "difficulty": 1,
       "translationNl": "veel",
       "solutionEnglish": "much"
@@ -6656,10 +6662,9 @@
       "prompt": "Wat is 'doen' in het Engels?",
       "answer": "do",
       "accepted": [
-        "do",
-        "make"
+        "do"
       ],
-      "explanation": "'Doen' is meestal do. In sommige contexten vertaal je het als make, bijvoorbeeld bij iets maken. De zin bepaalt de keuze.",
+      "explanation": "'Doen' is meestal do. Make betekent meestal maken, niet simpelweg doen.",
       "difficulty": 1,
       "translationNl": "doen",
       "solutionEnglish": "do"
@@ -6674,7 +6679,7 @@
         "make",
         "create"
       ],
-      "explanation": "'Maken' kan make of create zijn. Create past vooral bij iets creëren; make is veel algemener.",
+      "explanation": "'Maken' kan make of create zijn. Create benadrukt het creëren van iets; make is algemener.",
       "difficulty": 1,
       "translationNl": "maken",
       "solutionEnglish": "make"
@@ -6731,7 +6736,7 @@
         "watch",
         "look"
       ],
-      "explanation": "'Kijken' kan watch of look betekenen. Watch gebruik je bijvoorbeeld voor tv of iets dat je langere tijd bekijkt; look voor gericht kijken.",
+      "explanation": "'Kijken' kan watch of look zijn. Watch gebruik je bijvoorbeeld voor tv of iets dat je langere tijd bekijkt; look voor gericht kijken.",
       "difficulty": 1,
       "translationNl": "kijken",
       "solutionEnglish": "watch"
@@ -6745,7 +6750,7 @@
       "accepted": [
         "hear"
       ],
-      "explanation": "'Horen' is hear. Listen betekent luisteren en is iets anders: je doet bewust moeite om te horen.",
+      "explanation": "'Horen' is hear. Listen betekent luisteren en vraagt bewust aandacht.",
       "difficulty": 1,
       "translationNl": "horen",
       "solutionEnglish": "hear"
@@ -6789,7 +6794,7 @@
         "say",
         "tell"
       ],
-      "explanation": "'Zeggen' kan say of tell zijn, afhankelijk van de zin. Say gaat om wat iemand zegt; tell vaak om iets aan iemand vertellen.",
+      "explanation": "'Zeggen' kan say of tell zijn. Say gaat om de woorden die iemand zegt; tell wordt vaak gebruikt als je iets aan iemand vertelt.",
       "difficulty": 1,
       "translationNl": "zeggen",
       "solutionEnglish": "say"
@@ -6857,9 +6862,10 @@
       "prompt": "Wat is 'houden van' in het Engels?",
       "answer": "love",
       "accepted": [
-        "love"
+        "love",
+        "like"
       ],
-      "explanation": "'Houden van' is love. In sommige contexten is like ook passend voor iets dat je leuk vindt, maar love is de directe vertaling van 'houden van'.",
+      "explanation": "'Houden van' kan love of like zijn, afhankelijk van de sterkte en context. Love is sterker; like betekent ook leuk vinden.",
       "difficulty": 1,
       "translationNl": "houden van",
       "solutionEnglish": "love"
@@ -6873,7 +6879,7 @@
       "accepted": [
         "find"
       ],
-      "explanation": "'Vinden' is find wanneer je iets ontdekt of aantreft. Bij een mening kan 'vinden' ook think betekenen; daarvoor is een voorbeeldzin duidelijker.",
+      "explanation": "'Vinden' is find wanneer je iets ontdekt of aantreft. Bij een mening kan 'vinden' ook think betekenen; daarvoor gebruiken we een aparte oefening.",
       "difficulty": 1,
       "translationNl": "vinden",
       "solutionEnglish": "find"
@@ -6986,7 +6992,7 @@
         "learn",
         "study"
       ],
-      "explanation": "'Leren' kan learn of study zijn. Learn gaat om kennis/vaardigheid opdoen; study gaat om studeren.",
+      "explanation": "'Leren' kan learn of study zijn. Learn gaat om iets leren; study gaat om studeren.",
       "difficulty": 1,
       "translationNl": "leren",
       "solutionEnglish": "learn"
@@ -7113,7 +7119,7 @@
         "close",
         "shut"
       ],
-      "explanation": "'Sluiten' kan close of shut zijn. Shut klinkt vaak wat directer; beide zijn correct in veel contexten.",
+      "explanation": "'Sluiten' kan close of shut zijn. Shut klinkt vaak directer; beide kunnen correct zijn.",
       "difficulty": 1,
       "translationNl": "sluiten",
       "solutionEnglish": "close"
@@ -7185,7 +7191,7 @@
         "answer",
         "reply"
       ],
-      "explanation": "'Antwoorden' kan answer of reply zijn. Beide zijn correct; reply past vaak bij een reactie op iemand.",
+      "explanation": "'Antwoorden' kan answer of reply zijn. Beide kunnen correct zijn; reply benadrukt vaak een reactie.",
       "difficulty": 1,
       "translationNl": "antwoorden",
       "solutionEnglish": "answer"
@@ -7231,6 +7237,49 @@
       "difficulty": 1,
       "translationNl": "onthouden",
       "solutionEnglish": "remember"
+    },
+    {
+      "id": "word-eten-verb",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is het Engelse werkwoord voor 'eten'? ",
+      "answer": "eat",
+      "accepted": [
+        "eat"
+      ],
+      "explanation": "'Eten' als werkwoord is eat. Als zelfstandig naamwoord is eten food.",
+      "difficulty": 1,
+      "translationNl": "eten",
+      "solutionEnglish": "eat"
+    },
+    {
+      "id": "word-vinden-mening",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is het Engelse werkwoord voor 'vinden' als je een mening geeft? ",
+      "answer": "think",
+      "accepted": [
+        "think"
+      ],
+      "explanation": "Bij een mening kan het Nederlandse 'vinden' worden vertaald als think, bijvoorbeeld: I think it is good.",
+      "difficulty": 1,
+      "translationNl": "vinden",
+      "solutionEnglish": "think"
+    },
+    {
+      "id": "word-goed-gevoel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'goed' in het Engels als je zegt dat iets in orde is? ",
+      "answer": "fine",
+      "accepted": [
+        "fine",
+        "good"
+      ],
+      "explanation": "In 'Het gaat goed' of 'Dat is in orde' kan fine passend zijn. Good is de algemene vertaling van goed.",
+      "difficulty": 1,
+      "translationNl": "goed",
+      "solutionEnglish": "fine / good"
     }
   ],
   "placement": [
