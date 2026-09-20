@@ -60,15 +60,28 @@ function startSession(){state.session=selectItems(state.content.items,10);beginS
 function startTopic(id){state.session=selectItems(state.content.items.filter(i=>i.topic===id),8);beginSession()}
 function beginSession(){state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
 function selectItems(items,n){
- const fresh=items.filter(i=>!itemState(i.id).attempts);
  const scored=[...items].sort((a,b)=>score(b)-score(a));
- const chosen=[];
- for(const i of scored)if(!chosen.some(x=>x.id===i.id)&&chosen.length<n){if(i===undefined)continue;chosen.push(i)}
+ const chosen=[],topicCounts={},typeCounts={};
+ // Keep sessions varied: max 3 questions per topic and avoid a wall of identical question types.
+ for(const item of scored){
+   if(chosen.length>=n)break;
+   const tc=topicCounts[item.topic]||0,ty=item.type;
+   if(tc>=3)continue;
+   if(typeCounts[ty]>=7)continue;
+   chosen.push(item);topicCounts[item.topic]=tc+1;typeCounts[ty]=(typeCounts[ty]||0)+1;
+ }
+ // If constraints left a gap, fill it with the next strongest items.
+ for(const item of scored){
+   if(chosen.length>=n)break;
+   if(!chosen.some(x=>x.id===item.id))chosen.push(item);
+ }
  return chosen;
 }
 function score(item){
- const s=itemState(item.id),m=Number(s.mastery||0),isDue=!s.nextReviewAt||new Date(s.nextReviewAt)<=new Date(),attempts=Number(s.attempts||0),recentWrong=s.lastResult===false?0.7:0;
- return (1-m)*1.7+(isDue?1.2:0)+recentWrong+(attempts===0?0.35:0)+(Number(item.difficulty||1)-1)*.05-Math.min((s.streak||0)*.05,.25);
+ const s=itemState(item.id),m=Number(s.mastery||0),attempts=Number(s.attempts||0);
+ const due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date();
+ const fresh=attempts===0,recentWrong=s.lastResult===false;
+ return (1-m)*1.7+(due?1.5:0)+(recentWrong?1.2:0)+(fresh?0.4:0)+(Number(item.difficulty||1)-1)*.08-Math.min((s.streak||0)*.05,.25);
 }
 function normalize(s){return String(s||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[.!?,]+$/g,"").replace(/\s+/g," ")}
 function renderQuestion(){
