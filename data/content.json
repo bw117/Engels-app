@@ -1,5 +1,5 @@
 {
-  "version": "1.6.1",
+  "version": "1.7.0",
   "topics": [
     {
       "id": "be-verbs",
@@ -5114,6 +5114,2092 @@
         "If I have time, I'll call you tonight.",
         "If I have time, I call you yesterday."
       ]
+    },
+    {
+      "id": "word-huis",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'huis' in het Engels?",
+      "answer": "house",
+      "accepted": [
+        "house"
+      ],
+      "explanation": "huis = house.",
+      "difficulty": 1,
+      "translationNl": "huis",
+      "solutionEnglish": "house"
+    },
+    {
+      "id": "word-auto",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'auto' in het Engels?",
+      "answer": "car",
+      "accepted": [
+        "car"
+      ],
+      "explanation": "auto = car.",
+      "difficulty": 1,
+      "translationNl": "auto",
+      "solutionEnglish": "car"
+    },
+    {
+      "id": "word-fiets",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'fiets' in het Engels?",
+      "answer": "bike",
+      "accepted": [
+        "bike"
+      ],
+      "explanation": "fiets = bike.",
+      "difficulty": 1,
+      "translationNl": "fiets",
+      "solutionEnglish": "bike"
+    },
+    {
+      "id": "word-straat",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'straat' in het Engels?",
+      "answer": "street",
+      "accepted": [
+        "street"
+      ],
+      "explanation": "straat = street.",
+      "difficulty": 1,
+      "translationNl": "straat",
+      "solutionEnglish": "street"
+    },
+    {
+      "id": "word-stad",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'stad' in het Engels?",
+      "answer": "city",
+      "accepted": [
+        "city"
+      ],
+      "explanation": "stad = city.",
+      "difficulty": 1,
+      "translationNl": "stad",
+      "solutionEnglish": "city"
+    },
+    {
+      "id": "word-dorp",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'dorp' in het Engels?",
+      "answer": "village",
+      "accepted": [
+        "village"
+      ],
+      "explanation": "dorp = village.",
+      "difficulty": 1,
+      "translationNl": "dorp",
+      "solutionEnglish": "village"
+    },
+    {
+      "id": "word-school",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'school' in het Engels?",
+      "answer": "school",
+      "accepted": [
+        "school"
+      ],
+      "explanation": "school = school.",
+      "difficulty": 1,
+      "translationNl": "school",
+      "solutionEnglish": "school"
+    },
+    {
+      "id": "word-werk",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'werk' in het Engels?",
+      "answer": "work",
+      "accepted": [
+        "work"
+      ],
+      "explanation": "werk = work.",
+      "difficulty": 1,
+      "translationNl": "werk",
+      "solutionEnglish": "work"
+    },
+    {
+      "id": "word-winkel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'winkel' in het Engels?",
+      "answer": "shop",
+      "accepted": [
+        "shop"
+      ],
+      "explanation": "winkel = shop.",
+      "difficulty": 1,
+      "translationNl": "winkel",
+      "solutionEnglish": "shop"
+    },
+    {
+      "id": "word-vriend",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vriend' in het Engels?",
+      "answer": "friend",
+      "accepted": [
+        "friend"
+      ],
+      "explanation": "vriend = friend.",
+      "difficulty": 1,
+      "translationNl": "vriend",
+      "solutionEnglish": "friend"
+    },
+    {
+      "id": "word-vriendin",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vriendin' in het Engels?",
+      "answer": "girlfriend",
+      "accepted": [
+        "girlfriend"
+      ],
+      "explanation": "vriendin = girlfriend.",
+      "difficulty": 1,
+      "translationNl": "vriendin",
+      "solutionEnglish": "girlfriend"
+    },
+    {
+      "id": "word-familie",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'familie' in het Engels?",
+      "answer": "family",
+      "accepted": [
+        "family"
+      ],
+      "explanation": "familie = family.",
+      "difficulty": 1,
+      "translationNl": "familie",
+      "solutionEnglish": "family"
+    },
+    {
+      "id": "word-moeder",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'moeder' in het Engels?",
+      "answer": "mother",
+      "accepted": [
+        "mother"
+      ],
+      "explanation": "moeder = mother.",
+      "difficulty": 1,
+      "translationNl": "moeder",
+      "solutionEnglish": "mother"
+    },
+    {
+      "id": "word-vader",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vader' in het Engels?",
+      "answer": "father",
+      "accepted": [
+        "father"
+      ],
+      "explanation": "vader = father.",
+      "difficulty": 1,
+      "translationNl": "vader",
+      "solutionEnglish": "father"
+    },
+    {
+      "id": "word-broer",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'broer' in het Engels?",
+      "answer": "brother",
+      "accepted": [
+        "brother"
+      ],
+      "explanation": "broer = brother.",
+      "difficulty": 1,
+      "translationNl": "broer",
+      "solutionEnglish": "brother"
+    },
+    {
+      "id": "word-zus",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'zus' in het Engels?",
+      "answer": "sister",
+      "accepted": [
+        "sister"
+      ],
+      "explanation": "zus = sister.",
+      "difficulty": 1,
+      "translationNl": "zus",
+      "solutionEnglish": "sister"
+    },
+    {
+      "id": "word-kind",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kind' in het Engels?",
+      "answer": "child",
+      "accepted": [
+        "child"
+      ],
+      "explanation": "kind = child.",
+      "difficulty": 1,
+      "translationNl": "kind",
+      "solutionEnglish": "child"
+    },
+    {
+      "id": "word-man",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'man' in het Engels?",
+      "answer": "man",
+      "accepted": [
+        "man"
+      ],
+      "explanation": "man = man.",
+      "difficulty": 1,
+      "translationNl": "man",
+      "solutionEnglish": "man"
+    },
+    {
+      "id": "word-vrouw",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vrouw' in het Engels?",
+      "answer": "woman",
+      "accepted": [
+        "woman"
+      ],
+      "explanation": "vrouw = woman.",
+      "difficulty": 1,
+      "translationNl": "vrouw",
+      "solutionEnglish": "woman"
+    },
+    {
+      "id": "word-jongen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'jongen' in het Engels?",
+      "answer": "boy",
+      "accepted": [
+        "boy"
+      ],
+      "explanation": "jongen = boy.",
+      "difficulty": 1,
+      "translationNl": "jongen",
+      "solutionEnglish": "boy"
+    },
+    {
+      "id": "word-meisje",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'meisje' in het Engels?",
+      "answer": "girl",
+      "accepted": [
+        "girl"
+      ],
+      "explanation": "meisje = girl.",
+      "difficulty": 1,
+      "translationNl": "meisje",
+      "solutionEnglish": "girl"
+    },
+    {
+      "id": "word-naam",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'naam' in het Engels?",
+      "answer": "name",
+      "accepted": [
+        "name"
+      ],
+      "explanation": "naam = name.",
+      "difficulty": 1,
+      "translationNl": "naam",
+      "solutionEnglish": "name"
+    },
+    {
+      "id": "word-dag",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'dag' in het Engels?",
+      "answer": "day",
+      "accepted": [
+        "day"
+      ],
+      "explanation": "dag = day.",
+      "difficulty": 1,
+      "translationNl": "dag",
+      "solutionEnglish": "day"
+    },
+    {
+      "id": "word-week",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'week' in het Engels?",
+      "answer": "week",
+      "accepted": [
+        "week"
+      ],
+      "explanation": "week = week.",
+      "difficulty": 1,
+      "translationNl": "week",
+      "solutionEnglish": "week"
+    },
+    {
+      "id": "word-maand",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'maand' in het Engels?",
+      "answer": "month",
+      "accepted": [
+        "month"
+      ],
+      "explanation": "maand = month.",
+      "difficulty": 1,
+      "translationNl": "maand",
+      "solutionEnglish": "month"
+    },
+    {
+      "id": "word-jaar",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'jaar' in het Engels?",
+      "answer": "year",
+      "accepted": [
+        "year"
+      ],
+      "explanation": "jaar = year.",
+      "difficulty": 1,
+      "translationNl": "jaar",
+      "solutionEnglish": "year"
+    },
+    {
+      "id": "word-vandaag",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vandaag' in het Engels?",
+      "answer": "today",
+      "accepted": [
+        "today"
+      ],
+      "explanation": "vandaag = today.",
+      "difficulty": 1,
+      "translationNl": "vandaag",
+      "solutionEnglish": "today"
+    },
+    {
+      "id": "word-morgen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'morgen' in het Engels?",
+      "answer": "tomorrow",
+      "accepted": [
+        "tomorrow"
+      ],
+      "explanation": "morgen = tomorrow.",
+      "difficulty": 1,
+      "translationNl": "morgen",
+      "solutionEnglish": "tomorrow"
+    },
+    {
+      "id": "word-gisteren",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'gisteren' in het Engels?",
+      "answer": "yesterday",
+      "accepted": [
+        "yesterday"
+      ],
+      "explanation": "gisteren = yesterday.",
+      "difficulty": 1,
+      "translationNl": "gisteren",
+      "solutionEnglish": "yesterday"
+    },
+    {
+      "id": "word-ochtend",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'ochtend' in het Engels?",
+      "answer": "morning",
+      "accepted": [
+        "morning"
+      ],
+      "explanation": "ochtend = morning.",
+      "difficulty": 1,
+      "translationNl": "ochtend",
+      "solutionEnglish": "morning"
+    },
+    {
+      "id": "word-middag",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'middag' in het Engels?",
+      "answer": "afternoon",
+      "accepted": [
+        "afternoon"
+      ],
+      "explanation": "middag = afternoon.",
+      "difficulty": 1,
+      "translationNl": "middag",
+      "solutionEnglish": "afternoon"
+    },
+    {
+      "id": "word-avond",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'avond' in het Engels?",
+      "answer": "evening",
+      "accepted": [
+        "evening"
+      ],
+      "explanation": "avond = evening.",
+      "difficulty": 1,
+      "translationNl": "avond",
+      "solutionEnglish": "evening"
+    },
+    {
+      "id": "word-nacht",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'nacht' in het Engels?",
+      "answer": "night",
+      "accepted": [
+        "night"
+      ],
+      "explanation": "nacht = night.",
+      "difficulty": 1,
+      "translationNl": "nacht",
+      "solutionEnglish": "night"
+    },
+    {
+      "id": "word-tijd",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'tijd' in het Engels?",
+      "answer": "time",
+      "accepted": [
+        "time"
+      ],
+      "explanation": "tijd = time.",
+      "difficulty": 1,
+      "translationNl": "tijd",
+      "solutionEnglish": "time"
+    },
+    {
+      "id": "word-uur",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'uur' in het Engels?",
+      "answer": "hour",
+      "accepted": [
+        "hour"
+      ],
+      "explanation": "uur = hour.",
+      "difficulty": 1,
+      "translationNl": "uur",
+      "solutionEnglish": "hour"
+    },
+    {
+      "id": "word-minuut",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'minuut' in het Engels?",
+      "answer": "minute",
+      "accepted": [
+        "minute"
+      ],
+      "explanation": "minuut = minute.",
+      "difficulty": 1,
+      "translationNl": "minuut",
+      "solutionEnglish": "minute"
+    },
+    {
+      "id": "word-eten",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'eten' in het Engels?",
+      "answer": "food",
+      "accepted": [
+        "food"
+      ],
+      "explanation": "eten = food.",
+      "difficulty": 1,
+      "translationNl": "eten",
+      "solutionEnglish": "food"
+    },
+    {
+      "id": "word-water",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'water' in het Engels?",
+      "answer": "water",
+      "accepted": [
+        "water"
+      ],
+      "explanation": "water = water.",
+      "difficulty": 1,
+      "translationNl": "water",
+      "solutionEnglish": "water"
+    },
+    {
+      "id": "word-brood",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'brood' in het Engels?",
+      "answer": "bread",
+      "accepted": [
+        "bread"
+      ],
+      "explanation": "brood = bread.",
+      "difficulty": 1,
+      "translationNl": "brood",
+      "solutionEnglish": "bread"
+    },
+    {
+      "id": "word-melk",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'melk' in het Engels?",
+      "answer": "milk",
+      "accepted": [
+        "milk"
+      ],
+      "explanation": "melk = milk.",
+      "difficulty": 1,
+      "translationNl": "melk",
+      "solutionEnglish": "milk"
+    },
+    {
+      "id": "word-koffie",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'koffie' in het Engels?",
+      "answer": "coffee",
+      "accepted": [
+        "coffee"
+      ],
+      "explanation": "koffie = coffee.",
+      "difficulty": 1,
+      "translationNl": "koffie",
+      "solutionEnglish": "coffee"
+    },
+    {
+      "id": "word-thee",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'thee' in het Engels?",
+      "answer": "tea",
+      "accepted": [
+        "tea"
+      ],
+      "explanation": "thee = tea.",
+      "difficulty": 1,
+      "translationNl": "thee",
+      "solutionEnglish": "tea"
+    },
+    {
+      "id": "word-appel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'appel' in het Engels?",
+      "answer": "apple",
+      "accepted": [
+        "apple"
+      ],
+      "explanation": "appel = apple.",
+      "difficulty": 1,
+      "translationNl": "appel",
+      "solutionEnglish": "apple"
+    },
+    {
+      "id": "word-banaan",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'banaan' in het Engels?",
+      "answer": "banana",
+      "accepted": [
+        "banana"
+      ],
+      "explanation": "banaan = banana.",
+      "difficulty": 1,
+      "translationNl": "banaan",
+      "solutionEnglish": "banana"
+    },
+    {
+      "id": "word-kip",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kip' in het Engels?",
+      "answer": "chicken",
+      "accepted": [
+        "chicken"
+      ],
+      "explanation": "kip = chicken.",
+      "difficulty": 1,
+      "translationNl": "kip",
+      "solutionEnglish": "chicken"
+    },
+    {
+      "id": "word-vlees",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vlees' in het Engels?",
+      "answer": "meat",
+      "accepted": [
+        "meat"
+      ],
+      "explanation": "vlees = meat.",
+      "difficulty": 1,
+      "translationNl": "vlees",
+      "solutionEnglish": "meat"
+    },
+    {
+      "id": "word-vis",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vis' in het Engels?",
+      "answer": "fish",
+      "accepted": [
+        "fish"
+      ],
+      "explanation": "vis = fish.",
+      "difficulty": 1,
+      "translationNl": "vis",
+      "solutionEnglish": "fish"
+    },
+    {
+      "id": "word-ontbijt",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'ontbijt' in het Engels?",
+      "answer": "breakfast",
+      "accepted": [
+        "breakfast"
+      ],
+      "explanation": "ontbijt = breakfast.",
+      "difficulty": 1,
+      "translationNl": "ontbijt",
+      "solutionEnglish": "breakfast"
+    },
+    {
+      "id": "word-lunch",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'lunch' in het Engels?",
+      "answer": "lunch",
+      "accepted": [
+        "lunch"
+      ],
+      "explanation": "lunch = lunch.",
+      "difficulty": 1,
+      "translationNl": "lunch",
+      "solutionEnglish": "lunch"
+    },
+    {
+      "id": "word-avondeten",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'avondeten' in het Engels?",
+      "answer": "dinner",
+      "accepted": [
+        "dinner"
+      ],
+      "explanation": "avondeten = dinner.",
+      "difficulty": 1,
+      "translationNl": "avondeten",
+      "solutionEnglish": "dinner"
+    },
+    {
+      "id": "word-tafel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'tafel' in het Engels?",
+      "answer": "table",
+      "accepted": [
+        "table"
+      ],
+      "explanation": "tafel = table.",
+      "difficulty": 1,
+      "translationNl": "tafel",
+      "solutionEnglish": "table"
+    },
+    {
+      "id": "word-stoel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'stoel' in het Engels?",
+      "answer": "chair",
+      "accepted": [
+        "chair"
+      ],
+      "explanation": "stoel = chair.",
+      "difficulty": 1,
+      "translationNl": "stoel",
+      "solutionEnglish": "chair"
+    },
+    {
+      "id": "word-bed",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'bed' in het Engels?",
+      "answer": "bed",
+      "accepted": [
+        "bed"
+      ],
+      "explanation": "bed = bed.",
+      "difficulty": 1,
+      "translationNl": "bed",
+      "solutionEnglish": "bed"
+    },
+    {
+      "id": "word-deur",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'deur' in het Engels?",
+      "answer": "door",
+      "accepted": [
+        "door"
+      ],
+      "explanation": "deur = door.",
+      "difficulty": 1,
+      "translationNl": "deur",
+      "solutionEnglish": "door"
+    },
+    {
+      "id": "word-raam",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'raam' in het Engels?",
+      "answer": "window",
+      "accepted": [
+        "window"
+      ],
+      "explanation": "raam = window.",
+      "difficulty": 1,
+      "translationNl": "raam",
+      "solutionEnglish": "window"
+    },
+    {
+      "id": "word-kamer",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kamer' in het Engels?",
+      "answer": "room",
+      "accepted": [
+        "room"
+      ],
+      "explanation": "kamer = room.",
+      "difficulty": 1,
+      "translationNl": "kamer",
+      "solutionEnglish": "room"
+    },
+    {
+      "id": "word-keuken",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'keuken' in het Engels?",
+      "answer": "kitchen",
+      "accepted": [
+        "kitchen"
+      ],
+      "explanation": "keuken = kitchen.",
+      "difficulty": 1,
+      "translationNl": "keuken",
+      "solutionEnglish": "kitchen"
+    },
+    {
+      "id": "word-badkamer",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'badkamer' in het Engels?",
+      "answer": "bathroom",
+      "accepted": [
+        "bathroom"
+      ],
+      "explanation": "badkamer = bathroom.",
+      "difficulty": 1,
+      "translationNl": "badkamer",
+      "solutionEnglish": "bathroom"
+    },
+    {
+      "id": "word-sleutel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'sleutel' in het Engels?",
+      "answer": "key",
+      "accepted": [
+        "key"
+      ],
+      "explanation": "sleutel = key.",
+      "difficulty": 1,
+      "translationNl": "sleutel",
+      "solutionEnglish": "key"
+    },
+    {
+      "id": "word-telefoon",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'telefoon' in het Engels?",
+      "answer": "phone",
+      "accepted": [
+        "phone"
+      ],
+      "explanation": "telefoon = phone.",
+      "difficulty": 1,
+      "translationNl": "telefoon",
+      "solutionEnglish": "phone"
+    },
+    {
+      "id": "word-tas",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'tas' in het Engels?",
+      "answer": "bag",
+      "accepted": [
+        "bag"
+      ],
+      "explanation": "tas = bag.",
+      "difficulty": 1,
+      "translationNl": "tas",
+      "solutionEnglish": "bag"
+    },
+    {
+      "id": "word-boek",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'boek' in het Engels?",
+      "answer": "book",
+      "accepted": [
+        "book"
+      ],
+      "explanation": "boek = book.",
+      "difficulty": 1,
+      "translationNl": "boek",
+      "solutionEnglish": "book"
+    },
+    {
+      "id": "word-geld",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'geld' in het Engels?",
+      "answer": "money",
+      "accepted": [
+        "money"
+      ],
+      "explanation": "geld = money.",
+      "difficulty": 1,
+      "translationNl": "geld",
+      "solutionEnglish": "money"
+    },
+    {
+      "id": "word-bus",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'bus' in het Engels?",
+      "answer": "bus",
+      "accepted": [
+        "bus"
+      ],
+      "explanation": "bus = bus.",
+      "difficulty": 1,
+      "translationNl": "bus",
+      "solutionEnglish": "bus"
+    },
+    {
+      "id": "word-trein",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'trein' in het Engels?",
+      "answer": "train",
+      "accepted": [
+        "train"
+      ],
+      "explanation": "trein = train.",
+      "difficulty": 1,
+      "translationNl": "trein",
+      "solutionEnglish": "train"
+    },
+    {
+      "id": "word-station",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'station' in het Engels?",
+      "answer": "station",
+      "accepted": [
+        "station"
+      ],
+      "explanation": "station = station.",
+      "difficulty": 1,
+      "translationNl": "station",
+      "solutionEnglish": "station"
+    },
+    {
+      "id": "word-vliegtuig",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vliegtuig' in het Engels?",
+      "answer": "plane",
+      "accepted": [
+        "plane"
+      ],
+      "explanation": "vliegtuig = plane.",
+      "difficulty": 1,
+      "translationNl": "vliegtuig",
+      "solutionEnglish": "plane"
+    },
+    {
+      "id": "word-luchthaven",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'luchthaven' in het Engels?",
+      "answer": "airport",
+      "accepted": [
+        "airport"
+      ],
+      "explanation": "luchthaven = airport.",
+      "difficulty": 1,
+      "translationNl": "luchthaven",
+      "solutionEnglish": "airport"
+    },
+    {
+      "id": "word-hotel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'hotel' in het Engels?",
+      "answer": "hotel",
+      "accepted": [
+        "hotel"
+      ],
+      "explanation": "hotel = hotel.",
+      "difficulty": 1,
+      "translationNl": "hotel",
+      "solutionEnglish": "hotel"
+    },
+    {
+      "id": "word-vakantie",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vakantie' in het Engels?",
+      "answer": "holiday",
+      "accepted": [
+        "holiday"
+      ],
+      "explanation": "vakantie = holiday.",
+      "difficulty": 1,
+      "translationNl": "vakantie",
+      "solutionEnglish": "holiday"
+    },
+    {
+      "id": "word-strand",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'strand' in het Engels?",
+      "answer": "beach",
+      "accepted": [
+        "beach"
+      ],
+      "explanation": "strand = beach.",
+      "difficulty": 1,
+      "translationNl": "strand",
+      "solutionEnglish": "beach"
+    },
+    {
+      "id": "word-zee",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'zee' in het Engels?",
+      "answer": "sea",
+      "accepted": [
+        "sea"
+      ],
+      "explanation": "zee = sea.",
+      "difficulty": 1,
+      "translationNl": "zee",
+      "solutionEnglish": "sea"
+    },
+    {
+      "id": "word-land",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'land' in het Engels?",
+      "answer": "country",
+      "accepted": [
+        "country"
+      ],
+      "explanation": "land = country.",
+      "difficulty": 1,
+      "translationNl": "land",
+      "solutionEnglish": "country"
+    },
+    {
+      "id": "word-wereld",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'wereld' in het Engels?",
+      "answer": "world",
+      "accepted": [
+        "world"
+      ],
+      "explanation": "wereld = world.",
+      "difficulty": 1,
+      "translationNl": "wereld",
+      "solutionEnglish": "world"
+    },
+    {
+      "id": "word-weer",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'weer' in het Engels?",
+      "answer": "weather",
+      "accepted": [
+        "weather"
+      ],
+      "explanation": "weer = weather.",
+      "difficulty": 1,
+      "translationNl": "weer",
+      "solutionEnglish": "weather"
+    },
+    {
+      "id": "word-regen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'regen' in het Engels?",
+      "answer": "rain",
+      "accepted": [
+        "rain"
+      ],
+      "explanation": "regen = rain.",
+      "difficulty": 1,
+      "translationNl": "regen",
+      "solutionEnglish": "rain"
+    },
+    {
+      "id": "word-zon",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'zon' in het Engels?",
+      "answer": "sun",
+      "accepted": [
+        "sun"
+      ],
+      "explanation": "zon = sun.",
+      "difficulty": 1,
+      "translationNl": "zon",
+      "solutionEnglish": "sun"
+    },
+    {
+      "id": "word-warm",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'warm' in het Engels?",
+      "answer": "warm",
+      "accepted": [
+        "warm"
+      ],
+      "explanation": "warm = warm.",
+      "difficulty": 1,
+      "translationNl": "warm",
+      "solutionEnglish": "warm"
+    },
+    {
+      "id": "word-koud",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'koud' in het Engels?",
+      "answer": "cold",
+      "accepted": [
+        "cold"
+      ],
+      "explanation": "koud = cold.",
+      "difficulty": 1,
+      "translationNl": "koud",
+      "solutionEnglish": "cold"
+    },
+    {
+      "id": "word-groot",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'groot' in het Engels?",
+      "answer": "big",
+      "accepted": [
+        "big"
+      ],
+      "explanation": "groot = big.",
+      "difficulty": 1,
+      "translationNl": "groot",
+      "solutionEnglish": "big"
+    },
+    {
+      "id": "word-klein",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'klein' in het Engels?",
+      "answer": "small",
+      "accepted": [
+        "small"
+      ],
+      "explanation": "klein = small.",
+      "difficulty": 1,
+      "translationNl": "klein",
+      "solutionEnglish": "small"
+    },
+    {
+      "id": "word-goed",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'goed' in het Engels?",
+      "answer": "good",
+      "accepted": [
+        "good"
+      ],
+      "explanation": "goed = good.",
+      "difficulty": 1,
+      "translationNl": "goed",
+      "solutionEnglish": "good"
+    },
+    {
+      "id": "word-slecht",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'slecht' in het Engels?",
+      "answer": "bad",
+      "accepted": [
+        "bad"
+      ],
+      "explanation": "slecht = bad.",
+      "difficulty": 1,
+      "translationNl": "slecht",
+      "solutionEnglish": "bad"
+    },
+    {
+      "id": "word-mooi",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'mooi' in het Engels?",
+      "answer": "beautiful",
+      "accepted": [
+        "beautiful"
+      ],
+      "explanation": "mooi = beautiful.",
+      "difficulty": 1,
+      "translationNl": "mooi",
+      "solutionEnglish": "beautiful"
+    },
+    {
+      "id": "word-nieuw",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'nieuw' in het Engels?",
+      "answer": "new",
+      "accepted": [
+        "new"
+      ],
+      "explanation": "nieuw = new.",
+      "difficulty": 1,
+      "translationNl": "nieuw",
+      "solutionEnglish": "new"
+    },
+    {
+      "id": "word-oud",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'oud' in het Engels?",
+      "answer": "old",
+      "accepted": [
+        "old"
+      ],
+      "explanation": "oud = old.",
+      "difficulty": 1,
+      "translationNl": "oud",
+      "solutionEnglish": "old"
+    },
+    {
+      "id": "word-jong",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'jong' in het Engels?",
+      "answer": "young",
+      "accepted": [
+        "young"
+      ],
+      "explanation": "jong = young.",
+      "difficulty": 1,
+      "translationNl": "jong",
+      "solutionEnglish": "young"
+    },
+    {
+      "id": "word-makkelijk",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'makkelijk' in het Engels?",
+      "answer": "easy",
+      "accepted": [
+        "easy"
+      ],
+      "explanation": "makkelijk = easy.",
+      "difficulty": 1,
+      "translationNl": "makkelijk",
+      "solutionEnglish": "easy"
+    },
+    {
+      "id": "word-moeilijk",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'moeilijk' in het Engels?",
+      "answer": "difficult",
+      "accepted": [
+        "difficult"
+      ],
+      "explanation": "moeilijk = difficult.",
+      "difficulty": 1,
+      "translationNl": "moeilijk",
+      "solutionEnglish": "difficult"
+    },
+    {
+      "id": "word-snel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'snel' in het Engels?",
+      "answer": "fast",
+      "accepted": [
+        "fast"
+      ],
+      "explanation": "snel = fast.",
+      "difficulty": 1,
+      "translationNl": "snel",
+      "solutionEnglish": "fast"
+    },
+    {
+      "id": "word-langzaam",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'langzaam' in het Engels?",
+      "answer": "slow",
+      "accepted": [
+        "slow"
+      ],
+      "explanation": "langzaam = slow.",
+      "difficulty": 1,
+      "translationNl": "langzaam",
+      "solutionEnglish": "slow"
+    },
+    {
+      "id": "word-veel",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'veel' in het Engels?",
+      "answer": "much",
+      "accepted": [
+        "much"
+      ],
+      "explanation": "veel = much.",
+      "difficulty": 1,
+      "translationNl": "veel",
+      "solutionEnglish": "much"
+    },
+    {
+      "id": "word-weinig",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'weinig' in het Engels?",
+      "answer": "little",
+      "accepted": [
+        "little"
+      ],
+      "explanation": "weinig = little.",
+      "difficulty": 1,
+      "translationNl": "weinig",
+      "solutionEnglish": "little"
+    },
+    {
+      "id": "word-meer",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'meer' in het Engels?",
+      "answer": "more",
+      "accepted": [
+        "more"
+      ],
+      "explanation": "meer = more.",
+      "difficulty": 1,
+      "translationNl": "meer",
+      "solutionEnglish": "more"
+    },
+    {
+      "id": "word-minder",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'minder' in het Engels?",
+      "answer": "less",
+      "accepted": [
+        "less"
+      ],
+      "explanation": "minder = less.",
+      "difficulty": 1,
+      "translationNl": "minder",
+      "solutionEnglish": "less"
+    },
+    {
+      "id": "word-altijd",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'altijd' in het Engels?",
+      "answer": "always",
+      "accepted": [
+        "always"
+      ],
+      "explanation": "altijd = always.",
+      "difficulty": 1,
+      "translationNl": "altijd",
+      "solutionEnglish": "always"
+    },
+    {
+      "id": "word-nooit",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'nooit' in het Engels?",
+      "answer": "never",
+      "accepted": [
+        "never"
+      ],
+      "explanation": "nooit = never.",
+      "difficulty": 1,
+      "translationNl": "nooit",
+      "solutionEnglish": "never"
+    },
+    {
+      "id": "word-vaak",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vaak' in het Engels?",
+      "answer": "often",
+      "accepted": [
+        "often"
+      ],
+      "explanation": "vaak = often.",
+      "difficulty": 1,
+      "translationNl": "vaak",
+      "solutionEnglish": "often"
+    },
+    {
+      "id": "word-soms",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'soms' in het Engels?",
+      "answer": "sometimes",
+      "accepted": [
+        "sometimes"
+      ],
+      "explanation": "soms = sometimes.",
+      "difficulty": 1,
+      "translationNl": "soms",
+      "solutionEnglish": "sometimes"
+    },
+    {
+      "id": "word-nu",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'nu' in het Engels?",
+      "answer": "now",
+      "accepted": [
+        "now"
+      ],
+      "explanation": "nu = now.",
+      "difficulty": 1,
+      "translationNl": "nu",
+      "solutionEnglish": "now"
+    },
+    {
+      "id": "word-hier",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'hier' in het Engels?",
+      "answer": "here",
+      "accepted": [
+        "here"
+      ],
+      "explanation": "hier = here.",
+      "difficulty": 1,
+      "translationNl": "hier",
+      "solutionEnglish": "here"
+    },
+    {
+      "id": "word-daar",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'daar' in het Engels?",
+      "answer": "there",
+      "accepted": [
+        "there"
+      ],
+      "explanation": "daar = there.",
+      "difficulty": 1,
+      "translationNl": "daar",
+      "solutionEnglish": "there"
+    },
+    {
+      "id": "word-wie",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'wie' in het Engels?",
+      "answer": "who",
+      "accepted": [
+        "who"
+      ],
+      "explanation": "wie = who.",
+      "difficulty": 1,
+      "translationNl": "wie",
+      "solutionEnglish": "who"
+    },
+    {
+      "id": "word-wat",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'wat' in het Engels?",
+      "answer": "what",
+      "accepted": [
+        "what"
+      ],
+      "explanation": "wat = what.",
+      "difficulty": 1,
+      "translationNl": "wat",
+      "solutionEnglish": "what"
+    },
+    {
+      "id": "word-waar",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'waar' in het Engels?",
+      "answer": "where",
+      "accepted": [
+        "where"
+      ],
+      "explanation": "waar = where.",
+      "difficulty": 1,
+      "translationNl": "waar",
+      "solutionEnglish": "where"
+    },
+    {
+      "id": "word-wanneer",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'wanneer' in het Engels?",
+      "answer": "when",
+      "accepted": [
+        "when"
+      ],
+      "explanation": "wanneer = when.",
+      "difficulty": 1,
+      "translationNl": "wanneer",
+      "solutionEnglish": "when"
+    },
+    {
+      "id": "word-waarom",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'waarom' in het Engels?",
+      "answer": "why",
+      "accepted": [
+        "why"
+      ],
+      "explanation": "waarom = why.",
+      "difficulty": 1,
+      "translationNl": "waarom",
+      "solutionEnglish": "why"
+    },
+    {
+      "id": "word-hoe",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'hoe' in het Engels?",
+      "answer": "how",
+      "accepted": [
+        "how"
+      ],
+      "explanation": "hoe = how.",
+      "difficulty": 1,
+      "translationNl": "hoe",
+      "solutionEnglish": "how"
+    },
+    {
+      "id": "word-doen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'doen' in het Engels?",
+      "answer": "do",
+      "accepted": [
+        "do"
+      ],
+      "explanation": "doen = do.",
+      "difficulty": 1,
+      "translationNl": "doen",
+      "solutionEnglish": "do"
+    },
+    {
+      "id": "word-maken",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'maken' in het Engels?",
+      "answer": "make",
+      "accepted": [
+        "make"
+      ],
+      "explanation": "maken = make.",
+      "difficulty": 1,
+      "translationNl": "maken",
+      "solutionEnglish": "make"
+    },
+    {
+      "id": "word-gaan",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'gaan' in het Engels?",
+      "answer": "go",
+      "accepted": [
+        "go"
+      ],
+      "explanation": "gaan = go.",
+      "difficulty": 1,
+      "translationNl": "gaan",
+      "solutionEnglish": "go"
+    },
+    {
+      "id": "word-komen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'komen' in het Engels?",
+      "answer": "come",
+      "accepted": [
+        "come"
+      ],
+      "explanation": "komen = come.",
+      "difficulty": 1,
+      "translationNl": "komen",
+      "solutionEnglish": "come"
+    },
+    {
+      "id": "word-zien",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'zien' in het Engels?",
+      "answer": "see",
+      "accepted": [
+        "see"
+      ],
+      "explanation": "zien = see.",
+      "difficulty": 1,
+      "translationNl": "zien",
+      "solutionEnglish": "see"
+    },
+    {
+      "id": "word-kijken",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kijken' in het Engels?",
+      "answer": "watch",
+      "accepted": [
+        "watch"
+      ],
+      "explanation": "kijken = watch.",
+      "difficulty": 1,
+      "translationNl": "kijken",
+      "solutionEnglish": "watch"
+    },
+    {
+      "id": "word-horen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'horen' in het Engels?",
+      "answer": "hear",
+      "accepted": [
+        "hear"
+      ],
+      "explanation": "horen = hear.",
+      "difficulty": 1,
+      "translationNl": "horen",
+      "solutionEnglish": "hear"
+    },
+    {
+      "id": "word-luisteren",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'luisteren' in het Engels?",
+      "answer": "listen",
+      "accepted": [
+        "listen"
+      ],
+      "explanation": "luisteren = listen.",
+      "difficulty": 1,
+      "translationNl": "luisteren",
+      "solutionEnglish": "listen"
+    },
+    {
+      "id": "word-spreken",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'spreken' in het Engels?",
+      "answer": "speak",
+      "accepted": [
+        "speak"
+      ],
+      "explanation": "spreken = speak.",
+      "difficulty": 1,
+      "translationNl": "spreken",
+      "solutionEnglish": "speak"
+    },
+    {
+      "id": "word-zeggen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'zeggen' in het Engels?",
+      "answer": "say",
+      "accepted": [
+        "say"
+      ],
+      "explanation": "zeggen = say.",
+      "difficulty": 1,
+      "translationNl": "zeggen",
+      "solutionEnglish": "say"
+    },
+    {
+      "id": "word-weten",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'weten' in het Engels?",
+      "answer": "know",
+      "accepted": [
+        "know"
+      ],
+      "explanation": "weten = know.",
+      "difficulty": 1,
+      "translationNl": "weten",
+      "solutionEnglish": "know"
+    },
+    {
+      "id": "word-denken",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'denken' in het Engels?",
+      "answer": "think",
+      "accepted": [
+        "think"
+      ],
+      "explanation": "denken = think.",
+      "difficulty": 1,
+      "translationNl": "denken",
+      "solutionEnglish": "think"
+    },
+    {
+      "id": "word-willen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'willen' in het Engels?",
+      "answer": "want",
+      "accepted": [
+        "want"
+      ],
+      "explanation": "willen = want.",
+      "difficulty": 1,
+      "translationNl": "willen",
+      "solutionEnglish": "want"
+    },
+    {
+      "id": "word-nodig-hebben",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'nodig hebben' in het Engels?",
+      "answer": "need",
+      "accepted": [
+        "need"
+      ],
+      "explanation": "nodig hebben = need.",
+      "difficulty": 1,
+      "translationNl": "nodig hebben",
+      "solutionEnglish": "need"
+    },
+    {
+      "id": "word-houden-van",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'houden van' in het Engels?",
+      "answer": "love",
+      "accepted": [
+        "love"
+      ],
+      "explanation": "houden van = love.",
+      "difficulty": 1,
+      "translationNl": "houden van",
+      "solutionEnglish": "love"
+    },
+    {
+      "id": "word-vinden",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vinden' in het Engels?",
+      "answer": "find",
+      "accepted": [
+        "find"
+      ],
+      "explanation": "vinden = find.",
+      "difficulty": 1,
+      "translationNl": "vinden",
+      "solutionEnglish": "find"
+    },
+    {
+      "id": "word-geven",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'geven' in het Engels?",
+      "answer": "give",
+      "accepted": [
+        "give"
+      ],
+      "explanation": "geven = give.",
+      "difficulty": 1,
+      "translationNl": "geven",
+      "solutionEnglish": "give"
+    },
+    {
+      "id": "word-nemen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'nemen' in het Engels?",
+      "answer": "take",
+      "accepted": [
+        "take"
+      ],
+      "explanation": "nemen = take.",
+      "difficulty": 1,
+      "translationNl": "nemen",
+      "solutionEnglish": "take"
+    },
+    {
+      "id": "word-kopen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kopen' in het Engels?",
+      "answer": "buy",
+      "accepted": [
+        "buy"
+      ],
+      "explanation": "kopen = buy.",
+      "difficulty": 1,
+      "translationNl": "kopen",
+      "solutionEnglish": "buy"
+    },
+    {
+      "id": "word-betalen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'betalen' in het Engels?",
+      "answer": "pay",
+      "accepted": [
+        "pay"
+      ],
+      "explanation": "betalen = pay.",
+      "difficulty": 1,
+      "translationNl": "betalen",
+      "solutionEnglish": "pay"
+    },
+    {
+      "id": "word-drinken",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'drinken' in het Engels?",
+      "answer": "drink",
+      "accepted": [
+        "drink"
+      ],
+      "explanation": "drinken = drink.",
+      "difficulty": 1,
+      "translationNl": "drinken",
+      "solutionEnglish": "drink"
+    },
+    {
+      "id": "word-slapen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'slapen' in het Engels?",
+      "answer": "sleep",
+      "accepted": [
+        "sleep"
+      ],
+      "explanation": "slapen = sleep.",
+      "difficulty": 1,
+      "translationNl": "slapen",
+      "solutionEnglish": "sleep"
+    },
+    {
+      "id": "word-werken",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'werken' in het Engels?",
+      "answer": "work",
+      "accepted": [
+        "work"
+      ],
+      "explanation": "werken = work.",
+      "difficulty": 1,
+      "translationNl": "werken",
+      "solutionEnglish": "work"
+    },
+    {
+      "id": "word-leren",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'leren' in het Engels?",
+      "answer": "learn",
+      "accepted": [
+        "learn"
+      ],
+      "explanation": "leren = learn.",
+      "difficulty": 1,
+      "translationNl": "leren",
+      "solutionEnglish": "learn"
+    },
+    {
+      "id": "word-lezen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'lezen' in het Engels?",
+      "answer": "read",
+      "accepted": [
+        "read"
+      ],
+      "explanation": "lezen = read.",
+      "difficulty": 1,
+      "translationNl": "lezen",
+      "solutionEnglish": "read"
+    },
+    {
+      "id": "word-schrijven",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'schrijven' in het Engels?",
+      "answer": "write",
+      "accepted": [
+        "write"
+      ],
+      "explanation": "schrijven = write.",
+      "difficulty": 1,
+      "translationNl": "schrijven",
+      "solutionEnglish": "write"
+    },
+    {
+      "id": "word-wonen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'wonen' in het Engels?",
+      "answer": "live",
+      "accepted": [
+        "live"
+      ],
+      "explanation": "wonen = live.",
+      "difficulty": 1,
+      "translationNl": "wonen",
+      "solutionEnglish": "live"
+    },
+    {
+      "id": "word-lopen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'lopen' in het Engels?",
+      "answer": "walk",
+      "accepted": [
+        "walk"
+      ],
+      "explanation": "lopen = walk.",
+      "difficulty": 1,
+      "translationNl": "lopen",
+      "solutionEnglish": "walk"
+    },
+    {
+      "id": "word-rennen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'rennen' in het Engels?",
+      "answer": "run",
+      "accepted": [
+        "run"
+      ],
+      "explanation": "rennen = run.",
+      "difficulty": 1,
+      "translationNl": "rennen",
+      "solutionEnglish": "run"
+    },
+    {
+      "id": "word-zitten",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'zitten' in het Engels?",
+      "answer": "sit",
+      "accepted": [
+        "sit"
+      ],
+      "explanation": "zitten = sit.",
+      "difficulty": 1,
+      "translationNl": "zitten",
+      "solutionEnglish": "sit"
+    },
+    {
+      "id": "word-staan",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'staan' in het Engels?",
+      "answer": "stand",
+      "accepted": [
+        "stand"
+      ],
+      "explanation": "staan = stand.",
+      "difficulty": 1,
+      "translationNl": "staan",
+      "solutionEnglish": "stand"
+    },
+    {
+      "id": "word-openen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'openen' in het Engels?",
+      "answer": "open",
+      "accepted": [
+        "open"
+      ],
+      "explanation": "openen = open.",
+      "difficulty": 1,
+      "translationNl": "openen",
+      "solutionEnglish": "open"
+    },
+    {
+      "id": "word-sluiten",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'sluiten' in het Engels?",
+      "answer": "close",
+      "accepted": [
+        "close"
+      ],
+      "explanation": "sluiten = close.",
+      "difficulty": 1,
+      "translationNl": "sluiten",
+      "solutionEnglish": "close"
+    },
+    {
+      "id": "word-beginnen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'beginnen' in het Engels?",
+      "answer": "start",
+      "accepted": [
+        "start"
+      ],
+      "explanation": "beginnen = start.",
+      "difficulty": 1,
+      "translationNl": "beginnen",
+      "solutionEnglish": "start"
+    },
+    {
+      "id": "word-stoppen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'stoppen' in het Engels?",
+      "answer": "stop",
+      "accepted": [
+        "stop"
+      ],
+      "explanation": "stoppen = stop.",
+      "difficulty": 1,
+      "translationNl": "stoppen",
+      "solutionEnglish": "stop"
+    },
+    {
+      "id": "word-helpen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'helpen' in het Engels?",
+      "answer": "help",
+      "accepted": [
+        "help"
+      ],
+      "explanation": "helpen = help.",
+      "difficulty": 1,
+      "translationNl": "helpen",
+      "solutionEnglish": "help"
+    },
+    {
+      "id": "word-vragen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vragen' in het Engels?",
+      "answer": "ask",
+      "accepted": [
+        "ask"
+      ],
+      "explanation": "vragen = ask.",
+      "difficulty": 1,
+      "translationNl": "vragen",
+      "solutionEnglish": "ask"
+    },
+    {
+      "id": "word-antwoorden",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'antwoorden' in het Engels?",
+      "answer": "answer",
+      "accepted": [
+        "answer"
+      ],
+      "explanation": "antwoorden = answer.",
+      "difficulty": 1,
+      "translationNl": "antwoorden",
+      "solutionEnglish": "answer"
+    },
+    {
+      "id": "word-begrijpen",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'begrijpen' in het Engels?",
+      "answer": "understand",
+      "accepted": [
+        "understand"
+      ],
+      "explanation": "begrijpen = understand.",
+      "difficulty": 1,
+      "translationNl": "begrijpen",
+      "solutionEnglish": "understand"
+    },
+    {
+      "id": "word-vergeten",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vergeten' in het Engels?",
+      "answer": "forget",
+      "accepted": [
+        "forget"
+      ],
+      "explanation": "vergeten = forget.",
+      "difficulty": 1,
+      "translationNl": "vergeten",
+      "solutionEnglish": "forget"
+    },
+    {
+      "id": "word-onthouden",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'onthouden' in het Engels?",
+      "answer": "remember",
+      "accepted": [
+        "remember"
+      ],
+      "explanation": "onthouden = remember.",
+      "difficulty": 1,
+      "translationNl": "onthouden",
+      "solutionEnglish": "remember"
     }
   ],
   "placement": [
