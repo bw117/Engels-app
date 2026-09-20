@@ -1,5 +1,5 @@
 {
-  "version": "1.8.0",
+  "version": "1.8.1",
   "topics": [
     {
       "id": "be-verbs",
@@ -4245,7 +4245,7 @@
       "prompt": "Vertaal: 'Waar woon je?'",
       "answer": "Where do you live?",
       "accepted": [
-        "Where do you live?"
+        "where do you live?"
       ],
       "explanation": "Question word + do + subject + base verb.",
       "difficulty": 1,
@@ -4396,12 +4396,12 @@
       "id": "advanced-009",
       "topic": "present-simple",
       "type": "typed",
-      "prompt": "Vertaal: 'Hoe vaak ga je met de trein naar je werk?'",
-      "answer": "How often do you go to work by train?",
-      "explanation": "How often + do + you + base verb.",
+      "prompt": "Vertaal: 'Hoe vaak neem je de trein naar je werk?'",
+      "answer": "How often do you take the train to work?",
+      "explanation": "How often + do + you + take. Take the train is de vaste combinatie.",
       "difficulty": 3,
       "accepted": [
-        "How often do you go to work by train?"
+        "how often do you take the train to work"
       ],
       "translationNl": "Hoe vaak ga je met de trein naar je werk?",
       "solutionEnglish": "How often do you go to work by train?"
@@ -4482,10 +4482,12 @@
       "type": "typed",
       "prompt": "Vertaal: 'Wat doet je broer in het weekend?'",
       "answer": "What does your brother do at the weekend?",
-      "explanation": "What + does + subject + base verb.",
+      "explanation": "What + does + subject + base verb. At the weekend(s) en on weekends zijn beide gangbare formuleringen.",
       "difficulty": 3,
       "accepted": [
-        "What does your brother do at the weekend?"
+        "what does your brother do at the weekend?",
+        "what does your brother do at weekends?",
+        "what does your brother do on weekends?"
       ],
       "translationNl": "Wat doet je broer in het weekend?",
       "solutionEnglish": "What does your brother do at the weekend?"
@@ -4536,12 +4538,12 @@
       "id": "advanced-019",
       "topic": "pronouns",
       "type": "typed",
-      "prompt": "Vertaal: 'Ik heb mijn sleutels gevonden, maar ik kan ze niet vinden.'",
-      "answer": "I found my keys, but I can't find them.",
-      "explanation": "Them verwijst naar de meervoudige keys.",
+      "prompt": "Vertaal: 'Ik zag mijn vrienden en ik gaf ze mijn telefoonnummer.'",
+      "answer": "I saw my friends and I gave them my phone number.",
+      "explanation": "Them verwijst naar my friends en is het object pronoun na gave.",
       "difficulty": 3,
       "accepted": [
-        "I found my keys, but I can't find them."
+        "i saw my friends and i gave them my phone number"
       ],
       "translationNl": "Ik heb mijn sleutels gevonden, maar ik kan ze niet vinden.",
       "solutionEnglish": "I found my keys, but I can't find them."
@@ -4611,7 +4613,8 @@
       "explanation": "De natuurlijke Engelse uitdrukking is I agree.",
       "difficulty": 3,
       "accepted": [
-        "I agree."
+        "i agree.",
+        "i completely agree."
       ],
       "translationNl": "Ik ben het ermee eens.",
       "solutionEnglish": "I agree."
@@ -4681,7 +4684,8 @@
       "explanation": "Interested in is een vaste combinatie.",
       "difficulty": 3,
       "accepted": [
-        "I am interested in music."
+        "i am interested in music.",
+        "i'm interested in music."
       ],
       "translationNl": "Ik ben geïnteresseerd in muziek.",
       "solutionEnglish": "I am interested in music."
@@ -5026,12 +5030,13 @@
       "id": "advanced-054",
       "topic": "past-simple",
       "type": "typed",
-      "prompt": "Vertaal: 'Toen ik thuiskwam, maakte ik eten.'",
-      "answer": "When I got home, I cooked dinner.",
-      "explanation": "Past simple voor beide afgeronde gebeurtenissen.",
+      "prompt": "Vertaal: 'Toen ik thuiskwam, kookte ik pasta.'",
+      "answer": "When I got home, I cooked pasta.",
+      "explanation": "Got en cooked zijn beide past simple-vormen voor afgeronde gebeurtenissen in het verleden.",
       "difficulty": 3,
       "accepted": [
-        "When I got home, I cooked dinner."
+        "when i got home i cooked pasta",
+        "when i got home, i cooked pasta"
       ],
       "translationNl": "Toen ik thuiskwam, maakte ik eten.",
       "solutionEnglish": "When I got home, I cooked dinner."
@@ -5101,7 +5106,8 @@
       "explanation": "In een indirecte vraag blijft de woordvolgorde subject + verb.",
       "difficulty": 3,
       "accepted": [
-        "I don't know where he lives."
+        "i don't know where he lives.",
+        "i do not know where he lives."
       ],
       "translationNl": "Ik weet niet waar hij woont.",
       "solutionEnglish": "I don't know where he lives."
@@ -7308,9 +7314,10 @@
       "prompt": "Vertaal: 'De winkel is vandaag gesloten.'",
       "answer": "The shop is closed today.",
       "accepted": [
-        "the shop is closed today"
+        "the shop is closed today",
+        "the store is closed today"
       ],
-      "explanation": "Bij shop hoort is. Closed = gesloten.",
+      "explanation": "Shop en store betekenen hier allebei winkel. Closed = gesloten.",
       "difficulty": 1,
       "translationNl": "De winkel is vandaag gesloten.",
       "solutionEnglish": "The shop is closed today"
@@ -7333,12 +7340,12 @@
       "id": "translation-ps-002",
       "topic": "present-simple",
       "type": "typed",
-      "prompt": "Vertaal: 'Wij eten meestal om zes uur.'",
-      "answer": "We usually eat at six.",
+      "prompt": "Vertaal: 'Wij eten meestal om zes uur 's avonds.'",
+      "answer": "We usually eat at six in the evening.",
       "accepted": [
-        "we usually eat at six"
+        "we usually eat at six in the evening"
       ],
-      "explanation": "Usually staat voor het hoofdwerkwoord eat in deze zin.",
+      "explanation": "Usually staat voor het hoofdwerkwoord eat. 's avonds maakt de tijd expliciet.",
       "difficulty": 1,
       "translationNl": "Wij eten meestal om zes uur.",
       "solutionEnglish": "We usually eat at six"
@@ -7491,9 +7498,10 @@
       "prompt": "Vertaal: 'Kun je me even helpen?'",
       "answer": "Can you help me for a moment?",
       "accepted": [
-        "can you help me for a moment"
+        "can you help me for a moment",
+        "can you help me"
       ],
-      "explanation": "Can + subject + basisvorm voor een vraag over kunnen.",
+      "explanation": "Can you help me? is de directe vraag. For a moment voegt alleen 'even' toe.",
       "difficulty": 2,
       "translationNl": "Kun je me even helpen?",
       "solutionEnglish": "Can you help me for a moment?"
@@ -7534,9 +7542,10 @@
       "prompt": "Vertaal: 'Kijk! De hond rent in de tuin.'",
       "answer": "Look! The dog is running in the garden.",
       "accepted": [
-        "look the dog is running in the garden"
+        "look the dog is running in the garden",
+        "look! the dog is running in the garden"
       ],
-      "explanation": "Look! maakt duidelijk dat iets nu gebeurt: is running.",
+      "explanation": "Look! maakt duidelijk dat de actie nu plaatsvindt: is running.",
       "difficulty": 2,
       "translationNl": "Kijk! De hond rent in de tuin.",
       "solutionEnglish": "Look! The dog is running in the garden"
@@ -7576,9 +7585,10 @@
       "prompt": "Vertaal: 'Zij kocht gisteren een nieuwe jas.'",
       "answer": "She bought a new coat yesterday.",
       "accepted": [
-        "she bought a new coat yesterday"
+        "she bought a new coat yesterday",
+        "she bought a new jacket yesterday"
       ],
-      "explanation": "Bought is de past simple van buy.",
+      "explanation": "Jas kan hier coat of jacket zijn. Bought is de past simple van buy.",
       "difficulty": 2,
       "translationNl": "Zij kocht gisteren een nieuwe jas.",
       "solutionEnglish": "She bought a new coat yesterday"
