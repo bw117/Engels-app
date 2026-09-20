@@ -5128,7 +5128,7 @@
       "explanation": "'Huis' kan house of home zijn. House benadrukt het gebouw; home de plek waar iemand woont of zich thuis voelt. citeturn0search4turn0search2",
       "difficulty": 1,
       "translationNl": "huis",
-      "solutionEnglish": "house"
+      "solutionEnglish": "house / home"
     },
     {
       "id": "word-auto",
@@ -5158,7 +5158,7 @@
       "explanation": "'Fiets' kan bike, bicycle of cycle zijn. Bike is het meest alledaags; alle drie zijn correcte woorden voor een fiets. citeturn1search10",
       "difficulty": 1,
       "translationNl": "fiets",
-      "solutionEnglish": "bike"
+      "solutionEnglish": "bike / bicycle / cycle"
     },
     {
       "id": "word-straat",
@@ -5229,7 +5229,7 @@
       "explanation": "'Werk' kan work betekenen als activiteit of werk in het algemeen. Job betekent een baan of functie.",
       "difficulty": 1,
       "translationNl": "werk",
-      "solutionEnglish": "work"
+      "solutionEnglish": "work / job"
     },
     {
       "id": "word-winkel",
@@ -5244,7 +5244,7 @@
       "explanation": "'Winkel' kan shop of store zijn. Beide zijn correct.",
       "difficulty": 1,
       "translationNl": "winkel",
-      "solutionEnglish": "shop"
+      "solutionEnglish": "shop / store"
     },
     {
       "id": "word-vriend",
@@ -5259,7 +5259,7 @@
       "explanation": "'Vriend' kan friend betekenen of boyfriend als je een romantische partner bedoelt. De context bepaalt de betekenis.",
       "difficulty": 1,
       "translationNl": "vriend",
-      "solutionEnglish": "friend"
+      "solutionEnglish": "friend / boyfriend"
     },
     {
       "id": "word-vriendin",
@@ -5274,7 +5274,7 @@
       "explanation": "'Vriendin' kan girlfriend betekenen of friend als je een vrouwelijke vriend bedoelt. De context bepaalt de betekenis.",
       "difficulty": 1,
       "translationNl": "vriendin",
-      "solutionEnglish": "girlfriend"
+      "solutionEnglish": "girlfriend / friend"
     },
     {
       "id": "word-familie",
@@ -5359,7 +5359,7 @@
       "explanation": "'Kind' kan child of kid zijn. Kid is informeler.",
       "difficulty": 1,
       "translationNl": "kind",
-      "solutionEnglish": "child"
+      "solutionEnglish": "child / kid"
     },
     {
       "id": "word-man",
@@ -5822,7 +5822,7 @@
       "explanation": "'Avondeten' is meestal dinner. Supper wordt in sommige regio's ook gebruikt.",
       "difficulty": 1,
       "translationNl": "avondeten",
-      "solutionEnglish": "dinner"
+      "solutionEnglish": "dinner / supper"
     },
     {
       "id": "word-tafel",
@@ -5963,7 +5963,7 @@
       "explanation": "'Telefoon' kan phone of telephone zijn. Phone is veel gebruikelijker in alledaagse gesprekken.",
       "difficulty": 1,
       "translationNl": "telefoon",
-      "solutionEnglish": "phone"
+      "solutionEnglish": "phone / telephone"
     },
     {
       "id": "word-tas",
@@ -6063,7 +6063,7 @@
       "explanation": "'Vliegtuig' kan plane, airplane of aeroplane zijn. Aeroplane is vooral Brits Engels.",
       "difficulty": 1,
       "translationNl": "vliegtuig",
-      "solutionEnglish": "plane"
+      "solutionEnglish": "plane / airplane / aeroplane"
     },
     {
       "id": "word-luchthaven",
@@ -6106,7 +6106,7 @@
       "explanation": "'Vakantie' is holiday in Brits Engels en vacation in Amerikaans Engels. Beide zijn correct.",
       "difficulty": 1,
       "translationNl": "vakantie",
-      "solutionEnglish": "holiday"
+      "solutionEnglish": "holiday / vacation"
     },
     {
       "id": "word-strand",
@@ -6149,7 +6149,7 @@
       "explanation": "'Land' kan country betekenen als je een natie bedoelt, of land als je grond/gebied bedoelt. De context bepaalt de vertaling.",
       "difficulty": 1,
       "translationNl": "land",
-      "solutionEnglish": "country"
+      "solutionEnglish": "country / land"
     },
     {
       "id": "word-wereld",
@@ -6178,7 +6178,7 @@
       "explanation": "'Weer' heeft twee verschillende betekenissen: weather = het weer; again = opnieuw. Zonder context zijn beide mogelijk. citeturn1search6",
       "difficulty": 1,
       "translationNl": "weer",
-      "solutionEnglish": "weather"
+      "solutionEnglish": "weather / again"
     },
     {
       "id": "word-regen",
@@ -6249,7 +6249,7 @@
       "explanation": "'Groot' kan big of large zijn. Beide zijn correct.",
       "difficulty": 1,
       "translationNl": "groot",
-      "solutionEnglish": "big"
+      "solutionEnglish": "big / large"
     },
     {
       "id": "word-klein",
@@ -6264,7 +6264,7 @@
       "explanation": "'Klein' kan small of little zijn; de context bepaalt welke natuurlijker is.",
       "difficulty": 1,
       "translationNl": "klein",
-      "solutionEnglish": "small"
+      "solutionEnglish": "small / little"
     },
     {
       "id": "word-goed",
@@ -6280,7 +6280,7 @@
       "explanation": "'Goed' kan good, fine of well zijn, afhankelijk van de grammaticale functie en context. Good/fine zijn vaak bijvoeglijke naamwoorden; well is vaak een bijwoord.",
       "difficulty": 1,
       "translationNl": "goed",
-      "solutionEnglish": "good"
+      "solutionEnglish": "good / fine / well"
     },
     {
       "id": "word-slecht",
@@ -6310,7 +6310,7 @@
       "explanation": "'Mooi' kan beautiful, pretty of nice zijn, afhankelijk van wat je beschrijft.",
       "difficulty": 1,
       "translationNl": "mooi",
-      "solutionEnglish": "beautiful"
+      "solutionEnglish": "beautiful / pretty / nice"
     },
     {
       "id": "word-nieuw",
@@ -6367,7 +6367,7 @@
       "explanation": "'Makkelijk' kan easy of simple zijn. De context bepaalt welke natuurlijker is.",
       "difficulty": 1,
       "translationNl": "makkelijk",
-      "solutionEnglish": "easy"
+      "solutionEnglish": "easy / simple"
     },
     {
       "id": "word-moeilijk",
@@ -6382,7 +6382,7 @@
       "explanation": "'Moeilijk' kan difficult of hard zijn. Beide kunnen correct zijn.",
       "difficulty": 1,
       "translationNl": "moeilijk",
-      "solutionEnglish": "difficult"
+      "solutionEnglish": "difficult / hard"
     },
     {
       "id": "word-snel",
@@ -6397,7 +6397,7 @@
       "explanation": "'Snel' kan fast of quick zijn. Fast gaat vaak over snelheid; quick vaak over een korte of snelle handeling.",
       "difficulty": 1,
       "translationNl": "snel",
-      "solutionEnglish": "fast"
+      "solutionEnglish": "fast / quick"
     },
     {
       "id": "word-langzaam",
@@ -6427,7 +6427,7 @@
       "explanation": "'Veel' kan much, many of a lot zijn. Much gebruik je bij ontelbare dingen, many bij telbare dingen; a lot werkt in veel situaties.",
       "difficulty": 1,
       "translationNl": "veel",
-      "solutionEnglish": "much"
+      "solutionEnglish": "much / many / a lot"
     },
     {
       "id": "word-weinig",
@@ -6442,7 +6442,7 @@
       "explanation": "'Weinig' is little bij ontelbare dingen en few bij telbare dingen.",
       "difficulty": 1,
       "translationNl": "weinig",
-      "solutionEnglish": "little"
+      "solutionEnglish": "little / few"
     },
     {
       "id": "word-meer",
@@ -6471,7 +6471,7 @@
       "explanation": "'Minder' is less bij ontelbare dingen en fewer bij telbare dingen.",
       "difficulty": 1,
       "translationNl": "minder",
-      "solutionEnglish": "less"
+      "solutionEnglish": "less / fewer"
     },
     {
       "id": "word-altijd",
@@ -6682,7 +6682,7 @@
       "explanation": "'Maken' kan make of create zijn. Create benadrukt het creëren van iets; make is algemener.",
       "difficulty": 1,
       "translationNl": "maken",
-      "solutionEnglish": "make"
+      "solutionEnglish": "make / create"
     },
     {
       "id": "word-gaan",
@@ -6739,7 +6739,7 @@
       "explanation": "'Kijken' kan watch of look zijn. Watch gebruik je bijvoorbeeld voor tv of iets dat je langere tijd bekijkt; look voor gericht kijken.",
       "difficulty": 1,
       "translationNl": "kijken",
-      "solutionEnglish": "watch"
+      "solutionEnglish": "watch / look"
     },
     {
       "id": "word-horen",
@@ -6782,7 +6782,7 @@
       "explanation": "'Spreken' kan speak of talk zijn. Speak is vaak iets formeler; talk is gebruikelijk in gesprekken.",
       "difficulty": 1,
       "translationNl": "spreken",
-      "solutionEnglish": "speak"
+      "solutionEnglish": "speak / talk"
     },
     {
       "id": "word-zeggen",
@@ -6797,7 +6797,7 @@
       "explanation": "'Zeggen' kan say of tell zijn. Say gaat om de woorden die iemand zegt; tell wordt vaak gebruikt als je iets aan iemand vertelt.",
       "difficulty": 1,
       "translationNl": "zeggen",
-      "solutionEnglish": "say"
+      "solutionEnglish": "say / tell"
     },
     {
       "id": "word-weten",
@@ -6868,7 +6868,7 @@
       "explanation": "'Houden van' kan love of like zijn, afhankelijk van de sterkte en context. Love is sterker; like betekent ook leuk vinden.",
       "difficulty": 1,
       "translationNl": "houden van",
-      "solutionEnglish": "love"
+      "solutionEnglish": "love / like"
     },
     {
       "id": "word-vinden",
@@ -6995,7 +6995,7 @@
       "explanation": "'Leren' kan learn of study zijn. Learn gaat om iets leren; study gaat om studeren.",
       "difficulty": 1,
       "translationNl": "leren",
-      "solutionEnglish": "learn"
+      "solutionEnglish": "learn / study"
     },
     {
       "id": "word-lezen",
@@ -7122,7 +7122,7 @@
       "explanation": "'Sluiten' kan close of shut zijn. Shut klinkt vaak directer; beide kunnen correct zijn.",
       "difficulty": 1,
       "translationNl": "sluiten",
-      "solutionEnglish": "close"
+      "solutionEnglish": "close / shut"
     },
     {
       "id": "word-beginnen",
@@ -7137,7 +7137,7 @@
       "explanation": "'Beginnen' kan start of begin zijn. Beide zijn correct.",
       "difficulty": 1,
       "translationNl": "beginnen",
-      "solutionEnglish": "start"
+      "solutionEnglish": "start / begin"
     },
     {
       "id": "word-stoppen",
@@ -7194,7 +7194,7 @@
       "explanation": "'Antwoorden' kan answer of reply zijn. Beide kunnen correct zijn; reply benadrukt vaak een reactie.",
       "difficulty": 1,
       "translationNl": "antwoorden",
-      "solutionEnglish": "answer"
+      "solutionEnglish": "answer / reply"
     },
     {
       "id": "word-begrijpen",
