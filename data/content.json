@@ -5135,7 +5135,7 @@
         "house",
         "home"
       ],
-      "explanation": "'Huis' kan house of home zijn. House benadrukt het gebouw; home de plek waar iemand woont of zich thuis voelt. citeturn0search4turn0search2",
+      "explanation": "'Huis' kan house of home zijn. House benadrukt het gebouw; home de plek waar iemand woont of zich thuis voelt.",
       "difficulty": 1,
       "translationNl": "huis",
       "solutionEnglish": "house / home"
@@ -5165,7 +5165,7 @@
         "bicycle",
         "cycle"
       ],
-      "explanation": "'Fiets' kan bike, bicycle of cycle zijn. Bike is het meest alledaags; alle drie zijn correcte woorden voor een fiets. citeturn1search10",
+      "explanation": "'Fiets' kan bike, bicycle of cycle zijn. Bike is het meest alledaags; alle drie zijn correcte woorden voor een fiets.",
       "difficulty": 1,
       "translationNl": "fiets",
       "solutionEnglish": "bike / bicycle / cycle"
@@ -5179,7 +5179,7 @@
       "accepted": [
         "street"
       ],
-      "explanation": "'Straat' is street. Road betekent meestal weg en is niet automatisch hetzelfde als street. citeturn0search0turn0search3",
+      "explanation": "'Straat' is street. Road betekent meestal weg en is niet automatisch hetzelfde als street.",
       "difficulty": 1,
       "translationNl": "straat",
       "solutionEnglish": "street"
