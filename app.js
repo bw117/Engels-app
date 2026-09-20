@@ -75,7 +75,7 @@ function renderHome(){
  '<section class="hero hero-horizon"><div class="hero-copy">'+
  '<div class="eyebrow">'+(first?"EERSTE STAP":"VANDAAG")+'</div>'+
  '<h1>'+(first?"Small steps.<br><em>A bigger you.</em>":"Klaar voor je volgende stap?")+'</h1>'+
- '<p>'+(first?"Een korte starttest brengt je op het juiste beginpunt. Daarna groeit de moeilijkheid mee met wat je laat zien.":"Je hoeft niet te kiezen wat je moet oefenen. ENGELS kijkt naar je fouten, beheersing en herhaling en bouwt van daaruit verder.")+'</p>'+
+ '<p>'+(first?"Een korte starttest brengt je op het juiste beginpunt. Daarna groeit de moeilijkheid mee met wat je laat zien.":"Je hoeft niet te kiezen wat je moet oefenen. POLYVO kijkt naar je fouten, beheersing en herhaling en bouwt van daaruit verder.")+'</p>'+
  '<div class="hero-actions"><button class="btn primary" id="main-action">'+(first?"Start niveautest →":"Start een sessie →")+'</button>'+(first?"":'<button class="btn secondary" id="placement-again">Niveautest opnieuw</button>')+'</div></div>'+
  '<div class="hero-orb"><div class="orb-sun"></div><div class="orb-ring"></div><span>'+level.name.split(" · ")[0]+'</span></div></section>'+
  '<section class="level-card card"><div><div class="small">JOUW LEERREIS</div><h2>'+level.name+'</h2><p class="muted">Je groeit automatisch door naar moeilijkere vragen zodra je de basis voldoende beheerst.</p></div>'+
