@@ -1,5 +1,5 @@
 {
-  "version": "1.5.1",
+  "version": "1.6.0",
   "topics": [
     {
       "id": "be-verbs",
@@ -4200,6 +4200,822 @@
       ],
       "explanation": "We + are not + adjective.",
       "difficulty": 1
+    },
+    {
+      "id": "advanced-001",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "My parents ___ usually at work on Fridays.",
+      "answer": "are",
+      "explanation": "Parents is meervoud, dus are.",
+      "difficulty": 2,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "advanced-002",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "Why ___ you so tired today?",
+      "answer": "are",
+      "explanation": "Bij you hoort are.",
+      "difficulty": 2,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "advanced-003",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "I ___ not sure whether they ___ at home.",
+      "answer": "am",
+      "explanation": "I → am en they → are.",
+      "difficulty": 3,
+      "options": [
+        "am / are",
+        "is / are",
+        "am / is"
+      ]
+    },
+    {
+      "id": "advanced-004",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn broer is vandaag niet op kantoor.'",
+      "answer": "My brother is not at the office today",
+      "explanation": "Brother = he, dus is.",
+      "difficulty": 3,
+      "accepted": [
+        "My brother is not at the office today"
+      ]
+    },
+    {
+      "id": "advanced-005",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "There are two people outside.",
+      "explanation": "People is meervoud, dus there are.",
+      "difficulty": 3,
+      "options": [
+        "There is two people outside.",
+        "There are two people outside.",
+        "There two people are outside."
+      ]
+    },
+    {
+      "id": "advanced-006",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "Emma usually ___ breakfast at home.",
+      "answer": "has",
+      "explanation": "Bij she krijgt have de vorm has.",
+      "difficulty": 2,
+      "options": [
+        "have",
+        "has",
+        "having"
+      ]
+    },
+    {
+      "id": "advanced-007",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "My parents don't ___ meat.",
+      "answer": "eat",
+      "explanation": "Na don't komt de basisvorm.",
+      "difficulty": 2,
+      "options": [
+        "eat",
+        "eats",
+        "eating"
+      ]
+    },
+    {
+      "id": "advanced-008",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "He rarely ___ late, but he sometimes ___ the bus.",
+      "answer": "arrives",
+      "explanation": "He → arrives; sometimes he misses the bus.",
+      "difficulty": 3,
+      "options": [
+        "arrives / misses",
+        "arrive / miss",
+        "arrives / miss"
+      ]
+    },
+    {
+      "id": "advanced-009",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hoe vaak ga je met de trein naar je werk?'",
+      "answer": "How often do you go to work by train?",
+      "explanation": "How often + do + you + base verb.",
+      "difficulty": 3,
+      "accepted": [
+        "How often do you go to work by train?"
+      ]
+    },
+    {
+      "id": "advanced-010",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "She doesn't usually work on Fridays.",
+      "explanation": "Na doesn't blijft het werkwoord in de basisvorm.",
+      "difficulty": 3,
+      "options": [
+        "She doesn't usually works on Fridays.",
+        "She doesn't usually work on Fridays.",
+        "She not usually works on Fridays."
+      ]
+    },
+    {
+      "id": "advanced-011",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ your sister usually get up early?",
+      "answer": "Does",
+      "explanation": "Your sister = she, dus Does.",
+      "difficulty": 2,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "advanced-012",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "Where ___ your parents live?",
+      "answer": "do",
+      "explanation": "Parents = they, dus do.",
+      "difficulty": 2,
+      "options": [
+        "do",
+        "does",
+        "are"
+      ]
+    },
+    {
+      "id": "advanced-013",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "How long ___ you usually stay at work?",
+      "answer": "do",
+      "explanation": "You + present simple = do.",
+      "difficulty": 3,
+      "options": [
+        "do",
+        "does",
+        "are"
+      ]
+    },
+    {
+      "id": "advanced-014",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "Why ___ she not coming with us?",
+      "answer": "is",
+      "explanation": "Present continuous: is + coming.",
+      "difficulty": 3,
+      "options": [
+        "do",
+        "does",
+        "is"
+      ]
+    },
+    {
+      "id": "advanced-015",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Wat doet je broer in het weekend?'",
+      "answer": "What does your brother do at the weekend?",
+      "explanation": "What + does + subject + base verb.",
+      "difficulty": 3,
+      "accepted": [
+        "What does your brother do at the weekend?"
+      ]
+    },
+    {
+      "id": "advanced-016",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "I spoke to Sarah yesterday. I sent ___ a message.",
+      "answer": "her",
+      "explanation": "Sarah → her.",
+      "difficulty": 2,
+      "options": [
+        "her",
+        "him",
+        "them"
+      ]
+    },
+    {
+      "id": "advanced-017",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "The children are hungry. Give ___ some food.",
+      "answer": "them",
+      "explanation": "Na give is them het object pronoun.",
+      "difficulty": 2,
+      "options": [
+        "them",
+        "they",
+        "their"
+      ]
+    },
+    {
+      "id": "advanced-018",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "This is Tom's car. ___ car is older than ___.",
+      "answer": "His / mine",
+      "explanation": "His = bezit bij Tom; mine = van mij.",
+      "difficulty": 3,
+      "options": [
+        "His / mine",
+        "Him / my",
+        "His / me"
+      ]
+    },
+    {
+      "id": "advanced-019",
+      "topic": "pronouns",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik heb mijn sleutels gevonden, maar ik kan ze niet vinden.'",
+      "answer": "I found my keys, but I can't find them.",
+      "explanation": "Them verwijst naar de meervoudige keys.",
+      "difficulty": 3,
+      "accepted": [
+        "I found my keys, but I can't find them."
+      ]
+    },
+    {
+      "id": "advanced-020",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "Anna told me that she would call later.",
+      "explanation": "She is het subject van would call.",
+      "difficulty": 3,
+      "options": [
+        "Anna told me that her would call later.",
+        "Anna told me that she would call later.",
+        "Anna told I that she would call later."
+      ]
+    },
+    {
+      "id": "advanced-021",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'appointment' mean?",
+      "answer": "afspraak",
+      "explanation": "Appointment = afspraak.",
+      "difficulty": 2,
+      "options": [
+        "afspraak",
+        "boodschap",
+        "verdieping"
+      ]
+    },
+    {
+      "id": "advanced-022",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "Choose the word that best completes the sentence: 'I need to ___ a decision.'",
+      "answer": "make",
+      "explanation": "De vaste combinatie is make a decision.",
+      "difficulty": 2,
+      "options": [
+        "make",
+        "do",
+        "take"
+      ]
+    },
+    {
+      "id": "advanced-023",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'I am looking forward to it' mean?",
+      "answer": "Ik kijk ernaar uit",
+      "explanation": "Looking forward to = ergens naar uitkijken.",
+      "difficulty": 3,
+      "options": [
+        "Ik kijk ernaar uit",
+        "Ik ben er klaar mee",
+        "Ik denk er niet aan"
+      ]
+    },
+    {
+      "id": "advanced-024",
+      "topic": "vocabulary-daily",
+      "type": "typed",
+      "prompt": "Vertaal natuurlijk: 'Ik ben het ermee eens.'",
+      "answer": "I agree.",
+      "explanation": "De natuurlijke Engelse uitdrukking is I agree.",
+      "difficulty": 3,
+      "accepted": [
+        "I agree."
+      ]
+    },
+    {
+      "id": "advanced-025",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "Choose the natural sentence.",
+      "answer": "Could you give me a hand?",
+      "explanation": "Give me a hand = help me.",
+      "difficulty": 3,
+      "options": [
+        "Could you give me a hand?",
+        "Could you give me a handout?",
+        "Could you take me a hand?"
+      ]
+    },
+    {
+      "id": "advanced-026",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "I've lived here ___ 2024.",
+      "answer": "since",
+      "explanation": "Since + startmoment.",
+      "difficulty": 2,
+      "options": [
+        "since",
+        "for",
+        "from"
+      ]
+    },
+    {
+      "id": "advanced-027",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "I've worked here ___ two years.",
+      "answer": "for",
+      "explanation": "For + periode.",
+      "difficulty": 2,
+      "options": [
+        "since",
+        "for",
+        "at"
+      ]
+    },
+    {
+      "id": "advanced-028",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "We arrived ___ the airport just before midnight.",
+      "answer": "at",
+      "explanation": "Arrive at + specifieke plaats.",
+      "difficulty": 3,
+      "options": [
+        "at",
+        "in",
+        "on"
+      ]
+    },
+    {
+      "id": "advanced-029",
+      "topic": "prepositions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik ben geïnteresseerd in muziek.'",
+      "answer": "I am interested in music.",
+      "explanation": "Interested in is een vaste combinatie.",
+      "difficulty": 3,
+      "accepted": [
+        "I am interested in music."
+      ]
+    },
+    {
+      "id": "advanced-030",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "Choose the natural sentence.",
+      "answer": "She is good at speaking English.",
+      "explanation": "Good at is de vaste combinatie.",
+      "difficulty": 3,
+      "options": [
+        "She is good in speaking English.",
+        "She is good at speaking English.",
+        "She is good on speaking English."
+      ]
+    },
+    {
+      "id": "advanced-031",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "Does your friend ___ a car?",
+      "answer": "have",
+      "explanation": "Na does komt de basisvorm have.",
+      "difficulty": 2,
+      "options": [
+        "have",
+        "has",
+        "having"
+      ]
+    },
+    {
+      "id": "advanced-032",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "She ___ never had a dog.",
+      "answer": "has",
+      "explanation": "She + has.",
+      "difficulty": 2,
+      "options": [
+        "have",
+        "has",
+        "is"
+      ]
+    },
+    {
+      "id": "advanced-033",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "I've ___ breakfast already.",
+      "answer": "had",
+      "explanation": "Present perfect: have + past participle had.",
+      "difficulty": 3,
+      "options": [
+        "had",
+        "have",
+        "has"
+      ]
+    },
+    {
+      "id": "advanced-034",
+      "topic": "have-has",
+      "type": "typed",
+      "prompt": "Vertaal: 'Heb je ooit in Londen gewoond?'",
+      "answer": "Have you ever lived in London?",
+      "explanation": "Have + subject + ever + past participle.",
+      "difficulty": 3,
+      "accepted": [
+        "Have you ever lived in London?"
+      ]
+    },
+    {
+      "id": "advanced-035",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "Choose the natural sentence.",
+      "answer": "We have been waiting for an hour.",
+      "explanation": "Have + been + -ing.",
+      "difficulty": 3,
+      "options": [
+        "We have been waiting for an hour.",
+        "We has been waiting for an hour.",
+        "We have waiting for an hour."
+      ]
+    },
+    {
+      "id": "advanced-036",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "You ___ park here after 6 p.m.",
+      "answer": "can",
+      "explanation": "Can geeft hier toestemming/mogelijkheid aan.",
+      "difficulty": 2,
+      "options": [
+        "can",
+        "can't",
+        "must"
+      ]
+    },
+    {
+      "id": "advanced-037",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "I'm sorry, I ___ come tonight.",
+      "answer": "can't",
+      "explanation": "Can't = kan niet.",
+      "difficulty": 2,
+      "options": [
+        "can",
+        "can't",
+        "don't"
+      ]
+    },
+    {
+      "id": "advanced-038",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "___ you possibly help me with this?",
+      "answer": "Could",
+      "explanation": "Could is een beleefde manier om iets te vragen.",
+      "difficulty": 3,
+      "options": [
+        "Can",
+        "Could",
+        "Do"
+      ]
+    },
+    {
+      "id": "advanced-039",
+      "topic": "can-cant",
+      "type": "typed",
+      "prompt": "Vertaal natuurlijk: 'Zou je me kunnen helpen?'",
+      "answer": "Could you help me?",
+      "explanation": "Could you ...? is een natuurlijke beleefde vraag.",
+      "difficulty": 3,
+      "accepted": [
+        "Could you help me?"
+      ]
+    },
+    {
+      "id": "advanced-040",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "Choose the natural sentence.",
+      "answer": "You don't have to come if you don't want to.",
+      "explanation": "Don't have to = niet hoeven.",
+      "difficulty": 3,
+      "options": [
+        "You don't can come if you don't want to.",
+        "You don't have to come if you don't want to.",
+        "You can't have to come if you don't want to."
+      ]
+    },
+    {
+      "id": "advanced-041",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "She is ___ university student.",
+      "answer": "a",
+      "explanation": "University begint met een /juː/-klank, dus a.",
+      "difficulty": 2,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "advanced-042",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "He waited for ___ hour.",
+      "answer": "an",
+      "explanation": "Hour begint met een klinkerklank.",
+      "difficulty": 2,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "advanced-043",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "I went to ___ Netherlands last summer.",
+      "answer": "the",
+      "explanation": "Landen met een meervoudsvorm/koninkrijk-achtige naam gebruiken the: the Netherlands.",
+      "difficulty": 3,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "advanced-044",
+      "topic": "articles",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik heb een idee. Het idee is goed.'",
+      "answer": "I have an idea. The idea is good.",
+      "explanation": "Eerste keer an; daarna specifiek the.",
+      "difficulty": 3,
+      "accepted": [
+        "I have an idea. The idea is good."
+      ]
+    },
+    {
+      "id": "advanced-045",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "Choose the natural sentence.",
+      "answer": "Breakfast is usually the most important meal of the day.",
+      "explanation": "Algemene maaltijden hebben vaak geen lidwoord; superlatief gebruikt the.",
+      "difficulty": 3,
+      "options": [
+        "A breakfast is usually most important meal of day.",
+        "Breakfast is usually the most important meal of the day.",
+        "The breakfast is usually most important meal of day."
+      ]
+    },
+    {
+      "id": "advanced-046",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "Look! The baby ___.",
+      "answer": "is crying",
+      "explanation": "Look! wijst op iets dat nu gebeurt.",
+      "difficulty": 2,
+      "options": [
+        "is crying",
+        "cries",
+        "cry"
+      ]
+    },
+    {
+      "id": "advanced-047",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "Why ___ you laughing?",
+      "answer": "are",
+      "explanation": "You + present continuous = are.",
+      "difficulty": 2,
+      "options": [
+        "are",
+        "do",
+        "is"
+      ]
+    },
+    {
+      "id": "advanced-048",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "I usually work from home, but this week I ___ from the office.",
+      "answer": "am working",
+      "explanation": "This week beschrijft een tijdelijke situatie.",
+      "difficulty": 3,
+      "options": [
+        "am working",
+        "work",
+        "works"
+      ]
+    },
+    {
+      "id": "advanced-049",
+      "topic": "present-continuous",
+      "type": "typed",
+      "prompt": "Vertaal: 'Wat ben je aan het doen?'",
+      "answer": "What are you doing?",
+      "explanation": "What + are + you + doing.",
+      "difficulty": 3,
+      "accepted": [
+        "What are you doing?"
+      ]
+    },
+    {
+      "id": "advanced-050",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "Choose the natural sentence.",
+      "answer": "She is staying with friends this week.",
+      "explanation": "Tijdelijke situatie → present continuous.",
+      "difficulty": 3,
+      "options": [
+        "She stays with friends this week.",
+        "She is staying with friends this week.",
+        "She is stay with friends this week."
+      ]
+    },
+    {
+      "id": "advanced-051",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "We ___ to the cinema last night.",
+      "answer": "went",
+      "explanation": "Go → went.",
+      "difficulty": 2,
+      "options": [
+        "go",
+        "went",
+        "gone"
+      ]
+    },
+    {
+      "id": "advanced-052",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "Did you ___ the email yesterday?",
+      "answer": "send",
+      "explanation": "Na did komt de basisvorm.",
+      "difficulty": 2,
+      "options": [
+        "send",
+        "sent",
+        "sending"
+      ]
+    },
+    {
+      "id": "advanced-053",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "I ___ my keys, so I couldn't open the door.",
+      "answer": "lost",
+      "explanation": "De gebeurtenis is afgerond in het verleden.",
+      "difficulty": 3,
+      "options": [
+        "lost",
+        "lose",
+        "have lost"
+      ]
+    },
+    {
+      "id": "advanced-054",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Toen ik thuiskwam, maakte ik eten.'",
+      "answer": "When I got home, I cooked dinner.",
+      "explanation": "Past simple voor beide afgeronde gebeurtenissen.",
+      "difficulty": 3,
+      "accepted": [
+        "When I got home, I cooked dinner."
+      ]
+    },
+    {
+      "id": "advanced-055",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "Choose the natural sentence.",
+      "answer": "She didn't go to work because she was ill.",
+      "explanation": "Na didn't komt go; to be in past is was.",
+      "difficulty": 3,
+      "options": [
+        "She didn't went to work because she was ill.",
+        "She didn't go to work because she was ill.",
+        "She wasn't go to work because she was ill."
+      ]
+    },
+    {
+      "id": "advanced-056",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I have never been to London.",
+      "explanation": "Never staat meestal tussen have en het voltooid deelwoord.",
+      "difficulty": 2,
+      "options": [
+        "I never have been to London.",
+        "I have never been to London.",
+        "I have been never to London."
+      ]
+    },
+    {
+      "id": "advanced-057",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "What time does the shop open?",
+      "explanation": "Na does komt de basisvorm.",
+      "difficulty": 2,
+      "options": [
+        "What time does the shop opens?",
+        "What time does the shop open?",
+        "What time the shop does open?"
+      ]
+    },
+    {
+      "id": "advanced-058",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I've been learning English for six months.",
+      "explanation": "Present perfect continuous: have been + -ing.",
+      "difficulty": 3,
+      "options": [
+        "I've learning English for six months.",
+        "I've been learning English for six months.",
+        "I been learning English for six months."
+      ]
+    },
+    {
+      "id": "advanced-059",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik weet niet waar hij woont.'",
+      "answer": "I don't know where he lives.",
+      "explanation": "In een indirecte vraag blijft de woordvolgorde subject + verb.",
+      "difficulty": 3,
+      "accepted": [
+        "I don't know where he lives."
+      ]
+    },
+    {
+      "id": "advanced-060",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the natural sentence.",
+      "answer": "If I have time, I'll call you tonight.",
+      "explanation": "In de if-clause voor een reële toekomstige situatie gebruik je present simple.",
+      "difficulty": 3,
+      "options": [
+        "If I will have time, I'll call you tonight.",
+        "If I have time, I'll call you tonight.",
+        "If I have time, I call you yesterday."
+      ]
     }
   ],
   "placement": [
