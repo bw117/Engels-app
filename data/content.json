@@ -1,35 +1,41 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "topics": [
     {
       "id": "be-verbs",
       "name": "To be",
-      "description": "am, is, are"
+      "description": "am, is, are",
+      "level": "Beginner"
     },
     {
       "id": "present-simple",
       "name": "Present simple",
-      "description": "Dagelijkse handelingen en routines"
+      "description": "Dagelijkse handelingen en routines",
+      "level": "Beginner"
     },
     {
       "id": "questions",
       "name": "Questions",
-      "description": "Do, does, is, are"
+      "description": "Do, does, is, are",
+      "level": "Beginner"
     },
     {
       "id": "pronouns",
       "name": "Pronouns",
-      "description": "I, you, he, she, it, we, they"
+      "description": "I, you, he, she, it, we, they",
+      "level": "Beginner"
     },
     {
       "id": "vocabulary-daily",
       "name": "Daily vocabulary",
-      "description": "Veelgebruikte woorden"
+      "description": "Woorden die je elke dag nodig hebt",
+      "level": "Beginner"
     },
     {
       "id": "prepositions",
       "name": "Prepositions",
-      "description": "in, on, at, to"
+      "description": "in, on, at, to",
+      "level": "Beginner"
     }
   ],
   "items": [
@@ -44,7 +50,7 @@
         "is",
         "are"
       ],
-      "explanation": "Bij I hoort altijd am.",
+      "explanation": "Bij I hoort am.",
       "difficulty": 1
     },
     {
@@ -56,7 +62,7 @@
       "accepted": [
         "is"
       ],
-      "explanation": "Bij he/she/it hoort is.",
+      "explanation": "Bij he, she en it hoort is.",
       "difficulty": 1
     },
     {
@@ -86,6 +92,84 @@
       "difficulty": 1
     },
     {
+      "id": "be5",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "He ___ my brother.",
+      "answer": "is",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "explanation": "Bij he hoort is.",
+      "difficulty": 1
+    },
+    {
+      "id": "be6",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "You ___ very kind.",
+      "answer": "are",
+      "accepted": [
+        "are"
+      ],
+      "explanation": "Bij you hoort are.",
+      "difficulty": 1
+    },
+    {
+      "id": "be7",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "It ___ cold today.",
+      "answer": "is",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "explanation": "Bij it hoort is.",
+      "difficulty": 1
+    },
+    {
+      "id": "be8",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "I ___ not tired.",
+      "answer": "am",
+      "accepted": [
+        "am"
+      ],
+      "explanation": "Bij I hoort am.",
+      "difficulty": 1
+    },
+    {
+      "id": "be9",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "My friends ___ funny.",
+      "answer": "are",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "explanation": "Friends is meervoud, dus are.",
+      "difficulty": 1
+    },
+    {
+      "id": "be10",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "The weather ___ nice today.",
+      "answer": "is",
+      "accepted": [
+        "is"
+      ],
+      "explanation": "Bij het weer gebruiken we it/is.",
+      "difficulty": 1
+    },
+    {
       "id": "ps1",
       "topic": "present-simple",
       "type": "mcq",
@@ -96,7 +180,7 @@
         "drinks",
         "drinking"
       ],
-      "explanation": "Bij I gebruik je de basisvorm: drink.",
+      "explanation": "Bij I gebruik je de basisvorm.",
       "difficulty": 1
     },
     {
@@ -110,8 +194,8 @@
         "goes",
         "going"
       ],
-      "explanation": "Bij he/she/it krijgt het werkwoord in de present simple meestal -s/-es.",
-      "difficulty": 2
+      "explanation": "Bij she krijgt het werkwoord -s/-es.",
+      "difficulty": 1
     },
     {
       "id": "ps3",
@@ -122,7 +206,7 @@
       "accepted": [
         "play"
       ],
-      "explanation": "Door de extra context is duidelijk dat ze zelf voetballen. Bij they gebruik je de basisvorm: play.",
+      "explanation": "De extra context maakt duidelijk dat ze zelf voetballen.",
       "difficulty": 1
     },
     {
@@ -136,6 +220,84 @@
       ],
       "explanation": "Study wordt studies bij he/she/it.",
       "difficulty": 2
+    },
+    {
+      "id": "ps5",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "We ___ dinner at six.",
+      "answer": "eat",
+      "options": [
+        "eat",
+        "eats",
+        "eating"
+      ],
+      "explanation": "Bij we gebruik je de basisvorm.",
+      "difficulty": 1
+    },
+    {
+      "id": "ps6",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "My sister ___ TV after dinner.",
+      "answer": "watches",
+      "accepted": [
+        "watches"
+      ],
+      "explanation": "Bij she krijgt watch -es.",
+      "difficulty": 2
+    },
+    {
+      "id": "ps7",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "I ___ to music on the train.",
+      "answer": "listen",
+      "options": [
+        "listen",
+        "listens",
+        "listening"
+      ],
+      "explanation": "Bij I gebruik je de basisvorm.",
+      "difficulty": 1
+    },
+    {
+      "id": "ps8",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Tom ___ in Amsterdam.",
+      "answer": "lives",
+      "accepted": [
+        "lives"
+      ],
+      "explanation": "Bij he krijgt live -s.",
+      "difficulty": 1
+    },
+    {
+      "id": "ps9",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "They ___ English at work.",
+      "answer": "use",
+      "options": [
+        "use",
+        "uses",
+        "using"
+      ],
+      "explanation": "Bij they gebruik je de basisvorm.",
+      "difficulty": 1
+    },
+    {
+      "id": "ps10",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "My dad ___ early every day.",
+      "answer": "works",
+      "accepted": [
+        "works"
+      ],
+      "explanation": "Bij he krijgt work -s.",
+      "difficulty": 1
     },
     {
       "id": "q1",
@@ -172,9 +334,101 @@
       "prompt": "___ they at home?",
       "answer": "Are",
       "accepted": [
-        "are"
+        "Are"
       ],
-      "explanation": "Bij een vraag met to be komt Are voor they.",
+      "explanation": "Bij een vraag met to be hoort Are bij they.",
+      "difficulty": 1
+    },
+    {
+      "id": "q4",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ he like coffee?",
+      "answer": "Does",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "explanation": "Bij he gebruik je Does.",
+      "difficulty": 1
+    },
+    {
+      "id": "q5",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "___ you ready?",
+      "answer": "Are",
+      "accepted": [
+        "Are"
+      ],
+      "explanation": "Bij you + to be gebruik je Are.",
+      "difficulty": 1
+    },
+    {
+      "id": "q6",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ they live in London?",
+      "answer": "Do",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "explanation": "Bij they gebruik je Do.",
+      "difficulty": 1
+    },
+    {
+      "id": "q7",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "___ she tired?",
+      "answer": "Is",
+      "accepted": [
+        "Is"
+      ],
+      "explanation": "Bij she + to be gebruik je Is.",
+      "difficulty": 1
+    },
+    {
+      "id": "q8",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ your parents work here?",
+      "answer": "Do",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "explanation": "Parents is meervoud, dus Do.",
+      "difficulty": 1
+    },
+    {
+      "id": "q9",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "___ he from England?",
+      "answer": "Is",
+      "accepted": [
+        "Is"
+      ],
+      "explanation": "Bij he + to be gebruik je Is.",
+      "difficulty": 1
+    },
+    {
+      "id": "q10",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ you speak Dutch?",
+      "answer": "Do",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "explanation": "Bij you gebruik je Do.",
       "difficulty": 1
     },
     {
@@ -212,35 +466,127 @@
       "prompt": "My parents are nice. ___ are funny.",
       "answer": "They",
       "accepted": [
+        "They"
+      ],
+      "explanation": "Parents is meervoud, dus they.",
+      "difficulty": 1
+    },
+    {
+      "id": "pr4",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "The dog is hungry. ___ wants food.",
+      "answer": "It",
+      "options": [
+        "He",
+        "It",
+        "They"
+      ],
+      "explanation": "Voor een dier gebruik je in deze oefening it.",
+      "difficulty": 1
+    },
+    {
+      "id": "pr5",
+      "topic": "pronouns",
+      "type": "typed",
+      "prompt": "John and I are friends. ___ play football.",
+      "answer": "We",
+      "accepted": [
+        "We"
+      ],
+      "explanation": "John and I = we.",
+      "difficulty": 1
+    },
+    {
+      "id": "pr6",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "Where are Sarah and Tom? ___ are at home.",
+      "answer": "They",
+      "options": [
+        "He",
+        "She",
+        "They"
+      ],
+      "explanation": "Sarah and Tom = they.",
+      "difficulty": 1
+    },
+    {
+      "id": "pr7",
+      "topic": "pronouns",
+      "type": "typed",
+      "prompt": "This is my phone. ___ is new.",
+      "answer": "It",
+      "accepted": [
+        "It"
+      ],
+      "explanation": "Een ding = it.",
+      "difficulty": 1
+    },
+    {
+      "id": "pr8",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "You and I are ready. ___ can go now.",
+      "answer": "We",
+      "options": [
+        "They",
+        "We",
+        "He"
+      ],
+      "explanation": "You and I = we.",
+      "difficulty": 1
+    },
+    {
+      "id": "pr9",
+      "topic": "pronouns",
+      "type": "typed",
+      "prompt": "Lisa is my sister. ___ is 24.",
+      "answer": "She",
+      "accepted": [
+        "She"
+      ],
+      "explanation": "Lisa is vrouwelijk, dus she.",
+      "difficulty": 1
+    },
+    {
+      "id": "pr10",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "Mark is my friend. I know ___.",
+      "answer": "him",
+      "options": [
+        "him",
+        "her",
         "they"
       ],
-      "explanation": "Meervoudige personen: they.",
+      "explanation": "Na know gebruik je hier het object pronoun him.",
       "difficulty": 1
     },
     {
       "id": "v1",
       "topic": "vocabulary-daily",
       "type": "mcq",
-      "prompt": "What is 'boodschappen doen' in English?",
-      "answer": "go shopping",
+      "prompt": "What is 'vriend' in English?",
+      "answer": "friend",
       "options": [
-        "go shopping",
-        "go sleeping",
-        "go working"
+        "friend",
+        "family",
+        "father"
       ],
-      "explanation": "Go shopping betekent boodschappen doen/winkelen.",
+      "explanation": "Vriend = friend.",
       "difficulty": 1
     },
     {
       "id": "v2",
       "topic": "vocabulary-daily",
       "type": "typed",
-      "prompt": "Translate: 'vriend'",
-      "answer": "friend",
+      "prompt": "Translate: 'huis'",
+      "answer": "house",
       "accepted": [
-        "friend"
+        "house"
       ],
-      "explanation": "Vriend = friend.",
+      "explanation": "Huis = house.",
       "difficulty": 1
     },
     {
@@ -255,6 +601,96 @@
         "morgen"
       ],
       "explanation": "Usually = meestal.",
+      "difficulty": 1
+    },
+    {
+      "id": "v4",
+      "topic": "vocabulary-daily",
+      "type": "typed",
+      "prompt": "Translate: 'werk'",
+      "answer": "work",
+      "accepted": [
+        "work"
+      ],
+      "explanation": "Werk = work.",
+      "difficulty": 1
+    },
+    {
+      "id": "v5",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'morgen' in English?",
+      "answer": "tomorrow",
+      "options": [
+        "today",
+        "tomorrow",
+        "yesterday"
+      ],
+      "explanation": "Morgen = tomorrow.",
+      "difficulty": 1
+    },
+    {
+      "id": "v6",
+      "topic": "vocabulary-daily",
+      "type": "typed",
+      "prompt": "Translate: 'water'",
+      "answer": "water",
+      "accepted": [
+        "water"
+      ],
+      "explanation": "Water = water.",
+      "difficulty": 1
+    },
+    {
+      "id": "v7",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'boodschappen doen' in English?",
+      "answer": "go shopping",
+      "options": [
+        "go shopping",
+        "go sleeping",
+        "go working"
+      ],
+      "explanation": "Go shopping betekent boodschappen doen.",
+      "difficulty": 1
+    },
+    {
+      "id": "v8",
+      "topic": "vocabulary-daily",
+      "type": "typed",
+      "prompt": "Translate: 'eten'",
+      "answer": "food",
+      "accepted": [
+        "food"
+      ],
+      "explanation": "Eten als zelfstandig naamwoord = food.",
+      "difficulty": 1
+    },
+    {
+      "id": "v9",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'sometimes' mean?",
+      "answer": "soms",
+      "options": [
+        "soms",
+        "altijd",
+        "vroeg"
+      ],
+      "explanation": "Sometimes = soms.",
+      "difficulty": 1
+    },
+    {
+      "id": "v10",
+      "topic": "vocabulary-daily",
+      "type": "typed",
+      "prompt": "Translate: 'vriendin'",
+      "answer": "girlfriend",
+      "accepted": [
+        "girlfriend"
+      ],
+      "explanation": "In deze context betekent vriendin = girlfriend.",
       "difficulty": 2
     },
     {
@@ -268,7 +704,7 @@
         "on",
         "at"
       ],
-      "explanation": "Voor landen gebruik je meestal in.",
+      "explanation": "Voor landen gebruik je in.",
       "difficulty": 1
     },
     {
@@ -297,6 +733,96 @@
         "at"
       ],
       "explanation": "Voor een specifiek tijdstip gebruik je at.",
+      "difficulty": 1
+    },
+    {
+      "id": "p4",
+      "topic": "prepositions",
+      "type": "typed",
+      "prompt": "The keys are ___ the table.",
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "explanation": "Voor iets dat op een oppervlak ligt, gebruik je on.",
+      "difficulty": 1
+    },
+    {
+      "id": "p5",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "I go ___ work at eight.",
+      "answer": "to",
+      "options": [
+        "to",
+        "in",
+        "on"
+      ],
+      "explanation": "Je gaat to work.",
+      "difficulty": 1
+    },
+    {
+      "id": "p6",
+      "topic": "prepositions",
+      "type": "typed",
+      "prompt": "She lives ___ London.",
+      "answer": "in",
+      "accepted": [
+        "in"
+      ],
+      "explanation": "Voor steden gebruik je in.",
+      "difficulty": 1
+    },
+    {
+      "id": "p7",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "The picture is ___ the wall.",
+      "answer": "on",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "explanation": "Een afbeelding zit op een muur: on the wall.",
+      "difficulty": 1
+    },
+    {
+      "id": "p8",
+      "topic": "prepositions",
+      "type": "typed",
+      "prompt": "We meet ___ the station.",
+      "answer": "at",
+      "accepted": [
+        "at"
+      ],
+      "explanation": "Voor een specifieke locatie gebruik je hier at.",
+      "difficulty": 1
+    },
+    {
+      "id": "p9",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "I was born ___ 1998.",
+      "answer": "in",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "explanation": "Voor jaren gebruik je in.",
+      "difficulty": 1
+    },
+    {
+      "id": "p10",
+      "topic": "prepositions",
+      "type": "typed",
+      "prompt": "See you ___ Friday.",
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "explanation": "Voor dagen gebruik je on.",
       "difficulty": 1
     }
   ],
