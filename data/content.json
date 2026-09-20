@@ -1,41 +1,77 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "topics": [
     {
       "id": "be-verbs",
       "name": "To be",
       "description": "am, is, are",
-      "level": "Beginner"
+      "level": "A1"
     },
     {
       "id": "present-simple",
       "name": "Present simple",
-      "description": "Dagelijkse handelingen en routines",
-      "level": "Beginner"
+      "description": "Gewoontes en dagelijkse handelingen",
+      "level": "A1"
     },
     {
       "id": "questions",
       "name": "Questions",
       "description": "Do, does, is, are",
-      "level": "Beginner"
+      "level": "A1"
     },
     {
       "id": "pronouns",
       "name": "Pronouns",
       "description": "I, you, he, she, it, we, they",
-      "level": "Beginner"
+      "level": "A1"
     },
     {
       "id": "vocabulary-daily",
       "name": "Daily vocabulary",
-      "description": "Woorden die je elke dag nodig hebt",
-      "level": "Beginner"
+      "description": "Woorden voor alledaagse situaties",
+      "level": "A1"
     },
     {
       "id": "prepositions",
       "name": "Prepositions",
-      "description": "in, on, at, to",
-      "level": "Beginner"
+      "description": "in, on, at, to en meer",
+      "level": "A1"
+    },
+    {
+      "id": "have-has",
+      "name": "Have / has",
+      "description": "Bezit en eenvoudige beschrijvingen",
+      "level": "A1"
+    },
+    {
+      "id": "can-cant",
+      "name": "Can / can't",
+      "description": "Kunnen, mogen en niet kunnen",
+      "level": "A1"
+    },
+    {
+      "id": "articles",
+      "name": "A / an / the",
+      "description": "Lidwoorden correct gebruiken",
+      "level": "A1"
+    },
+    {
+      "id": "present-continuous",
+      "name": "Present continuous",
+      "description": "Wat er nu gebeurt",
+      "level": "A1"
+    },
+    {
+      "id": "past-simple",
+      "name": "Past simple",
+      "description": "Eenvoudige gebeurtenissen in het verleden",
+      "level": "A1+"
+    },
+    {
+      "id": "sentence-building",
+      "name": "Sentence building",
+      "description": "Engelse zinnen logisch opbouwen",
+      "level": "A1+"
     }
   ],
   "items": [
@@ -824,6 +860,3226 @@
       ],
       "explanation": "Voor dagen gebruik je on.",
       "difficulty": 1
+    },
+    {
+      "id": "be-verbs-001",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "I ___ at home today.",
+      "answer": "am",
+      "explanation": "Bij I hoort am.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-002",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "My sister ___ a teacher.",
+      "answer": "is",
+      "explanation": "Bij my sister hoort is.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-003",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "We ___ ready for dinner.",
+      "answer": "are",
+      "explanation": "Bij we hoort are.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-004",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "The shops ___ open today.",
+      "answer": "are",
+      "explanation": "Shops is meervoud.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-005",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "My phone ___ on the table.",
+      "answer": "is",
+      "explanation": "Phone is enkelvoud.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-006",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "You ___ very early today.",
+      "answer": "are",
+      "explanation": "Bij you hoort are.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-007",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "I ___ from the Netherlands.",
+      "answer": "am",
+      "explanation": "Bij I hoort am.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-008",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "The children ___ tired.",
+      "answer": "are",
+      "explanation": "Children is meervoud.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-009",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "It ___ a good idea.",
+      "answer": "is",
+      "explanation": "Bij it hoort is.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-010",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "Our house ___ small.",
+      "answer": "is",
+      "explanation": "House is enkelvoud.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-011",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "My friends ___ outside.",
+      "answer": "are",
+      "explanation": "Friends is meervoud.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-012",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "She ___ not at work today.",
+      "answer": "is",
+      "explanation": "Bij she hoort is.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-013",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "We ___ not late.",
+      "answer": "are",
+      "explanation": "Bij we hoort are.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-014",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "I ___ hungry.",
+      "answer": "am",
+      "explanation": "Bij I hoort am.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "be-verbs-015",
+      "topic": "be-verbs",
+      "type": "mcq",
+      "prompt": "Your keys ___ in your bag.",
+      "answer": "are",
+      "explanation": "Keys is meervoud.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-simple-016",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "He ___ to work at eight.",
+      "answer": "goes",
+      "explanation": "Bij he krijgt go de vorm goes.",
+      "difficulty": 1,
+      "options": [
+        "go",
+        "goes",
+        "going"
+      ]
+    },
+    {
+      "id": "present-simple-017",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "I ___ breakfast at seven.",
+      "answer": "eat",
+      "explanation": "Bij I gebruik je de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "eat",
+        "eats",
+        "eating"
+      ]
+    },
+    {
+      "id": "present-simple-018",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "Sarah ___ in a small apartment.",
+      "answer": "lives",
+      "explanation": "Bij she krijgt live een -s.",
+      "difficulty": 1,
+      "options": [
+        "live",
+        "lives",
+        "living"
+      ]
+    },
+    {
+      "id": "present-simple-019",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "They ___ TV after dinner.",
+      "answer": "watch",
+      "explanation": "Bij they gebruik je de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "watch",
+        "watches",
+        "watching"
+      ]
+    },
+    {
+      "id": "present-simple-020",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "My brother ___ football on Saturday.",
+      "answer": "plays",
+      "explanation": "Bij he krijgt play een -s.",
+      "difficulty": 1,
+      "options": [
+        "play",
+        "plays",
+        "playing"
+      ]
+    },
+    {
+      "id": "present-simple-021",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "We ___ English at work.",
+      "answer": "use",
+      "explanation": "Bij we gebruik je de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "use",
+        "uses",
+        "using"
+      ]
+    },
+    {
+      "id": "present-simple-022",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "She ___ her emails every morning.",
+      "answer": "checks",
+      "explanation": "Bij she krijgt check -s.",
+      "difficulty": 1,
+      "options": [
+        "check",
+        "checks",
+        "checking"
+      ]
+    },
+    {
+      "id": "present-simple-023",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "I ___ home at five.",
+      "answer": "leave",
+      "explanation": "Bij I gebruik je de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "leave",
+        "leaves",
+        "leaving"
+      ]
+    },
+    {
+      "id": "present-simple-024",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "Tom ___ coffee every day.",
+      "answer": "drinks",
+      "explanation": "Bij he krijgt drink -s.",
+      "difficulty": 1,
+      "options": [
+        "drink",
+        "drinks",
+        "drinking"
+      ]
+    },
+    {
+      "id": "present-simple-025",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "You ___ very fast.",
+      "answer": "learn",
+      "explanation": "Bij you gebruik je de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "learn",
+        "learns",
+        "learning"
+      ]
+    },
+    {
+      "id": "present-simple-026",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "My parents ___ in Groningen.",
+      "answer": "live",
+      "explanation": "Bij they gebruik je de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "live",
+        "lives",
+        "living"
+      ]
+    },
+    {
+      "id": "present-simple-027",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "She ___ dinner at six.",
+      "answer": "cooks",
+      "explanation": "Bij she krijgt cook -s.",
+      "difficulty": 1,
+      "options": [
+        "cook",
+        "cooks",
+        "cooking"
+      ]
+    },
+    {
+      "id": "present-simple-028",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "We ___ the bus to work.",
+      "answer": "take",
+      "explanation": "Bij we gebruik je de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "take",
+        "takes",
+        "taking"
+      ]
+    },
+    {
+      "id": "present-simple-029",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "He ___ his car on Sunday.",
+      "answer": "washes",
+      "explanation": "Bij he krijgt wash -es.",
+      "difficulty": 1,
+      "options": [
+        "wash",
+        "washes",
+        "washing"
+      ]
+    },
+    {
+      "id": "present-simple-030",
+      "topic": "present-simple",
+      "type": "mcq",
+      "prompt": "I ___ music on the way home.",
+      "answer": "listen to",
+      "explanation": "Bij I gebruik je de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "listen to",
+        "listens to",
+        "listening"
+      ]
+    },
+    {
+      "id": "questions-031",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ your brother work here?",
+      "answer": "Does",
+      "explanation": "Your brother = he, dus Does.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "questions-032",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ they live nearby?",
+      "answer": "Do",
+      "explanation": "Bij they gebruik je Do.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "id": "questions-033",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ she your sister?",
+      "answer": "Is",
+      "explanation": "Bij she + to be gebruik je Is.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "questions-034",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ you have a car?",
+      "answer": "Do",
+      "explanation": "Bij you gebruik je Do.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "id": "questions-035",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ he tired after work?",
+      "answer": "Is",
+      "explanation": "Bij he + to be gebruik je Is.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "questions-036",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ your parents speak English?",
+      "answer": "Do",
+      "explanation": "Parents is meervoud.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "id": "questions-037",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ Anna like tea?",
+      "answer": "Does",
+      "explanation": "Anna = she, dus Does.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "questions-038",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ we late?",
+      "answer": "Are",
+      "explanation": "We + to be = Are.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "id": "questions-039",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ it rain a lot here?",
+      "answer": "Does",
+      "explanation": "It gebruikt Does.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "questions-040",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ you ready?",
+      "answer": "Are",
+      "explanation": "You + to be = Are.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "id": "questions-041",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ your friend work in Emmen?",
+      "answer": "Does",
+      "explanation": "Your friend = he/she, dus Does.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "questions-042",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ they at home?",
+      "answer": "Are",
+      "explanation": "They + to be = Are.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "id": "questions-043",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ he drive to work?",
+      "answer": "Does",
+      "explanation": "He gebruikt Does.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "questions-044",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ you like English?",
+      "answer": "Do",
+      "explanation": "You gebruikt Do.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ]
+    },
+    {
+      "id": "questions-045",
+      "topic": "questions",
+      "type": "mcq",
+      "prompt": "___ she from the Netherlands?",
+      "answer": "Is",
+      "explanation": "She + to be = Is.",
+      "difficulty": 1,
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "pronouns-046",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "Lisa is my friend. ___ lives nearby.",
+      "answer": "She",
+      "explanation": "Lisa = she.",
+      "difficulty": 1,
+      "options": [
+        "He",
+        "She",
+        "They"
+      ]
+    },
+    {
+      "id": "pronouns-047",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "The boys are outside. ___ are playing.",
+      "answer": "They",
+      "explanation": "Boys is meervoud = they.",
+      "difficulty": 1,
+      "options": [
+        "He",
+        "She",
+        "They"
+      ]
+    },
+    {
+      "id": "pronouns-048",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "My dog is hungry. ___ wants food.",
+      "answer": "It",
+      "explanation": "Voor het dier gebruiken we hier it.",
+      "difficulty": 1,
+      "options": [
+        "He",
+        "It",
+        "They"
+      ]
+    },
+    {
+      "id": "pronouns-049",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "Mark and I are ready. ___ can go.",
+      "answer": "We",
+      "explanation": "Mark and I = we.",
+      "difficulty": 1,
+      "options": [
+        "We",
+        "They",
+        "He"
+      ]
+    },
+    {
+      "id": "pronouns-050",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "This book is new. ___ is expensive.",
+      "answer": "It",
+      "explanation": "Een ding = it.",
+      "difficulty": 1,
+      "options": [
+        "He",
+        "She",
+        "It"
+      ]
+    },
+    {
+      "id": "pronouns-051",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "My mother is at work. ___ is busy.",
+      "answer": "She",
+      "explanation": "Mother = she.",
+      "difficulty": 1,
+      "options": [
+        "He",
+        "She",
+        "They"
+      ]
+    },
+    {
+      "id": "pronouns-052",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "John is my friend. ___ works with me.",
+      "answer": "He",
+      "explanation": "John = he.",
+      "difficulty": 1,
+      "options": [
+        "He",
+        "She",
+        "They"
+      ]
+    },
+    {
+      "id": "pronouns-053",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "The cars are outside. ___ are clean.",
+      "answer": "They",
+      "explanation": "Cars is meervoud = they.",
+      "difficulty": 1,
+      "options": [
+        "It",
+        "They",
+        "He"
+      ]
+    },
+    {
+      "id": "pronouns-054",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "You and Sarah are late. ___ need to hurry.",
+      "answer": "You",
+      "explanation": "Je spreekt de groep direct aan: you.",
+      "difficulty": 1,
+      "options": [
+        "You",
+        "We",
+        "They"
+      ]
+    },
+    {
+      "id": "pronouns-055",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "My sister and I live here. ___ like the house.",
+      "answer": "We",
+      "explanation": "My sister and I = we.",
+      "difficulty": 1,
+      "options": [
+        "We",
+        "They",
+        "She"
+      ]
+    },
+    {
+      "id": "pronouns-056",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "I know Sarah. I see ___ every week.",
+      "answer": "her",
+      "explanation": "Sarah = her als object.",
+      "difficulty": 1,
+      "options": [
+        "her",
+        "him",
+        "them"
+      ]
+    },
+    {
+      "id": "pronouns-057",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "I know Tom. I see ___ every week.",
+      "answer": "him",
+      "explanation": "Tom = him als object.",
+      "difficulty": 1,
+      "options": [
+        "her",
+        "him",
+        "them"
+      ]
+    },
+    {
+      "id": "pronouns-058",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "I like these books. I read ___ often.",
+      "answer": "them",
+      "explanation": "Books is meervoud = them.",
+      "difficulty": 1,
+      "options": [
+        "him",
+        "her",
+        "them"
+      ]
+    },
+    {
+      "id": "pronouns-059",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "This is my sister. ___ name is Lisa.",
+      "answer": "Her",
+      "explanation": "Sister = her.",
+      "difficulty": 1,
+      "options": [
+        "His",
+        "Her",
+        "Their"
+      ]
+    },
+    {
+      "id": "pronouns-060",
+      "topic": "pronouns",
+      "type": "mcq",
+      "prompt": "This is my brother. ___ name is Tom.",
+      "answer": "His",
+      "explanation": "Brother = his.",
+      "difficulty": 1,
+      "options": [
+        "His",
+        "Her",
+        "Their"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-061",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'stoel' in English?",
+      "answer": "chair",
+      "explanation": "Stoel = chair.",
+      "difficulty": 1,
+      "options": [
+        "chair",
+        "table",
+        "door"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-062",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'tafel' in English?",
+      "answer": "table",
+      "explanation": "Tafel = table.",
+      "difficulty": 1,
+      "options": [
+        "chair",
+        "table",
+        "window"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-063",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'early' mean?",
+      "answer": "vroeg",
+      "explanation": "Early = vroeg.",
+      "difficulty": 1,
+      "options": [
+        "vroeg",
+        "laat",
+        "snel"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-064",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'late' mean?",
+      "answer": "laat",
+      "explanation": "Late = laat.",
+      "difficulty": 1,
+      "options": [
+        "vroeg",
+        "laat",
+        "groot"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-065",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'keuken' in English?",
+      "answer": "kitchen",
+      "explanation": "Keuken = kitchen.",
+      "difficulty": 1,
+      "options": [
+        "kitchen",
+        "bedroom",
+        "garden"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-066",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'slaapkamer' in English?",
+      "answer": "bedroom",
+      "explanation": "Slaapkamer = bedroom.",
+      "difficulty": 1,
+      "options": [
+        "bathroom",
+        "bedroom",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-067",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'busy' mean?",
+      "answer": "druk",
+      "explanation": "Busy = druk.",
+      "difficulty": 1,
+      "options": [
+        "druk",
+        "rustig",
+        "leeg"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-068",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'easy' mean?",
+      "answer": "makkelijk",
+      "explanation": "Easy = makkelijk.",
+      "difficulty": 1,
+      "options": [
+        "moeilijk",
+        "makkelijk",
+        "duur"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-069",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'winkel' in English?",
+      "answer": "shop",
+      "explanation": "Winkel = shop.",
+      "difficulty": 1,
+      "options": [
+        "shop",
+        "school",
+        "station"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-070",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'weekend' in English?",
+      "answer": "weekend",
+      "explanation": "Weekend = weekend.",
+      "difficulty": 1,
+      "options": [
+        "weekend",
+        "weekday",
+        "holiday"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-071",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'always' mean?",
+      "answer": "altijd",
+      "explanation": "Always = altijd.",
+      "difficulty": 1,
+      "options": [
+        "soms",
+        "altijd",
+        "nooit"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-072",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'never' mean?",
+      "answer": "nooit",
+      "explanation": "Never = nooit.",
+      "difficulty": 1,
+      "options": [
+        "altijd",
+        "vaak",
+        "nooit"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-073",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'morgen' in English?",
+      "answer": "tomorrow",
+      "explanation": "Morgen = tomorrow.",
+      "difficulty": 1,
+      "options": [
+        "tomorrow",
+        "yesterday",
+        "today"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-074",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What is 'gisteren' in English?",
+      "answer": "yesterday",
+      "explanation": "Gisteren = yesterday.",
+      "difficulty": 1,
+      "options": [
+        "today",
+        "yesterday",
+        "tomorrow"
+      ]
+    },
+    {
+      "id": "vocabulary-daily-075",
+      "topic": "vocabulary-daily",
+      "type": "mcq",
+      "prompt": "What does 'together' mean?",
+      "answer": "samen",
+      "explanation": "Together = samen.",
+      "difficulty": 1,
+      "options": [
+        "alleen",
+        "samen",
+        "vroeg"
+      ]
+    },
+    {
+      "id": "prepositions-076",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "The meeting is ___ Tuesday.",
+      "answer": "on",
+      "explanation": "Dagen gebruiken on.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-077",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "I get up ___ 7 o'clock.",
+      "answer": "at",
+      "explanation": "Een specifiek tijdstip gebruikt at.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-078",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "She lives ___ Amsterdam.",
+      "answer": "in",
+      "explanation": "Steden gebruiken in.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-079",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "The keys are ___ my bag.",
+      "answer": "in",
+      "explanation": "Iets zit in een tas: in.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-080",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "The picture is ___ the wall.",
+      "answer": "on",
+      "explanation": "Op een oppervlak: on.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-081",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "We go ___ the supermarket.",
+      "answer": "to",
+      "explanation": "Je gaat to the supermarket.",
+      "difficulty": 1,
+      "options": [
+        "to",
+        "in",
+        "on"
+      ]
+    },
+    {
+      "id": "prepositions-082",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "I work ___ Monday to Friday.",
+      "answer": "from",
+      "explanation": "Van maandag tot vrijdag = from Monday to Friday.",
+      "difficulty": 1,
+      "options": [
+        "from",
+        "at",
+        "on"
+      ]
+    },
+    {
+      "id": "prepositions-083",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "The train arrives ___ noon.",
+      "answer": "at",
+      "explanation": "Noon is een tijdstip: at noon.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-084",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "I was born ___ May.",
+      "answer": "in",
+      "explanation": "Maanden gebruiken in.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-085",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "We meet ___ the station.",
+      "answer": "at",
+      "explanation": "Specifieke locatie: at.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-086",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "The shop is ___ the corner.",
+      "answer": "on",
+      "explanation": "On the corner is de vaste uitdrukking.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-087",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "I go to bed ___ night.",
+      "answer": "at",
+      "explanation": "At night is de vaste uitdrukking.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-088",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "My birthday is ___ Friday.",
+      "answer": "on",
+      "explanation": "Dagen gebruiken on.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-089",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "He lives ___ a small town.",
+      "answer": "in",
+      "explanation": "Een plaats/gebied gebruikt in.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "prepositions-090",
+      "topic": "prepositions",
+      "type": "mcq",
+      "prompt": "Put the phone ___ the table.",
+      "answer": "on",
+      "explanation": "Op de tafel = on the table.",
+      "difficulty": 1,
+      "options": [
+        "in",
+        "on",
+        "at"
+      ]
+    },
+    {
+      "id": "have-has-091",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "I ___ a new phone.",
+      "answer": "have",
+      "explanation": "Bij I hoort have.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "am"
+      ]
+    },
+    {
+      "id": "have-has-092",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "She ___ two brothers.",
+      "answer": "has",
+      "explanation": "Bij she hoort has.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "is"
+      ]
+    },
+    {
+      "id": "have-has-093",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "We ___ a small garden.",
+      "answer": "have",
+      "explanation": "Bij we hoort have.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "are"
+      ]
+    },
+    {
+      "id": "have-has-094",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "Tom ___ a red car.",
+      "answer": "has",
+      "explanation": "Tom = he, dus has.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "is"
+      ]
+    },
+    {
+      "id": "have-has-095",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "They ___ a dog.",
+      "answer": "have",
+      "explanation": "Bij they hoort have.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "are"
+      ]
+    },
+    {
+      "id": "have-has-096",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "My mother ___ a new job.",
+      "answer": "has",
+      "explanation": "Mother = she, dus has.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "is"
+      ]
+    },
+    {
+      "id": "have-has-097",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "Do you ___ a bike?",
+      "answer": "have",
+      "explanation": "Na do komt have.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "are"
+      ]
+    },
+    {
+      "id": "have-has-098",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "Does he ___ a car?",
+      "answer": "have",
+      "explanation": "Na does komt have.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "is"
+      ]
+    },
+    {
+      "id": "have-has-099",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "I ___ two sisters.",
+      "answer": "have",
+      "explanation": "Bij I hoort have.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "am"
+      ]
+    },
+    {
+      "id": "have-has-100",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "The house ___ three bedrooms.",
+      "answer": "has",
+      "explanation": "House is enkelvoud, dus has.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "is"
+      ]
+    },
+    {
+      "id": "have-has-101",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "My friends ___ a football club.",
+      "answer": "have",
+      "explanation": "Friends is meervoud.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "are"
+      ]
+    },
+    {
+      "id": "have-has-102",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "Anna ___ a busy day.",
+      "answer": "has",
+      "explanation": "Anna = she.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "is"
+      ]
+    },
+    {
+      "id": "have-has-103",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "We ___ enough time.",
+      "answer": "have",
+      "explanation": "Bij we hoort have.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "are"
+      ]
+    },
+    {
+      "id": "have-has-104",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "He ___ a problem.",
+      "answer": "has",
+      "explanation": "Bij he hoort has.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "is"
+      ]
+    },
+    {
+      "id": "have-has-105",
+      "topic": "have-has",
+      "type": "mcq",
+      "prompt": "You ___ a good idea.",
+      "answer": "have",
+      "explanation": "Bij you hoort have.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "has",
+        "are"
+      ]
+    },
+    {
+      "id": "can-cant-106",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "I ___ swim.",
+      "answer": "can",
+      "explanation": "Can = kunnen.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "am"
+      ]
+    },
+    {
+      "id": "can-cant-107",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "She ___ drive a car.",
+      "answer": "can",
+      "explanation": "Can = kunnen.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "is"
+      ]
+    },
+    {
+      "id": "can-cant-108",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "He ___ speak English.",
+      "answer": "can",
+      "explanation": "Can + basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "does"
+      ]
+    },
+    {
+      "id": "can-cant-109",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "We ___ meet tomorrow.",
+      "answer": "can",
+      "explanation": "Can gebruik je voor mogelijkheid.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "are"
+      ]
+    },
+    {
+      "id": "can-cant-110",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "They ___ help you.",
+      "answer": "can",
+      "explanation": "Can + basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "do"
+      ]
+    },
+    {
+      "id": "can-cant-111",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "I ___ come tonight; I am working.",
+      "answer": "can't",
+      "explanation": "Can't = kan niet.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "am"
+      ]
+    },
+    {
+      "id": "can-cant-112",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "She ___ play the piano.",
+      "answer": "can",
+      "explanation": "Can + basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "is"
+      ]
+    },
+    {
+      "id": "can-cant-113",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "Can you ___ me?",
+      "answer": "help",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "help",
+        "helps",
+        "helping"
+      ]
+    },
+    {
+      "id": "can-cant-114",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "Can he ___ here?",
+      "answer": "work",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "work",
+        "works",
+        "working"
+      ]
+    },
+    {
+      "id": "can-cant-115",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "We can ___ tomorrow.",
+      "answer": "meet",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "meet",
+        "meets",
+        "meeting"
+      ]
+    },
+    {
+      "id": "can-cant-116",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "I can ___ English.",
+      "answer": "speak",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "speak",
+        "speaks",
+        "speaking"
+      ]
+    },
+    {
+      "id": "can-cant-117",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "They can't ___ today.",
+      "answer": "come",
+      "explanation": "Na can't komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "come",
+        "comes",
+        "coming"
+      ]
+    },
+    {
+      "id": "can-cant-118",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "Can she ___ a bike?",
+      "answer": "ride",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "ride",
+        "rides",
+        "riding"
+      ]
+    },
+    {
+      "id": "can-cant-119",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "He can't ___ now.",
+      "answer": "drive",
+      "explanation": "Na can't komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "drive",
+        "drives",
+        "driving"
+      ]
+    },
+    {
+      "id": "can-cant-120",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "You can ___ here.",
+      "answer": "sit",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "sit",
+        "sits",
+        "sitting"
+      ]
+    },
+    {
+      "id": "can-cant-121",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "I ___ cook simple meals.",
+      "answer": "can",
+      "explanation": "Can = kunnen.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "am"
+      ]
+    },
+    {
+      "id": "can-cant-122",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "My brother ___ run fast.",
+      "answer": "can",
+      "explanation": "Can + basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "is"
+      ]
+    },
+    {
+      "id": "can-cant-123",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "We ___ not stay long.",
+      "answer": "can't",
+      "explanation": "Can't = kunnen niet.",
+      "difficulty": 1,
+      "options": [
+        "can",
+        "can't",
+        "are"
+      ]
+    },
+    {
+      "id": "can-cant-124",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "___ you speak English?",
+      "answer": "Can",
+      "explanation": "Can staat voor de vraag.",
+      "difficulty": 1,
+      "options": [
+        "Can",
+        "Do",
+        "Are"
+      ]
+    },
+    {
+      "id": "can-cant-125",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "___ she help us?",
+      "answer": "Can",
+      "explanation": "Can staat voor de vraag.",
+      "difficulty": 1,
+      "options": [
+        "Can",
+        "Does",
+        "Is"
+      ]
+    },
+    {
+      "id": "can-cant-126",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "I can ___ the answer.",
+      "answer": "see",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "see",
+        "sees",
+        "seeing"
+      ]
+    },
+    {
+      "id": "can-cant-127",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "He can ___ very well.",
+      "answer": "sing",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "sing",
+        "sings",
+        "singing"
+      ]
+    },
+    {
+      "id": "can-cant-128",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "They can ___ together.",
+      "answer": "work",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "work",
+        "works",
+        "working"
+      ]
+    },
+    {
+      "id": "can-cant-129",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "She can't ___ tonight.",
+      "answer": "come",
+      "explanation": "Na can't komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "come",
+        "comes",
+        "coming"
+      ]
+    },
+    {
+      "id": "can-cant-130",
+      "topic": "can-cant",
+      "type": "mcq",
+      "prompt": "Can we ___ now?",
+      "answer": "start",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "start",
+        "starts",
+        "starting"
+      ]
+    },
+    {
+      "id": "articles-131",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "I have ___ car.",
+      "answer": "a",
+      "explanation": "Car begint met een medeklinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-132",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "She has ___ apple.",
+      "answer": "an",
+      "explanation": "Apple begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-133",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "He is ___ teacher.",
+      "answer": "a",
+      "explanation": "Teacher begint met een medeklinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-134",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "I eat ___ orange every day.",
+      "answer": "an",
+      "explanation": "Orange begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-135",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "This is ___ book I told you about.",
+      "answer": "the",
+      "explanation": "Het gaat om een specifiek boek.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-136",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "She lives in ___ house.",
+      "answer": "a",
+      "explanation": "Een niet-specifiek huis.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-137",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "He has ___ old car.",
+      "answer": "an",
+      "explanation": "Old begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-138",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "I need ___ new phone.",
+      "answer": "a",
+      "explanation": "New begint met een medeklinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-139",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "Please close ___ door.",
+      "answer": "the",
+      "explanation": "Het gaat om een specifieke deur.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-140",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "She is ___ engineer.",
+      "answer": "an",
+      "explanation": "Engineer begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-141",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "I saw ___ dog in the park.",
+      "answer": "a",
+      "explanation": "Een niet-specifieke hond.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-142",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "___ sun is very bright.",
+      "answer": "the",
+      "explanation": "De zon is uniek.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-143",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "He bought ___ umbrella.",
+      "answer": "an",
+      "explanation": "Umbrella begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-144",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "I have ___ idea.",
+      "answer": "an",
+      "explanation": "Idea begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-145",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "She works in ___ office.",
+      "answer": "an",
+      "explanation": "Office begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-146",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "We live in ___ small apartment.",
+      "answer": "a",
+      "explanation": "Een niet-specifiek appartement.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-147",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "Can you open ___ window?",
+      "answer": "the",
+      "explanation": "Een specifieke bekende raam.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-148",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "He wants ___ sandwich.",
+      "answer": "a",
+      "explanation": "Een niet-specifieke sandwich.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-149",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "I saw ___ elephant at the zoo.",
+      "answer": "an",
+      "explanation": "Elephant begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-150",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "She has ___ interesting job.",
+      "answer": "an",
+      "explanation": "Interesting begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-151",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "I need ___ pen.",
+      "answer": "a",
+      "explanation": "Een niet-specifieke pen.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-152",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "Where is ___ bathroom?",
+      "answer": "the",
+      "explanation": "Je vraagt naar een specifieke badkamer.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-153",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "He is ___ honest man.",
+      "answer": "an",
+      "explanation": "Honest begint met een klinkerklank.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-154",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "This is ___ best option.",
+      "answer": "the",
+      "explanation": "Best maakt het specifiek.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "articles-155",
+      "topic": "articles",
+      "type": "mcq",
+      "prompt": "We bought ___ new table.",
+      "answer": "a",
+      "explanation": "Een niet-specifieke nieuwe tafel.",
+      "difficulty": 1,
+      "options": [
+        "a",
+        "an",
+        "the"
+      ]
+    },
+    {
+      "id": "present-continuous-156",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "I ___ watching TV now.",
+      "answer": "am",
+      "explanation": "I + ing gebruikt am.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-157",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "She ___ cooking dinner now.",
+      "answer": "is",
+      "explanation": "She + ing gebruikt is.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-158",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "They ___ playing football now.",
+      "answer": "are",
+      "explanation": "They + ing gebruikt are.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-159",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "We ___ waiting for the bus.",
+      "answer": "are",
+      "explanation": "We + ing gebruikt are.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-160",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "He ___ working today.",
+      "answer": "is",
+      "explanation": "He + ing gebruikt is.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-161",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "You ___ learning English.",
+      "answer": "are",
+      "explanation": "You + ing gebruikt are.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-162",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "I am ___ dinner now.",
+      "answer": "cooking",
+      "explanation": "Na am komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "cook",
+        "cooks",
+        "cooking"
+      ]
+    },
+    {
+      "id": "present-continuous-163",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "She is ___ a book.",
+      "answer": "reading",
+      "explanation": "Na is komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "read",
+        "reads",
+        "reading"
+      ]
+    },
+    {
+      "id": "present-continuous-164",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "They are ___ outside.",
+      "answer": "playing",
+      "explanation": "Na are komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "play",
+        "plays",
+        "playing"
+      ]
+    },
+    {
+      "id": "present-continuous-165",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "He is ___ to work.",
+      "answer": "driving",
+      "explanation": "Na is komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "drive",
+        "drives",
+        "driving"
+      ]
+    },
+    {
+      "id": "present-continuous-166",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "We are ___ English.",
+      "answer": "studying",
+      "explanation": "Na are komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "study",
+        "studies",
+        "studying"
+      ]
+    },
+    {
+      "id": "present-continuous-167",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "I am ___ for the train.",
+      "answer": "waiting",
+      "explanation": "Na am komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "wait",
+        "waits",
+        "waiting"
+      ]
+    },
+    {
+      "id": "present-continuous-168",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "She is ___ coffee.",
+      "answer": "drinking",
+      "explanation": "Na is komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "drink",
+        "drinks",
+        "drinking"
+      ]
+    },
+    {
+      "id": "present-continuous-169",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "They are ___ dinner.",
+      "answer": "eating",
+      "explanation": "Na are komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "eat",
+        "eats",
+        "eating"
+      ]
+    },
+    {
+      "id": "present-continuous-170",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "He is ___ a shower.",
+      "answer": "taking",
+      "explanation": "Na is komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "take",
+        "takes",
+        "taking"
+      ]
+    },
+    {
+      "id": "present-continuous-171",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "What ___ you doing?",
+      "answer": "are",
+      "explanation": "Bij you hoort are.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-172",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "What ___ she doing?",
+      "answer": "is",
+      "explanation": "Bij she hoort is.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-173",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "Why ___ they laughing?",
+      "answer": "are",
+      "explanation": "Bij they hoort are.",
+      "difficulty": 1,
+      "options": [
+        "am",
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "present-continuous-174",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "I am not ___ today.",
+      "answer": "working",
+      "explanation": "Na am not komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "work",
+        "works",
+        "working"
+      ]
+    },
+    {
+      "id": "present-continuous-175",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "She isn't ___ now.",
+      "answer": "sleeping",
+      "explanation": "Na isn't komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "sleep",
+        "sleeps",
+        "sleeping"
+      ]
+    },
+    {
+      "id": "present-continuous-176",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "We aren't ___ TV.",
+      "answer": "watching",
+      "explanation": "Na aren't komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "watch",
+        "watches",
+        "watching"
+      ]
+    },
+    {
+      "id": "present-continuous-177",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "He is ___ his room.",
+      "answer": "cleaning",
+      "explanation": "Na is komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "clean",
+        "cleans",
+        "cleaning"
+      ]
+    },
+    {
+      "id": "present-continuous-178",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "They are ___ home.",
+      "answer": "walking",
+      "explanation": "Na are komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "walk",
+        "walks",
+        "walking"
+      ]
+    },
+    {
+      "id": "present-continuous-179",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "You are ___ too fast.",
+      "answer": "speaking",
+      "explanation": "Na are komt de -ing-vorm.",
+      "difficulty": 1,
+      "options": [
+        "speak",
+        "speaks",
+        "speaking"
+      ]
+    },
+    {
+      "id": "present-continuous-180",
+      "topic": "present-continuous",
+      "type": "mcq",
+      "prompt": "The baby is ___.",
+      "answer": "sleeping",
+      "explanation": "Sleeping beschrijft wat nu gebeurt.",
+      "difficulty": 1,
+      "options": [
+        "sleep",
+        "sleeps",
+        "sleeping"
+      ]
+    },
+    {
+      "id": "past-simple-181",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "Yesterday I ___ to work.",
+      "answer": "walked",
+      "explanation": "Yesterday geeft verleden aan.",
+      "difficulty": 1,
+      "options": [
+        "walk",
+        "walked",
+        "walking"
+      ]
+    },
+    {
+      "id": "past-simple-182",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "She ___ home late.",
+      "answer": "arrived",
+      "explanation": "Arrive → arrived.",
+      "difficulty": 1,
+      "options": [
+        "arrive",
+        "arrived",
+        "arriving"
+      ]
+    },
+    {
+      "id": "past-simple-183",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "We ___ dinner at seven.",
+      "answer": "cooked",
+      "explanation": "Cook → cooked.",
+      "difficulty": 1,
+      "options": [
+        "cook",
+        "cooked",
+        "cooking"
+      ]
+    },
+    {
+      "id": "past-simple-184",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "He ___ football yesterday.",
+      "answer": "played",
+      "explanation": "Play → played.",
+      "difficulty": 1,
+      "options": [
+        "play",
+        "played",
+        "playing"
+      ]
+    },
+    {
+      "id": "past-simple-185",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "They ___ the bus this morning.",
+      "answer": "missed",
+      "explanation": "Miss → missed.",
+      "difficulty": 1,
+      "options": [
+        "miss",
+        "missed",
+        "missing"
+      ]
+    },
+    {
+      "id": "past-simple-186",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "I ___ a good film last night.",
+      "answer": "watched",
+      "explanation": "Watch → watched.",
+      "difficulty": 1,
+      "options": [
+        "watch",
+        "watched",
+        "watching"
+      ]
+    },
+    {
+      "id": "past-simple-187",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "She ___ to London last year.",
+      "answer": "went",
+      "explanation": "Go → went.",
+      "difficulty": 1,
+      "options": [
+        "go",
+        "went",
+        "gone"
+      ]
+    },
+    {
+      "id": "past-simple-188",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "He ___ breakfast at home.",
+      "answer": "ate",
+      "explanation": "Eat → ate.",
+      "difficulty": 1,
+      "options": [
+        "eat",
+        "ate",
+        "eaten"
+      ]
+    },
+    {
+      "id": "past-simple-189",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "We ___ a great time.",
+      "answer": "had",
+      "explanation": "Have → had.",
+      "difficulty": 1,
+      "options": [
+        "have",
+        "had",
+        "has"
+      ]
+    },
+    {
+      "id": "past-simple-190",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "They ___ the match.",
+      "answer": "won",
+      "explanation": "Win → won.",
+      "difficulty": 1,
+      "options": [
+        "win",
+        "won",
+        "winning"
+      ]
+    },
+    {
+      "id": "past-simple-191",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "I ___ him yesterday.",
+      "answer": "saw",
+      "explanation": "See → saw.",
+      "difficulty": 1,
+      "options": [
+        "see",
+        "saw",
+        "seen"
+      ]
+    },
+    {
+      "id": "past-simple-192",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "She ___ me a message.",
+      "answer": "sent",
+      "explanation": "Send → sent.",
+      "difficulty": 1,
+      "options": [
+        "send",
+        "sent",
+        "sending"
+      ]
+    },
+    {
+      "id": "past-simple-193",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "He ___ his keys.",
+      "answer": "lost",
+      "explanation": "Lose → lost.",
+      "difficulty": 1,
+      "options": [
+        "lose",
+        "lost",
+        "losing"
+      ]
+    },
+    {
+      "id": "past-simple-194",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "We ___ home at ten.",
+      "answer": "came",
+      "explanation": "Come → came.",
+      "difficulty": 1,
+      "options": [
+        "come",
+        "came",
+        "coming"
+      ]
+    },
+    {
+      "id": "past-simple-195",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "I ___ a new phone last month.",
+      "answer": "bought",
+      "explanation": "Buy → bought.",
+      "difficulty": 1,
+      "options": [
+        "buy",
+        "bought",
+        "buying"
+      ]
+    },
+    {
+      "id": "past-simple-196",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "Did you ___ the film?",
+      "answer": "see",
+      "explanation": "Na did komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "see",
+        "saw",
+        "seen"
+      ]
+    },
+    {
+      "id": "past-simple-197",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "Did she ___ yesterday?",
+      "answer": "work",
+      "explanation": "Na did komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "work",
+        "worked",
+        "working"
+      ]
+    },
+    {
+      "id": "past-simple-198",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "They didn't ___ at home.",
+      "answer": "stay",
+      "explanation": "Na didn't komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "stay",
+        "stayed",
+        "staying"
+      ]
+    },
+    {
+      "id": "past-simple-199",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "He didn't ___ the answer.",
+      "answer": "know",
+      "explanation": "Na didn't komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "know",
+        "knew",
+        "known"
+      ]
+    },
+    {
+      "id": "past-simple-200",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "I didn't ___ breakfast.",
+      "answer": "eat",
+      "explanation": "Na didn't komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "eat",
+        "ate",
+        "eaten"
+      ]
+    },
+    {
+      "id": "past-simple-201",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "I ___ tired yesterday.",
+      "answer": "was",
+      "explanation": "I + to be in past = was.",
+      "difficulty": 1,
+      "options": [
+        "was",
+        "were",
+        "am"
+      ]
+    },
+    {
+      "id": "past-simple-202",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "They ___ at home last night.",
+      "answer": "were",
+      "explanation": "They + to be in past = were.",
+      "difficulty": 1,
+      "options": [
+        "was",
+        "were",
+        "are"
+      ]
+    },
+    {
+      "id": "past-simple-203",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "We ___ happy about the result.",
+      "answer": "were",
+      "explanation": "We + to be in past = were.",
+      "difficulty": 1,
+      "options": [
+        "was",
+        "were",
+        "are"
+      ]
+    },
+    {
+      "id": "past-simple-204",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "She ___ her homework yesterday.",
+      "answer": "did",
+      "explanation": "Do → did.",
+      "difficulty": 1,
+      "options": [
+        "did",
+        "do",
+        "does"
+      ]
+    },
+    {
+      "id": "past-simple-205",
+      "topic": "past-simple",
+      "type": "mcq",
+      "prompt": "He ___ the door this morning.",
+      "answer": "opened",
+      "explanation": "Open → opened.",
+      "difficulty": 1,
+      "options": [
+        "open",
+        "opened",
+        "opening"
+      ]
+    },
+    {
+      "id": "sentence-building-206",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I work every day.",
+      "explanation": "Engels gebruikt subject + verb + rest.",
+      "difficulty": 1,
+      "options": [
+        "I work every day.",
+        "I every day work.",
+        "Work I every day."
+      ]
+    },
+    {
+      "id": "sentence-building-207",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "She likes coffee.",
+      "explanation": "She + likes + object.",
+      "difficulty": 1,
+      "options": [
+        "She likes coffee.",
+        "She coffee likes.",
+        "Likes she coffee."
+      ]
+    },
+    {
+      "id": "sentence-building-208",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "They live in Amsterdam.",
+      "explanation": "Subject + verb + place.",
+      "difficulty": 1,
+      "options": [
+        "They live in Amsterdam.",
+        "They Amsterdam live.",
+        "Live they in Amsterdam."
+      ]
+    },
+    {
+      "id": "sentence-building-209",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I am tired.",
+      "explanation": "Bij to be komt am na I.",
+      "difficulty": 1,
+      "options": [
+        "I am tired.",
+        "Am I tired.",
+        "I tired am."
+      ]
+    },
+    {
+      "id": "sentence-building-210",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "He works at home.",
+      "explanation": "Subject + verb + place.",
+      "difficulty": 1,
+      "options": [
+        "He works at home.",
+        "He at home works.",
+        "Works he at home."
+      ]
+    },
+    {
+      "id": "sentence-building-211",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "We have a car.",
+      "explanation": "Subject + have + object.",
+      "difficulty": 1,
+      "options": [
+        "We have a car.",
+        "We a car have.",
+        "Have we a car."
+      ]
+    },
+    {
+      "id": "sentence-building-212",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "She can swim.",
+      "explanation": "Mededeling: subject + can + verb.",
+      "difficulty": 1,
+      "options": [
+        "She can swim.",
+        "She swim can.",
+        "Can she swim."
+      ]
+    },
+    {
+      "id": "sentence-building-213",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "They are watching TV.",
+      "explanation": "To be + -ing.",
+      "difficulty": 1,
+      "options": [
+        "They are watching TV.",
+        "They watching are TV.",
+        "Are they watching TV."
+      ]
+    },
+    {
+      "id": "sentence-building-214",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I went to work yesterday.",
+      "explanation": "Subject + verb + rest.",
+      "difficulty": 1,
+      "options": [
+        "I went to work yesterday.",
+        "I yesterday went to work.",
+        "Went I to work yesterday."
+      ]
+    },
+    {
+      "id": "sentence-building-215",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "Do you like coffee?",
+      "explanation": "Do + subject + base verb.",
+      "difficulty": 1,
+      "options": [
+        "Do you like coffee?",
+        "You do like coffee?",
+        "Like you do coffee?"
+      ]
+    },
+    {
+      "id": "sentence-building-216",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "Does he work here?",
+      "explanation": "Na does komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "Does he work here?",
+        "Does he works here?",
+        "He does work here?"
+      ]
+    },
+    {
+      "id": "sentence-building-217",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "Where do you live?",
+      "explanation": "Question word + do + subject + verb.",
+      "difficulty": 1,
+      "options": [
+        "Where do you live?",
+        "Where you do live?",
+        "Do where you live?"
+      ]
+    },
+    {
+      "id": "sentence-building-218",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "My sister is at home.",
+      "explanation": "Subject + to be + place.",
+      "difficulty": 1,
+      "options": [
+        "My sister is at home.",
+        "My sister at home is.",
+        "Is my sister at home."
+      ]
+    },
+    {
+      "id": "sentence-building-219",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "We are ready.",
+      "explanation": "Subject + are + adjective.",
+      "difficulty": 1,
+      "options": [
+        "We are ready.",
+        "We ready are.",
+        "Are we ready."
+      ]
+    },
+    {
+      "id": "sentence-building-220",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "He doesn't like tea.",
+      "explanation": "Na doesn't komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "He doesn't like tea.",
+        "He doesn't likes tea.",
+        "He not likes tea."
+      ]
+    },
+    {
+      "id": "sentence-building-221",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I don't work on Sunday.",
+      "explanation": "Na don't komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "I don't work on Sunday.",
+        "I don't works on Sunday.",
+        "I not work on Sunday."
+      ]
+    },
+    {
+      "id": "sentence-building-222",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "She has a new job.",
+      "explanation": "She + has.",
+      "difficulty": 1,
+      "options": [
+        "She has a new job.",
+        "She have a new job.",
+        "Has she a new job."
+      ]
+    },
+    {
+      "id": "sentence-building-223",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "Can you help me?",
+      "explanation": "Na can komt de basisvorm.",
+      "difficulty": 1,
+      "options": [
+        "Can you help me?",
+        "Can you helps me?",
+        "You can help me?"
+      ]
+    },
+    {
+      "id": "sentence-building-224",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "What are you doing?",
+      "explanation": "Question word + are + subject + ing.",
+      "difficulty": 1,
+      "options": [
+        "What are you doing?",
+        "What you are doing?",
+        "Are what you doing?"
+      ]
+    },
+    {
+      "id": "sentence-building-225",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I was at home yesterday.",
+      "explanation": "I + was in the past.",
+      "difficulty": 1,
+      "options": [
+        "I was at home yesterday.",
+        "I were at home yesterday.",
+        "I yesterday was at home."
+      ]
+    },
+    {
+      "id": "sentence-building-226",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "They were tired after work.",
+      "explanation": "They + were in the past.",
+      "difficulty": 1,
+      "options": [
+        "They were tired after work.",
+        "They was tired after work.",
+        "Were they tired after work."
+      ]
+    },
+    {
+      "id": "sentence-building-227",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "She went home at six.",
+      "explanation": "Went is the past form of go.",
+      "difficulty": 1,
+      "options": [
+        "She went home at six.",
+        "She go home at six.",
+        "Went she home at six."
+      ]
+    },
+    {
+      "id": "sentence-building-228",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I usually drink coffee in the morning.",
+      "explanation": "Usually staat vaak voor het hoofdwerkwoord.",
+      "difficulty": 1,
+      "options": [
+        "I usually drink coffee in the morning.",
+        "I drink usually coffee in the morning.",
+        "Usually I coffee drink in the morning."
+      ]
+    },
+    {
+      "id": "sentence-building-229",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "My parents live in a small house.",
+      "explanation": "Subject + verb + place.",
+      "difficulty": 1,
+      "options": [
+        "My parents live in a small house.",
+        "My parents in a small house live.",
+        "Live my parents in a small house."
+      ]
+    },
+    {
+      "id": "sentence-building-230",
+      "topic": "sentence-building",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "We can meet at the station.",
+      "explanation": "Can + base verb.",
+      "difficulty": 1,
+      "options": [
+        "We can meet at the station.",
+        "We can meets at the station.",
+        "We at the station can meet."
+      ]
     }
   ],
   "placement": [
