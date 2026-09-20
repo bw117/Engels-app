@@ -1,0 +1,10 @@
+{
+  "name": "engels-app",
+  "version": "1.2.1",
+  "private": true,
+  "description": "Adaptive English learning app for Dutch beginners",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
