@@ -1,3 +1,4 @@
 module.exports = (req, res) => {
-  res.status(200).json({ ok: true, version: '1.2.1' });
+  res.setHeader("Cache-Control", "no-store");
+  res.status(200).json({ ok: true, version: '1.3.0' });
 };

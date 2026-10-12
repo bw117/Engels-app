@@ -1,22 +1,102 @@
-const state={content:null,db:null,session:[],index:0,answered:false,placement:[],placementIndex:0,placementScore:0,sessionStartedAt:null,sessionCorrect:0,streak:0};
+const state={content:null,db:null,session:[],index:0,answered:false,placement:[],placementIndex:0,placementScore:0,sessionStartedAt:null,sessionCorrect:0,streak:0,user:null,clientId:null,storageKey:"english-db",syncStatus:"local",syncPromise:null,offline:false};
 
 async function load(){
  try{
   const response=await fetch("/data/content.json");
   if(!response.ok)throw new Error("content");
   state.content=await response.json();
-  state.db=JSON.parse(localStorage.getItem("english-db")||'{"version":2,"profile":{"name":"","placementScore":null,"placementAt":null},"states":{},"sessions":[]}');
-  state.db.profile=state.db.profile||{name:"",placementScore:null,placementAt:null};
-  state.db.states=state.db.states||{};
-  state.db.sessions=state.db.sessions||[];
-  updateStreak();
-  renderHome();
+  state.clientId=localStorage.getItem("polyvo-client-id");
+  if(!state.clientId){state.clientId=PolyvoProgress.makeId("device");localStorage.setItem("polyvo-client-id",state.clientId)}
+  updateAccountBar();
+  let remoteUser=null,sessionReachable=false;
+  try{const r=await fetch("/api/auth",{cache:"no-store"});sessionReachable=r.ok;if(r.ok){const data=await r.json();remoteUser=data.user||null}}
+  catch(_){}
+  if(remoteUser){await activateUser(remoteUser,false);return}
+  const remembered=localStorage.getItem("polyvo-last-user");
+  if(!sessionReachable&&remembered){
+   try{state.user=JSON.parse(remembered);state.offline=true;state.storageKey="english-db:"+state.user.id;state.db=PolyvoProgress.normalizeDb(JSON.parse(localStorage.getItem(state.storageKey)||"null"),state.clientId);state.syncStatus="offline";save()}
+   catch(_){state.user=null;loadGuestDb()}
+  }else{state.user=null;state.offline=false;loadGuestDb()}
+  renderHome();updateAccountBar();
  }catch(error){
   document.getElementById("app").innerHTML='<div class="card center" style="margin-top:40px"><h2>De app kon niet laden.</h2><p class="muted">Ververs de pagina. Als dit blijft gebeuren, is er iets mis met de inhoudsdata.</p><button class="btn primary" onclick="location.reload()">Opnieuw proberen</button></div>';
   console.error(error);
  }
 }
-function save(){localStorage.setItem("english-db",JSON.stringify(state.db))}
+function loadGuestDb(){
+ state.storageKey="english-db";state.db=PolyvoProgress.normalizeDb(JSON.parse(localStorage.getItem(state.storageKey)||"null"),state.clientId);save()
+}
+function save(){if(state.db)localStorage.setItem(state.storageKey,JSON.stringify(state.db))}
+function updateAccountBar(){
+ const el=document.getElementById("account-area");if(!el)return;
+ if(state.user){
+  const label=state.user.name||state.user.email||"POLYVO-account";
+  const status=state.offline?"Offline":state.syncStatus==="syncing"?"Synchroniseren…":state.syncStatus==="error"?"Sync later":"Gesynchroniseerd";
+  el.innerHTML='<span class="account-label">'+escapeHtml(label)+' · '+status+'</span><button class="btn secondary account-button" id="account-action">Uitloggen</button>';
+  document.getElementById("account-action").addEventListener("click",logout);
+ }else{
+  el.innerHTML='<span class="account-label">Voortgang op dit apparaat</span><button class="btn secondary account-button" id="account-action">Account</button>';
+  document.getElementById("account-action").addEventListener("click",renderAuthScreen);
+ }
+}
+function renderAuthScreen(message=""){
+ document.getElementById("app").innerHTML='<div class="card auth-card"><button class="btn secondary" id="auth-back">← Terug naar oefenen</button><div class="eyebrow auth-eyebrow">POLYVO ACCOUNT</div><h1>Bewaar je voortgang</h1><p class="muted">Maak een account om op meerdere apparaten verder te gaan. Je bestaande voortgang op dit apparaat wordt bij het aanmaken van je account meegenomen. Je kunt ook zonder account blijven oefenen.</p><div class="auth-tabs"><button class="btn primary" id="auth-login-tab">Inloggen</button><button class="btn secondary" id="auth-signup-tab">Account maken</button></div><form id="auth-form"><label for="auth-email">E-mailadres</label><input id="auth-email" type="email" autocomplete="email" required><label for="auth-password">Wachtwoord <span class="muted">(minimaal 8 tekens)</span></label><input id="auth-password" type="password" minlength="8" autocomplete="current-password" required><label for="auth-name" id="auth-name-label" hidden>Naam (optioneel)</label><input id="auth-name" type="text" maxlength="80" autocomplete="name" placeholder="Naam (optioneel)" hidden><div id="auth-message" class="auth-message">'+escapeHtml(message)+'</div><button class="btn primary" id="auth-submit" type="submit">Inloggen</button></form><p class="small">Offline oefenen blijft beschikbaar. Synchronisatie start zodra je account en internetverbinding beschikbaar zijn.</p></div>';
+ let mode="login";
+ const setMode=next=>{mode=next;const signup=mode==="signup";document.getElementById("auth-submit").textContent=signup?"Account maken":"Inloggen";document.getElementById("auth-password").autocomplete=signup?"new-password":"current-password";document.getElementById("auth-name-label").hidden=!signup;document.getElementById("auth-name").hidden=!signup;document.getElementById("auth-login-tab").className="btn "+(signup?"secondary":"primary");document.getElementById("auth-signup-tab").className="btn "+(signup?"primary":"secondary")};
+ document.getElementById("auth-back").addEventListener("click",renderHome);
+ document.getElementById("auth-login-tab").addEventListener("click",()=>setMode("login"));
+ document.getElementById("auth-signup-tab").addEventListener("click",()=>setMode("signup"));
+ document.getElementById("auth-form").addEventListener("submit",async e=>{
+  e.preventDefault();const submit=document.getElementById("auth-submit"),note=document.getElementById("auth-message");submit.disabled=true;note.textContent="Even geduld…";
+  try{
+   const result=await fetch("/api/auth",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action:mode,email:document.getElementById("auth-email").value,password:document.getElementById("auth-password").value,name:document.getElementById("auth-name").value})});
+   const data=await result.json();if(!result.ok)throw new Error(data.error||"Accountaanvraag mislukt.");
+   if(data.confirmationRequired){localStorage.setItem("polyvo-pending-migration-email",document.getElementById("auth-email").value.trim().toLowerCase());note.textContent="Controleer je e-mail en bevestig je account. Log daarna hier in.";submit.disabled=false;return}
+   if(!data.user)throw new Error("De accountdienst heeft geen gebruiker teruggegeven.");
+   const email=document.getElementById("auth-email").value.trim().toLowerCase();const claimGuest=mode==="signup"||localStorage.getItem("polyvo-pending-migration-email")===email;if(claimGuest)localStorage.removeItem("polyvo-pending-migration-email");await activateUser(data.user,claimGuest);
+  }catch(error){note.textContent=error.message||"Accountdienst niet bereikbaar.";submit.disabled=false}
+ });
+}
+function activateUser(user,importGuest){
+ if(importGuest)localStorage.removeItem("polyvo-pending-migration-email");
+ state.user=user;state.offline=false;state.storageKey="english-db:"+user.id;localStorage.setItem("polyvo-last-user",JSON.stringify(user));
+ if(importGuest){state.db=PolyvoProgress.normalizeDb(state.db,state.clientId)}
+ else{state.db=PolyvoProgress.normalizeDb(JSON.parse(localStorage.getItem(state.storageKey)||"null"),state.clientId)}
+ if(user.name&&!state.db.profile.name)state.db.profile.name=user.name;
+ save();state.syncStatus="syncing";updateAccountBar();
+ return syncProgress().then(()=>{renderHome();updateAccountBar()})
+}
+async function logout(){
+ if(state.syncPromise)await state.syncPromise;
+ try{await fetch("/api/auth",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action:"logout"})})}catch(_){}
+ localStorage.removeItem("polyvo-last-user");state.user=null;state.offline=false;state.syncStatus="local";loadGuestDb();renderHome();updateAccountBar()
+}
+async function syncProgress(){
+ if(!state.user||state.offline||state.syncPromise)return state.syncPromise;
+ let synced=false;
+ state.syncPromise=(async()=>{
+  state.syncStatus="syncing";updateAccountBar();
+  try{
+   let remote=[],offset=0;
+   do{const r=await fetch("/api/progress?offset="+offset,{cache:"no-store"});if(!r.ok)throw new Error("sync");const page=await r.json();remote=remote.concat(page.events||[]);offset=page.nextOffset;if(remote.length>100000)throw new Error("sync-limit")}while(offset!==null);
+   let localEvents=state.db.events||[],pending=state.db.pendingEvents||[];
+   const remoteIds=new Set(remote.map(e=>e.eventId));pending=pending.filter(e=>!remoteIds.has(e.eventId));
+   state.db=PolyvoProgress.rebuild(PolyvoProgress.mergeEvents(remote,localEvents));state.db.pendingEvents=pending;save();
+   const queue=[...pending];
+   for(let i=0;i<queue.length;i+=50){
+    const batch=queue.slice(i,i+50),r=await fetch("/api/progress",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({events:batch})});
+    if(!r.ok)throw new Error("sync");const data=await r.json(),accepted=new Set(data.accepted||[]);
+    state.db.pendingEvents=state.db.pendingEvents.filter(e=>!accepted.has(e.eventId));save()
+   }
+   state.offline=false;state.syncStatus="synced";synced=true;
+  }catch(_){state.syncStatus="error"}
+  finally{state.syncPromise=null;updateAccountBar();if(synced&&state.user&&!state.offline&&state.db.pendingEvents.length)setTimeout(()=>syncProgress(),0)}
+ })();
+ return state.syncPromise
+}
+function queueAnswer(itemId,correct,at=new Date()){
+ state.db=PolyvoProgress.addEvent(state.db,"answer",{itemId,correct},PolyvoProgress.makeId("answer"),at.toISOString());save();if(state.user&&!state.offline)syncProgress()
+}
 function itemState(id){return state.db.states[id]||{}}
 function topic(id){return state.content.topics.find(t=>t.id===id)||{id,name:id,description:""}}
 function avgTopic(id){
@@ -116,7 +196,7 @@ function answerPlacement(q,btn){
 }
 function finishPlacement(){
  const score=state.placementScore/state.placement.length;
- state.db.profile.placementScore=score;state.db.profile.placementAt=new Date().toISOString();save();
+ state.db=PolyvoProgress.addEvent(state.db,"profile",{profile:{placementScore:score,placementAt:new Date().toISOString()}},PolyvoProgress.makeId("profile"));save();if(state.user&&!state.offline)syncProgress();
  const label=score<.4?"Starter":score<.7?"Beginner":"Beginner+";
  document.getElementById("app").innerHTML='<div class="center result-page"><span class="tag">Niveautest klaar</span><h1>Je startniveau</h1><div class="card result-card"><div class="big">'+Math.round(score*100)+'%</div><h2>'+label+'</h2><p class="muted">Dit is alleen je startpunt. Je echte niveau wordt tijdens het oefenen steeds nauwkeuriger bepaald.</p><button class="btn primary" id="start-after-placement">Start je eerste sessie →</button></div></div>';
  document.getElementById("start-after-placement").addEventListener("click",startSession);
@@ -165,10 +245,7 @@ function answer(value,clicked){
  if(state.answered)return;
  const q=state.session[state.index],accepted=q.accepted?.length?q.accepted:[q.answer],correct=accepted.map(normalize).includes(normalize(value));
  state.answered=true;if(correct)state.sessionCorrect++;
- const old=itemState(q.id),oldMastery=Number(old.mastery||0),mastery=Math.max(0,Math.min(1,oldMastery+.35*((correct?1:0)-oldMastery)));
- const now=new Date(),next=new Date(now);let interval=Number(old.intervalDays||0);
- if(correct){interval=interval?Math.min(45,interval*2):1;next.setDate(next.getDate()+interval)}else{interval=0;next.setHours(next.getHours()+8)}
- state.db.states[q.id]={attempts:Number(old.attempts||0)+1,correct:Number(old.correct||0)+(correct?1:0),mastery,streak:correct?Number(old.streak||0)+1:0,intervalDays:interval,nextReviewAt:next.toISOString(),lastSeenAt:now.toISOString(),lastResult:correct};save();
+ const now=new Date();queueAnswer(q.id,correct,now);
  document.getElementById("typed")?.setAttribute("disabled","true");document.getElementById("submit-typed")?.setAttribute("disabled","true");
  document.querySelectorAll(".answer").forEach(b=>{if(accepted.map(normalize).includes(normalize(b.textContent)))b.classList.add("correct");if(!correct&&normalize(b.textContent)===normalize(value))b.classList.add("wrong")});
  if(clicked&&correct)clicked.classList.add("correct");if(clicked&&!correct)clicked.classList.add("wrong");
@@ -183,7 +260,7 @@ function escapeHtml(value){return String(value).replace(/[&<>"']/g,ch=>({"&":"&a
 function nextQuestion(){state.index++;state.answered=false;renderQuestion()}
 function finishSession(){
  const total=state.session.length,correct=state.sessionCorrect,minutes=Math.max(1,Math.round((Date.now()-state.sessionStartedAt)/60000));
- state.db.sessions.push({date:todayKey(),total,correct,minutes,at:new Date().toISOString()});save();updateStreak();
+ const session={date:todayKey(),total,correct,minutes,at:new Date().toISOString()};state.db=PolyvoProgress.addEvent(state.db,"session",{session},PolyvoProgress.makeId("session"),session.at);save();if(state.user&&!state.offline)syncProgress();updateStreak();
  const accuracy=Math.round(correct/Math.max(1,total)*100),weak=state.session.filter(i=>Number(itemState(i.id).mastery||0)<.5).length;
  document.getElementById("app").innerHTML='<div class="center result-page"><span class="tag">Sessie afgerond</span><h1>Goed bezig.</h1><div class="result-grid"><div class="card"><span>Goed</span><div class="big">'+accuracy+'%</div><small>'+correct+' van '+total+' vragen</small></div><div class="card"><span>Te herhalen</span><div class="big">'+weak+'</div><small>vragen blijven actief</small></div><div class="card"><span>Streak</span><div class="big">'+Math.max(1,state.streak)+'</div><small>dagen achter elkaar</small></div></div><div class="card result-card"><p class="muted">De volgende sessie wordt aangepast aan wat je vandaag goed en fout deed.</p><button class="btn primary" id="again">Nog een sessie</button><button class="btn secondary" id="dashboard">Naar dashboard</button></div></div>';
  document.getElementById("again").addEventListener("click",startSession);document.getElementById("dashboard").addEventListener("click",renderHome);

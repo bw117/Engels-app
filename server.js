@@ -4,7 +4,7 @@ const mime={".html":"text/html; charset=utf-8",".js":"application/javascript; ch
 function send(res,status,body,type="text/plain; charset=utf-8"){res.writeHead(status,{"Content-Type":type});res.end(body)}
 http.createServer((req,res)=>{
  const url=new URL(req.url,"http://"+req.headers.host);
- if(url.pathname==="/api/health") return send(res,200,JSON.stringify({ok:true,version:"1.2.1"}),mime[".json"]);
+ if(url.pathname==="/api/health") return send(res,200,JSON.stringify({ok:true,version:"1.3.0"}),mime[".json"]);
  let pathname=decodeURIComponent(url.pathname==="/" ? "/index.html":url.pathname);
  const file=path.normalize(path.join(ROOT,pathname));
  if(!file.startsWith(ROOT)) return send(res,403,"Forbidden");
