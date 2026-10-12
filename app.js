@@ -236,7 +236,7 @@ function score(item){
  const s=itemState(item.id),m=Number(s.mastery||0),due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date(),fresh=!s.attempts,recentWrong=s.lastResult===false;
  return (1-m)*1.9+(due?1.7:0)+(recentWrong?1.25:0)+(fresh?.35:0)+Number(item.difficulty||1)*.12-Math.min((s.streak||0)*.06,.3);
 }
-function normalize(s){return String(s||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[’\']/g,"").replace(/[.!?,]+$/g,"").replace(/\s+/g," ")}
+function normalize(s){return String(s||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[’\']/g,"").replace(/[.!?,;:]/g,"").replace(/\s+/g," ")}
 function oneTypoApart(a,b){if(Math.min(a.length,b.length)<6||Math.abs(a.length-b.length)>1)return false;let i=0,j=0,edits=0;while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue}if(++edits>1)return false;if(a.length===b.length){if(a[i+1]===b[j]&&a[i]===b[j+1]){i+=2;j+=2;continue}i++;j++}else if(a.length>b.length)i++;else j++}return edits+(i<a.length||j<b.length?1:0)<=1}
 function matchesAnswer(value,accepted){const input=normalize(value),compactInput=input.replace(/\s+/g,"");return accepted.some(answer=>{const target=normalize(answer),compactTarget=target.replace(/\s+/g,"");return input===target||compactInput===compactTarget||oneTypoApart(compactInput,compactTarget)})}
 function renderQuestion(){

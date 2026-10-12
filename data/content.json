@@ -1,5 +1,5 @@
 {
-  "version": "1.10.2",
+  "version": "1.11.0",
   "topics": [
     {
       "id": "be-verbs",
@@ -5819,7 +5819,7 @@
       "accepted": [
         "breakfast"
       ],
-      "explanation": "ontbijt = breakfast.",
+      "explanation": "Breakfast is de eerste maaltijd van de dag.",
       "difficulty": 1,
       "translationNl": "ontbijt",
       "solutionEnglish": "breakfast"
@@ -7248,7 +7248,7 @@
       "accepted": [
         "forget"
       ],
-      "explanation": "'Vergeten' is forget.",
+      "explanation": "Forget betekent vergeten. Forget to do betekent vergeten iets te doen; forget doing betekent vergeten dat je het al deed.",
       "difficulty": 1,
       "translationNl": "vergeten",
       "solutionEnglish": "forget"
@@ -7262,7 +7262,7 @@
       "accepted": [
         "remember"
       ],
-      "explanation": "'Onthouden' is remember.",
+      "explanation": "Remember betekent onthouden of je iets herinneren. Remember to do betekent eraan denken iets te doen.",
       "difficulty": 1,
       "translationNl": "onthouden",
       "solutionEnglish": "remember"
@@ -8263,9 +8263,10 @@
       "prompt": "Wat is 'kiezen' in het Engels?",
       "answer": "choose",
       "accepted": [
-        "choose"
+        "choose",
+        "pick"
       ],
-      "explanation": "Choose betekent kiezen.",
+      "explanation": "Choose is kiezen; pick is een informelere variant.",
       "difficulty": 2,
       "translationNl": "kiezen",
       "solutionEnglish": "choose"
@@ -8279,7 +8280,7 @@
       "accepted": [
         "improve"
       ],
-      "explanation": "Improve betekent beter maken of worden.",
+      "explanation": "Improve betekent beter worden of iets beter maken.",
       "difficulty": 2,
       "translationNl": "verbeteren",
       "solutionEnglish": "improve"
@@ -8333,9 +8334,10 @@
       "prompt": "Wat is 'bericht' in het Engels?",
       "answer": "message",
       "accepted": [
-        "message"
+        "message",
+        "text"
       ],
-      "explanation": "Message betekent bericht.",
+      "explanation": "Message is een bericht; text is specifiek een sms- of chatbericht. Beide kunnen bij ‘bericht’ passen.",
       "difficulty": 2,
       "translationNl": "bericht",
       "solutionEnglish": "message"
@@ -8419,9 +8421,10 @@
       "answer": "journey",
       "accepted": [
         "journey",
-        "trip"
+        "trip",
+        "travel"
       ],
-      "explanation": "Journey en trip betekenen allebei reis.",
+      "explanation": "Journey en trip zijn meestal een afgebakende reis. Travel is reizen in het algemeen of als activiteit; je zegt meestal niet ‘a travel’ voor één concrete reis.",
       "difficulty": 2,
       "translationNl": "reis",
       "solutionEnglish": "journey"
@@ -8652,6 +8655,2285 @@
       "difficulty": 3,
       "translationNl": "omgeving",
       "solutionEnglish": "environment"
+    },
+    {
+      "id": "word-extra-002",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'bad' in het Engels?",
+      "answer": "bath",
+      "accepted": [
+        "bath",
+        "bathroom"
+      ],
+      "explanation": "Bath kan een bad of badkamer betekenen; bathroom is de kamer. De context bepaalt welke vertaling past.",
+      "difficulty": 1,
+      "translationNl": "bad",
+      "solutionEnglish": "bath"
+    },
+    {
+      "id": "word-extra-003",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'tuin' in het Engels?",
+      "answer": "garden",
+      "accepted": [
+        "garden",
+        "yard"
+      ],
+      "explanation": "Garden is gebruikelijk in Brits Engels; yard is vooral Amerikaans en vaak een kleinere tuin.",
+      "difficulty": 1,
+      "translationNl": "tuin",
+      "solutionEnglish": "garden"
+    },
+    {
+      "id": "word-extra-004",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'plafond' in het Engels?",
+      "answer": "ceiling",
+      "accepted": [
+        "ceiling"
+      ],
+      "explanation": "Ceiling is de binnenkant boven in een kamer; roof is het dak aan de buitenkant.",
+      "difficulty": 2,
+      "translationNl": "plafond",
+      "solutionEnglish": "ceiling"
+    },
+    {
+      "id": "word-extra-005",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vloer' in het Engels?",
+      "answer": "floor",
+      "accepted": [
+        "floor"
+      ],
+      "explanation": "Floor is de vloer waarop je loopt. In een gebouw kan floor ook verdieping betekenen.",
+      "difficulty": 1,
+      "translationNl": "vloer",
+      "solutionEnglish": "floor"
+    },
+    {
+      "id": "word-extra-006",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'trap' in het Engels?",
+      "answer": "stairs",
+      "accepted": [
+        "stairs",
+        "staircase"
+      ],
+      "explanation": "Stairs zijn de treden; staircase is de vaste trap als geheel.",
+      "difficulty": 1,
+      "translationNl": "trap",
+      "solutionEnglish": "stairs"
+    },
+    {
+      "id": "word-extra-007",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'muur' in het Engels?",
+      "answer": "wall",
+      "accepted": [
+        "wall"
+      ],
+      "explanation": "Wall is een muur of wand. Een lage buitenmuur kan ook a wall zijn.",
+      "difficulty": 1,
+      "translationNl": "muur",
+      "solutionEnglish": "wall"
+    },
+    {
+      "id": "word-extra-008",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'plank' in het Engels?",
+      "answer": "shelf",
+      "accepted": [
+        "shelf"
+      ],
+      "explanation": "Shelf is één plank aan de muur of in een kast; shelves is het meervoud.",
+      "difficulty": 2,
+      "translationNl": "plank",
+      "solutionEnglish": "shelf"
+    },
+    {
+      "id": "word-extra-009",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kast' in het Engels?",
+      "answer": "cupboard",
+      "accepted": [
+        "cupboard",
+        "cabinet",
+        "closet"
+      ],
+      "explanation": "Cupboard of cabinet is meestal een kast voor spullen; closet is vaak een ingebouwde kast, vooral in Amerikaans Engels.",
+      "difficulty": 2,
+      "translationNl": "kast",
+      "solutionEnglish": "cupboard"
+    },
+    {
+      "id": "word-extra-010",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'deken' in het Engels?",
+      "answer": "blanket",
+      "accepted": [
+        "blanket"
+      ],
+      "explanation": "Blanket is een losse deken om warm te blijven.",
+      "difficulty": 1,
+      "translationNl": "deken",
+      "solutionEnglish": "blanket"
+    },
+    {
+      "id": "word-extra-011",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kussen' in het Engels?",
+      "answer": "pillow",
+      "accepted": [
+        "pillow",
+        "cushion"
+      ],
+      "explanation": "Pillow is meestal een hoofdkussen; cushion is een sier- of zitkussen.",
+      "difficulty": 1,
+      "translationNl": "kussen",
+      "solutionEnglish": "pillow"
+    },
+    {
+      "id": "word-extra-012",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'handdoek' in het Engels?",
+      "answer": "towel",
+      "accepted": [
+        "towel"
+      ],
+      "explanation": "Towel is een handdoek of badhanddoek.",
+      "difficulty": 1,
+      "translationNl": "handdoek",
+      "solutionEnglish": "towel"
+    },
+    {
+      "id": "word-extra-013",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'zeep' in het Engels?",
+      "answer": "soap",
+      "accepted": [
+        "soap"
+      ],
+      "explanation": "Soap is zeep om je mee te wassen.",
+      "difficulty": 1,
+      "translationNl": "zeep",
+      "solutionEnglish": "soap"
+    },
+    {
+      "id": "word-extra-014",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'tandpasta' in het Engels?",
+      "answer": "toothpaste",
+      "accepted": [
+        "toothpaste"
+      ],
+      "explanation": "Toothpaste is tandpasta; een tube toothpaste is een tube tandpasta.",
+      "difficulty": 1,
+      "translationNl": "tandpasta",
+      "solutionEnglish": "toothpaste"
+    },
+    {
+      "id": "word-extra-016",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'maaltijd' in het Engels?",
+      "answer": "meal",
+      "accepted": [
+        "meal"
+      ],
+      "explanation": "Meal is een maaltijd, zoals ontbijt, lunch of avondeten.",
+      "difficulty": 1,
+      "translationNl": "maaltijd",
+      "solutionEnglish": "meal"
+    },
+    {
+      "id": "word-extra-017",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'recept' in het Engels?",
+      "answer": "recipe",
+      "accepted": [
+        "recipe"
+      ],
+      "explanation": "Recipe is een recept met ingrediënten en bereidingsstappen.",
+      "difficulty": 1,
+      "translationNl": "recept",
+      "solutionEnglish": "recipe"
+    },
+    {
+      "id": "word-extra-018",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'groente' in het Engels?",
+      "answer": "vegetable",
+      "accepted": [
+        "vegetable",
+        "vegetables"
+      ],
+      "explanation": "Vegetable is één groentesoort; vegetables gebruik je vaak voor groente in het algemeen.",
+      "difficulty": 1,
+      "translationNl": "groente",
+      "solutionEnglish": "vegetable"
+    },
+    {
+      "id": "word-extra-019",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'fruit' in het Engels?",
+      "answer": "fruit",
+      "accepted": [
+        "fruit"
+      ],
+      "explanation": "Fruit is fruit. In het Engels is fruit meestal hetzelfde in enkelvoud en meervoud.",
+      "difficulty": 1,
+      "translationNl": "fruit",
+      "solutionEnglish": "fruit"
+    },
+    {
+      "id": "word-extra-020",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'ui' in het Engels?",
+      "answer": "onion",
+      "accepted": [
+        "onion"
+      ],
+      "explanation": "Onion is een ui; spring onion is een bosui.",
+      "difficulty": 1,
+      "translationNl": "ui",
+      "solutionEnglish": "onion"
+    },
+    {
+      "id": "word-extra-021",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'aardappel' in het Engels?",
+      "answer": "potato",
+      "accepted": [
+        "potato"
+      ],
+      "explanation": "Potato is een aardappel; het meervoud is potatoes.",
+      "difficulty": 1,
+      "translationNl": "aardappel",
+      "solutionEnglish": "potato"
+    },
+    {
+      "id": "word-extra-022",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'rijst' in het Engels?",
+      "answer": "rice",
+      "accepted": [
+        "rice"
+      ],
+      "explanation": "Rice is rijst en is meestal niet-telbaar: some rice, niet a rice.",
+      "difficulty": 1,
+      "translationNl": "rijst",
+      "solutionEnglish": "rice"
+    },
+    {
+      "id": "word-extra-023",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kaas' in het Engels?",
+      "answer": "cheese",
+      "accepted": [
+        "cheese"
+      ],
+      "explanation": "Cheese is kaas. Voor een soort of portie kun je a piece of cheese zeggen.",
+      "difficulty": 1,
+      "translationNl": "kaas",
+      "solutionEnglish": "cheese"
+    },
+    {
+      "id": "word-extra-024",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'sap' in het Engels?",
+      "answer": "juice",
+      "accepted": [
+        "juice"
+      ],
+      "explanation": "Juice is sap; orange juice is sinaasappelsap.",
+      "difficulty": 1,
+      "translationNl": "sap",
+      "solutionEnglish": "juice"
+    },
+    {
+      "id": "word-extra-025",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'rekening' in het Engels?",
+      "answer": "bill",
+      "accepted": [
+        "bill",
+        "check"
+      ],
+      "explanation": "Bill is de rekening in Brits Engels; check is gebruikelijk in restaurants in de VS.",
+      "difficulty": 2,
+      "translationNl": "rekening",
+      "solutionEnglish": "bill"
+    },
+    {
+      "id": "word-extra-026",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'prijs' in het Engels?",
+      "answer": "price",
+      "accepted": [
+        "price"
+      ],
+      "explanation": "Price is het bedrag dat iets kost. Cost is het werkwoord ‘kosten’.",
+      "difficulty": 1,
+      "translationNl": "prijs",
+      "solutionEnglish": "price"
+    },
+    {
+      "id": "word-extra-027",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'korting' in het Engels?",
+      "answer": "discount",
+      "accepted": [
+        "discount",
+        "sale"
+      ],
+      "explanation": "Discount is korting op de prijs; a sale is vaak een uitverkoop of aanbieding.",
+      "difficulty": 2,
+      "translationNl": "korting",
+      "solutionEnglish": "discount"
+    },
+    {
+      "id": "word-extra-028",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'portemonnee' in het Engels?",
+      "answer": "wallet",
+      "accepted": [
+        "wallet",
+        "purse"
+      ],
+      "explanation": "Wallet is meestal een platte herenportemonnee; purse kan in Brits Engels een kleine portemonnee betekenen en in de VS een handtas.",
+      "difficulty": 2,
+      "translationNl": "portemonnee",
+      "solutionEnglish": "wallet"
+    },
+    {
+      "id": "word-extra-029",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kaart' in het Engels?",
+      "answer": "card",
+      "accepted": [
+        "card"
+      ],
+      "explanation": "Card kan kaart betekenen; zeg bank card voor bankpas en playing card voor speelkaart.",
+      "difficulty": 1,
+      "translationNl": "kaart",
+      "solutionEnglish": "card"
+    },
+    {
+      "id": "word-extra-030",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'contant geld' in het Engels?",
+      "answer": "cash",
+      "accepted": [
+        "cash"
+      ],
+      "explanation": "Cash betekent contant geld, in tegenstelling tot betalen met een kaart.",
+      "difficulty": 1,
+      "translationNl": "contant geld",
+      "solutionEnglish": "cash"
+    },
+    {
+      "id": "word-extra-031",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'baan' in het Engels?",
+      "answer": "job",
+      "accepted": [
+        "job",
+        "position"
+      ],
+      "explanation": "Job is een baan of functie. Work betekent werk in het algemeen.",
+      "difficulty": 1,
+      "translationNl": "baan",
+      "solutionEnglish": "job"
+    },
+    {
+      "id": "word-extra-032",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'collega' in het Engels?",
+      "answer": "colleague",
+      "accepted": [
+        "colleague",
+        "coworker"
+      ],
+      "explanation": "Colleague is algemeen en vaak Brits; coworker is gebruikelijk in Amerikaans Engels.",
+      "difficulty": 2,
+      "translationNl": "collega",
+      "solutionEnglish": "colleague"
+    },
+    {
+      "id": "word-extra-033",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vergadering' in het Engels?",
+      "answer": "meeting",
+      "accepted": [
+        "meeting"
+      ],
+      "explanation": "Meeting is een vergadering of afspraak waarbij mensen samen overleggen.",
+      "difficulty": 1,
+      "translationNl": "vergadering",
+      "solutionEnglish": "meeting"
+    },
+    {
+      "id": "word-extra-034",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kantoor' in het Engels?",
+      "answer": "office",
+      "accepted": [
+        "office"
+      ],
+      "explanation": "Office is een kantoor of kantoorruimte.",
+      "difficulty": 1,
+      "translationNl": "kantoor",
+      "solutionEnglish": "office"
+    },
+    {
+      "id": "word-extra-035",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'pauze' in het Engels?",
+      "answer": "break",
+      "accepted": [
+        "break"
+      ],
+      "explanation": "Break betekent een korte pauze; take a break is pauze nemen.",
+      "difficulty": 1,
+      "translationNl": "pauze",
+      "solutionEnglish": "break"
+    },
+    {
+      "id": "word-extra-037",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'wachtwoord' in het Engels?",
+      "answer": "password",
+      "accepted": [
+        "password"
+      ],
+      "explanation": "Password is een wachtwoord om toegang te krijgen tot een account.",
+      "difficulty": 1,
+      "translationNl": "wachtwoord",
+      "solutionEnglish": "password"
+    },
+    {
+      "id": "word-extra-038",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vraag' in het Engels?",
+      "answer": "question",
+      "accepted": [
+        "question"
+      ],
+      "explanation": "Question is een vraag die je stelt. Ask a question betekent een vraag stellen.",
+      "difficulty": 1,
+      "translationNl": "vraag",
+      "solutionEnglish": "question"
+    },
+    {
+      "id": "word-extra-039",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'antwoord' in het Engels?",
+      "answer": "answer",
+      "accepted": [
+        "answer",
+        "reply"
+      ],
+      "explanation": "Answer is een antwoord op een vraag; reply is een reactie of antwoord op een bericht.",
+      "difficulty": 1,
+      "translationNl": "antwoord",
+      "solutionEnglish": "answer"
+    },
+    {
+      "id": "word-extra-040",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'fout' in het Engels?",
+      "answer": "mistake",
+      "accepted": [
+        "mistake",
+        "error"
+      ],
+      "explanation": "Mistake is een menselijke fout; error klinkt formeler of technisch.",
+      "difficulty": 1,
+      "translationNl": "fout",
+      "solutionEnglish": "mistake"
+    },
+    {
+      "id": "word-extra-041",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'keuze' in het Engels?",
+      "answer": "choice",
+      "accepted": [
+        "choice"
+      ],
+      "explanation": "Choice is een keuze; make a choice betekent een keuze maken.",
+      "difficulty": 1,
+      "translationNl": "keuze",
+      "solutionEnglish": "choice"
+    },
+    {
+      "id": "word-extra-042",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'reden' in het Engels?",
+      "answer": "reason",
+      "accepted": [
+        "reason"
+      ],
+      "explanation": "Reason is de reden waarom iets gebeurt of waarom iemand iets doet.",
+      "difficulty": 1,
+      "translationNl": "reden",
+      "solutionEnglish": "reason"
+    },
+    {
+      "id": "word-extra-043",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'idee' in het Engels?",
+      "answer": "idea",
+      "accepted": [
+        "idea"
+      ],
+      "explanation": "Idea is een idee of gedachte.",
+      "difficulty": 1,
+      "translationNl": "idee",
+      "solutionEnglish": "idea"
+    },
+    {
+      "id": "word-extra-044",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'plan' in het Engels?",
+      "answer": "plan",
+      "accepted": [
+        "plan"
+      ],
+      "explanation": "Plan is een plan; make a plan betekent een plan maken.",
+      "difficulty": 1,
+      "translationNl": "plan",
+      "solutionEnglish": "plan"
+    },
+    {
+      "id": "word-extra-045",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'doel' in het Engels?",
+      "answer": "goal",
+      "accepted": [
+        "goal",
+        "aim"
+      ],
+      "explanation": "Goal is een doel dat je wilt bereiken; aim kan ook het doel of de bedoeling zijn.",
+      "difficulty": 2,
+      "translationNl": "doel",
+      "solutionEnglish": "goal"
+    },
+    {
+      "id": "word-extra-046",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'probleem' in het Engels?",
+      "answer": "problem",
+      "accepted": [
+        "problem",
+        "issue"
+      ],
+      "explanation": "Problem is een probleem dat opgelost moet worden; issue kan ook een kwestie of onderwerp zijn.",
+      "difficulty": 1,
+      "translationNl": "probleem",
+      "solutionEnglish": "problem"
+    },
+    {
+      "id": "word-extra-047",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'oplossing' in het Engels?",
+      "answer": "solution",
+      "accepted": [
+        "solution",
+        "answer"
+      ],
+      "explanation": "Solution is een oplossing voor een probleem; answer is een antwoord op een vraag.",
+      "difficulty": 2,
+      "translationNl": "oplossing",
+      "solutionEnglish": "solution"
+    },
+    {
+      "id": "word-extra-048",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'gezondheid' in het Engels?",
+      "answer": "health",
+      "accepted": [
+        "health"
+      ],
+      "explanation": "Health betekent gezondheid. Healthy is het bijvoeglijk naamwoord ‘gezond’.",
+      "difficulty": 1,
+      "translationNl": "gezondheid",
+      "solutionEnglish": "health"
+    },
+    {
+      "id": "word-extra-049",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'ziek' in het Engels?",
+      "answer": "ill",
+      "accepted": [
+        "ill",
+        "sick"
+      ],
+      "explanation": "Ill en sick betekenen ziek. Sick is gebruikelijker in Amerikaans Engels; ill komt vaak voor in Brits Engels.",
+      "difficulty": 1,
+      "translationNl": "ziek",
+      "solutionEnglish": "ill"
+    },
+    {
+      "id": "word-extra-050",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'hoofdpijn' in het Engels?",
+      "answer": "headache",
+      "accepted": [
+        "headache"
+      ],
+      "explanation": "Headache is hoofdpijn; I have a headache betekent ‘ik heb hoofdpijn’.",
+      "difficulty": 1,
+      "translationNl": "hoofdpijn",
+      "solutionEnglish": "headache"
+    },
+    {
+      "id": "word-extra-051",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'dokter' in het Engels?",
+      "answer": "doctor",
+      "accepted": [
+        "doctor"
+      ],
+      "explanation": "Doctor is een arts. In Brits Engels wordt een huisarts vaak GP genoemd.",
+      "difficulty": 1,
+      "translationNl": "dokter",
+      "solutionEnglish": "doctor"
+    },
+    {
+      "id": "word-extra-052",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'medicijn' in het Engels?",
+      "answer": "medicine",
+      "accepted": [
+        "medicine",
+        "medication"
+      ],
+      "explanation": "Medicine is een medicijn of geneesmiddel; medication klinkt formeler.",
+      "difficulty": 1,
+      "translationNl": "medicijn",
+      "solutionEnglish": "medicine"
+    },
+    {
+      "id": "word-extra-053",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'moe' in het Engels?",
+      "answer": "tired",
+      "accepted": [
+        "tired",
+        "exhausted"
+      ],
+      "explanation": "Tired is moe; exhausted betekent uitgeput en is veel sterker.",
+      "difficulty": 1,
+      "translationNl": "moe",
+      "solutionEnglish": "tired"
+    },
+    {
+      "id": "word-extra-054",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'blij' in het Engels?",
+      "answer": "happy",
+      "accepted": [
+        "happy",
+        "glad"
+      ],
+      "explanation": "Happy is blij of gelukkig; glad betekent meestal blij dat iets goed is afgelopen.",
+      "difficulty": 1,
+      "translationNl": "blij",
+      "solutionEnglish": "happy"
+    },
+    {
+      "id": "word-extra-055",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'boos' in het Engels?",
+      "answer": "angry",
+      "accepted": [
+        "angry",
+        "mad"
+      ],
+      "explanation": "Angry betekent boos; mad wordt vooral in Amerikaans Engels gebruikt voor boos.",
+      "difficulty": 1,
+      "translationNl": "boos",
+      "solutionEnglish": "angry"
+    },
+    {
+      "id": "word-extra-056",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'bezorgd' in het Engels?",
+      "answer": "worried",
+      "accepted": [
+        "worried",
+        "concerned"
+      ],
+      "explanation": "Worried is bezorgd of ongerust; concerned klinkt vaak iets formeler.",
+      "difficulty": 2,
+      "translationNl": "bezorgd",
+      "solutionEnglish": "worried"
+    },
+    {
+      "id": "word-extra-057",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'trots' in het Engels?",
+      "answer": "proud",
+      "accepted": [
+        "proud"
+      ],
+      "explanation": "Proud betekent trots; proud of someone is trots op iemand.",
+      "difficulty": 1,
+      "translationNl": "trots",
+      "solutionEnglish": "proud"
+    },
+    {
+      "id": "word-extra-058",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'rustig' in het Engels?",
+      "answer": "quiet",
+      "accepted": [
+        "quiet",
+        "calm"
+      ],
+      "explanation": "Quiet betekent stil met weinig geluid; calm betekent kalm en niet gespannen.",
+      "difficulty": 1,
+      "translationNl": "rustig",
+      "solutionEnglish": "quiet"
+    },
+    {
+      "id": "word-extra-059",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'luid' in het Engels?",
+      "answer": "loud",
+      "accepted": [
+        "loud"
+      ],
+      "explanation": "Loud betekent hard of luid qua geluid.",
+      "difficulty": 1,
+      "translationNl": "luid",
+      "solutionEnglish": "loud"
+    },
+    {
+      "id": "word-extra-060",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'druk' in het Engels?",
+      "answer": "busy",
+      "accepted": [
+        "busy"
+      ],
+      "explanation": "Busy betekent dat je veel te doen hebt. Crowded beschrijft een plek met veel mensen.",
+      "difficulty": 1,
+      "translationNl": "druk",
+      "solutionEnglish": "busy"
+    },
+    {
+      "id": "word-extra-061",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'leeg' in het Engels?",
+      "answer": "empty",
+      "accepted": [
+        "empty",
+        "vacant"
+      ],
+      "explanation": "Empty betekent leeg; vacant wordt vaak gebruikt voor een vrije kamer of plek.",
+      "difficulty": 1,
+      "translationNl": "leeg",
+      "solutionEnglish": "empty"
+    },
+    {
+      "id": "word-extra-062",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vol' in het Engels?",
+      "answer": "full",
+      "accepted": [
+        "full"
+      ],
+      "explanation": "Full betekent vol. A full glass is een vol glas.",
+      "difficulty": 1,
+      "translationNl": "vol",
+      "solutionEnglish": "full"
+    },
+    {
+      "id": "word-extra-063",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'schoon' in het Engels?",
+      "answer": "clean",
+      "accepted": [
+        "clean",
+        "tidy"
+      ],
+      "explanation": "Clean betekent schoon; tidy betekent netjes opgeruimd.",
+      "difficulty": 1,
+      "translationNl": "schoon",
+      "solutionEnglish": "clean"
+    },
+    {
+      "id": "word-extra-064",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vies' in het Engels?",
+      "answer": "dirty",
+      "accepted": [
+        "dirty",
+        "filthy"
+      ],
+      "explanation": "Dirty betekent vies; filthy is veel sterker en betekent erg smerig.",
+      "difficulty": 1,
+      "translationNl": "vies",
+      "solutionEnglish": "dirty"
+    },
+    {
+      "id": "word-extra-065",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'veilig' in het Engels?",
+      "answer": "safe",
+      "accepted": [
+        "safe",
+        "secure"
+      ],
+      "explanation": "Safe betekent niet gevaarlijk; secure benadrukt dat iets goed beschermd of beveiligd is.",
+      "difficulty": 2,
+      "translationNl": "veilig",
+      "solutionEnglish": "safe"
+    },
+    {
+      "id": "word-extra-066",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'gevaarlijk' in het Engels?",
+      "answer": "dangerous",
+      "accepted": [
+        "dangerous"
+      ],
+      "explanation": "Dangerous betekent gevaarlijk en kan zowel voor mensen als situaties worden gebruikt.",
+      "difficulty": 1,
+      "translationNl": "gevaarlijk",
+      "solutionEnglish": "dangerous"
+    },
+    {
+      "id": "word-extra-067",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'belangrijk' in het Engels?",
+      "answer": "important",
+      "accepted": [
+        "important"
+      ],
+      "explanation": "Important betekent belangrijk; more important is belangrijker.",
+      "difficulty": 1,
+      "translationNl": "belangrijk",
+      "solutionEnglish": "important"
+    },
+    {
+      "id": "word-extra-068",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'mogelijk' in het Engels?",
+      "answer": "possible",
+      "accepted": [
+        "possible"
+      ],
+      "explanation": "Possible betekent mogelijk: iets kan gebeuren of gedaan worden.",
+      "difficulty": 1,
+      "translationNl": "mogelijk",
+      "solutionEnglish": "possible"
+    },
+    {
+      "id": "word-extra-069",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'waarschijnlijk' in het Engels?",
+      "answer": "probably",
+      "accepted": [
+        "probably",
+        "likely"
+      ],
+      "explanation": "Probably is waarschijnlijk als bijwoord; likely is vaak een bijvoeglijk naamwoord, zoals It is likely.",
+      "difficulty": 2,
+      "translationNl": "waarschijnlijk",
+      "solutionEnglish": "probably"
+    },
+    {
+      "id": "word-extra-070",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'misschien' in het Engels?",
+      "answer": "maybe",
+      "accepted": [
+        "maybe",
+        "perhaps"
+      ],
+      "explanation": "Maybe en perhaps betekenen misschien; perhaps klinkt iets formeler.",
+      "difficulty": 1,
+      "translationNl": "misschien",
+      "solutionEnglish": "maybe"
+    },
+    {
+      "id": "word-extra-071",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'bijna' in het Engels?",
+      "answer": "almost",
+      "accepted": [
+        "almost",
+        "nearly"
+      ],
+      "explanation": "Almost en nearly betekenen bijna.",
+      "difficulty": 1,
+      "translationNl": "bijna",
+      "solutionEnglish": "almost"
+    },
+    {
+      "id": "word-extra-072",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'genoeg' in het Engels?",
+      "answer": "enough",
+      "accepted": [
+        "enough"
+      ],
+      "explanation": "Enough betekent genoeg. Het staat meestal vóór een zelfstandig naamwoord (enough time) en ná een bijvoeglijk naamwoord (old enough).",
+      "difficulty": 2,
+      "translationNl": "genoeg",
+      "solutionEnglish": "enough"
+    },
+    {
+      "id": "word-extra-073",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'samen' in het Engels?",
+      "answer": "together",
+      "accepted": [
+        "together"
+      ],
+      "explanation": "Together betekent samen of met elkaar.",
+      "difficulty": 1,
+      "translationNl": "samen",
+      "solutionEnglish": "together"
+    },
+    {
+      "id": "word-extra-074",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'alleen' in het Engels?",
+      "answer": "alone",
+      "accepted": [
+        "alone",
+        "by myself"
+      ],
+      "explanation": "Alone betekent alleen; by myself betekent dat je iets zonder hulp of gezelschap doet.",
+      "difficulty": 1,
+      "translationNl": "alleen",
+      "solutionEnglish": "alone"
+    },
+    {
+      "id": "word-extra-075",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'missen' in het Engels?",
+      "answer": "miss",
+      "accepted": [
+        "miss"
+      ],
+      "explanation": "Miss kan iemand missen of iets niet halen betekenen. I miss the bus betekent dat je de bus mist.",
+      "difficulty": 2,
+      "translationNl": "missen",
+      "solutionEnglish": "miss"
+    },
+    {
+      "id": "word-extra-076",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'lenen' in het Engels?",
+      "answer": "borrow",
+      "accepted": [
+        "borrow"
+      ],
+      "explanation": "Borrow betekent iets van iemand lenen en later teruggeven. Lend betekent iets uitlenen aan een ander.",
+      "difficulty": 2,
+      "translationNl": "lenen",
+      "solutionEnglish": "borrow"
+    },
+    {
+      "id": "word-extra-077",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'uitlenen' in het Engels?",
+      "answer": "lend",
+      "accepted": [
+        "lend"
+      ],
+      "explanation": "Lend betekent iets aan iemand uitlenen. Borrow is het vanuit de andere persoon bekijken: lenen.",
+      "difficulty": 2,
+      "translationNl": "uitlenen",
+      "solutionEnglish": "lend"
+    },
+    {
+      "id": "word-extra-078",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'brengen' in het Engels?",
+      "answer": "bring",
+      "accepted": [
+        "bring",
+        "take"
+      ],
+      "explanation": "Bring is iets meenemen naar de plek van de spreker; take is iets ergens anders naartoe brengen.",
+      "difficulty": 2,
+      "translationNl": "brengen",
+      "solutionEnglish": "bring"
+    },
+    {
+      "id": "word-extra-079",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'meenemen' in het Engels?",
+      "answer": "take",
+      "accepted": [
+        "take",
+        "bring"
+      ],
+      "explanation": "Take is meenemen of ergens naartoe brengen. Bring gebruik je als iets naar de spreker of de afgesproken plek komt.",
+      "difficulty": 2,
+      "translationNl": "meenemen",
+      "solutionEnglish": "take"
+    },
+    {
+      "id": "word-extra-080",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'ontmoeten' in het Engels?",
+      "answer": "meet",
+      "accepted": [
+        "meet"
+      ],
+      "explanation": "Meet betekent iemand ontmoeten; meet up betekent afspreken om elkaar te zien.",
+      "difficulty": 1,
+      "translationNl": "ontmoeten",
+      "solutionEnglish": "meet"
+    },
+    {
+      "id": "word-extra-081",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'bezoeken' in het Engels?",
+      "answer": "visit",
+      "accepted": [
+        "visit"
+      ],
+      "explanation": "Visit betekent iemand of een plek bezoeken. Je zegt visit London, zonder to.",
+      "difficulty": 1,
+      "translationNl": "bezoeken",
+      "solutionEnglish": "visit"
+    },
+    {
+      "id": "word-extra-082",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'aankomen' in het Engels?",
+      "answer": "arrive",
+      "accepted": [
+        "arrive",
+        "get there"
+      ],
+      "explanation": "Arrive betekent aankomen. Bij een plek gebruik je vaak arrive at (een punt) of arrive in (een stad/land).",
+      "difficulty": 2,
+      "translationNl": "aankomen",
+      "solutionEnglish": "arrive"
+    },
+    {
+      "id": "word-extra-083",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vertrekken' in het Engels?",
+      "answer": "leave",
+      "accepted": [
+        "leave",
+        "depart"
+      ],
+      "explanation": "Leave is vertrekken of weggaan; depart klinkt formeler.",
+      "difficulty": 1,
+      "translationNl": "vertrekken",
+      "solutionEnglish": "leave"
+    },
+    {
+      "id": "word-extra-087",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'besluiten' in het Engels?",
+      "answer": "decide",
+      "accepted": [
+        "decide"
+      ],
+      "explanation": "Decide betekent besluiten of een keuze maken. Decide to do wordt gevolgd door to + werkwoord.",
+      "difficulty": 1,
+      "translationNl": "besluiten",
+      "solutionEnglish": "decide"
+    },
+    {
+      "id": "word-extra-088",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'uitleggen' in het Engels?",
+      "answer": "explain",
+      "accepted": [
+        "explain"
+      ],
+      "explanation": "Explain betekent uitleggen. Je zegt explain something to someone, niet explain someone something.",
+      "difficulty": 2,
+      "translationNl": "uitleggen",
+      "solutionEnglish": "explain"
+    },
+    {
+      "id": "word-extra-089",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'bedoelen' in het Engels?",
+      "answer": "mean",
+      "accepted": [
+        "mean"
+      ],
+      "explanation": "Mean betekent bedoelen of betekenen. What do you mean? is ‘wat bedoel je?’",
+      "difficulty": 1,
+      "translationNl": "bedoelen",
+      "solutionEnglish": "mean"
+    },
+    {
+      "id": "word-extra-090",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'hopen' in het Engels?",
+      "answer": "hope",
+      "accepted": [
+        "hope"
+      ],
+      "explanation": "Hope betekent hopen; hope to do betekent hopen iets te doen.",
+      "difficulty": 1,
+      "translationNl": "hopen",
+      "solutionEnglish": "hope"
+    },
+    {
+      "id": "word-extra-091",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'proberen' in het Engels?",
+      "answer": "try",
+      "accepted": [
+        "try",
+        "attempt"
+      ],
+      "explanation": "Try betekent proberen; attempt klinkt formeler en benadrukt de poging.",
+      "difficulty": 1,
+      "translationNl": "proberen",
+      "solutionEnglish": "try"
+    },
+    {
+      "id": "word-extra-092",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'besparen' in het Engels?",
+      "answer": "save",
+      "accepted": [
+        "save"
+      ],
+      "explanation": "Save kan geld of tijd besparen, maar ook sparen. De context bepaalt de betekenis.",
+      "difficulty": 2,
+      "translationNl": "besparen",
+      "solutionEnglish": "save"
+    },
+    {
+      "id": "word-extra-093",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'uitgeven' in het Engels?",
+      "answer": "spend",
+      "accepted": [
+        "spend"
+      ],
+      "explanation": "Spend gebruik je voor tijd of geld uitgeven: spend money, spend time.",
+      "difficulty": 2,
+      "translationNl": "uitgeven",
+      "solutionEnglish": "spend"
+    },
+    {
+      "id": "word-extra-094",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'groeien' in het Engels?",
+      "answer": "grow",
+      "accepted": [
+        "grow"
+      ],
+      "explanation": "Grow betekent groeien of iets laten groeien. Plants grow betekent planten groeien.",
+      "difficulty": 1,
+      "translationNl": "groeien",
+      "solutionEnglish": "grow"
+    },
+    {
+      "id": "word-extra-095",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'veranderen' in het Engels?",
+      "answer": "change",
+      "accepted": [
+        "change"
+      ],
+      "explanation": "Change betekent veranderen of iets anders maken.",
+      "difficulty": 1,
+      "translationNl": "veranderen",
+      "solutionEnglish": "change"
+    },
+    {
+      "id": "word-extra-097",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'beslissing' in het Engels?",
+      "answer": "decision",
+      "accepted": [
+        "decision"
+      ],
+      "explanation": "Decision is een beslissing; make a decision betekent een beslissing nemen.",
+      "difficulty": 2,
+      "translationNl": "beslissing",
+      "solutionEnglish": "decision"
+    },
+    {
+      "id": "word-extra-098",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'ervaring' in het Engels?",
+      "answer": "experience",
+      "accepted": [
+        "experience"
+      ],
+      "explanation": "Experience is ervaring of belevenis. Als ‘ervaring’ niet-telbaar is, gebruik je meestal geen a.",
+      "difficulty": 2,
+      "translationNl": "ervaring",
+      "solutionEnglish": "experience"
+    },
+    {
+      "id": "word-extra-099",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'advies' in het Engels?",
+      "answer": "advice",
+      "accepted": [
+        "advice"
+      ],
+      "explanation": "Advice is advies en is niet-telbaar: some advice, niet an advice. A piece of advice is één advies.",
+      "difficulty": 2,
+      "translationNl": "advies",
+      "solutionEnglish": "advice"
+    },
+    {
+      "id": "word-extra-100",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'informatie' in het Engels?",
+      "answer": "information",
+      "accepted": [
+        "information"
+      ],
+      "explanation": "Information is informatie en is niet-telbaar: some information, niet informations.",
+      "difficulty": 2,
+      "translationNl": "informatie",
+      "solutionEnglish": "information"
+    },
+    {
+      "id": "word-extra-101",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'nieuws' in het Engels?",
+      "answer": "news",
+      "accepted": [
+        "news"
+      ],
+      "explanation": "News betekent nieuws en is grammaticaal enkelvoud: The news is good.",
+      "difficulty": 2,
+      "translationNl": "nieuws",
+      "solutionEnglish": "news"
+    },
+    {
+      "id": "word-extra-102",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kans' in het Engels?",
+      "answer": "chance",
+      "accepted": [
+        "chance",
+        "opportunity"
+      ],
+      "explanation": "Chance is een mogelijkheid of kans; opportunity benadrukt vaak een gunstig moment om iets te doen.",
+      "difficulty": 2,
+      "translationNl": "kans",
+      "solutionEnglish": "chance"
+    },
+    {
+      "id": "sentence-extra-001",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn broer werkt in een hotel.'",
+      "answer": "My brother works at a hotel.",
+      "accepted": [
+        "my brother works at a hotel",
+        "my brother works in a hotel"
+      ],
+      "explanation": "Bij my brother gebruik je works. Voor een hotel gebruik je meestal at als je de werkplek bedoelt; in komt ook voor.",
+      "difficulty": 1,
+      "translationNl": "Mijn broer werkt in een hotel.",
+      "solutionEnglish": "My brother works at a hotel."
+    },
+    {
+      "id": "sentence-extra-002",
+      "topic": "present-continuous",
+      "type": "typed",
+      "prompt": "Vertaal: 'We gaan morgen met de trein naar Londen.'",
+      "answer": "We are taking the train to London tomorrow.",
+      "accepted": [
+        "we are taking the train to london tomorrow",
+        "we're taking the train to london tomorrow",
+        "we will take the train to london tomorrow"
+      ],
+      "explanation": "Present continuous kan een vaste afspraak in de nabije toekomst beschrijven. Will take is ook goed als je een voorspelling of besluit bedoelt.",
+      "difficulty": 2,
+      "translationNl": "We gaan morgen met de trein naar Londen.",
+      "solutionEnglish": "We are taking the train to London tomorrow."
+    },
+    {
+      "id": "sentence-extra-003",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Zij heeft haar sleutels op tafel gelegd.'",
+      "answer": "She has put her keys on the table.",
+      "accepted": [
+        "she has put her keys on the table"
+      ],
+      "explanation": "Present perfect: has + past participle. Put heeft in deze vorm dezelfde spelling als de basisvorm.",
+      "difficulty": 3,
+      "translationNl": "Zij heeft haar sleutels op tafel gelegd.",
+      "solutionEnglish": "She has put her keys on the table."
+    },
+    {
+      "id": "sentence-extra-004",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik heb gisteren mijn collega ontmoet.'",
+      "answer": "I met my colleague yesterday.",
+      "accepted": [
+        "i met my colleague yesterday",
+        "i met my coworker yesterday"
+      ],
+      "explanation": "Yesterday vraagt om past simple. Met is de verleden tijd van meet; colleague en coworker betekenen collega.",
+      "difficulty": 2,
+      "translationNl": "Ik heb gisteren mijn collega ontmoet.",
+      "solutionEnglish": "I met my colleague yesterday."
+    },
+    {
+      "id": "sentence-extra-005",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hoe lang woon je al in deze stad?'",
+      "answer": "How long have you lived in this city?",
+      "accepted": [
+        "how long have you lived in this city",
+        "how long have you been living in this city"
+      ],
+      "explanation": "Voor een situatie die in het verleden begon en nu nog doorgaat, gebruik je have lived of have been living.",
+      "difficulty": 3,
+      "translationNl": "Hoe lang woon je al in deze stad?",
+      "solutionEnglish": "How long have you lived in this city?"
+    },
+    {
+      "id": "sentence-extra-006",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "Vertaal: 'Er staan drie appels in de koelkast.'",
+      "answer": "There are three apples in the fridge.",
+      "accepted": [
+        "there are three apples in the fridge",
+        "there are three apples in the refrigerator"
+      ],
+      "explanation": "There are gebruik je bij meervoud. Fridge is de gewone korte vorm van refrigerator.",
+      "difficulty": 1,
+      "translationNl": "Er staan drie appels in de koelkast.",
+      "solutionEnglish": "There are three apples in the fridge."
+    },
+    {
+      "id": "sentence-extra-007",
+      "topic": "present-continuous",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn ouders komen vanavond bij ons eten.'",
+      "answer": "My parents are coming over for dinner tonight.",
+      "accepted": [
+        "my parents are coming over for dinner tonight",
+        "my parents are coming for dinner tonight"
+      ],
+      "explanation": "Present continuous beschrijft hier een afgesproken toekomstplan. Come over betekent bij iemand thuis langskomen.",
+      "difficulty": 2,
+      "translationNl": "Mijn ouders komen vanavond bij ons eten.",
+      "solutionEnglish": "My parents are coming over for dinner tonight."
+    },
+    {
+      "id": "sentence-extra-008",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik drink liever thee dan koffie.'",
+      "answer": "I prefer tea to coffee.",
+      "accepted": [
+        "i prefer tea to coffee"
+      ],
+      "explanation": "Na prefer gebruik je in deze vergelijking to: prefer A to B.",
+      "difficulty": 2,
+      "translationNl": "Ik drink liever thee dan koffie.",
+      "solutionEnglish": "I prefer tea to coffee."
+    },
+    {
+      "id": "sentence-extra-009",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Kun je me vertellen waar het station is?'",
+      "answer": "Can you tell me where the station is?",
+      "accepted": [
+        "can you tell me where the station is"
+      ],
+      "explanation": "In een indirecte vraag gebruik je normale woordvolgorde: where the station is, niet where is the station.",
+      "difficulty": 2,
+      "translationNl": "Kun je me vertellen waar het station is?",
+      "solutionEnglish": "Can you tell me where the station is?"
+    },
+    {
+      "id": "sentence-extra-010",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hij heeft niet genoeg tijd om te koken.'",
+      "answer": "He doesn't have enough time to cook.",
+      "accepted": [
+        "he doesnt have enough time to cook",
+        "he doesn't have enough time to cook"
+      ],
+      "explanation": "Bij he gebruik je doesn't + basisvorm have. Na enough time volgt to cook.",
+      "difficulty": 2,
+      "translationNl": "Hij heeft niet genoeg tijd om te koken.",
+      "solutionEnglish": "He doesn't have enough time to cook."
+    },
+    {
+      "id": "sentence-extra-011",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'We waren moe, maar we maakten de wandeling af.'",
+      "answer": "We were tired, but we finished the walk.",
+      "accepted": [
+        "we were tired but we finished the walk",
+        "we were tired, but we finished the walk",
+        "we were tired, but we completed the walk"
+      ],
+      "explanation": "Were is de verleden tijd van are. Finished en completed betekenen hier allebei dat we de wandeling afmaakten.",
+      "difficulty": 2,
+      "translationNl": "We waren moe, maar we maakten de wandeling af.",
+      "solutionEnglish": "We were tired, but we finished the walk."
+    },
+    {
+      "id": "sentence-extra-012",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik wacht al twintig minuten op de bus.'",
+      "answer": "I have been waiting for the bus for twenty minutes.",
+      "accepted": [
+        "i have been waiting for the bus for twenty minutes",
+        "i've been waiting for the bus for twenty minutes"
+      ],
+      "explanation": "De actie begon eerder en gaat nog door: have been + werkwoord-ing. For geeft de duur aan.",
+      "difficulty": 3,
+      "translationNl": "Ik wacht al twintig minuten op de bus.",
+      "solutionEnglish": "I have been waiting for the bus for twenty minutes."
+    },
+    {
+      "id": "sentence-extra-013",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Zij vroeg me om haar te helpen.'",
+      "answer": "She asked me to help her.",
+      "accepted": [
+        "she asked me to help her"
+      ],
+      "explanation": "Ask someone to do something is de vaste constructie: asked me to help.",
+      "difficulty": 2,
+      "translationNl": "Zij vroeg me om haar te helpen.",
+      "solutionEnglish": "She asked me to help her."
+    },
+    {
+      "id": "sentence-extra-014",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "Vertaal: 'Er is niet veel melk meer.'",
+      "answer": "There isn't much milk left.",
+      "accepted": [
+        "there isnt much milk left",
+        "there isn't much milk left"
+      ],
+      "explanation": "Milk is niet-telbaar, daarom gebruik je much. Isn't is there is not.",
+      "difficulty": 1,
+      "translationNl": "Er is niet veel melk meer.",
+      "solutionEnglish": "There isn't much milk left."
+    },
+    {
+      "id": "sentence-extra-015",
+      "topic": "present-continuous",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik weet zeker dat hij de juiste keuze maakt.'",
+      "answer": "I'm sure he is making the right choice.",
+      "accepted": [
+        "im sure he is making the right choice",
+        "i'm sure he is making the right choice"
+      ],
+      "explanation": "Is making beschrijft de keuze die hij nu aan het maken is. Sure that kan ook, maar is hier niet nodig.",
+      "difficulty": 2,
+      "translationNl": "Ik weet zeker dat hij de juiste keuze maakt.",
+      "solutionEnglish": "I'm sure he is making the right choice."
+    },
+    {
+      "id": "sentence-extra-016",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Als het morgen regent, blijven we thuis.'",
+      "answer": "If it rains tomorrow, we will stay at home.",
+      "accepted": [
+        "if it rains tomorrow we will stay at home",
+        "if it rains tomorrow, we will stay at home"
+      ],
+      "explanation": "In de if-zin gebruik je present simple (rains); in het gevolg gebruik je will + basisvorm.",
+      "difficulty": 2,
+      "translationNl": "Als het morgen regent, blijven we thuis.",
+      "solutionEnglish": "If it rains tomorrow, we will stay at home."
+    },
+    {
+      "id": "sentence-extra-017",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "Vertaal: 'De winkel is gesloten omdat het zondag is.'",
+      "answer": "The shop is closed because it's Sunday.",
+      "accepted": [
+        "the shop is closed because its sunday",
+        "the shop is closed because it's sunday",
+        "the store is closed because it's sunday"
+      ],
+      "explanation": "Closed is hier een bijvoeglijk naamwoord. Shop en store betekenen allebei winkel; it's is it is.",
+      "difficulty": 1,
+      "translationNl": "De winkel is gesloten omdat het zondag is.",
+      "solutionEnglish": "The shop is closed because it's Sunday."
+    },
+    {
+      "id": "sentence-extra-018",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik ben nog nooit in Italië geweest.'",
+      "answer": "I have never been to Italy.",
+      "accepted": [
+        "i have never been to italy",
+        "ive never been to italy",
+        "i've never been to italy"
+      ],
+      "explanation": "Ervaring tot nu toe: have + past participle. Never staat vóór been.",
+      "difficulty": 2,
+      "translationNl": "Ik ben nog nooit in Italië geweest.",
+      "solutionEnglish": "I have never been to Italy."
+    },
+    {
+      "id": "sentence-extra-019",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ze hoeven vandaag niet te werken.'",
+      "answer": "They don't have to work today.",
+      "accepted": [
+        "they dont have to work today",
+        "they don't have to work today"
+      ],
+      "explanation": "Don't have to betekent dat iets niet verplicht is. Na have to komt de basisvorm work.",
+      "difficulty": 2,
+      "translationNl": "Ze hoeven vandaag niet te werken.",
+      "solutionEnglish": "They don't have to work today."
+    },
+    {
+      "id": "sentence-extra-020",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn telefoon is leeg; mag ik de jouwe gebruiken?'",
+      "answer": "My phone is dead; can I use yours?",
+      "accepted": [
+        "my phone is dead can i use yours",
+        "my phone is dead; can i use yours"
+      ],
+      "explanation": "Dead kan informeel betekenen dat een batterij leeg is. Yours vervangt your phone.",
+      "difficulty": 2,
+      "translationNl": "Mijn telefoon is leeg; mag ik de jouwe gebruiken?",
+      "solutionEnglish": "My phone is dead; can I use yours?"
+    },
+    {
+      "id": "sentence-extra-021",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hoe vaak eet jij buiten de deur?'",
+      "answer": "How often do you eat out?",
+      "accepted": [
+        "how often do you eat out"
+      ],
+      "explanation": "Eat out is een vaste uitdrukking voor buitenshuis eten. In een vraag gebruik je how often + do + you + basisvorm.",
+      "difficulty": 2,
+      "translationNl": "Hoe vaak eet jij buiten de deur?",
+      "solutionEnglish": "How often do you eat out?"
+    },
+    {
+      "id": "sentence-extra-022",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik heb mijn portemonnee thuis laten liggen.'",
+      "answer": "I left my wallet at home.",
+      "accepted": [
+        "i left my wallet at home"
+      ],
+      "explanation": "Left is de verleden tijd van leave. At home is de vaste uitdrukking voor thuis.",
+      "difficulty": 2,
+      "translationNl": "Ik heb mijn portemonnee thuis laten liggen.",
+      "solutionEnglish": "I left my wallet at home."
+    },
+    {
+      "id": "sentence-extra-023",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Er zijn minder auto's op straat vandaag.'",
+      "answer": "There are fewer cars on the street today.",
+      "accepted": [
+        "there are fewer cars on the street today"
+      ],
+      "explanation": "Cars zijn telbaar, dus gebruik je fewer. Bij niet-telbare hoeveelheden gebruik je less.",
+      "difficulty": 2,
+      "translationNl": "Er zijn minder auto's op straat vandaag.",
+      "solutionEnglish": "There are fewer cars on the street today."
+    },
+    {
+      "id": "sentence-extra-024",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hij is groter dan zijn oudere broer.'",
+      "answer": "He is taller than his older brother.",
+      "accepted": [
+        "he is taller than his older brother"
+      ],
+      "explanation": "Bij korte bijvoeglijke naamwoorden maak je de vergrotende trap met -er: tall → taller.",
+      "difficulty": 1,
+      "translationNl": "Hij is groter dan zijn oudere broer.",
+      "solutionEnglish": "He is taller than his older brother."
+    },
+    {
+      "id": "sentence-extra-025",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Deze soep smaakt beter dan gisteren.'",
+      "answer": "This soup tastes better than it did yesterday.",
+      "accepted": [
+        "this soup tastes better than it did yesterday"
+      ],
+      "explanation": "Bij this soup hoort tastes. Better is de vergrotende trap van good; than it did yesterday vergelijkt met hoe de soep gisteren smaakte.",
+      "difficulty": 2,
+      "translationNl": "Deze soep smaakt beter dan gisteren.",
+      "solutionEnglish": "This soup tastes better than yesterday."
+    },
+    {
+      "id": "sentence-extra-026",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik wist niet dat je in Amsterdam woonde.'",
+      "answer": "I didn't know you lived in Amsterdam.",
+      "accepted": [
+        "i didnt know you lived in amsterdam",
+        "i didn't know you lived in amsterdam"
+      ],
+      "explanation": "Na didn't gebruik je de basisvorm know. Lived kan in deze indirecte zin teruggaan naar de verleden tijd.",
+      "difficulty": 2,
+      "translationNl": "Ik wist niet dat je in Amsterdam woonde.",
+      "solutionEnglish": "I didn't know you lived in Amsterdam."
+    },
+    {
+      "id": "sentence-extra-027",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ze heeft haar huiswerk al afgemaakt.'",
+      "answer": "She has already finished her homework.",
+      "accepted": [
+        "she has already finished her homework"
+      ],
+      "explanation": "Present perfect: has + finished. Already staat vaak tussen has en het voltooid deelwoord.",
+      "difficulty": 2,
+      "translationNl": "Ze heeft haar huiswerk al afgemaakt.",
+      "solutionEnglish": "She has already finished her homework."
+    },
+    {
+      "id": "sentence-extra-028",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Zou je het raam dicht willen doen?'",
+      "answer": "Could you close the window, please?",
+      "accepted": [
+        "could you close the window please",
+        "could you close the window, please",
+        "would you close the window please"
+      ],
+      "explanation": "Could you is een beleefde manier om iets te vragen. Close betekent sluiten; shut kan ook, maar klinkt directer.",
+      "difficulty": 2,
+      "translationNl": "Zou je het raam dicht willen doen?",
+      "solutionEnglish": "Could you close the window, please?"
+    },
+    {
+      "id": "sentence-extra-029",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "Vertaal: 'We zijn verdwaald; weet jij de weg terug?'",
+      "answer": "We are lost; do you know the way back?",
+      "accepted": [
+        "we are lost do you know the way back",
+        "we are lost; do you know the way back"
+      ],
+      "explanation": "Lost betekent verdwaald. In de vraag gebruik je do + you + know.",
+      "difficulty": 1,
+      "translationNl": "We zijn verdwaald; weet jij de weg terug?",
+      "solutionEnglish": "We are lost; do you know the way back?"
+    },
+    {
+      "id": "sentence-extra-030",
+      "topic": "present-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik neem altijd een fles water mee.'",
+      "answer": "I always take a bottle of water with me.",
+      "accepted": [
+        "i always take a bottle of water with me"
+      ],
+      "explanation": "Always staat vóór het hoofdwerkwoord take. Take something with me betekent iets meenemen.",
+      "difficulty": 1,
+      "translationNl": "Ik neem altijd een fles water mee.",
+      "solutionEnglish": "I always take a bottle of water with me."
+    },
+    {
+      "id": "sentence-extra-031",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Zij heeft besloten een nieuwe baan te zoeken.'",
+      "answer": "She has decided to look for a new job.",
+      "accepted": [
+        "she has decided to look for a new job"
+      ],
+      "explanation": "Has decided is present perfect. Look for betekent zoeken naar; het betekent niet hetzelfde als look at.",
+      "difficulty": 3,
+      "translationNl": "Zij heeft besloten een nieuwe baan te zoeken.",
+      "solutionEnglish": "She has decided to look for a new job."
+    },
+    {
+      "id": "sentence-extra-032",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'We hebben de film gisterenavond gekeken.'",
+      "answer": "We watched the film last night.",
+      "accepted": [
+        "we watched the film last night",
+        "we watched the movie last night"
+      ],
+      "explanation": "Last night geeft verleden tijd aan: watched. Film en movie zijn beide goed.",
+      "difficulty": 1,
+      "translationNl": "We hebben de film gisterenavond gekeken.",
+      "solutionEnglish": "We watched the film last night."
+    },
+    {
+      "id": "sentence-extra-033",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik ben bang dat ik de afspraak vergeet.'",
+      "answer": "I'm afraid I'll forget the appointment.",
+      "accepted": [
+        "im afraid ill forget the appointment",
+        "i'm afraid i'll forget the appointment",
+        "i am afraid i will forget the appointment"
+      ],
+      "explanation": "I'll is I will. Na will gebruik je de basisvorm forget.",
+      "difficulty": 2,
+      "translationNl": "Ik ben bang dat ik de afspraak vergeet.",
+      "solutionEnglish": "I'm afraid I'll forget the appointment."
+    },
+    {
+      "id": "sentence-extra-034",
+      "topic": "be-verbs",
+      "type": "typed",
+      "prompt": "Vertaal: 'Er staat een man voor de deur.'",
+      "answer": "There is a man at the door.",
+      "accepted": [
+        "there is a man at the door"
+      ],
+      "explanation": "There is gebruik je bij één persoon of ding. At the door betekent bij de deur.",
+      "difficulty": 1,
+      "translationNl": "Er staat een man voor de deur.",
+      "solutionEnglish": "There is a man at the door."
+    },
+    {
+      "id": "sentence-extra-035",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Kun je uitleggen hoe dit apparaat werkt?'",
+      "answer": "Can you explain how this device works?",
+      "accepted": [
+        "can you explain how this device works"
+      ],
+      "explanation": "In de indirecte vraag how this device works blijft het onderwerp vóór het werkwoord. Bij device hoort works.",
+      "difficulty": 2,
+      "translationNl": "Kun je uitleggen hoe dit apparaat werkt?",
+      "solutionEnglish": "Can you explain how this device works?"
+    },
+    {
+      "id": "sentence-extra-036",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik heb mijn best gedaan, maar ik maakte nog steeds een fout.'",
+      "answer": "I tried my best, but I still made a mistake.",
+      "accepted": [
+        "i tried my best but i still made a mistake",
+        "i tried my best, but i still made a mistake"
+      ],
+      "explanation": "Try your best is een vaste uitdrukking. Made is de verleden tijd van make; still betekent nog steeds.",
+      "difficulty": 2,
+      "translationNl": "Ik heb mijn best gedaan, maar ik maakte nog steeds een fout.",
+      "solutionEnglish": "I tried my best, but I still made a mistake."
+    },
+    {
+      "id": "sentence-extra-037",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Het hangt ervan af hoeveel tijd we hebben.'",
+      "answer": "It depends on how much time we have.",
+      "accepted": [
+        "it depends on how much time we have"
+      ],
+      "explanation": "Depend on is de vaste combinatie. Time is niet-telbaar, dus gebruik much.",
+      "difficulty": 3,
+      "translationNl": "Het hangt ervan af hoeveel tijd we hebben.",
+      "solutionEnglish": "It depends on how much time we have."
+    },
+    {
+      "id": "sentence-extra-038",
+      "topic": "present-continuous",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik ben op zoek naar een goed restaurant.'",
+      "answer": "I'm looking for a good restaurant.",
+      "accepted": [
+        "im looking for a good restaurant",
+        "i'm looking for a good restaurant",
+        "i am looking for a good restaurant"
+      ],
+      "explanation": "Look for betekent zoeken naar. Looking at betekent ergens naar kijken.",
+      "difficulty": 1,
+      "translationNl": "Ik ben op zoek naar een goed restaurant.",
+      "solutionEnglish": "I'm looking for a good restaurant."
+    },
+    {
+      "id": "sentence-extra-039",
+      "topic": "present-continuous",
+      "type": "typed",
+      "prompt": "Vertaal: 'De kinderen spelen buiten terwijl ik kook.'",
+      "answer": "The children are playing outside while I cook.",
+      "accepted": [
+        "the children are playing outside while i cook"
+      ],
+      "explanation": "Are playing beschrijft wat nu gebeurt. Na while staat hier present simple voor de gelijktijdige handeling.",
+      "difficulty": 2,
+      "translationNl": "De kinderen spelen buiten terwijl ik kook.",
+      "solutionEnglish": "The children are playing outside while I cook."
+    },
+    {
+      "id": "sentence-extra-040",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Toen de bus aankwam, stonden we al te wachten.'",
+      "answer": "When the bus arrived, we were already waiting.",
+      "accepted": [
+        "when the bus arrived we were already waiting",
+        "when the bus arrived, we were already waiting"
+      ],
+      "explanation": "Arrived is de afgeronde gebeurtenis; were waiting beschrijft de actie die al bezig was.",
+      "difficulty": 3,
+      "translationNl": "Toen de bus aankwam, stonden we al te wachten.",
+      "solutionEnglish": "When the bus arrived, we were already waiting."
+    },
+    {
+      "id": "sentence-extra-041",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Zij zei dat ze me later zou bellen.'",
+      "answer": "She said she would call me later.",
+      "accepted": [
+        "she said she would call me later"
+      ],
+      "explanation": "Na said gebruik je would call om een toekomstig moment vanuit het verleden te beschrijven.",
+      "difficulty": 3,
+      "translationNl": "Zij zei dat ze me later zou bellen.",
+      "solutionEnglish": "She said she would call me later."
+    },
+    {
+      "id": "sentence-extra-042",
+      "topic": "questions",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik heb geen idee wat hij bedoelt.'",
+      "answer": "I have no idea what he means.",
+      "accepted": [
+        "i have no idea what he means"
+      ],
+      "explanation": "In de indirecte vraag what he means gebruik je normale woordvolgorde. Bij he krijgt mean een -s.",
+      "difficulty": 2,
+      "translationNl": "Ik heb geen idee wat hij bedoelt.",
+      "solutionEnglish": "I have no idea what he means."
+    },
+    {
+      "id": "sentence-extra-043",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Neem je paraplu mee voor het geval dat het regent.'",
+      "answer": "Take your umbrella in case it rains.",
+      "accepted": [
+        "take your umbrella in case it rains"
+      ],
+      "explanation": "In case betekent voor het geval dat. Na in case gebruik je hier present simple rains.",
+      "difficulty": 2,
+      "translationNl": "Neem je paraplu mee voor het geval dat het regent.",
+      "solutionEnglish": "Take your umbrella in case it rains."
+    },
+    {
+      "id": "sentence-extra-044",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'We hadden plezier op het feest.'",
+      "answer": "We had a great time at the party.",
+      "accepted": [
+        "we had a great time at the party",
+        "we had fun at the party"
+      ],
+      "explanation": "Have a great time en have fun betekenen plezier hebben. In het verleden wordt have: had.",
+      "difficulty": 1,
+      "translationNl": "We hadden plezier op het feest.",
+      "solutionEnglish": "We had a great time at the party."
+    },
+    {
+      "id": "sentence-extra-045",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Mijn zus heeft haar kamer nog niet opgeruimd.'",
+      "answer": "My sister hasn't tidied her room yet.",
+      "accepted": [
+        "my sister hasnt tidied her room yet",
+        "my sister hasn't tidied her room yet"
+      ],
+      "explanation": "Hasn't + past participle vormt de present perfect. Yet staat vaak aan het einde in een ontkennende zin.",
+      "difficulty": 2,
+      "translationNl": "Mijn zus heeft haar kamer nog niet opgeruimd.",
+      "solutionEnglish": "My sister hasn't tidied her room yet."
+    },
+    {
+      "id": "sentence-extra-046",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik zou graag een tafel voor twee willen reserveren.'",
+      "answer": "I'd like to book a table for two.",
+      "accepted": [
+        "id like to book a table for two",
+        "i'd like to book a table for two",
+        "i would like to book a table for two"
+      ],
+      "explanation": "I'd like is een beleefde manier om te zeggen dat je iets wilt. Book a table betekent een tafel reserveren.",
+      "difficulty": 2,
+      "translationNl": "Ik zou graag een tafel voor twee willen reserveren.",
+      "solutionEnglish": "I'd like to book a table for two."
+    },
+    {
+      "id": "sentence-extra-047",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'De trein is vertraagd vanwege het slechte weer.'",
+      "answer": "The train is delayed because of the bad weather.",
+      "accepted": [
+        "the train is delayed because of the bad weather"
+      ],
+      "explanation": "Because of wordt gevolgd door een zelfstandig naamwoord(groep): the bad weather. Because wordt gevolgd door een hele zin.",
+      "difficulty": 2,
+      "translationNl": "De trein is vertraagd vanwege het slechte weer.",
+      "solutionEnglish": "The train is delayed because of the bad weather."
+    },
+    {
+      "id": "sentence-extra-048",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik ga liever wandelen dan thuis te blijven.'",
+      "answer": "I would rather go for a walk than stay at home.",
+      "accepted": [
+        "i would rather go for a walk than stay at home",
+        "i'd rather go for a walk than stay at home"
+      ],
+      "explanation": "Would rather + basisvorm geeft een voorkeur aan. Go for a walk betekent gaan wandelen.",
+      "difficulty": 3,
+      "translationNl": "Ik ga liever wandelen dan thuis te blijven.",
+      "solutionEnglish": "I would rather go for a walk than stay at home."
+    },
+    {
+      "id": "sentence-extra-049",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hij vroeg of ik hulp nodig had.'",
+      "answer": "He asked if I needed help.",
+      "accepted": [
+        "he asked if i needed help",
+        "he asked whether i needed help"
+      ],
+      "explanation": "If en whether kunnen allebei een indirecte ja/nee-vraag inleiden. Needed staat in de verleden tijd na asked.",
+      "difficulty": 2,
+      "translationNl": "Hij vroeg of ik hulp nodig had.",
+      "solutionEnglish": "He asked if I needed help."
+    },
+    {
+      "id": "sentence-extra-050",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hoe eerder we vertrekken, hoe eerder we aankomen.'",
+      "answer": "The earlier we leave, the earlier we arrive.",
+      "accepted": [
+        "the earlier we leave the earlier we arrive"
+      ],
+      "explanation": "The + vergrotende trap ... the + vergrotende trap beschrijft dat twee veranderingen samenhangen.",
+      "difficulty": 3,
+      "translationNl": "Hoe eerder we vertrekken, hoe eerder we aankomen.",
+      "solutionEnglish": "The earlier we leave, the earlier we arrive."
+    },
+    {
+      "id": "sentence-extra-051",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ze is gewend om vroeg op te staan.'",
+      "answer": "She is used to getting up early.",
+      "accepted": [
+        "she is used to getting up early"
+      ],
+      "explanation": "Be used to betekent gewend zijn aan; to is hier een voorzetsel en krijgt daarom getting, niet get.",
+      "difficulty": 3,
+      "translationNl": "Ze is gewend om vroeg op te staan.",
+      "solutionEnglish": "She is used to getting up early."
+    },
+    {
+      "id": "sentence-extra-052",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik kijk ernaar uit je volgende week te zien.'",
+      "answer": "I look forward to seeing you next week.",
+      "accepted": [
+        "i look forward to seeing you next week"
+      ],
+      "explanation": "Na look forward to gebruik je een werkwoord met -ing, omdat to hier een voorzetsel is.",
+      "difficulty": 3,
+      "translationNl": "Ik kijk ernaar uit je volgende week te zien.",
+      "solutionEnglish": "I look forward to seeing you next week."
+    },
+    {
+      "id": "sentence-extra-053",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hij heeft de hele ochtend aan dit rapport gewerkt.'",
+      "answer": "He has worked on this report all morning.",
+      "accepted": [
+        "he has worked on this report all morning",
+        "he has been working on this report all morning"
+      ],
+      "explanation": "Present perfect of present perfect continuous kan een activiteit beschrijven die vanochtend begon en nog relevant is. Work on betekent werken aan.",
+      "difficulty": 3,
+      "translationNl": "Hij heeft de hele ochtend aan dit rapport gewerkt.",
+      "solutionEnglish": "He has worked on this report all morning."
+    },
+    {
+      "id": "sentence-extra-054",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Als ik meer tijd had, zou ik vaker koken.'",
+      "answer": "If I had more time, I would cook more often.",
+      "accepted": [
+        "if i had more time i would cook more often"
+      ],
+      "explanation": "Dit is een hypothetische situatie: if + past simple, would + basisvorm.",
+      "difficulty": 3,
+      "translationNl": "Als ik meer tijd had, zou ik vaker koken.",
+      "solutionEnglish": "If I had more time, I would cook more often."
+    },
+    {
+      "id": "sentence-extra-055",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'De man die naast ons woont, is dokter.'",
+      "answer": "The man who lives next door to us is a doctor.",
+      "accepted": [
+        "the man who lives next door to us is a doctor"
+      ],
+      "explanation": "Who verwijst naar een persoon. Next door betekent naast de deur of vlakbij.",
+      "difficulty": 2,
+      "translationNl": "De man die naast ons woont, is dokter.",
+      "solutionEnglish": "The man who lives next door to us is a doctor."
+    },
+    {
+      "id": "sentence-extra-056",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik heb haar gevraagd of ze mee wilde gaan.'",
+      "answer": "I asked her if she wanted to come along.",
+      "accepted": [
+        "i asked her if she wanted to come along",
+        "i asked her whether she wanted to come along"
+      ],
+      "explanation": "Asked her if/whether leidt een indirecte vraag in. Come along betekent meegaan.",
+      "difficulty": 2,
+      "translationNl": "Ik heb haar gevraagd of ze mee wilde gaan.",
+      "solutionEnglish": "I asked her if she wanted to come along."
+    },
+    {
+      "id": "sentence-extra-057",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'We hebben elkaar al jaren niet gezien.'",
+      "answer": "We haven't seen each other for years.",
+      "accepted": [
+        "we havent seen each other for years",
+        "we haven't seen each other for years"
+      ],
+      "explanation": "Present perfect past bij een periode die doorloopt tot nu. Each other betekent elkaar.",
+      "difficulty": 3,
+      "translationNl": "We hebben elkaar al jaren niet gezien.",
+      "solutionEnglish": "We haven't seen each other for years."
+    },
+    {
+      "id": "sentence-extra-058",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Er is steeds meer verkeer in deze straat.'",
+      "answer": "There is more and more traffic on this street.",
+      "accepted": [
+        "there is more and more traffic on this street"
+      ],
+      "explanation": "Traffic is niet-telbaar, dus gebruik je there is. More and more betekent steeds meer.",
+      "difficulty": 2,
+      "translationNl": "Er is steeds meer verkeer in deze straat.",
+      "solutionEnglish": "There is more and more traffic on this street."
+    },
+    {
+      "id": "sentence-extra-059",
+      "topic": "past-simple",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ik dacht dat de winkel om negen uur openging.'",
+      "answer": "I thought the shop opened at nine.",
+      "accepted": [
+        "i thought the shop opened at nine",
+        "i thought the store opened at nine"
+      ],
+      "explanation": "Thought is de verleden tijd van think. Opened staat ook in de verleden tijd omdat het om de openingstijd ging.",
+      "difficulty": 2,
+      "translationNl": "Ik dacht dat de winkel om negen uur openging.",
+      "solutionEnglish": "I thought the shop opened at nine."
+    },
+    {
+      "id": "sentence-extra-060",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Laat me weten als je hulp nodig hebt.'",
+      "answer": "Let me know if you need help.",
+      "accepted": [
+        "let me know if you need help"
+      ],
+      "explanation": "Let someone know betekent iemand laten weten. In een if-zin over een mogelijke toekomstige situatie gebruik je present simple.",
+      "difficulty": 2,
+      "translationNl": "Laat me weten als je hulp nodig hebt.",
+      "solutionEnglish": "Let me know if you need help."
+    },
+    {
+      "id": "sentence-extra-061",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Hij spreekt Engels alsof het zijn moedertaal is.'",
+      "answer": "He speaks English as if it were his first language.",
+      "accepted": [
+        "he speaks english as if it were his first language",
+        "he speaks english as if it was his first language"
+      ],
+      "explanation": "Bij he gebruik je speaks. Were is de traditionele vorm in een hypothetische vergelijking; was komt ook veel voor in informeel Engels.",
+      "difficulty": 3,
+      "translationNl": "Hij spreekt Engels alsof het zijn moedertaal is.",
+      "solutionEnglish": "He speaks English as if it were his first language."
+    },
+    {
+      "id": "sentence-extra-062",
+      "topic": "sentence-building",
+      "type": "typed",
+      "prompt": "Vertaal: 'Ondanks de regen gingen ze toch naar buiten.'",
+      "answer": "Despite the rain, they still went outside.",
+      "accepted": [
+        "despite the rain they still went outside",
+        "despite the rain, they still went outside"
+      ],
+      "explanation": "Despite wordt gevolgd door een zelfstandig naamwoord(groep), hier the rain. Still benadrukt dat ze toch gingen.",
+      "difficulty": 2,
+      "translationNl": "Ondanks de regen gingen ze toch naar buiten.",
+      "solutionEnglish": "Despite the rain, they still went outside."
     }
   ],
   "placement": [
