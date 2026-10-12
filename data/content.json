@@ -1,5 +1,5 @@
 {
-  "version": "1.11.0",
+  "version": "1.11.2",
   "topics": [
     {
       "id": "be-verbs",
@@ -399,7 +399,7 @@
       "id": "q3",
       "topic": "questions",
       "type": "typed",
-      "prompt": "___ they at home?",
+      "prompt": "Typ het ontbrekende hulpwerkwoord: ___ they at home?",
       "answer": "Are",
       "accepted": [
         "Are"
@@ -427,7 +427,7 @@
       "id": "q5",
       "topic": "questions",
       "type": "typed",
-      "prompt": "___ you ready?",
+      "prompt": "Typ het ontbrekende hulpwerkwoord: ___ you ready?",
       "answer": "Are",
       "accepted": [
         "Are"
@@ -1015,20 +1015,6 @@
       ]
     },
     {
-      "id": "be-verbs-007",
-      "topic": "be-verbs",
-      "type": "mcq",
-      "prompt": "I ___ from the Netherlands.",
-      "answer": "am",
-      "explanation": "Bij I hoort am.",
-      "difficulty": 1,
-      "options": [
-        "am",
-        "is",
-        "are"
-      ]
-    },
-    {
       "id": "be-verbs-008",
       "topic": "be-verbs",
       "type": "mcq",
@@ -1480,7 +1466,7 @@
       "id": "questions-040",
       "topic": "questions",
       "type": "mcq",
-      "prompt": "___ you ready?",
+      "prompt": "___ your friends ready?",
       "answer": "Are",
       "explanation": "You + to be = Are.",
       "difficulty": 1,
@@ -1508,7 +1494,7 @@
       "id": "questions-042",
       "topic": "questions",
       "type": "mcq",
-      "prompt": "___ they at home?",
+      "prompt": "___ the children at home?",
       "answer": "Are",
       "explanation": "They + to be = Are.",
       "difficulty": 1,
@@ -1939,20 +1925,6 @@
       ]
     },
     {
-      "id": "vocabulary-daily-073",
-      "topic": "vocabulary-daily",
-      "type": "mcq",
-      "prompt": "What is 'morgen' in English?",
-      "answer": "tomorrow",
-      "explanation": "Morgen = tomorrow.",
-      "difficulty": 1,
-      "options": [
-        "tomorrow",
-        "yesterday",
-        "today"
-      ]
-    },
-    {
       "id": "vocabulary-daily-074",
       "topic": "vocabulary-daily",
       "type": "mcq",
@@ -2037,20 +2009,6 @@
       ]
     },
     {
-      "id": "prepositions-080",
-      "topic": "prepositions",
-      "type": "mcq",
-      "prompt": "The picture is ___ the wall.",
-      "answer": "on",
-      "explanation": "Op een oppervlak: on.",
-      "difficulty": 1,
-      "options": [
-        "in",
-        "on",
-        "at"
-      ]
-    },
-    {
       "id": "prepositions-081",
       "topic": "prepositions",
       "type": "mcq",
@@ -2110,7 +2068,7 @@
       "id": "prepositions-085",
       "topic": "prepositions",
       "type": "mcq",
-      "prompt": "We meet ___ the station.",
+      "prompt": "They are waiting ___ the bus stop.",
       "answer": "at",
       "explanation": "Specifieke locatie: at.",
       "difficulty": 1,
@@ -4418,7 +4376,7 @@
         "how often do you take the train to work",
         "how often do you go to work by train"
       ],
-      "translationNl": "Hoe vaak ga je met de trein naar je werk?",
+      "translationNl": "Hoe vaak neem je de trein naar je werk?",
       "solutionEnglish": "How often do you go to work by train?"
     },
     {
@@ -4553,7 +4511,7 @@
       "id": "advanced-019",
       "topic": "pronouns",
       "type": "typed",
-      "prompt": "Vertaal: 'Ik zag mijn vrienden en ik gaf ze mijn telefoonnummer.'",
+      "prompt": "Vertaal: 'Ik heb mijn sleutels gevonden, maar ik kan ze niet vinden.'",
       "answer": "I found my keys, but I can't find them.",
       "explanation": "‘Found’ is de verleden tijd van find. ‘Them’ verwijst naar my keys; na can gebruik je de basisvorm find.",
       "difficulty": 3,
@@ -5045,7 +5003,7 @@
       "id": "advanced-054",
       "topic": "past-simple",
       "type": "typed",
-      "prompt": "Vertaal: 'Toen ik thuiskwam, kookte ik pasta.'",
+      "prompt": "Vertaal: 'Toen ik thuiskwam, maakte ik avondeten.'",
       "answer": "When I got home, I cooked dinner.",
       "explanation": "‘Got home’ en ‘cooked’ beschrijven afgeronde gebeurtenissen in het verleden. ‘Cook dinner’ is een natuurlijke combinatie.",
       "difficulty": 3,
@@ -7366,7 +7324,7 @@
       ],
       "explanation": "Usually staat voor het hoofdwerkwoord eat. ‘In the evening’ maakt duidelijk dat het om zes uur ’s avonds gaat en kan worden toegevoegd.",
       "difficulty": 1,
-      "translationNl": "Wij eten meestal om zes uur.",
+      "translationNl": "Wij eten meestal om zes uur 's avonds.",
       "solutionEnglish": "We usually eat at six"
     },
     {
@@ -10392,7 +10350,7 @@
       "explanation": "Bij this soup hoort tastes. Better is de vergrotende trap van good; than it did yesterday vergelijkt met hoe de soep gisteren smaakte.",
       "difficulty": 2,
       "translationNl": "Deze soep smaakt beter dan gisteren.",
-      "solutionEnglish": "This soup tastes better than yesterday."
+      "solutionEnglish": "This soup tastes better than it did yesterday."
     },
     {
       "id": "sentence-extra-026",
@@ -18480,7 +18438,8 @@
       "answer": "het ijs breken",
       "accepted": [
         "het ijs breken",
-        "de sfeer ontspannen"
+        "de sfeer ontspannen",
+        "het gesprek op gang brengen"
       ],
       "explanation": "Je gebruikt dit wanneer iemand iets zegt of doet om een eerste gesprek minder ongemakkelijk te maken. Example: ‘He told a joke to break the ice.’",
       "difficulty": 2,
@@ -18495,7 +18454,12 @@
       "answer": "een fluitje van een cent",
       "accepted": [
         "een fluitje van een cent",
-        "heel makkelijk"
+        "heel makkelijk",
+        "het is gemakkelijk",
+        "het is makkelijk",
+        "heel eenvoudig",
+        "een eitje",
+        "dat is heel eenvoudig"
       ],
       "explanation": "Dit betekent dat iets heel makkelijk is, niet dat er letterlijk taart is. Example: ‘The test was a piece of cake.’",
       "difficulty": 2,
@@ -18510,7 +18474,8 @@
       "answer": "de spijker op zijn kop slaan",
       "accepted": [
         "de spijker op zijn kop slaan",
-        "precies het juiste zeggen"
+        "precies het juiste zeggen",
+        "precies raak zijn"
       ],
       "explanation": "Je zegt dit wanneer iemand precies de juiste oorzaak of uitleg noemt. Example: ‘You hit the nail on the head.’",
       "difficulty": 2,
@@ -18525,7 +18490,8 @@
       "answer": "heel zelden",
       "accepted": [
         "heel zelden",
-        "bijna nooit"
+        "bijna nooit",
+        "zelden"
       ],
       "explanation": "Dit beschrijft iets dat bijna nooit gebeurt. Example: ‘We only eat out once in a blue moon.’",
       "difficulty": 2,
@@ -18540,7 +18506,8 @@
       "answer": "je niet lekker voelen",
       "accepted": [
         "je niet lekker voelen",
-        "een beetje ziek zijn"
+        "een beetje ziek zijn",
+        "je niet goed voelen"
       ],
       "explanation": "Dit is een informele manier om te zeggen dat je je niet goed voelt. Example: ‘I'm feeling under the weather today.’",
       "difficulty": 2,
@@ -18556,7 +18523,9 @@
       "accepted": [
         "een fortuin kosten",
         "heel veel geld kosten",
-        "handenvol geld kosten"
+        "handenvol geld kosten",
+        "peperduur zijn",
+        "erg duur zijn"
       ],
       "explanation": "Dit zeg je over iets dat uitzonderlijk duur is. Example: ‘That car costs an arm and a leg.’",
       "difficulty": 2,
@@ -18571,7 +18540,8 @@
       "answer": "het geheim verklappen",
       "accepted": [
         "het geheim verklappen",
-        "de verrassing verklappen"
+        "de verrassing verklappen",
+        "iets verklappen"
       ],
       "explanation": "Je verklapt informatie die geheim moest blijven. Example: ‘Who spilled the beans about the party?’",
       "difficulty": 2,
@@ -18586,7 +18556,8 @@
       "answer": "het geheim verklappen",
       "accepted": [
         "het geheim verklappen",
-        "de verrassing verklappen"
+        "de verrassing verklappen",
+        "iets per ongeluk verklappen"
       ],
       "explanation": "Dit betekent per ongeluk een geheim of verrassing bekendmaken. Example: ‘She let the cat out of the bag.’",
       "difficulty": 2,
@@ -18601,7 +18572,8 @@
       "answer": "als varkens kunnen vliegen",
       "accepted": [
         "nooit",
-        "als varkens kunnen vliegen"
+        "als varkens kunnen vliegen",
+        "dat gebeurt nooit"
       ],
       "explanation": "Dit is een grappige manier om te zeggen dat iets nooit zal gebeuren. Example: ‘He'll clean his room when pigs fly.’",
       "difficulty": 2,
@@ -18629,7 +18601,8 @@
       "prompt": "Wat betekent de uitdrukking 'speak of the devil'?",
       "answer": "als je over de duivel spreekt",
       "accepted": [
-        "als je over de duivel spreekt"
+        "als je over de duivel spreekt",
+        "kijk, daar heb je hem"
       ],
       "explanation": "Je zegt dit wanneer iemand verschijnt net nadat je over die persoon praatte. Example: ‘Speak of the devil—here's Sam.’",
       "difficulty": 2,
@@ -18644,7 +18617,8 @@
       "answer": "succes",
       "accepted": [
         "succes",
-        "veel succes"
+        "veel succes",
+        "zet hem op"
       ],
       "explanation": "Dit is een vaste, vriendelijke wens voor succes, vooral voor een optreden. Je wenst iemand dus geen echte gebroken been. Example: ‘Break a leg tonight!’",
       "difficulty": 2,
@@ -18659,7 +18633,8 @@
       "answer": "er voor vandaag mee stoppen",
       "accepted": [
         "er voor vandaag mee stoppen",
-        "voor vandaag ophouden"
+        "voor vandaag ophouden",
+        "er voor vandaag een punt achter zetten"
       ],
       "explanation": "Je zegt dit wanneer je besluit dat je genoeg hebt gewerkt en stopt. Example: ‘We've done enough; let's call it a day.’",
       "difficulty": 2,
@@ -18674,7 +18649,8 @@
       "answer": "uit de hand lopen",
       "accepted": [
         "uit de hand lopen",
-        "onbeheersbaar worden"
+        "onbeheersbaar worden",
+        "niet meer onder controle zijn"
       ],
       "explanation": "Een situatie gets out of hand wanneer die niet meer onder controle is. Example: ‘The party got out of hand.’",
       "difficulty": 2,
@@ -18689,7 +18665,8 @@
       "answer": "een geluk bij een ongeluk",
       "accepted": [
         "een geluk bij een ongeluk",
-        "iets goeds dat eerst slecht leek"
+        "iets goeds dat eerst slecht leek",
+        "achteraf een geluk"
       ],
       "explanation": "Dit is iets dat eerst vervelend lijkt maar later goed uitpakt. Example: ‘Missing that bus was a blessing in disguise.’",
       "difficulty": 2,
@@ -18704,7 +18681,8 @@
       "answer": "alle bruggen achter je verbranden",
       "accepted": [
         "alle bruggen achter je verbranden",
-        "geen weg terug laten"
+        "geen weg terug laten",
+        "alle mogelijkheden tot terugkeer afsluiten"
       ],
       "explanation": "Dit betekent dat je relaties of mogelijkheden zo beschadigt dat teruggaan moeilijk wordt. Example: ‘Don't burn your bridges when you leave a job.’",
       "difficulty": 2,
@@ -18719,7 +18697,8 @@
       "answer": "de boot missen",
       "accepted": [
         "de boot missen",
-        "een kans missen"
+        "een kans missen",
+        "te laat zijn voor een kans"
       ],
       "explanation": "Je hebt een kans gemist doordat je te laat was of niet handelde. Example: ‘We missed the boat on those cheap tickets.’",
       "difficulty": 2,
@@ -18734,7 +18713,8 @@
       "answer": "op één lijn zitten",
       "accepted": [
         "op één lijn zitten",
-        "het met elkaar eens zijn"
+        "het met elkaar eens zijn",
+        "hetzelfde begrijpen"
       ],
       "explanation": "Mensen are on the same page wanneer ze hetzelfde begrijpen of hetzelfde plan hebben. Example: ‘Let's check that we're on the same page.’",
       "difficulty": 2,
@@ -18749,7 +18729,8 @@
       "answer": "iemand voor de gek houden",
       "accepted": [
         "iemand voor de gek houden",
-        "een grapje met iemand uithalen"
+        "een grapje met iemand uithalen",
+        "iemand plagen"
       ],
       "explanation": "Dit betekent iemand plagen met een grap, vaak door iets onwaars te zeggen. Example: ‘Relax, I'm just pulling your leg.’",
       "difficulty": 2,
@@ -18764,7 +18745,8 @@
       "answer": "volhouden",
       "accepted": [
         "volhouden",
-        "hou vol"
+        "hou vol",
+        "niet opgeven"
       ],
       "explanation": "Je moedigt iemand aan om niet op te geven in een moeilijke situatie. Example: ‘Hang in there—you’re nearly finished.’",
       "difficulty": 2,
@@ -18779,7 +18761,8 @@
       "answer": "iets met een korreltje zout nemen",
       "accepted": [
         "iets met een korreltje zout nemen",
-        "iets niet meteen helemaal geloven"
+        "iets niet meteen helemaal geloven",
+        "iets niet zomaar aannemen"
       ],
       "explanation": "Je zegt dit wanneer je informatie voorzichtig moet beoordelen en niet alles direct moet geloven. Example: ‘Take his promises with a grain of salt.’",
       "difficulty": 2,
@@ -18794,7 +18777,8 @@
       "answer": "iets in de gaten houden",
       "accepted": [
         "iets in de gaten houden",
-        "op iets letten"
+        "op iets letten",
+        "ergens op blijven letten"
       ],
       "explanation": "Dit betekent iets of iemand blijven bekijken zodat je veranderingen merkt. Example: ‘Could you keep an eye on my bag?’",
       "difficulty": 2,
@@ -18809,7 +18793,8 @@
       "answer": "uit het niets",
       "accepted": [
         "uit het niets",
-        "onverwacht"
+        "onverwacht",
+        "plotseling"
       ],
       "explanation": "Dit beschrijft iets dat onverwacht gebeurt. Example: ‘She called me out of the blue.’",
       "difficulty": 2,
@@ -18824,7 +18809,8 @@
       "answer": "terugdeinzen",
       "accepted": [
         "terugdeinzen",
-        "zenuwachtig worden en niet meer durven"
+        "zenuwachtig worden en niet meer durven",
+        "op het laatste moment bang worden"
       ],
       "explanation": "Je krijgt cold feet wanneer je vlak voor een belangrijke stap bang wordt en twijfelt. Example: ‘He got cold feet before the wedding.’",
       "difficulty": 2,
@@ -18839,7 +18825,8 @@
       "answer": "in de problemen",
       "accepted": [
         "in de problemen",
-        "in moeilijkheden"
+        "in moeilijkheden",
+        "problemen hebben"
       ],
       "explanation": "Je bent in hot water wanneer je door iets wat je deed problemen hebt gekregen. Example: ‘He's in hot water for missing the deadline.’",
       "difficulty": 2,
@@ -18854,7 +18841,8 @@
       "answer": "rondkomen",
       "accepted": [
         "rondkomen",
-        "genoeg geld hebben om van te leven"
+        "genoeg geld hebben om van te leven",
+        "de eindjes aan elkaar knopen"
       ],
       "explanation": "Dit gaat over genoeg geld hebben voor je gewone kosten. Example: ‘They work hard to make ends meet.’",
       "difficulty": 2,
@@ -18869,7 +18857,8 @@
       "answer": "extra je best doen",
       "accepted": [
         "extra je best doen",
-        "een stap extra zetten"
+        "een stap extra zetten",
+        "meer doen dan nodig is"
       ],
       "explanation": "Dit betekent meer doen dan strikt nodig is om iemand goed te helpen of iets goed af te maken. Example: ‘She always goes the extra mile for her clients.’",
       "difficulty": 2,
@@ -18884,7 +18873,8 @@
       "answer": "het nog erger maken",
       "accepted": [
         "het nog erger maken",
-        "zout in de wonde wrijven"
+        "zout in de wonde wrijven",
+        "een vervelende situatie verergeren"
       ],
       "explanation": "Dit betekent een vervelende situatie nog erger maken met iets extra onaardigs. Example: ‘The delay added insult to injury.’",
       "difficulty": 2,
@@ -18899,7 +18889,8 @@
       "answer": "te veel hooi op je vork nemen",
       "accepted": [
         "te veel hooi op je vork nemen",
-        "meer aannemen dan je aankunt"
+        "meer aannemen dan je aankunt",
+        "te veel tegelijk proberen te doen"
       ],
       "explanation": "Je neemt meer werk of verantwoordelijkheid aan dan je aankunt. Example: ‘I bit off more than I could chew.’",
       "difficulty": 2,
@@ -18914,7 +18905,8 @@
       "answer": "de beslissingen nemen",
       "accepted": [
         "de beslissingen nemen",
-        "de leiding hebben"
+        "de leiding hebben",
+        "bepalen wat er gebeurt"
       ],
       "explanation": "Iemand who calls the shots bepaalt wat er gebeurt. Example: ‘The team leader calls the shots.’",
       "difficulty": 2,
@@ -18929,7 +18921,8 @@
       "answer": "de kantjes eraf lopen",
       "accepted": [
         "de kantjes eraf lopen",
-        "minder zorgvuldig werken om tijd of geld te besparen"
+        "minder zorgvuldig werken om tijd of geld te besparen",
+        "werk afraffelen"
       ],
       "explanation": "Dit betekent iets sneller of goedkoper doen door kwaliteit of zorgvuldigheid op te offeren. Example: ‘Don't cut corners on safety.’",
       "difficulty": 2,
@@ -18944,7 +18937,8 @@
       "answer": "vertrekken",
       "accepted": [
         "vertrekken",
-        "op weg gaan"
+        "op weg gaan",
+        "de weg op gaan"
       ],
       "explanation": "Dit betekent vertrekken of aan een reis beginnen. Example: ‘It's getting late; we should hit the road.’",
       "difficulty": 2,
@@ -18959,7 +18953,8 @@
       "answer": "vlak voor je neus",
       "accepted": [
         "vlak voor je neus",
-        "op een plek die je makkelijk had kunnen zien"
+        "op een plek die je makkelijk had kunnen zien",
+        "heel dichtbij en toch niet opmerken"
       ],
       "explanation": "Iets is under your nose wanneer het heel dichtbij of duidelijk zichtbaar is. Example: ‘The keys were right under your nose.’",
       "difficulty": 2,
@@ -18974,7 +18969,8 @@
       "answer": "de druppel",
       "accepted": [
         "de druppel",
-        "de laatste tegenslag die te veel is"
+        "de laatste tegenslag die te veel is",
+        "de laatste druppel"
       ],
       "explanation": "Dit is het laatste probleem waardoor iemand zijn geduld verliest. Example: ‘The broken printer was the last straw.’",
       "difficulty": 2,
@@ -18989,7 +18985,8 @@
       "answer": "een druppel op een gloeiende plaat",
       "accepted": [
         "een druppel op een gloeiende plaat",
-        "veel te weinig om verschil te maken"
+        "veel te weinig om verschil te maken",
+        "een heel klein deel van wat nodig is"
       ],
       "explanation": "Dit betekent dat iets heel klein is vergeleken met wat nodig is. Example: ‘That donation is a drop in the ocean.’",
       "difficulty": 2,
@@ -19003,7 +19000,8 @@
       "prompt": "Wat betekent de uitdrukking 'the best of both worlds'?",
       "answer": "het beste van twee werelden",
       "accepted": [
-        "het beste van twee werelden"
+        "het beste van twee werelden",
+        "de voordelen van twee situaties combineren"
       ],
       "explanation": "Je hebt the best of both worlds wanneer je voordelen van twee verschillende situaties tegelijk hebt. Example: ‘Working remotely gives her the best of both worlds.’",
       "difficulty": 2,
@@ -19018,7 +19016,8 @@
       "answer": "iets onder de knie krijgen",
       "accepted": [
         "iets onder de knie krijgen",
-        "ergens handigheid in krijgen"
+        "ergens handigheid in krijgen",
+        "leren hoe iets werkt"
       ],
       "explanation": "Je get the hang of something wanneer je na oefenen begrijpt hoe het werkt. Example: ‘You'll get the hang of the app soon.’",
       "difficulty": 2,
@@ -19033,7 +19032,8 @@
       "answer": "duimen",
       "accepted": [
         "duimen",
-        "hopen dat iets goed gaat"
+        "hopen dat iets goed gaat",
+        "hopen op een goede afloop"
       ],
       "explanation": "Dit zeg je wanneer je hoopt op een goede uitkomst. Example: ‘Keep your fingers crossed for my interview.’",
       "difficulty": 2,
@@ -19048,7 +19048,8 @@
       "answer": "op de harde manier leren",
       "accepted": [
         "op de harde manier leren",
-        "door een nare ervaring leren"
+        "door een nare ervaring leren",
+        "door ervaring leren nadat iets misging"
       ],
       "explanation": "Je leert something the hard way door zelf een vervelende fout of ervaring mee te maken. Example: ‘I learned the hard way to save my work.’",
       "difficulty": 2,
@@ -19063,7 +19064,8 @@
       "answer": "de kern missen",
       "accepted": [
         "de kern missen",
-        "niet begrijpen wat belangrijk is"
+        "niet begrijpen wat belangrijk is",
+        "de bedoeling niet begrijpen"
       ],
       "explanation": "Je miss the point wanneer je niet begrijpt wat de belangrijkste boodschap is. Example: ‘You’re missing the point of the story.’",
       "difficulty": 2,
@@ -19078,7 +19080,8 @@
       "answer": "zonder inspanning geen resultaat",
       "accepted": [
         "zonder inspanning geen resultaat",
-        "je moet er iets voor doen"
+        "je moet er iets voor doen",
+        "geen resultaat zonder moeite"
       ],
       "explanation": "Dit betekent dat vooruitgang vaak inspanning vraagt, bijvoorbeeld bij sport of leren. Example: ‘Training is hard, but no pain, no gain.’",
       "difficulty": 2,
@@ -19093,7 +19096,8 @@
       "answer": "alle eieren in één mandje leggen",
       "accepted": [
         "alle eieren in één mandje leggen",
-        "al je kansen op één ding zetten"
+        "al je kansen op één ding zetten",
+        "alles van één plan laten afhangen"
       ],
       "explanation": "Dit waarschuwt ervoor om niet alles afhankelijk te maken van één plan of investering. Example: ‘Apply to more than one school; don't put all your eggs in one basket.’",
       "difficulty": 2,
@@ -19108,7 +19112,8 @@
       "answer": "het met elkaar eens zijn",
       "accepted": [
         "het met elkaar eens zijn",
-        "het eens zijn"
+        "het eens zijn",
+        "hetzelfde standpunt hebben"
       ],
       "explanation": "Twee mensen see eye to eye wanneer ze hetzelfde standpunt hebben. Example: ‘We don't always see eye to eye.’",
       "difficulty": 2,
@@ -19123,7 +19128,8 @@
       "answer": "iets uitstellen tot een andere keer",
       "accepted": [
         "iets uitstellen tot een andere keer",
-        "een uitnodiging voor later bewaren"
+        "een uitnodiging voor later bewaren",
+        "nu niet kunnen maar later wel willen afspreken"
       ],
       "explanation": "Je zegt dit wanneer je nu niet kunt, maar later wel wilt afspreken. Example: ‘Can I take a rain check on dinner?’",
       "difficulty": 2,
@@ -19138,7 +19144,8 @@
       "answer": "door dik en dun",
       "accepted": [
         "door dik en dun",
-        "in goede en slechte tijden"
+        "in goede en slechte tijden",
+        "elkaar altijd trouw blijven"
       ],
       "explanation": "Dit beschrijft trouw blijven aan iemand in moeilijke én makkelijke tijden. Example: ‘They stayed friends through thick and thin.’",
       "difficulty": 2,
@@ -19153,7 +19160,8 @@
       "answer": "de tijd vliegt",
       "accepted": [
         "de tijd vliegt",
-        "de tijd gaat snel"
+        "de tijd gaat snel",
+        "de tijd lijkt snel voorbij te gaan"
       ],
       "explanation": "Je zegt dit wanneer tijd snel lijkt te gaan. Example: ‘Time flies when you're having fun.’",
       "difficulty": 2,
@@ -19168,7 +19176,8 @@
       "answer": "nog onzeker",
       "accepted": [
         "nog onzeker",
-        "nog niet besloten"
+        "nog niet besloten",
+        "nog niet vaststaan"
       ],
       "explanation": "Een plan is up in the air wanneer nog niet zeker is wat er gaat gebeuren. Example: ‘Our holiday plans are still up in the air.’",
       "difficulty": 2,
@@ -19183,7 +19192,8 @@
       "answer": "je kunt niet op het uiterlijk afgaan",
       "accepted": [
         "je kunt niet op het uiterlijk afgaan",
-        "uiterlijk zegt niet alles"
+        "uiterlijk zegt niet alles",
+        "beoordeel iets niet alleen op hoe het eruitziet"
       ],
       "explanation": "Je moet mensen of dingen niet alleen beoordelen op hoe ze eruitzien. Example: ‘He looks quiet, but you can't judge a book by its cover.’",
       "difficulty": 2,
@@ -19198,7 +19208,8 @@
       "answer": "iets kunnen begrijpen",
       "accepted": [
         "iets kunnen begrijpen",
-        "iets bevatten"
+        "iets bevatten",
+        "iets begrijpen na erover na te denken"
       ],
       "explanation": "Dit betekent een ingewikkeld idee begrijpen of ermee vertrouwd raken. Example: ‘I can't wrap my head around this rule.’",
       "difficulty": 2,
@@ -19213,7 +19224,8 @@
       "answer": "ik weet het ook niet",
       "accepted": [
         "ik weet het ook niet",
-        "ik heb net zo min een idee"
+        "ik heb net zo min een idee",
+        "ik weet het antwoord net zo min"
       ],
       "explanation": "Je zegt dit wanneer je zelf het antwoord ook niet weet. Example: ‘Where did he go? Your guess is as good as mine.’",
       "difficulty": 2,
@@ -19228,7 +19240,8 @@
       "answer": "flink wat geld kosten",
       "accepted": [
         "flink wat geld kosten",
-        "duur zijn"
+        "duur zijn",
+        "een hoop geld kosten"
       ],
       "explanation": "Dit betekent dat iets behoorlijk duur is. Example: ‘That new phone costs a pretty penny.’",
       "difficulty": 2,
@@ -19243,7 +19256,8 @@
       "answer": "elk nadeel heeft ook een voordeel",
       "accepted": [
         "elk nadeel heeft ook een voordeel",
-        "er zit altijd iets positiefs aan"
+        "er zit altijd iets positiefs aan",
+        "in elke tegenslag zit iets goeds"
       ],
       "explanation": "Dit moedigt iemand aan om ook iets positiefs te zien in een moeilijke situatie. Example: ‘The trip was cancelled, but every cloud has a silver lining.’",
       "difficulty": 2,
