@@ -1,5 +1,5 @@
 {
-  "version": "1.8.1",
+  "version": "1.9.0",
   "topics": [
     {
       "id": "be-verbs",
@@ -72,6 +72,18 @@
       "name": "Sentence building",
       "description": "Engelse zinnen logisch opbouwen",
       "level": "A1+"
+    },
+    {
+      "id": "idioms-sayings",
+      "name": "Idioms & sayings",
+      "level": "A2",
+      "description": "Veelgebruikte Engelse uitdrukkingen: leer wat ze betekenen en wanneer je ze gebruikt."
+    },
+    {
+      "id": "common-pitfalls",
+      "name": "Common pitfalls",
+      "level": "A1+",
+      "description": "Veelgemaakte fouten voor Nederlandstaligen, met korte uitleg waarom het Engelse antwoord anders is."
     }
   ],
   "items": [
@@ -7633,6 +7645,566 @@
       "difficulty": 1,
       "translationNl": "Mijn zus kijkt 's avonds naar televisie.",
       "solutionEnglish": "My sister watches TV in the evening"
+    },
+    {
+      "id": "idiom-01",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “break the ice” mean?",
+      "answer": "Make people feel more relaxed",
+      "options": [
+        "Make people feel more relaxed",
+        "Break something made of ice",
+        "End a friendship"
+      ],
+      "explanation": "Je maakt een gesprek minder ongemakkelijk.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-02",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “piece of cake” mean?",
+      "answer": "Very easy",
+      "options": [
+        "Very expensive",
+        "Very easy",
+        "Very small"
+      ],
+      "explanation": "Dit zeg je als iets heel makkelijk is.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-03",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “once in a blue moon” mean?",
+      "answer": "Very rarely",
+      "options": [
+        "Every evening",
+        "At the right time",
+        "Very rarely"
+      ],
+      "explanation": "Dit gebeurt maar heel zelden.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-04",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “under the weather” mean?",
+      "answer": "A little ill",
+      "options": [
+        "A little ill",
+        "Outside in the rain",
+        "Very happy"
+      ],
+      "explanation": "Deze uitdrukking betekent dat je je niet lekker voelt.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-05",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “cost an arm and a leg” mean?",
+      "answer": "Be very expensive",
+      "options": [
+        "Be free",
+        "Be very expensive",
+        "Take a long time"
+      ],
+      "explanation": "Het kost heel veel geld.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-06",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “better late than never” mean?",
+      "answer": "Doing something late is better than not doing it",
+      "options": [
+        "Never arrive late",
+        "Tomorrow is too late",
+        "Doing something late is better than not doing it"
+      ],
+      "explanation": "Het is beter iets laat te doen dan helemaal niet.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-07",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “the ball is in your court” mean?",
+      "answer": "It is your turn to act",
+      "options": [
+        "It is your turn to act",
+        "You are playing tennis",
+        "You lost something"
+      ],
+      "explanation": "Jij bent nu aan zet.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-08",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “let the cat out of the bag” mean?",
+      "answer": "Reveal a secret",
+      "options": [
+        "Buy a pet",
+        "Reveal a secret",
+        "Forget a name"
+      ],
+      "explanation": "Je verklapt een geheim.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-09",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “keep an eye on” mean?",
+      "answer": "Watch or look after",
+      "options": [
+        "Close your eyes",
+        "Ignore someone",
+        "Watch or look after"
+      ],
+      "explanation": "Je houdt iets of iemand in de gaten.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-10",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “a piece of advice” mean?",
+      "answer": "One helpful suggestion",
+      "options": [
+        "One helpful suggestion",
+        "A piece of paper",
+        "A difficult question"
+      ],
+      "explanation": "Een advies is een tip of raad.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-11",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “hang in there” mean?",
+      "answer": "Keep trying; don’t give up",
+      "options": [
+        "Wait outside",
+        "Keep trying; don’t give up",
+        "Hold a rope"
+      ],
+      "explanation": "Blijf volhouden.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-12",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “call it a day” mean?",
+      "answer": "Stop working for now",
+      "options": [
+        "Phone someone tomorrow",
+        "Start a new job",
+        "Stop working for now"
+      ],
+      "explanation": "Je stopt voor vandaag.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-13",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “on the same page” mean?",
+      "answer": "Understand or agree about the same thing",
+      "options": [
+        "Understand or agree about the same thing",
+        "Read the same book",
+        "Work in the same office"
+      ],
+      "explanation": "Je begrijpt elkaar of bent het eens.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-14",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “miss the boat” mean?",
+      "answer": "Miss an opportunity",
+      "options": [
+        "Forget to travel",
+        "Miss an opportunity",
+        "Arrive at a harbour"
+      ],
+      "explanation": "Je mist een kans.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-15",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “get the hang of it” mean?",
+      "answer": "Learn how to do it",
+      "options": [
+        "Hang it on a wall",
+        "Get angry",
+        "Learn how to do it"
+      ],
+      "explanation": "Je begint te begrijpen hoe iets werkt.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-16",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “in a nutshell” mean?",
+      "answer": "In a few words",
+      "options": [
+        "In a few words",
+        "Inside a nut",
+        "Very carefully"
+      ],
+      "explanation": "Kort samengevat.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-17",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “feel like a million dollars” mean?",
+      "answer": "Feel wonderful",
+      "options": [
+        "Be very rich",
+        "Feel wonderful",
+        "Feel tired"
+      ],
+      "explanation": "Je voelt je geweldig.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-18",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “a blessing in disguise” mean?",
+      "answer": "Something that seems bad but turns out well",
+      "options": [
+        "A hidden present",
+        "A lucky charm",
+        "Something that seems bad but turns out well"
+      ],
+      "explanation": "Iets lijkt eerst vervelend, maar blijkt later goed uit te pakken.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-19",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “no pain, no gain” mean?",
+      "answer": "You need effort to achieve something",
+      "options": [
+        "You need effort to achieve something",
+        "Pain is always good",
+        "Never exercise"
+      ],
+      "explanation": "Je moet moeite doen om iets te bereiken.",
+      "difficulty": 2
+    },
+    {
+      "id": "idiom-20",
+      "topic": "idioms-sayings",
+      "type": "mcq",
+      "prompt": "What does “it’s not my cup of tea” mean?",
+      "answer": "I don’t really like it",
+      "options": [
+        "I don’t drink tea",
+        "I don’t really like it",
+        "I am very thirsty"
+      ],
+      "explanation": "Het is niet echt mijn smaak.",
+      "difficulty": 2
+    },
+    {
+      "id": "pitfall-01",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I am 20 years old.",
+      "options": [
+        "I am 20 years old.",
+        "I have 20 years old.",
+        "I are 20 years old."
+      ],
+      "explanation": "In het Engels zeg je leeftijd met “to be”: I am 20.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-02",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I agree with you.",
+      "options": [
+        "I am agree with you.",
+        "I agree with you.",
+        "I agreeing with you."
+      ],
+      "explanation": "“Agree” is een werkwoord; “am” is hier niet nodig.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-03",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct question.",
+      "answer": "Where do you live?",
+      "options": [
+        "Where you live?",
+        "Where does you live?",
+        "Where do you live?"
+      ],
+      "explanation": "Bij you gebruik je do in deze vraag.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-04",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "She doesn’t like coffee.",
+      "options": [
+        "She doesn’t like coffee.",
+        "She don’t like coffee.",
+        "She doesn’t likes coffee."
+      ],
+      "explanation": "Na doesn’t blijft het hoofdwerkwoord in de basisvorm: like.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-05",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I’m looking forward to seeing you.",
+      "options": [
+        "I’m looking forward to see you.",
+        "I’m looking forward to seeing you.",
+        "I look forward seeing you."
+      ],
+      "explanation": "Na “look forward to” gebruik je hier de -ing-vorm.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-06",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I went to work yesterday.",
+      "options": [
+        "I goed to work yesterday.",
+        "I did went to work yesterday.",
+        "I went to work yesterday."
+      ],
+      "explanation": "“Go” heeft in de verleden tijd de onregelmatige vorm “went”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-07",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "There are two apples.",
+      "options": [
+        "There are two apples.",
+        "There is two apples.",
+        "They is two apples."
+      ],
+      "explanation": "Bij meervoud gebruik je “there are”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-08",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct phrase.",
+      "answer": "I’m interested in music.",
+      "options": [
+        "I’m interested on music.",
+        "I’m interested in music.",
+        "I’m interested at music."
+      ],
+      "explanation": "De vaste combinatie is “interested in”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-09",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I have a question.",
+      "options": [
+        "I am have a question.",
+        "This sentence is incorrect.",
+        "I have a question."
+      ],
+      "explanation": "Gebruik “have” als hoofdwerkwoord.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-10",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "He can swim.",
+      "options": [
+        "He can swim.",
+        "He cans swim.",
+        "He can to swim."
+      ],
+      "explanation": "Na “can” komt het werkwoord zonder -s en zonder “to”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-11",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I didn’t see him.",
+      "options": [
+        "I didn’t saw him.",
+        "I didn’t see him.",
+        "I don’t saw him yesterday."
+      ],
+      "explanation": "Na “didn’t” staat het hoofdwerkwoord in de basisvorm: see.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-12",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct phrase.",
+      "answer": "I’m good at cooking.",
+      "options": [
+        "I’m good in cooking.",
+        "I’m good on cooking.",
+        "I’m good at cooking."
+      ],
+      "explanation": "De vaste combinatie is “good at”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-13",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "My brother and I are ready.",
+      "options": [
+        "My brother and I are ready.",
+        "Me and my brother is ready.",
+        "My brother and me am ready."
+      ],
+      "explanation": "Als onderwerp zeg je “my brother and I”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-14",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I have breakfast at seven.",
+      "options": [
+        "I make breakfast at seven.",
+        "I have breakfast at seven.",
+        "I do breakfast at seven."
+      ],
+      "explanation": "Voor ontbijten gebruik je meestal “have breakfast”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-15",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I’m going home.",
+      "options": [
+        "I’m going to home.",
+        "I’m going at home.",
+        "I’m going home."
+      ],
+      "explanation": "Voor “home” gebruik je in deze richting geen “to”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-16",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "She has a new car.",
+      "options": [
+        "She has a new car.",
+        "She have a new car.",
+        "She haves a new car."
+      ],
+      "explanation": "Bij he/she/it gebruik je “has”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-17",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct phrase.",
+      "answer": "I arrived at the station.",
+      "options": [
+        "I arrived to the station.",
+        "I arrived at the station.",
+        "I arrived in the station."
+      ],
+      "explanation": "Je zegt “arrive at” bij een specifiek punt.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-18",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "I’m bored.",
+      "options": [
+        "I’m boring.",
+        "I have bored.",
+        "I’m bored."
+      ],
+      "explanation": "“I’m bored” betekent dat ik me verveel; “boring” beschrijft iets saais.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-19",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "answer": "Can you help me?",
+      "options": [
+        "Can you help me?",
+        "Can you help to me?",
+        "Can you help I?"
+      ],
+      "explanation": "Na “help” gebruik je hier direct “me”.",
+      "difficulty": 1
+    },
+    {
+      "id": "pitfall-20",
+      "topic": "common-pitfalls",
+      "type": "mcq",
+      "prompt": "Choose the correct phrase.",
+      "answer": "I have been here for two hours.",
+      "options": [
+        "I am here since two hours.",
+        "I have been here for two hours.",
+        "I have here for two hours."
+      ],
+      "explanation": "Voor een duur tot nu gebruik je “for” met de present perfect.",
+      "difficulty": 1
     }
   ],
   "placement": [

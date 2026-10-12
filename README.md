@@ -46,3 +46,10 @@ De huidige registratie vereist een wachtwoord van minimaal 8 tekens. Het formuli
 ## Taaluitbreiding
 
 De huidige leerinhoud en adaptieve oefenstroom zijn voor Nederlands-talige beginners die Engels leren. Spaans, Italiaans en Duits vragen elk om eigen woorden, audio/uitspraak, vertalingen en voortgang per doeltaal. Voeg die talen toe als aparte cursussen met gescheiden voortgang; vertaal niet alleen de bestaande schermteksten.
+
+
+## Added lesson topics (content 1.9.0)
+
+The English course now includes 20 practice questions on common idioms and sayings, plus 20 questions on common pitfalls for Dutch speakers. Each question includes a Dutch explanation. These topics are additions to the existing beginner course; they do not alter its adaptive learning rules.
+
+Spanish, Italian, and German are planned as separate beginner courses. Their lesson content and progress isolation still need to be implemented before those languages are available in the app.
