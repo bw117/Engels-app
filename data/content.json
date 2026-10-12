@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "1.10.0",
   "topics": [
     {
       "id": "be-verbs",
@@ -8207,6 +8207,444 @@
       ],
       "explanation": "Voor een duur tot nu gebruik je “for” met de present perfect.",
       "difficulty": 1
+    },
+    {
+      "id": "word-a2-appointment",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'afspraak' in het Engels?",
+      "answer": "appointment",
+      "accepted": [
+        "appointment"
+      ],
+      "explanation": "Een afspraak die je met iemand maakt.",
+      "difficulty": 2,
+      "translationNl": "afspraak",
+      "solutionEnglish": "appointment"
+    },
+    {
+      "id": "word-a2-careful",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'voorzichtig' in het Engels?",
+      "answer": "careful",
+      "accepted": [
+        "careful"
+      ],
+      "explanation": "Careful betekent voorzichtig.",
+      "difficulty": 2,
+      "translationNl": "voorzichtig",
+      "solutionEnglish": "careful"
+    },
+    {
+      "id": "word-a2-decide",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'beslissen' in het Engels?",
+      "answer": "decide",
+      "accepted": [
+        "decide"
+      ],
+      "explanation": "Decide betekent een keuze maken.",
+      "difficulty": 2,
+      "translationNl": "beslissen",
+      "solutionEnglish": "decide"
+    },
+    {
+      "id": "word-a2-choose",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kiezen' in het Engels?",
+      "answer": "choose",
+      "accepted": [
+        "choose"
+      ],
+      "explanation": "Choose betekent kiezen.",
+      "difficulty": 2,
+      "translationNl": "kiezen",
+      "solutionEnglish": "choose"
+    },
+    {
+      "id": "word-a2-improve",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'verbeteren' in het Engels?",
+      "answer": "improve",
+      "accepted": [
+        "improve"
+      ],
+      "explanation": "Improve betekent beter maken of worden.",
+      "difficulty": 2,
+      "translationNl": "verbeteren",
+      "solutionEnglish": "improve"
+    },
+    {
+      "id": "word-a2-remember",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'herinneren' in het Engels?",
+      "answer": "remember",
+      "accepted": [
+        "remember"
+      ],
+      "explanation": "Remember betekent je iets herinneren of onthouden.",
+      "difficulty": 2,
+      "translationNl": "herinneren",
+      "solutionEnglish": "remember"
+    },
+    {
+      "id": "word-a2-invite",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'uitnodigen' in het Engels?",
+      "answer": "invite",
+      "accepted": [
+        "invite"
+      ],
+      "explanation": "Invite betekent iemand vragen om ergens bij te zijn.",
+      "difficulty": 2,
+      "translationNl": "uitnodigen",
+      "solutionEnglish": "invite"
+    },
+    {
+      "id": "word-a2-customer",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'klant' in het Engels?",
+      "answer": "customer",
+      "accepted": [
+        "customer"
+      ],
+      "explanation": "Customer is iemand die iets koopt.",
+      "difficulty": 2,
+      "translationNl": "klant",
+      "solutionEnglish": "customer"
+    },
+    {
+      "id": "word-a2-message",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'bericht' in het Engels?",
+      "answer": "message",
+      "accepted": [
+        "message"
+      ],
+      "explanation": "Message betekent bericht.",
+      "difficulty": 2,
+      "translationNl": "bericht",
+      "solutionEnglish": "message"
+    },
+    {
+      "id": "word-a2-prepare",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'voorbereiden' in het Engels?",
+      "answer": "prepare",
+      "accepted": [
+        "prepare"
+      ],
+      "explanation": "Prepare betekent klaarmaken of voorbereiden.",
+      "difficulty": 2,
+      "translationNl": "voorbereiden",
+      "solutionEnglish": "prepare"
+    },
+    {
+      "id": "word-a2-compare",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vergelijken' in het Engels?",
+      "answer": "compare",
+      "accepted": [
+        "compare"
+      ],
+      "explanation": "Compare betekent twee of meer dingen naast elkaar bekijken.",
+      "difficulty": 2,
+      "translationNl": "vergelijken",
+      "solutionEnglish": "compare"
+    },
+    {
+      "id": "word-a2-healthy",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'gezond' in het Engels?",
+      "answer": "healthy",
+      "accepted": [
+        "healthy"
+      ],
+      "explanation": "Healthy betekent gezond.",
+      "difficulty": 2,
+      "translationNl": "gezond",
+      "solutionEnglish": "healthy"
+    },
+    {
+      "id": "word-a2-crowded",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'overvol' in het Engels?",
+      "answer": "crowded",
+      "accepted": [
+        "crowded"
+      ],
+      "explanation": "Crowded betekent dat er veel mensen op een plek zijn.",
+      "difficulty": 2,
+      "translationNl": "overvol",
+      "solutionEnglish": "crowded"
+    },
+    {
+      "id": "word-a2-neighbour",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'buur' in het Engels?",
+      "answer": "neighbour",
+      "accepted": [
+        "neighbour",
+        "neighbor"
+      ],
+      "explanation": "Neighbour is de Britse spelling; neighbor is de Amerikaanse spelling.",
+      "difficulty": 2,
+      "translationNl": "buur",
+      "solutionEnglish": "neighbour"
+    },
+    {
+      "id": "word-a2-journey",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'reis' in het Engels?",
+      "answer": "journey",
+      "accepted": [
+        "journey",
+        "trip"
+      ],
+      "explanation": "Journey en trip betekenen allebei reis.",
+      "difficulty": 2,
+      "translationNl": "reis",
+      "solutionEnglish": "journey"
+    },
+    {
+      "id": "word-b1-achievement",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'prestatie' in het Engels?",
+      "answer": "achievement",
+      "accepted": [
+        "achievement"
+      ],
+      "explanation": "Achievement is iets dat je bereikt door inspanning.",
+      "difficulty": 3,
+      "translationNl": "prestatie",
+      "solutionEnglish": "achievement"
+    },
+    {
+      "id": "word-b1-opportunity",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'mogelijkheid' in het Engels?",
+      "answer": "opportunity",
+      "accepted": [
+        "opportunity"
+      ],
+      "explanation": "Opportunity betekent een kans of mogelijkheid.",
+      "difficulty": 3,
+      "translationNl": "mogelijkheid",
+      "solutionEnglish": "opportunity"
+    },
+    {
+      "id": "word-b1-responsibility",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'verantwoordelijkheid' in het Engels?",
+      "answer": "responsibility",
+      "accepted": [
+        "responsibility"
+      ],
+      "explanation": "Responsibility betekent verantwoordelijkheid.",
+      "difficulty": 3,
+      "translationNl": "verantwoordelijkheid",
+      "solutionEnglish": "responsibility"
+    },
+    {
+      "id": "word-b1-reliable",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'betrouwbaar' in het Engels?",
+      "answer": "reliable",
+      "accepted": [
+        "reliable"
+      ],
+      "explanation": "Reliable betekent dat je op iemand of iets kunt vertrouwen.",
+      "difficulty": 3,
+      "translationNl": "betrouwbaar",
+      "solutionEnglish": "reliable"
+    },
+    {
+      "id": "word-b1-available",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'beschikbaar' in het Engels?",
+      "answer": "available",
+      "accepted": [
+        "available"
+      ],
+      "explanation": "Available betekent dat iets beschikbaar is of dat iemand tijd heeft.",
+      "difficulty": 3,
+      "translationNl": "beschikbaar",
+      "solutionEnglish": "available"
+    },
+    {
+      "id": "word-b1-avoid",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'vermijden' in het Engels?",
+      "answer": "avoid",
+      "accepted": [
+        "avoid"
+      ],
+      "explanation": "Avoid betekent ergens uit de buurt van blijven of iets voorkomen.",
+      "difficulty": 3,
+      "translationNl": "vermijden",
+      "solutionEnglish": "avoid"
+    },
+    {
+      "id": "word-b1-eventually",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'uiteindelijk' in het Engels?",
+      "answer": "eventually",
+      "accepted": [
+        "eventually"
+      ],
+      "explanation": "Eventually betekent uiteindelijk, na enige tijd.",
+      "difficulty": 3,
+      "translationNl": "uiteindelijk",
+      "solutionEnglish": "eventually"
+    },
+    {
+      "id": "word-b1-although",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'hoewel' in het Engels?",
+      "answer": "although",
+      "accepted": [
+        "although"
+      ],
+      "explanation": "Although betekent hoewel.",
+      "difficulty": 3,
+      "translationNl": "hoewel",
+      "solutionEnglish": "although"
+    },
+    {
+      "id": "word-b1-unless",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'tenzij' in het Engels?",
+      "answer": "unless",
+      "accepted": [
+        "unless"
+      ],
+      "explanation": "Unless betekent tenzij.",
+      "difficulty": 3,
+      "translationNl": "tenzij",
+      "solutionEnglish": "unless"
+    },
+    {
+      "id": "word-b1-afford",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'zich veroorloven' in het Engels?",
+      "answer": "afford",
+      "accepted": [
+        "afford"
+      ],
+      "explanation": "Afford betekent genoeg geld of tijd hebben om iets te kunnen doen.",
+      "difficulty": 3,
+      "translationNl": "betalen kunnen",
+      "solutionEnglish": "afford"
+    },
+    {
+      "id": "word-b1-manage",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'erin slagen' in het Engels?",
+      "answer": "manage",
+      "accepted": [
+        "manage"
+      ],
+      "explanation": "Manage kan betekenen dat je erin slaagt iets te doen.",
+      "difficulty": 3,
+      "translationNl": "erin slagen",
+      "solutionEnglish": "manage"
+    },
+    {
+      "id": "word-b1-recommend",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'aanraden' in het Engels?",
+      "answer": "recommend",
+      "accepted": [
+        "recommend"
+      ],
+      "explanation": "Recommend betekent iets aanraden.",
+      "difficulty": 3,
+      "translationNl": "aanraden",
+      "solutionEnglish": "recommend"
+    },
+    {
+      "id": "word-b1-issue",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'kwestie' in het Engels?",
+      "answer": "issue",
+      "accepted": [
+        "issue",
+        "matter"
+      ],
+      "explanation": "Issue betekent een onderwerp of probleem; matter kan in sommige contexten ook kwestie betekenen.",
+      "difficulty": 3,
+      "translationNl": "kwestie",
+      "solutionEnglish": "issue"
+    },
+    {
+      "id": "word-b1-effort",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'inspanning' in het Engels?",
+      "answer": "effort",
+      "accepted": [
+        "effort"
+      ],
+      "explanation": "Effort betekent inspanning of moeite.",
+      "difficulty": 3,
+      "translationNl": "inspanning",
+      "solutionEnglish": "effort"
+    },
+    {
+      "id": "word-b1-improvement",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'verbetering' in het Engels?",
+      "answer": "improvement",
+      "accepted": [
+        "improvement"
+      ],
+      "explanation": "Improvement is een verbetering.",
+      "difficulty": 3,
+      "translationNl": "verbetering",
+      "solutionEnglish": "improvement"
+    },
+    {
+      "id": "word-b1-environment",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'omgeving' in het Engels?",
+      "answer": "environment",
+      "accepted": [
+        "environment",
+        "surroundings"
+      ],
+      "explanation": "Environment is de omgeving; surroundings zijn de dingen en plek om je heen.",
+      "difficulty": 3,
+      "translationNl": "omgeving",
+      "solutionEnglish": "environment"
     }
   ],
   "placement": [

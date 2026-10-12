@@ -1,4 +1,4 @@
-const state={content:null,db:null,session:[],index:0,answered:false,placement:[],placementIndex:0,placementScore:0,sessionStartedAt:null,sessionCorrect:0,streak:0,user:null,clientId:null,storageKey:"english-db",syncStatus:"local",syncPromise:null,offline:false,sessionMode:"mixed",sessionTopic:null};
+const state={content:null,db:null,session:[],index:0,answered:false,placement:[],placementIndex:0,placementScore:0,sessionStartedAt:null,sessionCorrect:0,streak:0,user:null,clientId:null,storageKey:"english-db",syncStatus:"local",syncPromise:null,offline:false,sessionMode:"mixed",sessionTopic:null,nextDifficultyDirection:0};
 
 async function load(){
  try{
@@ -201,30 +201,32 @@ function finishPlacement(){
  document.getElementById("app").innerHTML='<div class="center result-page"><span class="tag">Niveautest klaar</span><h1>Je startniveau</h1><div class="card result-card"><div class="big">'+Math.round(score*100)+'%</div><h2>'+label+'</h2><p class="muted">Dit is alleen je startpunt. Je echte niveau wordt tijdens het oefenen steeds nauwkeuriger bepaald.</p><button class="btn primary" id="start-after-placement">Start je eerste sessie →</button></div></div>';
  document.getElementById("start-after-placement").addEventListener("click",startSession);
 }
-function startSession(){state.sessionMode="mixed";state.sessionTopic=null;state.session=selectItems(state.content.items,10);beginSession()}
-function startWordMode(){state.sessionMode="word";state.sessionTopic=null;state.session=selectWordItems(10);beginSession()}
+function takeDifficultyTarget(){try{const key="polyvo-next-difficulty:"+state.storageKey,raw=localStorage.getItem(key);localStorage.removeItem(key);const value=JSON.parse(raw||"null"),target=Number(value&&typeof value==="object"?value.target:value);state.nextDifficultyDirection=Number(value&&typeof value==="object"?value.direction:0)||0;return [1,2,3].includes(target)?target:null}catch(_){state.nextDifficultyDirection=0;return null}}
+function rateNextSession(rating){const average=state.session.reduce((sum,item)=>sum+Number(item.difficulty||1),0)/Math.max(1,state.session.length),base=Math.max(1,Math.min(3,Math.round(average))),offset=rating==="hard"?-1:rating==="easy"?1:0,target=Math.max(1,Math.min(3,base+offset));try{localStorage.setItem("polyvo-next-difficulty:"+state.storageKey,JSON.stringify({target,direction:offset}))}catch(_){}document.querySelectorAll("[data-level-rating]").forEach(button=>{const selected=button.dataset.levelRating===rating;button.className="btn "+(selected?"primary":"secondary");button.setAttribute("aria-pressed",String(selected))});const note=document.getElementById("level-rating-note");if(note)note.textContent="Bedankt. Je volgende sessie richt zich vooral op niveau "+(target===1?"Basis":target===2?"Op weg":"Uitdaging")+"."}
+function startSession(){state.sessionMode="mixed";state.sessionTopic=null;const target=takeDifficultyTarget();state.session=selectItems(state.content.items,10,false,target);beginSession()}
+function startWordMode(){state.sessionMode="word";state.sessionTopic=null;const target=takeDifficultyTarget();state.session=selectWordItems(10,target);beginSession()}
 function questionFingerprint(item){const clean=value=>String(value||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[’\']/g,"").replace(/\s+/g," ");return JSON.stringify([item.topic,item.type,clean(item.prompt),clean(item.answer),[...(item.accepted||[])].map(clean).sort(),[...(item.options||[])].map(clean).sort()])}
 function recentQuestionIds(){try{const history=JSON.parse(localStorage.getItem("polyvo-session-history:"+state.storageKey)||"[]"),byId=new Map(state.content.items.map(item=>[item.id,questionFingerprint(item)]));return new Set((Array.isArray(history)?history.slice(0,2).flat():[]).map(entry=>byId.get(entry)||String(entry)))}catch(_){return new Set()}}
 function rememberSessionQuestions(session){try{const key="polyvo-session-history:"+state.storageKey,history=JSON.parse(localStorage.getItem(key)||"[]");history.unshift(session.map(questionFingerprint));localStorage.setItem(key,JSON.stringify(history.slice(0,3)))}catch(_){}}
-function selectWordItems(n){const recent=recentQuestionIds(),words=state.content.items.filter(i=>i.type==="word"&&!recent.has(questionFingerprint(i)));return [...words].sort((a,b)=>wordScore(b)-wordScore(a)).slice(0,n)}
+function selectWordItems(n,targetDifficulty=null){const recent=recentQuestionIds(),words=state.content.items.filter(i=>i.type==="word"&&!recent.has(questionFingerprint(i)));return [...words].sort((a,b)=>{const da=Number(a.difficulty||1),db=Number(b.difficulty||1);if(targetDifficulty){const delta=Math.abs(da-targetDifficulty)-Math.abs(db-targetDifficulty);if(delta)return delta}if(state.nextDifficultyDirection<0&&da===db){const easierA=Number(itemState(a.id).mastery||0)*2+Number(itemState(a.id).attempts||0)*.01,easierB=Number(itemState(b.id).mastery||0)*2+Number(itemState(b.id).attempts||0)*.01;if(easierA!==easierB)return easierB-easierA}return wordScore(b)-wordScore(a)}).slice(0,n)}
 function wordScore(item){const s=itemState(item.id),m=Number(s.mastery||0),due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date(),fresh=!s.attempts,recentWrong=s.lastResult===false;return (1-m)*2.4+(due?2:0)+(recentWrong?1.5:0)+(fresh?.25:0)}
 
-function startTopic(id){state.sessionMode="topic";state.sessionTopic=id;state.session=selectItems(state.content.items.filter(i=>i.topic===id),8,true);beginSession()}
+function startTopic(id){state.sessionMode="topic";state.sessionTopic=id;const target=takeDifficultyTarget();state.session=selectItems(state.content.items.filter(i=>i.topic===id),8,true,target);beginSession()}
 function shuffleSession(items){const shuffled=[...items];for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]}return shuffled}
 function beginSession(){state.session=shuffleSession(state.session);rememberSessionQuestions(state.session);state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
-function selectItems(items,n,topicOnly=false){
+function selectItems(items,n,topicOnly=false,targetDifficulty=null){
  const recent=recentQuestionIds(),freshItems=items.filter(i=>!recent.has(questionFingerprint(i)));
  const candidates=freshItems.length?freshItems:items;
- const pool0=candidates.filter(i=>difficultyUnlocked(i));
+ const pool0=candidates.filter(i=>difficultyUnlocked(i)||(targetDifficulty&&Number(i.difficulty||1)===targetDifficulty));
  const pool=pool0.length?pool0:candidates.filter(i=>Number(i.difficulty||1)===1);
- const scored=[...pool].sort((a,b)=>score(b)-score(a));
+ const scored=[...pool].sort((a,b)=>{const da=Number(a.difficulty||1),db=Number(b.difficulty||1);if(targetDifficulty){const delta=Math.abs(da-targetDifficulty)-Math.abs(db-targetDifficulty);if(delta)return delta}if(state.nextDifficultyDirection<0&&da===db){const easeA=Number(itemState(a.id).mastery||0)*2+(a.type==="mcq"?.2:0),easeB=Number(itemState(b.id).mastery||0)*2+(b.type==="mcq"?.2:0);if(easeA!==easeB)return easeB-easeA}return score(b)-score(a)});
  const chosen=[],topicCounts={},typeCounts={},difficultyCounts={};
  for(const item of scored){
   if(chosen.length>=n)break;
   const tc=topicCounts[item.topic]||0,ty=item.type,d=Number(item.difficulty||1),dc=difficultyCounts[d]||0;
   if(!topicOnly&&tc>=3)continue;
   if(typeCounts[ty]>=7)continue;
-  if(d===3&&dc>=2)continue;
+  if(d===3&&dc>=(targetDifficulty===3?7:2))continue;
   chosen.push(item);topicCounts[item.topic]=tc+1;typeCounts[ty]=(typeCounts[ty]||0)+1;difficultyCounts[d]=dc+1;
  }
  for(const item of scored){if(chosen.length>=n)break;if(!chosen.some(x=>x.id===item.id))chosen.push(item)}
@@ -270,7 +272,7 @@ function finishSession(){
  const total=state.session.length,correct=state.sessionCorrect,minutes=Math.max(1,Math.round((Date.now()-state.sessionStartedAt)/60000));
  const session={date:todayKey(),total,correct,minutes,at:new Date().toISOString()};state.db=PolyvoProgress.addEvent(state.db,"session",{session},PolyvoProgress.makeId("session"),session.at);save();if(state.user&&!state.offline)syncProgress();updateStreak();
  const accuracy=Math.round(correct/Math.max(1,total)*100),weak=state.session.filter(i=>Number(itemState(i.id).mastery||0)<.5).length;
- document.getElementById("app").innerHTML='<div class="center result-page"><span class="tag">Sessie afgerond</span><h1>Goed bezig.</h1><div class="result-grid"><div class="card"><span>Goed</span><div class="big">'+accuracy+'%</div><small>'+correct+' van '+total+' vragen</small></div><div class="card"><span>Te herhalen</span><div class="big">'+weak+'</div><small>vragen blijven actief</small></div><div class="card"><span>Streak</span><div class="big">'+Math.max(1,state.streak)+'</div><small>dagen achter elkaar</small></div></div><div class="card result-card"><p class="muted">De volgende sessie wordt aangepast aan wat je vandaag goed en fout deed.</p><button class="btn primary" id="again">Nog een sessie</button><button class="btn secondary" id="dashboard">Naar dashboard</button></div></div>';
- document.getElementById("again").addEventListener("click",()=>{if(state.sessionMode==="word")startWordMode();else if(state.sessionMode==="topic")startTopic(state.sessionTopic);else startSession()});document.getElementById("dashboard").addEventListener("click",renderHome);
+ document.getElementById("app").innerHTML='<div class="center result-page"><span class="tag">Sessie afgerond</span><h1>Goed bezig.</h1><div class="result-grid"><div class="card"><span>Goed</span><div class="big">'+accuracy+'%</div><small>'+correct+' van '+total+' vragen</small></div><div class="card"><span>Te herhalen</span><div class="big">'+weak+'</div><small>vragen blijven actief</small></div><div class="card"><span>Streak</span><div class="big">'+Math.max(1,state.streak)+'</div><small>dagen achter elkaar</small></div></div><div class="card result-card"><p class="muted">Sloot het niveau aan bij wat je verwachtte?</p><div class="hero-actions" role="group" aria-label="Beoordeel het niveau"><button class="btn secondary" data-level-rating="hard" aria-pressed="false">Te moeilijk</button><button class="btn secondary" data-level-rating="right" aria-pressed="false">Precies goed</button><button class="btn secondary" data-level-rating="easy" aria-pressed="false">Te makkelijk</button></div><p class="small" id="level-rating-note">Je keuze stuurt het niveau van je volgende sessie.</p><button class="btn primary" id="again">Nog een sessie</button><button class="btn secondary" id="dashboard">Naar dashboard</button></div></div>';
+ document.querySelectorAll("[data-level-rating]").forEach(button=>button.addEventListener("click",()=>rateNextSession(button.dataset.levelRating)));document.getElementById("again").addEventListener("click",()=>{if(state.sessionMode==="word")startWordMode();else if(state.sessionMode==="topic")startTopic(state.sessionTopic);else startSession()});document.getElementById("dashboard").addEventListener("click",renderHome);
 }
 load();
