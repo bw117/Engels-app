@@ -35,3 +35,14 @@ The existing adaptive rules and Horizon branding are preserved: EMA mastery (alp
 ## Tests
 
 Run Node tests with `npm test`. The Supabase RLS integration test is `supabase/tests/progress_rls.test.sql`; run it against a configured local Supabase project with the Supabase CLI test workflow. Node tests do not require Supabase credentials.
+
+
+## Accountbeheer en e-mail
+
+Voor een openbare app is e-mailbevestiging aanbevolen. Beheer gebruikers in Supabase Dashboard → Authentication → Users; daar zie je geregistreerde e-mailadressen en of ze bevestigd zijn. POLYVO bewaart zelf geen wachtwoorden. Configureer voor publieke registratie en herstelmails een eigen SMTP-provider in Supabase; de standaard afzender is alleen geschikt voor beperkte testverzending.
+
+De huidige registratie vereist een wachtwoord van minimaal 8 tekens. Het formulier vraagt het wachtwoord twee keer om typefouten te voorkomen. Accountregistratie blijft uitgeschakeld totdat Supabase is gekoppeld via de Vercel-omgevingsvariabelen hierboven. Een wachtwoordherstelervaring in POLYVO moet nog worden ingericht via Supabase Auth recovery e-mails en een herstelpagina; deel nooit wachtwoorden met beheerders.
+
+## Taaluitbreiding
+
+De huidige leerinhoud en adaptieve oefenstroom zijn voor Nederlands-talige beginners die Engels leren. Spaans, Italiaans en Duits vragen elk om eigen woorden, audio/uitspraak, vertalingen en voortgang per doeltaal. Voeg die talen toe als aparte cursussen met gescheiden voortgang; vertaal niet alleen de bestaande schermteksten.
