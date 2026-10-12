@@ -1,5 +1,5 @@
 {
-  "version": "1.10.0",
+  "version": "1.10.1",
   "topics": [
     {
       "id": "be-verbs",
@@ -5321,9 +5321,12 @@
       "prompt": "Wat is 'moeder' in het Engels?",
       "answer": "mother",
       "accepted": [
-        "mother"
+        "mother",
+        "mom",
+        "mum",
+        "mama"
       ],
-      "explanation": "moeder = mother.",
+      "explanation": "Mother is neutraal. Mom (Amerikaans), mum (Brits) en mama zijn ook gewone woorden voor moeder.",
       "difficulty": 1,
       "translationNl": "moeder",
       "solutionEnglish": "mother"
@@ -5406,9 +5409,10 @@
       "prompt": "Wat is 'vrouw' in het Engels?",
       "answer": "woman",
       "accepted": [
-        "woman"
+        "woman",
+        "female"
       ],
-      "explanation": "vrouw = woman.",
+      "explanation": "Woman is het gewone woord voor een volwassen vrouw. Female kan ook, maar klinkt formeler en benadrukt het geslacht.",
       "difficulty": 1,
       "translationNl": "vrouw",
       "solutionEnglish": "woman"

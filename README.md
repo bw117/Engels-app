@@ -63,3 +63,8 @@ Typed answers ignore capitalization, apostrophe, and spacing differences, accept
 ## Session level feedback (content 1.10.0)
 
 At the end of each session, learners can rate the level as too difficult, just right, or too easy. Their choice sets the target difficulty for the next session and is stored locally per browser/profile. Explicit feedback can unlock the requested level for that next session. Daily vocabulary includes additional A2 and B1 word cards so that its difficulty can also move up or down while remaining a word translation session.
+
+
+## Accepted vocabulary variants (content 1.10.1)
+
+Daily vocabulary accepts common natural alternatives, including “mom/mum” for “mother” and “female” for “woman,” with notes about the more usual wording and register.
