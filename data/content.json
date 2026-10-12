@@ -697,7 +697,9 @@
       "answer": "I am working right now.",
       "accepted": [
         "i am working right now",
-        "i'm working right now"
+        "i'm working right now",
+        "i am working at the moment",
+        "i'm working at the moment"
       ],
       "explanation": "Op dit moment wijst op iets dat nu gebeurt: de present continuous. I am working = ik ben aan het werk.",
       "difficulty": 1,

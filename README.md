@@ -53,3 +53,8 @@ De huidige leerinhoud en adaptieve oefenstroom zijn voor Nederlands-talige begin
 The English course now includes 20 practice questions on common idioms and sayings, plus 20 questions on common pitfalls for Dutch speakers. Each question includes a Dutch explanation. These topics are additions to the existing beginner course; they do not alter its adaptive learning rules.
 
 Spanish, Italian, and German are planned as separate beginner courses. Their lesson content and progress isolation still need to be implemented before those languages are available in the app.
+
+
+## Answer matching and repetition
+
+Typed answers ignore capitalization and apostrophe differences, accept the English present-continuous wording “at the moment,” and tolerate one adjacent letter transposition in a longer answer (for example, “workign” for “working”). General practice and vocabulary sessions skip questions used in the immediately previous session on the same browser/profile. Topic sessions use the same cooldown when enough unseen questions are available.

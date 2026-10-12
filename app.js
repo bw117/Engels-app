@@ -203,14 +203,18 @@ function finishPlacement(){
 }
 function startSession(){state.session=selectItems(state.content.items,10);beginSession()}
 function startWordMode(){state.session=selectWordItems(10);beginSession()}
-function selectWordItems(n){const words=state.content.items.filter(i=>i.type==="word");return [...words].sort((a,b)=>wordScore(b)-wordScore(a)).slice(0,n)}
+function recentQuestionIds(){try{const history=JSON.parse(localStorage.getItem("polyvo-session-history:"+state.storageKey)||"[]");return new Set(Array.isArray(history[0])?history[0]:[])}catch(_){return new Set()}}
+function rememberSessionQuestions(session){try{const key="polyvo-session-history:"+state.storageKey,history=JSON.parse(localStorage.getItem(key)||"[]");history.unshift(session.map(item=>item.id));localStorage.setItem(key,JSON.stringify(history.slice(0,2)))}catch(_){}}
+function selectWordItems(n){const recent=recentQuestionIds(),words=state.content.items.filter(i=>i.type==="word"&&!recent.has(i.id));return [...words].sort((a,b)=>wordScore(b)-wordScore(a)).slice(0,n)}
 function wordScore(item){const s=itemState(item.id),m=Number(s.mastery||0),due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date(),fresh=!s.attempts,recentWrong=s.lastResult===false;return (1-m)*2.4+(due?2:0)+(recentWrong?1.5:0)+(fresh?.25:0)}
 
 function startTopic(id){state.session=selectItems(state.content.items.filter(i=>i.topic===id),8,true);beginSession()}
-function beginSession(){state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
+function beginSession(){rememberSessionQuestions(state.session);state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
 function selectItems(items,n,topicOnly=false){
- const pool0=items.filter(i=>difficultyUnlocked(i));
- const pool=pool0.length?pool0:items.filter(i=>Number(i.difficulty||1)===1);
+ const recent=recentQuestionIds(),freshItems=items.filter(i=>!recent.has(i.id));
+ const candidates=freshItems.length?freshItems:items;
+ const pool0=candidates.filter(i=>difficultyUnlocked(i));
+ const pool=pool0.length?pool0:candidates.filter(i=>Number(i.difficulty||1)===1);
  const scored=[...pool].sort((a,b)=>score(b)-score(a));
  const chosen=[],topicCounts={},typeCounts={},difficultyCounts={};
  for(const item of scored){
@@ -228,7 +232,9 @@ function score(item){
  const s=itemState(item.id),m=Number(s.mastery||0),due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date(),fresh=!s.attempts,recentWrong=s.lastResult===false;
  return (1-m)*1.9+(due?1.7:0)+(recentWrong?1.25:0)+(fresh?.35:0)+Number(item.difficulty||1)*.12-Math.min((s.streak||0)*.06,.3);
 }
-function normalize(s){return String(s||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[.!?,]+$/g,"").replace(/\s+/g," ")}
+function normalize(s){return String(s||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[’\']/g,"").replace(/[.!?,]+$/g,"").replace(/\s+/g," ")}
+function oneAdjacentTransposition(a,b){if(a.length!==b.length||a.length<8)return false;let first=-1;for(let i=0;i<a.length;i++){if(a[i]!==b[i]){if(first<0)first=i;else return i===first+1&&a[first]===b[i]&&a[i]===b[first]&&a.slice(i+1)===b.slice(i+1)}}return false}
+function matchesAnswer(value,accepted){const input=normalize(value);return accepted.some(answer=>{const target=normalize(answer);return input===target||oneAdjacentTransposition(input,target)})}
 function renderQuestion(){
  if(state.index>=state.session.length)return finishSession();
  const q=state.session[state.index],total=state.session.length,diff=Number(q.difficulty||1),diffLabel=diff===1?"Basis":diff===2?"Op weg":"Uitdaging";
@@ -243,7 +249,7 @@ function renderQuestion(){
 function checkTyped(){const el=document.getElementById("typed");if(el.value.trim())answer(el.value,el)}
 function answer(value,clicked){
  if(state.answered)return;
- const q=state.session[state.index],accepted=q.accepted?.length?q.accepted:[q.answer],correct=accepted.map(normalize).includes(normalize(value));
+ const q=state.session[state.index],accepted=q.accepted?.length?q.accepted:[q.answer],correct=matchesAnswer(value,accepted);
  state.answered=true;if(correct)state.sessionCorrect++;
  const now=new Date();queueAnswer(q.id,correct,now);
  document.getElementById("typed")?.setAttribute("disabled","true");document.getElementById("submit-typed")?.setAttribute("disabled","true");
