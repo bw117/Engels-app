@@ -220,7 +220,8 @@ function selectItems(items,n,topicOnly=false,targetDifficulty=null){
  const recent=recentQuestionIds(),freshItems=items.filter(i=>!recent.has(questionFingerprint(i)));
  const candidates=freshItems.length?freshItems:items;
  const pool0=candidates.filter(i=>difficultyUnlocked(i)||(targetDifficulty&&Number(i.difficulty||1)===targetDifficulty));
- const pool=pool0.length?pool0:candidates.filter(i=>Number(i.difficulty||1)===1);
+ const easyPool=candidates.filter(i=>Number(i.difficulty||1)===1);
+ const pool=pool0.length?pool0:(easyPool.length?easyPool:candidates);
  const scored=[...pool].sort((a,b)=>{const da=Number(a.difficulty||1),db=Number(b.difficulty||1);if(targetDifficulty){const delta=Math.abs(da-targetDifficulty)-Math.abs(db-targetDifficulty);if(delta)return delta}if(state.nextDifficultyDirection<0&&da===db){const easeA=Number(itemState(a.id).mastery||0)*2+(a.type==="mcq"?.2:0),easeB=Number(itemState(b.id).mastery||0)*2+(b.type==="mcq"?.2:0);if(easeA!==easeB)return easeB-easeA}return score(b)-score(a)});
  const chosen=[],topicCounts={},typeCounts={},difficultyCounts={};
  for(const item of scored){
