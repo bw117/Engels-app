@@ -1,5 +1,5 @@
 {
-  "version": "1.10.1",
+  "version": "1.10.2",
   "topics": [
     {
       "id": "be-verbs",
@@ -4327,7 +4327,7 @@
       "topic": "be-verbs",
       "type": "mcq",
       "prompt": "I ___ not sure whether they ___ at home.",
-      "answer": "am",
+      "answer": "am / are",
       "explanation": "I → am en they → are.",
       "difficulty": 3,
       "options": [
@@ -4397,7 +4397,7 @@
       "topic": "present-simple",
       "type": "mcq",
       "prompt": "He rarely ___ late, but he sometimes ___ the bus.",
-      "answer": "arrives",
+      "answer": "arrives / misses",
       "explanation": "He → arrives; sometimes he misses the bus.",
       "difficulty": 3,
       "options": [
@@ -4412,10 +4412,11 @@
       "type": "typed",
       "prompt": "Vertaal: 'Hoe vaak neem je de trein naar je werk?'",
       "answer": "How often do you take the train to work?",
-      "explanation": "How often + do + you + take. Take the train is de vaste combinatie.",
+      "explanation": "Beide zinnen zijn goed: ‘take the train to work’ en ‘go to work by train’ betekenen dat je met de trein naar je werk gaat.",
       "difficulty": 3,
       "accepted": [
-        "how often do you take the train to work"
+        "how often do you take the train to work",
+        "how often do you go to work by train"
       ],
       "translationNl": "Hoe vaak ga je met de trein naar je werk?",
       "solutionEnglish": "How often do you go to work by train?"
@@ -4553,11 +4554,12 @@
       "topic": "pronouns",
       "type": "typed",
       "prompt": "Vertaal: 'Ik zag mijn vrienden en ik gaf ze mijn telefoonnummer.'",
-      "answer": "I saw my friends and I gave them my phone number.",
-      "explanation": "Them verwijst naar my friends en is het object pronoun na gave.",
+      "answer": "I found my keys, but I can't find them.",
+      "explanation": "‘Found’ is de verleden tijd van find. ‘Them’ verwijst naar my keys; na can gebruik je de basisvorm find.",
       "difficulty": 3,
       "accepted": [
-        "i saw my friends and i gave them my phone number"
+        "i found my keys but i cant find them",
+        "i found my keys, but i can't find them"
       ],
       "translationNl": "Ik heb mijn sleutels gevonden, maar ik kan ze niet vinden.",
       "solutionEnglish": "I found my keys, but I can't find them."
@@ -5044,14 +5046,14 @@
       "topic": "past-simple",
       "type": "typed",
       "prompt": "Vertaal: 'Toen ik thuiskwam, kookte ik pasta.'",
-      "answer": "When I got home, I cooked pasta.",
-      "explanation": "Got en cooked zijn beide past simple-vormen voor afgeronde gebeurtenissen in het verleden.",
+      "answer": "When I got home, I cooked dinner.",
+      "explanation": "‘Got home’ en ‘cooked’ beschrijven afgeronde gebeurtenissen in het verleden. ‘Cook dinner’ is een natuurlijke combinatie.",
       "difficulty": 3,
       "accepted": [
-        "when i got home i cooked pasta",
-        "when i got home, i cooked pasta"
+        "when i got home i cooked dinner",
+        "when i got home, i cooked dinner"
       ],
-      "translationNl": "Toen ik thuiskwam, maakte ik eten.",
+      "translationNl": "Toen ik thuiskwam, maakte ik avondeten.",
       "solutionEnglish": "When I got home, I cooked dinner."
     },
     {
@@ -5250,7 +5252,7 @@
         "work",
         "job"
       ],
-      "explanation": "'Werk' kan work betekenen als activiteit of werk in het algemeen. Job betekent een baan of functie.",
+      "explanation": "Work is werk in het algemeen of de activiteit. A job is een baan of functie. Beide kunnen ‘werk’ vertalen, afhankelijk van de zin.",
       "difficulty": 1,
       "translationNl": "werk",
       "solutionEnglish": "work / job"
@@ -5265,7 +5267,7 @@
         "shop",
         "store"
       ],
-      "explanation": "'Winkel' kan shop of store zijn. Beide zijn correct.",
+      "explanation": "Shop is gebruikelijk in Brits Engels; store is gebruikelijk in Amerikaans Engels. Beide betekenen winkel.",
       "difficulty": 1,
       "translationNl": "winkel",
       "solutionEnglish": "shop / store"
@@ -5274,16 +5276,15 @@
       "id": "word-vriend",
       "topic": "vocabulary-daily",
       "type": "word",
-      "prompt": "Wat is 'vriend' in het Engels?",
+      "prompt": "Wat is 'een vriend (geen partner)' in het Engels?",
       "answer": "friend",
       "accepted": [
-        "friend",
-        "boyfriend"
+        "friend"
       ],
-      "explanation": "'Vriend' kan friend betekenen of boyfriend als je een romantische partner bedoelt. De context bepaalt de betekenis.",
+      "explanation": "Friend betekent vriend(in) zonder dat je zegt of het om een man of vrouw gaat. Boyfriend betekent specifiek je mannelijke partner.",
       "difficulty": 1,
-      "translationNl": "vriend",
-      "solutionEnglish": "friend / boyfriend"
+      "translationNl": "een vriend (geen partner)",
+      "solutionEnglish": "friend"
     },
     {
       "id": "word-vriendin",
@@ -5292,10 +5293,10 @@
       "prompt": "Wat is 'vriendin' in het Engels?",
       "answer": "girlfriend",
       "accepted": [
-        "girlfriend",
-        "friend"
+        "friend",
+        "girlfriend"
       ],
-      "explanation": "'Vriendin' kan girlfriend betekenen of friend als je een vrouwelijke vriend bedoelt. De context bepaalt de betekenis.",
+      "explanation": "Friend kan een vriendin als gewone vriend betekenen. Girlfriend kan een vrouwelijke vriend óf je partner betekenen; de context maakt dat duidelijk.",
       "difficulty": 1,
       "translationNl": "vriendin",
       "solutionEnglish": "girlfriend / friend"
@@ -6305,7 +6306,7 @@
         "fine",
         "well"
       ],
-      "explanation": "'Goed' kan good, fine of well zijn, afhankelijk van de grammaticale functie en context. Good/fine zijn vaak bijvoeglijke naamwoorden; well is vaak een bijwoord.",
+      "explanation": "Good is meestal een bijvoeglijk naamwoord (a good book). Well is meestal een bijwoord (to sing well); fine kan ‘goed/in orde’ betekenen. De juiste keuze hangt af van de zin.",
       "difficulty": 1,
       "translationNl": "goed",
       "solutionEnglish": "good / fine / well"
@@ -6452,7 +6453,7 @@
         "many",
         "a lot"
       ],
-      "explanation": "'Veel' kan much, many of a lot zijn. Much gebruik je bij ontelbare dingen, many bij telbare dingen; a lot werkt in veel situaties.",
+      "explanation": "Many gebruik je bij telbare meervouden (many books), much bij niet-telbare woorden (much water), en a lot of kan bij allebei.",
       "difficulty": 1,
       "translationNl": "veel",
       "solutionEnglish": "much / many / a lot"
@@ -6467,7 +6468,7 @@
         "little",
         "few"
       ],
-      "explanation": "'Weinig' is little bij ontelbare dingen en few bij telbare dingen.",
+      "explanation": "Few gebruik je bij telbare meervouden (few books); little bij niet-telbare woorden (little time).",
       "difficulty": 1,
       "translationNl": "weinig",
       "solutionEnglish": "little / few"
@@ -6496,7 +6497,7 @@
         "less",
         "fewer"
       ],
-      "explanation": "'Minder' is less bij ontelbare dingen en fewer bij telbare dingen.",
+      "explanation": "Fewer gebruik je bij telbare dingen (fewer mistakes); less bij niet-telbare hoeveelheden (less time).",
       "difficulty": 1,
       "translationNl": "minder",
       "solutionEnglish": "less / fewer"
@@ -6764,7 +6765,7 @@
         "watch",
         "look"
       ],
-      "explanation": "'Kijken' kan watch of look zijn. Watch gebruik je bijvoorbeeld voor tv of iets dat je langere tijd bekijkt; look voor gericht kijken.",
+      "explanation": "Look betekent ergens naar kijken; watch gebruik je meestal als je iets een tijd volgt, zoals een film of wedstrijd.",
       "difficulty": 1,
       "translationNl": "kijken",
       "solutionEnglish": "watch / look"
@@ -6778,7 +6779,7 @@
       "accepted": [
         "hear"
       ],
-      "explanation": "'Horen' is hear. Listen betekent luisteren en vraagt bewust aandacht.",
+      "explanation": "Hear is geluid opvangen. Listen betekent bewust luisteren en wordt vaak gevolgd door ‘to’: listen to music.",
       "difficulty": 1,
       "translationNl": "horen",
       "solutionEnglish": "hear"
@@ -6807,7 +6808,7 @@
         "speak",
         "talk"
       ],
-      "explanation": "'Spreken' kan speak of talk zijn. Speak is vaak iets formeler; talk is gebruikelijk in gesprekken.",
+      "explanation": "Speak en talk betekenen allebei spreken. Speak past vaak bij talen of een formele situatie; talk is gebruikelijk in een gesprek.",
       "difficulty": 1,
       "translationNl": "spreken",
       "solutionEnglish": "speak / talk"
@@ -6822,7 +6823,7 @@
         "say",
         "tell"
       ],
-      "explanation": "'Zeggen' kan say of tell zijn. Say gaat om de woorden die iemand zegt; tell wordt vaak gebruikt als je iets aan iemand vertelt.",
+      "explanation": "Say legt de nadruk op de woorden die iemand uitspreekt. Tell gebruik je meestal met een persoon erbij: tell me a story.",
       "difficulty": 1,
       "translationNl": "zeggen",
       "solutionEnglish": "say / tell"
@@ -6907,7 +6908,7 @@
       "accepted": [
         "find"
       ],
-      "explanation": "'Vinden' is find wanneer je iets ontdekt of aantreft. Bij een mening kan 'vinden' ook think betekenen; daarvoor gebruiken we een aparte oefening.",
+      "explanation": "Find betekent iets vinden of ontdekken. Als je ‘vinden’ als mening bedoelt, gebruik je think: I think it is good.",
       "difficulty": 1,
       "translationNl": "vinden",
       "solutionEnglish": "find"
@@ -7020,7 +7021,7 @@
         "learn",
         "study"
       ],
-      "explanation": "'Leren' kan learn of study zijn. Learn gaat om iets leren; study gaat om studeren.",
+      "explanation": "Learn betekent kennis of een vaardigheid opdoen. Study betekent leren door te studeren of te oefenen, bijvoorbeeld voor een toets.",
       "difficulty": 1,
       "translationNl": "leren",
       "solutionEnglish": "learn / study"
@@ -7284,14 +7285,14 @@
       "id": "word-vinden-mening",
       "topic": "vocabulary-daily",
       "type": "word",
-      "prompt": "Wat is het Engelse werkwoord voor 'vinden' als je een mening geeft? ",
+      "prompt": "Hoe zeg je 'ik vind het goed' in het Engels?",
       "answer": "think",
       "accepted": [
         "think"
       ],
-      "explanation": "Bij een mening kan het Nederlandse 'vinden' worden vertaald als think, bijvoorbeeld: I think it is good.",
+      "explanation": "Voor een mening gebruik je think: ‘I think it’s good.’ Find betekent iets vinden of ontdekken.",
       "difficulty": 1,
-      "translationNl": "vinden",
+      "translationNl": "ik vind het goed",
       "solutionEnglish": "think"
     },
     {
@@ -7360,9 +7361,10 @@
       "prompt": "Vertaal: 'Wij eten meestal om zes uur 's avonds.'",
       "answer": "We usually eat at six in the evening.",
       "accepted": [
-        "we usually eat at six in the evening"
+        "we usually eat at six in the evening",
+        "we usually eat at six"
       ],
-      "explanation": "Usually staat voor het hoofdwerkwoord eat. 's avonds maakt de tijd expliciet.",
+      "explanation": "Usually staat voor het hoofdwerkwoord eat. ‘In the evening’ maakt duidelijk dat het om zes uur ’s avonds gaat en kan worden toegevoegd.",
       "difficulty": 1,
       "translationNl": "Wij eten meestal om zes uur.",
       "solutionEnglish": "We usually eat at six"
@@ -8445,9 +8447,10 @@
       "prompt": "Wat is 'mogelijkheid' in het Engels?",
       "answer": "opportunity",
       "accepted": [
-        "opportunity"
+        "opportunity",
+        "possibility"
       ],
-      "explanation": "Opportunity betekent een kans of mogelijkheid.",
+      "explanation": "Possibility betekent dat iets mogelijk is. Opportunity betekent meestal een kans om iets te doen; bij ‘mogelijkheid’ zijn beide vertalingen goed, afhankelijk van de context.",
       "difficulty": 3,
       "translationNl": "mogelijkheid",
       "solutionEnglish": "opportunity"
@@ -8517,7 +8520,7 @@
       "accepted": [
         "eventually"
       ],
-      "explanation": "Eventually betekent uiteindelijk, na enige tijd.",
+      "explanation": "Eventually betekent ‘uiteindelijk’ of ‘na verloop van tijd’. Het is niet hetzelfde als het Nederlandse ‘eventueel’, dat afhankelijk van de zin ‘if necessary’ of ‘possibly’ betekent.",
       "difficulty": 3,
       "translationNl": "uiteindelijk",
       "solutionEnglish": "eventually"
@@ -8554,14 +8557,14 @@
       "id": "word-b1-afford",
       "topic": "vocabulary-daily",
       "type": "word",
-      "prompt": "Wat is 'zich veroorloven' in het Engels?",
+      "prompt": "Wat betekent 'zich iets kunnen veroorloven' in het Engels?",
       "answer": "afford",
       "accepted": [
         "afford"
       ],
-      "explanation": "Afford betekent genoeg geld of tijd hebben om iets te kunnen doen.",
+      "explanation": "Afford betekent genoeg geld, tijd of middelen hebben om iets te doen. Permit betekent ‘toestaan’ en is dus geen vertaling van afford.",
       "difficulty": 3,
-      "translationNl": "betalen kunnen",
+      "translationNl": "genoeg geld of tijd hebben om iets te doen",
       "solutionEnglish": "afford"
     },
     {

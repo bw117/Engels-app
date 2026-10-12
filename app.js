@@ -237,8 +237,8 @@ function score(item){
  return (1-m)*1.9+(due?1.7:0)+(recentWrong?1.25:0)+(fresh?.35:0)+Number(item.difficulty||1)*.12-Math.min((s.streak||0)*.06,.3);
 }
 function normalize(s){return String(s||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[’\']/g,"").replace(/[.!?,]+$/g,"").replace(/\s+/g," ")}
-function oneAdjacentTransposition(a,b){if(a.length!==b.length||a.length<8)return false;let first=-1;for(let i=0;i<a.length;i++){if(a[i]!==b[i]){if(first<0)first=i;else return i===first+1&&a[first]===b[i]&&a[i]===b[first]&&a.slice(i+1)===b.slice(i+1)}}return false}
-function matchesAnswer(value,accepted){const input=normalize(value),compactInput=input.replace(/\s+/g,"");return accepted.some(answer=>{const target=normalize(answer),compactTarget=target.replace(/\s+/g,"");return input===target||compactInput===compactTarget||oneAdjacentTransposition(input,target)||oneAdjacentTransposition(compactInput,compactTarget)})}
+function oneTypoApart(a,b){if(Math.min(a.length,b.length)<6||Math.abs(a.length-b.length)>1)return false;let i=0,j=0,edits=0;while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue}if(++edits>1)return false;if(a.length===b.length){if(a[i+1]===b[j]&&a[i]===b[j+1]){i+=2;j+=2;continue}i++;j++}else if(a.length>b.length)i++;else j++}return edits+(i<a.length||j<b.length?1:0)<=1}
+function matchesAnswer(value,accepted){const input=normalize(value),compactInput=input.replace(/\s+/g,"");return accepted.some(answer=>{const target=normalize(answer),compactTarget=target.replace(/\s+/g,"");return input===target||compactInput===compactTarget||oneTypoApart(compactInput,compactTarget)})}
 function renderQuestion(){
  if(state.index>=state.session.length)return finishSession();
  const q=state.session[state.index],total=state.session.length,diff=Number(q.difficulty||1),diffLabel=diff===1?"Basis":diff===2?"Op weg":"Uitdaging";
@@ -260,7 +260,10 @@ function answer(value,clicked){
  document.querySelectorAll(".answer").forEach(b=>{if(accepted.map(normalize).includes(normalize(b.textContent)))b.classList.add("correct");if(!correct&&normalize(b.textContent)===normalize(value))b.classList.add("wrong")});
  if(clicked&&correct)clicked.classList.add("correct");if(clicked&&!correct)clicked.classList.add("wrong");
  const text=accepted.join(" / ");
- const bilingual=(q.type==="typed"||q.type==="word")?'<div class="solution-lines"><div><span class="solution-label">Nederlands</span><strong>'+escapeHtml(q.translationNl||"—")+'</strong></div><div><span class="solution-label">English</span><strong>'+escapeHtml(q.solutionEnglish||text)+'</strong></div></div>':"";
+ const isWord=q.type==="typed"||q.type==="word";
+ const alternatives=[...new Map([q.answer,...accepted].map(value=>[normalize(value),value])).values()];
+ const bilingual=isWord?'<div class="solution-lines"><div><span class="solution-label">Nederlands</span><strong>'+escapeHtml(q.translationNl||"—")+'</strong></div><div><span class="solution-label">English</span><strong>'+escapeHtml(q.solutionEnglish||text)+'</strong></div>'+(alternatives.length>1?'<div><span class="solution-label">Andere goede antwoorden</span><strong>'+escapeHtml(alternatives.join(" · "))+'</strong></div>':"")+'</div>':"";
+
  const why='<div class="why"><span class="why-label">Waarom?</span><span>'+escapeHtml(q.explanation||"Dit antwoord past bij de grammaticaregel of woordkeuze van deze vraag.")+'</span></div>';
  const expected=accepted.length>1?"Een goed antwoord is: ":"Het antwoord dat we zoeken is: ";
  document.getElementById("feedback").innerHTML='<div class="feedback '+(correct?"good":"bad")+'"><strong>'+(correct?"Goed!":"Nog niet.")+'</strong><p>'+(correct?"Precies.":expected+"<b>"+escapeHtml(text)+"</b>.")+'</p>'+bilingual+why+'</div><button class="btn primary next-btn" id="next-btn">'+(state.index+1===state.session.length?"Bekijk resultaat":"Volgende →")+'</button>';
