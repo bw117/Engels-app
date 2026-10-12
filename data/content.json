@@ -1,5 +1,5 @@
 {
-  "version": "1.11.2",
+  "version": "1.11.3",
   "topics": [
     {
       "id": "be-verbs",
@@ -75,9 +75,9 @@
     },
     {
       "id": "idioms-sayings",
-      "name": "Idioms & sayings",
+      "name": "Gezegden & spreekwoorden",
       "level": "A2",
-      "description": "Veelgebruikte Engelse uitdrukkingen: leer wat ze betekenen en wanneer je ze gebruikt."
+      "description": "Veelgebruikte Engelse uitdrukkingen. Kies de Nederlandse betekenis en leer wanneer je ze gebruikt."
     },
     {
       "id": "common-pitfalls",
@@ -7616,12 +7616,12 @@
       "id": "idiom-01",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “break the ice” mean?",
-      "answer": "Make people feel more relaxed",
+      "prompt": "Wat betekent “break the ice”?",
+      "answer": "De sfeer ontspannen of een gesprek op gang brengen",
       "options": [
-        "Make people feel more relaxed",
-        "Break something made of ice",
-        "End a friendship"
+        "De sfeer ontspannen of een gesprek op gang brengen",
+        "Iets van ijs kapotmaken",
+        "Een vriendschap beëindigen"
       ],
       "explanation": "Je maakt een gesprek minder ongemakkelijk.",
       "difficulty": 2
@@ -7630,12 +7630,12 @@
       "id": "idiom-02",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “piece of cake” mean?",
-      "answer": "Very easy",
+      "prompt": "Wat betekent “piece of cake”?",
+      "answer": "Heel makkelijk",
       "options": [
-        "Very expensive",
-        "Very easy",
-        "Very small"
+        "Heel makkelijk",
+        "Heel duur",
+        "Heel klein"
       ],
       "explanation": "Dit zeg je als iets heel makkelijk is.",
       "difficulty": 2
@@ -7644,12 +7644,12 @@
       "id": "idiom-03",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “once in a blue moon” mean?",
-      "answer": "Very rarely",
+      "prompt": "Wat betekent “once in a blue moon”?",
+      "answer": "Heel zelden",
       "options": [
-        "Every evening",
-        "At the right time",
-        "Very rarely"
+        "Heel zelden",
+        "Elke avond",
+        "Op het juiste moment"
       ],
       "explanation": "Dit gebeurt maar heel zelden.",
       "difficulty": 2
@@ -7658,12 +7658,12 @@
       "id": "idiom-04",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “under the weather” mean?",
-      "answer": "A little ill",
+      "prompt": "Wat betekent “under the weather”?",
+      "answer": "Je niet lekker voelen",
       "options": [
-        "A little ill",
-        "Outside in the rain",
-        "Very happy"
+        "Je niet lekker voelen",
+        "Buiten in de regen staan",
+        "Heel vrolijk zijn"
       ],
       "explanation": "Deze uitdrukking betekent dat je je niet lekker voelt.",
       "difficulty": 2
@@ -7672,12 +7672,12 @@
       "id": "idiom-05",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “cost an arm and a leg” mean?",
-      "answer": "Be very expensive",
+      "prompt": "Wat betekent “cost an arm and a leg”?",
+      "answer": "Heel veel geld kosten",
       "options": [
-        "Be free",
-        "Be very expensive",
-        "Take a long time"
+        "Heel veel geld kosten",
+        "Gratis zijn",
+        "Veel tijd kosten"
       ],
       "explanation": "Het kost heel veel geld.",
       "difficulty": 2
@@ -7686,12 +7686,12 @@
       "id": "idiom-06",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “better late than never” mean?",
-      "answer": "Doing something late is better than not doing it",
+      "prompt": "Wat betekent “better late than never”?",
+      "answer": "Iets laat doen is beter dan het helemaal niet doen",
       "options": [
-        "Never arrive late",
-        "Tomorrow is too late",
-        "Doing something late is better than not doing it"
+        "Iets laat doen is beter dan het helemaal niet doen",
+        "Nooit te laat komen",
+        "Morgen is te laat"
       ],
       "explanation": "Het is beter iets laat te doen dan helemaal niet.",
       "difficulty": 2
@@ -7700,12 +7700,12 @@
       "id": "idiom-07",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “the ball is in your court” mean?",
-      "answer": "It is your turn to act",
+      "prompt": "Wat betekent “the ball is in your court”?",
+      "answer": "Jij bent nu aan zet",
       "options": [
-        "It is your turn to act",
-        "You are playing tennis",
-        "You lost something"
+        "Jij bent nu aan zet",
+        "Je bent aan het tennissen",
+        "Je bent iets kwijtgeraakt"
       ],
       "explanation": "Jij bent nu aan zet.",
       "difficulty": 2
@@ -7714,12 +7714,12 @@
       "id": "idiom-08",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “let the cat out of the bag” mean?",
-      "answer": "Reveal a secret",
+      "prompt": "Wat betekent “let the cat out of the bag”?",
+      "answer": "Een geheim verklappen",
       "options": [
-        "Buy a pet",
-        "Reveal a secret",
-        "Forget a name"
+        "Een geheim verklappen",
+        "Een huisdier kopen",
+        "Een naam vergeten"
       ],
       "explanation": "Je verklapt een geheim.",
       "difficulty": 2
@@ -7728,12 +7728,12 @@
       "id": "idiom-09",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “keep an eye on” mean?",
-      "answer": "Watch or look after",
+      "prompt": "Wat betekent “keep an eye on”?",
+      "answer": "Iets of iemand in de gaten houden",
       "options": [
-        "Close your eyes",
-        "Ignore someone",
-        "Watch or look after"
+        "Iets of iemand in de gaten houden",
+        "Je ogen sluiten",
+        "Iemand negeren"
       ],
       "explanation": "Je houdt iets of iemand in de gaten.",
       "difficulty": 2
@@ -7742,12 +7742,12 @@
       "id": "idiom-10",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “a piece of advice” mean?",
-      "answer": "One helpful suggestion",
+      "prompt": "Wat betekent “a piece of advice”?",
+      "answer": "Een nuttige tip of raad",
       "options": [
-        "One helpful suggestion",
-        "A piece of paper",
-        "A difficult question"
+        "Een nuttige tip of raad",
+        "Een stuk papier",
+        "Een moeilijke vraag"
       ],
       "explanation": "Een advies is een tip of raad.",
       "difficulty": 2
@@ -7756,12 +7756,12 @@
       "id": "idiom-11",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “hang in there” mean?",
-      "answer": "Keep trying; don’t give up",
+      "prompt": "Wat betekent “hang in there”?",
+      "answer": "Blijven volhouden en niet opgeven",
       "options": [
-        "Wait outside",
-        "Keep trying; don’t give up",
-        "Hold a rope"
+        "Blijven volhouden en niet opgeven",
+        "Buiten wachten",
+        "Een touw vasthouden"
       ],
       "explanation": "Blijf volhouden.",
       "difficulty": 2
@@ -7770,12 +7770,12 @@
       "id": "idiom-12",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “call it a day” mean?",
-      "answer": "Stop working for now",
+      "prompt": "Wat betekent “call it a day”?",
+      "answer": "Voor vandaag stoppen",
       "options": [
-        "Phone someone tomorrow",
-        "Start a new job",
-        "Stop working for now"
+        "Voor vandaag stoppen",
+        "Morgen iemand bellen",
+        "Een nieuwe baan beginnen"
       ],
       "explanation": "Je stopt voor vandaag.",
       "difficulty": 2
@@ -7784,12 +7784,12 @@
       "id": "idiom-13",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “on the same page” mean?",
-      "answer": "Understand or agree about the same thing",
+      "prompt": "Wat betekent “on the same page”?",
+      "answer": "Hetzelfde begrijpen of het met elkaar eens zijn",
       "options": [
-        "Understand or agree about the same thing",
-        "Read the same book",
-        "Work in the same office"
+        "Hetzelfde begrijpen of het met elkaar eens zijn",
+        "Hetzelfde boek lezen",
+        "Op hetzelfde kantoor werken"
       ],
       "explanation": "Je begrijpt elkaar of bent het eens.",
       "difficulty": 2
@@ -7798,12 +7798,12 @@
       "id": "idiom-14",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “miss the boat” mean?",
-      "answer": "Miss an opportunity",
+      "prompt": "Wat betekent “miss the boat”?",
+      "answer": "Een kans missen",
       "options": [
-        "Forget to travel",
-        "Miss an opportunity",
-        "Arrive at a harbour"
+        "Een kans missen",
+        "Vergeten te reizen",
+        "Bij een haven aankomen"
       ],
       "explanation": "Je mist een kans.",
       "difficulty": 2
@@ -7812,12 +7812,12 @@
       "id": "idiom-15",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “get the hang of it” mean?",
-      "answer": "Learn how to do it",
+      "prompt": "Wat betekent “get the hang of it”?",
+      "answer": "Leren hoe iets werkt",
       "options": [
-        "Hang it on a wall",
-        "Get angry",
-        "Learn how to do it"
+        "Leren hoe iets werkt",
+        "Iets aan de muur hangen",
+        "Boos worden"
       ],
       "explanation": "Je begint te begrijpen hoe iets werkt.",
       "difficulty": 2
@@ -7826,12 +7826,12 @@
       "id": "idiom-16",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “in a nutshell” mean?",
-      "answer": "In a few words",
+      "prompt": "Wat betekent “in a nutshell”?",
+      "answer": "Kort samengevat",
       "options": [
-        "In a few words",
-        "Inside a nut",
-        "Very carefully"
+        "Kort samengevat",
+        "In een noot zitten",
+        "Heel voorzichtig"
       ],
       "explanation": "Kort samengevat.",
       "difficulty": 2
@@ -7840,12 +7840,12 @@
       "id": "idiom-17",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “feel like a million dollars” mean?",
-      "answer": "Feel wonderful",
+      "prompt": "Wat betekent “feel like a million dollars”?",
+      "answer": "Je geweldig voelen",
       "options": [
-        "Be very rich",
-        "Feel wonderful",
-        "Feel tired"
+        "Je geweldig voelen",
+        "Heel rijk zijn",
+        "Moe zijn"
       ],
       "explanation": "Je voelt je geweldig.",
       "difficulty": 2
@@ -7854,12 +7854,12 @@
       "id": "idiom-18",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “a blessing in disguise” mean?",
-      "answer": "Something that seems bad but turns out well",
+      "prompt": "Wat betekent “a blessing in disguise”?",
+      "answer": "Iets dat eerst vervelend lijkt maar goed uitpakt",
       "options": [
-        "A hidden present",
-        "A lucky charm",
-        "Something that seems bad but turns out well"
+        "Iets dat eerst vervelend lijkt maar goed uitpakt",
+        "Een verborgen cadeau",
+        "Een geluksbrenger"
       ],
       "explanation": "Iets lijkt eerst vervelend, maar blijkt later goed uit te pakken.",
       "difficulty": 2
@@ -7868,12 +7868,12 @@
       "id": "idiom-19",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “no pain, no gain” mean?",
-      "answer": "You need effort to achieve something",
+      "prompt": "Wat betekent “no pain, no gain”?",
+      "answer": "Je moet moeite doen om iets te bereiken",
       "options": [
-        "You need effort to achieve something",
-        "Pain is always good",
-        "Never exercise"
+        "Je moet moeite doen om iets te bereiken",
+        "Pijn is altijd goed",
+        "Nooit sporten"
       ],
       "explanation": "Je moet moeite doen om iets te bereiken.",
       "difficulty": 2
@@ -7882,12 +7882,12 @@
       "id": "idiom-20",
       "topic": "idioms-sayings",
       "type": "mcq",
-      "prompt": "What does “it’s not my cup of tea” mean?",
-      "answer": "I don’t really like it",
+      "prompt": "Wat betekent “it’s not my cup of tea”?",
+      "answer": "Het is niet echt mijn smaak",
       "options": [
-        "I don’t drink tea",
-        "I don’t really like it",
-        "I am very thirsty"
+        "Het is niet echt mijn smaak",
+        "Ik drink geen thee",
+        "Ik heb enorme dorst"
       ],
       "explanation": "Het is niet echt mijn smaak.",
       "difficulty": 2
