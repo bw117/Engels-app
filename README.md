@@ -57,4 +57,4 @@ Spanish, Italian, and German are planned as separate beginner courses. Their les
 
 ## Answer matching and repetition
 
-Typed answers ignore capitalization and apostrophe differences, accept the English present-continuous wording “at the moment,” and tolerate one adjacent letter transposition in a longer answer (for example, “workign” for “working”). General practice and vocabulary sessions skip questions used in the immediately previous session on the same browser/profile. Topic sessions use the same cooldown when enough unseen questions are available.
+Typed answers ignore capitalization, apostrophe, and spacing differences, accept the English present-continuous wording “at the moment,” and tolerate one adjacent letter transposition in a longer answer (for example, “workign” for “working”). Practice sessions shuffle question order and skip questions used in the previous two sessions on the same browser/profile. Topic sessions use the same cooldown when enough unseen questions are available.

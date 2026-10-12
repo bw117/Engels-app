@@ -203,13 +203,14 @@ function finishPlacement(){
 }
 function startSession(){state.session=selectItems(state.content.items,10);beginSession()}
 function startWordMode(){state.session=selectWordItems(10);beginSession()}
-function recentQuestionIds(){try{const history=JSON.parse(localStorage.getItem("polyvo-session-history:"+state.storageKey)||"[]");return new Set(Array.isArray(history[0])?history[0]:[])}catch(_){return new Set()}}
-function rememberSessionQuestions(session){try{const key="polyvo-session-history:"+state.storageKey,history=JSON.parse(localStorage.getItem(key)||"[]");history.unshift(session.map(item=>item.id));localStorage.setItem(key,JSON.stringify(history.slice(0,2)))}catch(_){}}
+function recentQuestionIds(){try{const history=JSON.parse(localStorage.getItem("polyvo-session-history:"+state.storageKey)||"[]");return new Set(Array.isArray(history)?history.slice(0,2).flat():[])}catch(_){return new Set()}}
+function rememberSessionQuestions(session){try{const key="polyvo-session-history:"+state.storageKey,history=JSON.parse(localStorage.getItem(key)||"[]");history.unshift(session.map(item=>item.id));localStorage.setItem(key,JSON.stringify(history.slice(0,3)))}catch(_){}}
 function selectWordItems(n){const recent=recentQuestionIds(),words=state.content.items.filter(i=>i.type==="word"&&!recent.has(i.id));return [...words].sort((a,b)=>wordScore(b)-wordScore(a)).slice(0,n)}
 function wordScore(item){const s=itemState(item.id),m=Number(s.mastery||0),due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date(),fresh=!s.attempts,recentWrong=s.lastResult===false;return (1-m)*2.4+(due?2:0)+(recentWrong?1.5:0)+(fresh?.25:0)}
 
 function startTopic(id){state.session=selectItems(state.content.items.filter(i=>i.topic===id),8,true);beginSession()}
-function beginSession(){rememberSessionQuestions(state.session);state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
+function shuffleSession(items){const shuffled=[...items];for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]}return shuffled}
+function beginSession(){state.session=shuffleSession(state.session);rememberSessionQuestions(state.session);state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
 function selectItems(items,n,topicOnly=false){
  const recent=recentQuestionIds(),freshItems=items.filter(i=>!recent.has(i.id));
  const candidates=freshItems.length?freshItems:items;
@@ -234,7 +235,7 @@ function score(item){
 }
 function normalize(s){return String(s||"").trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu,"").replace(/[’\']/g,"").replace(/[.!?,]+$/g,"").replace(/\s+/g," ")}
 function oneAdjacentTransposition(a,b){if(a.length!==b.length||a.length<8)return false;let first=-1;for(let i=0;i<a.length;i++){if(a[i]!==b[i]){if(first<0)first=i;else return i===first+1&&a[first]===b[i]&&a[i]===b[first]&&a.slice(i+1)===b.slice(i+1)}}return false}
-function matchesAnswer(value,accepted){const input=normalize(value);return accepted.some(answer=>{const target=normalize(answer);return input===target||oneAdjacentTransposition(input,target)})}
+function matchesAnswer(value,accepted){const input=normalize(value),compactInput=input.replace(/\s+/g,"");return accepted.some(answer=>{const target=normalize(answer),compactTarget=target.replace(/\s+/g,"");return input===target||compactInput===compactTarget||oneAdjacentTransposition(input,target)||oneAdjacentTransposition(compactInput,compactTarget)})}
 function renderQuestion(){
  if(state.index>=state.session.length)return finishSession();
  const q=state.session[state.index],total=state.session.length,diff=Number(q.difficulty||1),diffLabel=diff===1?"Basis":diff===2?"Op weg":"Uitdaging";
