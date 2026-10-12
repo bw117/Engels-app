@@ -1,5 +1,5 @@
 {
-  "version": "1.11.3",
+  "version": "1.12.0",
   "topics": [
     {
       "id": "be-verbs",
@@ -7613,20 +7613,6 @@
       "solutionEnglish": "My sister watches TV in the evening"
     },
     {
-      "id": "idiom-01",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “break the ice”?",
-      "answer": "De sfeer ontspannen of een gesprek op gang brengen",
-      "options": [
-        "De sfeer ontspannen of een gesprek op gang brengen",
-        "Iets van ijs kapotmaken",
-        "Een vriendschap beëindigen"
-      ],
-      "explanation": "Je maakt een gesprek minder ongemakkelijk.",
-      "difficulty": 2
-    },
-    {
       "id": "idiom-02",
       "topic": "idioms-sayings",
       "type": "mcq",
@@ -7638,62 +7624,6 @@
         "Heel klein"
       ],
       "explanation": "Dit zeg je als iets heel makkelijk is.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-03",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “once in a blue moon”?",
-      "answer": "Heel zelden",
-      "options": [
-        "Heel zelden",
-        "Elke avond",
-        "Op het juiste moment"
-      ],
-      "explanation": "Dit gebeurt maar heel zelden.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-04",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “under the weather”?",
-      "answer": "Je niet lekker voelen",
-      "options": [
-        "Je niet lekker voelen",
-        "Buiten in de regen staan",
-        "Heel vrolijk zijn"
-      ],
-      "explanation": "Deze uitdrukking betekent dat je je niet lekker voelt.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-05",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “cost an arm and a leg”?",
-      "answer": "Heel veel geld kosten",
-      "options": [
-        "Heel veel geld kosten",
-        "Gratis zijn",
-        "Veel tijd kosten"
-      ],
-      "explanation": "Het kost heel veel geld.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-06",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “better late than never”?",
-      "answer": "Iets laat doen is beter dan het helemaal niet doen",
-      "options": [
-        "Iets laat doen is beter dan het helemaal niet doen",
-        "Nooit te laat komen",
-        "Morgen is te laat"
-      ],
-      "explanation": "Het is beter iets laat te doen dan helemaal niet.",
       "difficulty": 2
     },
     {
@@ -7711,34 +7641,6 @@
       "difficulty": 2
     },
     {
-      "id": "idiom-08",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “let the cat out of the bag”?",
-      "answer": "Een geheim verklappen",
-      "options": [
-        "Een geheim verklappen",
-        "Een huisdier kopen",
-        "Een naam vergeten"
-      ],
-      "explanation": "Je verklapt een geheim.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-09",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “keep an eye on”?",
-      "answer": "Iets of iemand in de gaten houden",
-      "options": [
-        "Iets of iemand in de gaten houden",
-        "Je ogen sluiten",
-        "Iemand negeren"
-      ],
-      "explanation": "Je houdt iets of iemand in de gaten.",
-      "difficulty": 2
-    },
-    {
       "id": "idiom-10",
       "topic": "idioms-sayings",
       "type": "mcq",
@@ -7750,76 +7652,6 @@
         "Een moeilijke vraag"
       ],
       "explanation": "Een advies is een tip of raad.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-11",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “hang in there”?",
-      "answer": "Blijven volhouden en niet opgeven",
-      "options": [
-        "Blijven volhouden en niet opgeven",
-        "Buiten wachten",
-        "Een touw vasthouden"
-      ],
-      "explanation": "Blijf volhouden.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-12",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “call it a day”?",
-      "answer": "Voor vandaag stoppen",
-      "options": [
-        "Voor vandaag stoppen",
-        "Morgen iemand bellen",
-        "Een nieuwe baan beginnen"
-      ],
-      "explanation": "Je stopt voor vandaag.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-13",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “on the same page”?",
-      "answer": "Hetzelfde begrijpen of het met elkaar eens zijn",
-      "options": [
-        "Hetzelfde begrijpen of het met elkaar eens zijn",
-        "Hetzelfde boek lezen",
-        "Op hetzelfde kantoor werken"
-      ],
-      "explanation": "Je begrijpt elkaar of bent het eens.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-14",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “miss the boat”?",
-      "answer": "Een kans missen",
-      "options": [
-        "Een kans missen",
-        "Vergeten te reizen",
-        "Bij een haven aankomen"
-      ],
-      "explanation": "Je mist een kans.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-15",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “get the hang of it”?",
-      "answer": "Leren hoe iets werkt",
-      "options": [
-        "Leren hoe iets werkt",
-        "Iets aan de muur hangen",
-        "Boos worden"
-      ],
-      "explanation": "Je begint te begrijpen hoe iets werkt.",
       "difficulty": 2
     },
     {
@@ -7848,34 +7680,6 @@
         "Moe zijn"
       ],
       "explanation": "Je voelt je geweldig.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-18",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “a blessing in disguise”?",
-      "answer": "Iets dat eerst vervelend lijkt maar goed uitpakt",
-      "options": [
-        "Iets dat eerst vervelend lijkt maar goed uitpakt",
-        "Een verborgen cadeau",
-        "Een geluksbrenger"
-      ],
-      "explanation": "Iets lijkt eerst vervelend, maar blijkt later goed uit te pakken.",
-      "difficulty": 2
-    },
-    {
-      "id": "idiom-19",
-      "topic": "idioms-sayings",
-      "type": "mcq",
-      "prompt": "Wat betekent “no pain, no gain”?",
-      "answer": "Je moet moeite doen om iets te bereiken",
-      "options": [
-        "Je moet moeite doen om iets te bereiken",
-        "Pijn is altijd goed",
-        "Nooit sporten"
-      ],
-      "explanation": "Je moet moeite doen om iets te bereiken.",
       "difficulty": 2
     },
     {
@@ -18459,7 +18263,10 @@
         "het is makkelijk",
         "heel eenvoudig",
         "een eitje",
-        "dat is heel eenvoudig"
+        "dat is heel eenvoudig",
+        "supermakkelijk",
+        "het is heel makkelijk",
+        "dit is makkelijk"
       ],
       "explanation": "Dit betekent dat iets heel makkelijk is, niet dat er letterlijk taart is. Example: ‘The test was a piece of cake.’",
       "difficulty": 2,
@@ -18474,10 +18281,22 @@
       "answer": "de spijker op zijn kop slaan",
       "accepted": [
         "de spijker op zijn kop slaan",
+        "de spijker op zn kop slaan",
+        "de spijker op z'n kop slaan",
+        "spijker op zijn kop slaan",
+        "spijker op zn kop slaan",
+        "spijker op z'n kop slaan",
+        "de spijker op zijn kop",
+        "spijker op zijn kop",
+        "spijker op zn kop",
+        "spijker op z'n kop",
         "precies het juiste zeggen",
-        "precies raak zijn"
+        "precies raak zijn",
+        "precies goed zijn",
+        "de juiste snaar raken",
+        "precies de kern raken"
       ],
-      "explanation": "Je zegt dit wanneer iemand precies de juiste oorzaak of uitleg noemt. Example: ‘You hit the nail on the head.’",
+      "explanation": "Dit zeg je wanneer iemand precies het juiste zegt of de oorzaak goed aanwijst. ‘You hit the nail on the head’ betekent dus dat iemand het precies goed heeft.",
       "difficulty": 2,
       "translationNl": "de spijker op zijn kop slaan",
       "solutionEnglish": "hit the nail on the head"
@@ -18569,15 +18388,16 @@
       "topic": "idioms-sayings",
       "type": "typed",
       "prompt": "Wat betekent de uitdrukking 'when pigs fly'?",
-      "answer": "als varkens kunnen vliegen",
+      "answer": "als Pasen en Pinksteren op één dag vallen",
       "accepted": [
+        "als Pasen en Pinksteren op één dag vallen",
         "nooit",
-        "als varkens kunnen vliegen",
-        "dat gebeurt nooit"
+        "dat gebeurt nooit",
+        "als varkens kunnen vliegen"
       ],
-      "explanation": "Dit is een grappige manier om te zeggen dat iets nooit zal gebeuren. Example: ‘He'll clean his room when pigs fly.’",
+      "explanation": "Dit is een grappige manier om te zeggen dat iets nooit zal gebeuren. In het Nederlands zeg je ook: ‘als Pasen en Pinksteren op één dag vallen’.",
       "difficulty": 2,
-      "translationNl": "als varkens kunnen vliegen",
+      "translationNl": "als Pasen en Pinksteren op één dag vallen",
       "solutionEnglish": "when pigs fly"
     },
     {
@@ -18678,15 +18498,16 @@
       "topic": "idioms-sayings",
       "type": "typed",
       "prompt": "Wat betekent de uitdrukking 'burn your bridges'?",
-      "answer": "alle bruggen achter je verbranden",
+      "answer": "alle schepen achter je verbranden",
       "accepted": [
+        "alle schepen achter je verbranden",
         "alle bruggen achter je verbranden",
         "geen weg terug laten",
         "alle mogelijkheden tot terugkeer afsluiten"
       ],
-      "explanation": "Dit betekent dat je relaties of mogelijkheden zo beschadigt dat teruggaan moeilijk wordt. Example: ‘Don't burn your bridges when you leave a job.’",
+      "explanation": "Je verbrandt alle schepen achter je wanneer je ervoor zorgt dat teruggaan naar je oude situatie moeilijk of onmogelijk wordt. Voorbeeld: Neem geen overhaaste beslissing waardoor je alle schepen achter je verbrandt.",
       "difficulty": 2,
-      "translationNl": "alle bruggen achter je verbranden",
+      "translationNl": "alle schepen achter je verbranden",
       "solutionEnglish": "burn your bridges"
     },
     {
@@ -18966,15 +18787,15 @@
       "topic": "idioms-sayings",
       "type": "typed",
       "prompt": "Wat betekent de uitdrukking 'the last straw'?",
-      "answer": "de druppel",
+      "answer": "de druppel die de emmer doet overlopen",
       "accepted": [
-        "de druppel",
-        "de laatste tegenslag die te veel is",
-        "de laatste druppel"
+        "de druppel die de emmer doet overlopen",
+        "de laatste druppel",
+        "de druppel"
       ],
-      "explanation": "Dit is het laatste probleem waardoor iemand zijn geduld verliest. Example: ‘The broken printer was the last straw.’",
+      "explanation": "Dit is het laatste probleem dat ervoor zorgt dat iemand zijn geduld verliest. Voorbeeld: De kapotte printer was de druppel die de emmer deed overlopen.",
       "difficulty": 2,
-      "translationNl": "de druppel",
+      "translationNl": "de druppel die de emmer doet overlopen",
       "solutionEnglish": "the last straw"
     },
     {
@@ -19263,6 +19084,1078 @@
       "difficulty": 2,
       "translationNl": "elk nadeel heeft ook een voordeel",
       "solutionEnglish": "every cloud has a silver lining"
+    },
+    {
+      "id": "idiom-more-053",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'actions speak louder than words'?",
+      "answer": "daden zeggen meer dan woorden",
+      "accepted": [
+        "daden zeggen meer dan woorden",
+        "daden wegen zwaarder dan woorden",
+        "wat je doet is belangrijker dan wat je zegt"
+      ],
+      "explanation": "Je gebruikt dit wanneer iemands gedrag meer laat zien dan diens beloften. Voorbeeld: Hij beloofde te helpen, maar kwam niet opdagen: daden zeggen meer dan woorden.",
+      "difficulty": 2,
+      "translationNl": "daden zeggen meer dan woorden",
+      "solutionEnglish": "actions speak louder than words"
+    },
+    {
+      "id": "idiom-more-054",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'add fuel to the fire'?",
+      "answer": "olie op het vuur gooien",
+      "accepted": [
+        "olie op het vuur gooien",
+        "de situatie erger maken",
+        "een conflict aanwakkeren"
+      ],
+      "explanation": "Dit betekent dat je een gespannen of vervelende situatie nog erger maakt. Voorbeeld: Door terug te schreeuwen gooide hij olie op het vuur.",
+      "difficulty": 2,
+      "translationNl": "olie op het vuur gooien",
+      "solutionEnglish": "add fuel to the fire"
+    },
+    {
+      "id": "idiom-more-055",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'against the clock'?",
+      "answer": "tegen de klok in werken",
+      "accepted": [
+        "tegen de klok in werken",
+        "haast hebben om op tijd klaar te zijn",
+        "onder tijdsdruk werken"
+      ],
+      "explanation": "Je doet iets tegen de klok wanneer je weinig tijd hebt en snel moet werken. Voorbeeld: We werkten onder tijdsdruk om de deadline te halen.",
+      "difficulty": 2,
+      "translationNl": "tegen de klok in werken",
+      "solutionEnglish": "against the clock"
+    },
+    {
+      "id": "idiom-more-056",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'all ears'?",
+      "answer": "één en al oor zijn",
+      "accepted": [
+        "één en al oor zijn",
+        "goed luisteren",
+        "vol aandacht luisteren"
+      ],
+      "explanation": "Je zegt dit wanneer je helemaal klaar bent om naar iemand te luisteren. Voorbeeld: Vertel maar, ik luister.",
+      "difficulty": 2,
+      "translationNl": "één en al oor zijn",
+      "solutionEnglish": "all ears"
+    },
+    {
+      "id": "idiom-more-057",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'back to square one'?",
+      "answer": "terug bij af zijn",
+      "accepted": [
+        "terug bij af zijn",
+        "opnieuw moeten beginnen",
+        "weer helemaal opnieuw beginnen"
+      ],
+      "explanation": "Je bent terug bij af wanneer een plan mislukt en je opnieuw moet beginnen. Voorbeeld: De computer liep vast en we waren terug bij af.",
+      "difficulty": 2,
+      "translationNl": "terug bij af zijn",
+      "solutionEnglish": "back to square one"
+    },
+    {
+      "id": "idiom-more-058",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'beat around the bush'?",
+      "answer": "om de hete brij heen draaien",
+      "accepted": [
+        "om de hete brij heen draaien",
+        "niet rechtstreeks zeggen wat je bedoelt",
+        "de kern ontwijken"
+      ],
+      "explanation": "Je draait om de hete brij heen wanneer je iets niet rechtstreeks zegt. Voorbeeld: Draai er niet omheen en vertel wat er is gebeurd.",
+      "difficulty": 2,
+      "translationNl": "om de hete brij heen draaien",
+      "solutionEnglish": "beat around the bush"
+    },
+    {
+      "id": "idiom-more-059",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'bite the bullet'?",
+      "answer": "door de zure appel heen bijten",
+      "accepted": [
+        "door de zure appel heen bijten",
+        "iets moeilijks toch doen",
+        "iets vervelends ondergaan"
+      ],
+      "explanation": "Je bijt door de zure appel heen wanneer je iets moeilijks accepteert en het toch doet. Voorbeeld: Ik zag op tegen het telefoontje, maar heb door de zure appel heen gebeten.",
+      "difficulty": 2,
+      "translationNl": "door de zure appel heen bijten",
+      "solutionEnglish": "bite the bullet"
+    },
+    {
+      "id": "idiom-more-060",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'break even'?",
+      "answer": "quitte spelen",
+      "accepted": [
+        "quitte spelen",
+        "geen winst en geen verlies maken",
+        "precies uit de kosten komen"
+      ],
+      "explanation": "Je speelt quitte wanneer je precies evenveel terugverdient als je hebt uitgegeven. Voorbeeld: Na de verkoop speelden we quitte.",
+      "difficulty": 2,
+      "translationNl": "quitte spelen",
+      "solutionEnglish": "break even"
+    },
+    {
+      "id": "idiom-more-061",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'by the book'?",
+      "answer": "volgens de regels werken",
+      "accepted": [
+        "volgens de regels werken",
+        "precies volgens de regels",
+        "volgens het boekje"
+      ],
+      "explanation": "Je doet iets by the book wanneer je alle regels precies volgt. Voorbeeld: De inspecteur werkte volgens het boekje.",
+      "difficulty": 2,
+      "translationNl": "volgens de regels werken",
+      "solutionEnglish": "by the book"
+    },
+    {
+      "id": "idiom-more-062",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'a dime a dozen'?",
+      "answer": "dertien in een dozijn zijn",
+      "accepted": [
+        "dertien in een dozijn zijn",
+        "heel gewoon zijn",
+        "gemakkelijk te vinden zijn"
+      ],
+      "explanation": "Dit zeg je over iets dat zo gewoon is dat het weinig bijzonder is. Voorbeeld: In die winkel zijn zulke goedkope mokken dertien in een dozijn.",
+      "difficulty": 2,
+      "translationNl": "dertien in een dozijn zijn",
+      "solutionEnglish": "a dime a dozen"
+    },
+    {
+      "id": "idiom-more-063",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'every now and then'?",
+      "answer": "af en toe",
+      "accepted": [
+        "af en toe",
+        "zo nu en dan",
+        "soms"
+      ],
+      "explanation": "Dit betekent dat iets soms gebeurt, maar niet vaak. Voorbeeld: Ik ga af en toe naar dat restaurant.",
+      "difficulty": 2,
+      "translationNl": "af en toe",
+      "solutionEnglish": "every now and then"
+    },
+    {
+      "id": "idiom-more-064",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'get something off your chest'?",
+      "answer": "iets van je af praten",
+      "accepted": [
+        "iets van je af praten",
+        "iets vertellen dat je dwarszit",
+        "je hart luchten"
+      ],
+      "explanation": "Je gets something off your chest wanneer je vertelt wat je dwarszit en je daardoor opgelucht voelt. Voorbeeld: Ze luchtte haar hart bij een vriend.",
+      "difficulty": 2,
+      "translationNl": "iets van je af praten",
+      "solutionEnglish": "get something off your chest"
+    },
+    {
+      "id": "idiom-more-065",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'give someone a hand'?",
+      "answer": "iemand helpen",
+      "accepted": [
+        "iemand helpen",
+        "een handje helpen",
+        "iemand een beetje hulp geven"
+      ],
+      "explanation": "Je geeft iemand a hand wanneer je die persoon helpt. Voorbeeld: Kun je me even helpen met deze doos?",
+      "difficulty": 2,
+      "translationNl": "iemand helpen",
+      "solutionEnglish": "give someone a hand"
+    },
+    {
+      "id": "idiom-more-066",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'go with the flow'?",
+      "answer": "met de stroom meegaan",
+      "accepted": [
+        "met de stroom meegaan",
+        "je aanpassen aan wat er gebeurt",
+        "het op je af laten komen"
+      ],
+      "explanation": "Je go with the flow wanneer je je aanpast in plaats van alles te plannen of te sturen. Voorbeeld: We hadden geen vast plan en zagen wel hoe de dag liep.",
+      "difficulty": 2,
+      "translationNl": "met de stroom meegaan",
+      "solutionEnglish": "go with the flow"
+    },
+    {
+      "id": "idiom-more-067",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'in the same boat'?",
+      "answer": "in hetzelfde schuitje zitten",
+      "accepted": [
+        "in hetzelfde schuitje zitten",
+        "dezelfde situatie meemaken",
+        "met hetzelfde probleem zitten"
+      ],
+      "explanation": "Mensen zitten in hetzelfde schuitje wanneer ze met dezelfde situatie of hetzelfde probleem te maken hebben. Voorbeeld: We moeten allebei opnieuw beginnen; we zitten in hetzelfde schuitje.",
+      "difficulty": 2,
+      "translationNl": "in hetzelfde schuitje zitten",
+      "solutionEnglish": "in the same boat"
+    },
+    {
+      "id": "idiom-more-068",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'keep your chin up'?",
+      "answer": "houd moed",
+      "accepted": [
+        "houd moed",
+        "de moed niet verliezen",
+        "positief blijven"
+      ],
+      "explanation": "Je zegt dit om iemand aan te moedigen wanneer iets moeilijk is. Voorbeeld: Houd moed, je sollicitatie komt goed.",
+      "difficulty": 2,
+      "translationNl": "houd moed",
+      "solutionEnglish": "keep your chin up"
+    },
+    {
+      "id": "idiom-more-069",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'make a long story short'?",
+      "answer": "om een lang verhaal kort te maken",
+      "accepted": [
+        "om een lang verhaal kort te maken",
+        "kort gezegd",
+        "samengevat"
+      ],
+      "explanation": "Je gebruikt dit voordat je de korte versie van een lang verhaal vertelt. Voorbeeld: Om een lang verhaal kort te maken: we hebben de trein gemist.",
+      "difficulty": 2,
+      "translationNl": "om een lang verhaal kort te maken",
+      "solutionEnglish": "make a long story short"
+    },
+    {
+      "id": "idiom-more-070",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'on thin ice'?",
+      "answer": "op glad ijs staan",
+      "accepted": [
+        "op glad ijs staan",
+        "in een riskante situatie zitten",
+        "bijna in de problemen zitten"
+      ],
+      "explanation": "Je staat op glad ijs wanneer je iets doet waardoor je snel in de problemen kunt komen. Voorbeeld: Na de derde waarschuwing stond hij op glad ijs.",
+      "difficulty": 2,
+      "translationNl": "op glad ijs staan",
+      "solutionEnglish": "on thin ice"
+    },
+    {
+      "id": "idiom-more-071",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'out of your depth'?",
+      "answer": "boven je macht zijn",
+      "accepted": [
+        "boven je macht zijn",
+        "iets niet aankunnen",
+        "te weinig ervaring hebben voor iets"
+      ],
+      "explanation": "Dit zeg je wanneer iets moeilijker is dan je aankunt of wanneer je te weinig ervaring hebt. Voorbeeld: Zonder hulp voelde ze zich boven haar macht.",
+      "difficulty": 2,
+      "translationNl": "boven je macht zijn",
+      "solutionEnglish": "out of your depth"
+    },
+    {
+      "id": "idiom-more-072",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'pull yourself together'?",
+      "answer": "jezelf herpakken",
+      "accepted": [
+        "jezelf herpakken",
+        "kalm worden",
+        "je emoties onder controle krijgen"
+      ],
+      "explanation": "Je zegt dit wanneer iemand weer rustig moet worden en verder moet gaan. Voorbeeld: Haal diep adem en herpak jezelf.",
+      "difficulty": 2,
+      "translationNl": "jezelf herpakken",
+      "solutionEnglish": "pull yourself together"
+    },
+    {
+      "id": "idiom-more-073",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'see the light'?",
+      "answer": "het licht zien",
+      "accepted": [
+        "het licht zien",
+        "het eindelijk begrijpen",
+        "inzien hoe iets zit"
+      ],
+      "explanation": "Je ziet the light wanneer je iets na een tijd eindelijk begrijpt. Voorbeeld: Na de uitleg zag ik eindelijk hoe de regel werkte.",
+      "difficulty": 2,
+      "translationNl": "het licht zien",
+      "solutionEnglish": "see the light"
+    },
+    {
+      "id": "idiom-more-074",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'sit on the fence'?",
+      "answer": "op de wip zitten",
+      "accepted": [
+        "op de wip zitten",
+        "nog geen keuze maken",
+        "twijfelen tussen twee kanten"
+      ],
+      "explanation": "Je zit op de wip wanneer je nog niet hebt besloten welke kant je kiest. Voorbeeld: Ze twijfelt nog over welke baan ze neemt.",
+      "difficulty": 2,
+      "translationNl": "op de wip zitten",
+      "solutionEnglish": "sit on the fence"
+    },
+    {
+      "id": "idiom-more-075",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'the elephant in the room'?",
+      "answer": "de olifant in de kamer",
+      "accepted": [
+        "de olifant in de kamer",
+        "een duidelijk probleem waar niemand over praat",
+        "een ongemakkelijk onderwerp vermijden"
+      ],
+      "explanation": "Dit is een groot of duidelijk probleem dat iedereen merkt maar waar niemand over praat. Voorbeeld: Niemand benoemde de ruzie, hoewel die de olifant in de kamer was.",
+      "difficulty": 2,
+      "translationNl": "de olifant in de kamer",
+      "solutionEnglish": "the elephant in the room"
+    },
+    {
+      "id": "idiom-more-076",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'the early bird catches the worm'?",
+      "answer": "wie vroeg komt, heeft voordeel",
+      "accepted": [
+        "wie vroeg komt, heeft voordeel",
+        "wie op tijd begint, krijgt de beste kans",
+        "vroeg beginnen loont"
+      ],
+      "explanation": "Dit spreekwoord betekent dat je voordeel kunt hebben als je vroeg begint. Voorbeeld: We waren vroeg bij de winkel en konden kiezen; wie vroeg komt, heeft voordeel.",
+      "difficulty": 2,
+      "translationNl": "wie vroeg komt, heeft voordeel",
+      "solutionEnglish": "the early bird catches the worm"
+    },
+    {
+      "id": "idiom-more-077",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'throw in the towel'?",
+      "answer": "de handdoek in de ring gooien",
+      "accepted": [
+        "de handdoek in de ring gooien",
+        "opgeven",
+        "ermee stoppen omdat het niet lukt"
+      ],
+      "explanation": "Je gooit de handdoek in de ring wanneer je opgeeft. Voorbeeld: Na veel pogingen wilde hij niet opgeven.",
+      "difficulty": 2,
+      "translationNl": "de handdoek in de ring gooien",
+      "solutionEnglish": "throw in the towel"
+    },
+    {
+      "id": "idiom-more-078",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'under pressure'?",
+      "answer": "onder druk staan",
+      "accepted": [
+        "onder druk staan",
+        "stress hebben door verwachtingen",
+        "veel druk ervaren"
+      ],
+      "explanation": "Je staat onder druk wanneer je door tijd, verwachtingen of problemen stress ervaart. Voorbeeld: Ze bleef rustig ondanks de druk.",
+      "difficulty": 2,
+      "translationNl": "onder druk staan",
+      "solutionEnglish": "under pressure"
+    },
+    {
+      "id": "idiom-more-079",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'up to you'?",
+      "answer": "dat mag jij bepalen",
+      "accepted": [
+        "dat mag jij bepalen",
+        "het is aan jou",
+        "jij mag kiezen"
+      ],
+      "explanation": "Dit betekent dat de keuze bij de ander ligt. Voorbeeld: We kunnen thuis eten of uitgaan; jij mag kiezen.",
+      "difficulty": 2,
+      "translationNl": "dat mag jij bepalen",
+      "solutionEnglish": "up to you"
+    },
+    {
+      "id": "idiom-more-080",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'have your hands full'?",
+      "answer": "je handen vol hebben",
+      "accepted": [
+        "je handen vol hebben",
+        "het erg druk hebben",
+        "veel tegelijk moeten doen"
+      ],
+      "explanation": "Je hebt je handen vol wanneer je veel werk of verantwoordelijkheden hebt. Voorbeeld: Met drie kleine kinderen heeft ze haar handen vol.",
+      "difficulty": 2,
+      "translationNl": "je handen vol hebben",
+      "solutionEnglish": "have your hands full"
+    },
+    {
+      "id": "idiom-more-081",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'a storm in a teacup'?",
+      "answer": "een storm in een glas water",
+      "accepted": [
+        "een storm in een glas water",
+        "veel ophef over iets kleins",
+        "een klein probleem groter maken"
+      ],
+      "explanation": "Dit is een overdreven reactie op iets dat eigenlijk niet zo belangrijk is. Voorbeeld: Die discussie over de kleur was een storm in een glas water.",
+      "difficulty": 2,
+      "translationNl": "een storm in een glas water",
+      "solutionEnglish": "a storm in a teacup"
+    },
+    {
+      "id": "idiom-more-082",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'bark up the wrong tree'?",
+      "answer": "op het verkeerde spoor zitten",
+      "accepted": [
+        "op het verkeerde spoor zitten",
+        "de verkeerde persoon verdenken",
+        "de verkeerde aanpak kiezen"
+      ],
+      "explanation": "Je zit op het verkeerde spoor wanneer je de oorzaak of persoon verkeerd zoekt. Voorbeeld: Als je denkt dat ik het gedaan heb, zit je op het verkeerde spoor.",
+      "difficulty": 2,
+      "translationNl": "op het verkeerde spoor zitten",
+      "solutionEnglish": "bark up the wrong tree"
+    },
+    {
+      "id": "idiom-more-083",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'cross that bridge when you come to it'?",
+      "answer": "je daar pas druk om maken als het zover is",
+      "accepted": [
+        "je daar pas druk om maken als het zover is",
+        "een probleem pas aanpakken wanneer het zich voordoet",
+        "niet vooruitlopen op problemen"
+      ],
+      "explanation": "Je zegt dit wanneer je een mogelijk toekomstig probleem pas wilt aanpakken als het echt gebeurt. Voorbeeld: We weten nog niet of er vertraging komt; daar maken we ons later druk om.",
+      "difficulty": 2,
+      "translationNl": "je daar pas druk om maken als het zover is",
+      "solutionEnglish": "cross that bridge when you come to it"
+    },
+    {
+      "id": "idiom-more-084",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'don't count your chickens before they hatch'?",
+      "answer": "tel je kuikens niet voordat ze uitkomen",
+      "accepted": [
+        "tel je kuikens niet voordat ze uitkomen",
+        "reken je niet rijk voordat iets zeker is",
+        "ga niet te vroeg van succes uit"
+      ],
+      "explanation": "Dit waarschuwt je om niet te vroeg aan te nemen dat iets gelukt is. Voorbeeld: Wacht de uitslag af; reken je niet rijk.",
+      "difficulty": 2,
+      "translationNl": "tel je kuikens niet voordat ze uitkomen",
+      "solutionEnglish": "don't count your chickens before they hatch"
+    },
+    {
+      "id": "idiom-more-085",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'easier said than done'?",
+      "answer": "makkelijker gezegd dan gedaan",
+      "accepted": [
+        "makkelijker gezegd dan gedaan",
+        "het is eenvoudiger om iets te zeggen dan te doen",
+        "in de praktijk moeilijker"
+      ],
+      "explanation": "Dit zeg je wanneer een advies eenvoudig klinkt, maar moeilijk uit te voeren is. Voorbeeld: Vroeg naar bed gaan is makkelijker gezegd dan gedaan.",
+      "difficulty": 2,
+      "translationNl": "makkelijker gezegd dan gedaan",
+      "solutionEnglish": "easier said than done"
+    },
+    {
+      "id": "idiom-more-086",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'get a taste of your own medicine'?",
+      "answer": "een koekje van eigen deeg krijgen",
+      "accepted": [
+        "een koekje van eigen deeg krijgen",
+        "hetzelfde meemaken wat je een ander aandoet",
+        "zelf ervaren hoe vervelend je gedrag is"
+      ],
+      "explanation": "Je krijgt een koekje van eigen deeg wanneer iemand jou behandelt zoals jij anderen behandelde. Voorbeeld: Hij plaagde iedereen en kreeg uiteindelijk een koekje van eigen deeg.",
+      "difficulty": 2,
+      "translationNl": "een koekje van eigen deeg krijgen",
+      "solutionEnglish": "get a taste of your own medicine"
+    },
+    {
+      "id": "idiom-more-087",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'have bigger fish to fry'?",
+      "answer": "belangrijkere dingen te doen hebben",
+      "accepted": [
+        "belangrijkere dingen te doen hebben",
+        "andere zaken hebben die meer aandacht vragen",
+        "grotere problemen aanpakken"
+      ],
+      "explanation": "Dit betekent dat je belangrijkere zaken hebt om je mee bezig te houden. Voorbeeld: Ik kan nu niet over dat kleine foutje praten; ik heb belangrijkere dingen te doen.",
+      "difficulty": 2,
+      "translationNl": "belangrijkere dingen te doen hebben",
+      "solutionEnglish": "have bigger fish to fry"
+    },
+    {
+      "id": "idiom-more-088",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'hit the sack'?",
+      "answer": "naar bed gaan",
+      "accepted": [
+        "naar bed gaan",
+        "gaan slapen",
+        "onder de wol kruipen"
+      ],
+      "explanation": "Dit is een informele manier om te zeggen dat je gaat slapen. Voorbeeld: Ik ben moe, ik ga naar bed.",
+      "difficulty": 2,
+      "translationNl": "naar bed gaan",
+      "solutionEnglish": "hit the sack"
+    },
+    {
+      "id": "idiom-more-089",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'in the long run'?",
+      "answer": "op de lange termijn",
+      "accepted": [
+        "op de lange termijn",
+        "uiteindelijk",
+        "als je naar een langere periode kijkt"
+      ],
+      "explanation": "Dit verwijst naar het resultaat na langere tijd. Voorbeeld: Dagelijks oefenen helpt je op de lange termijn.",
+      "difficulty": 2,
+      "translationNl": "op de lange termijn",
+      "solutionEnglish": "in the long run"
+    },
+    {
+      "id": "idiom-more-090",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'jump on the bandwagon'?",
+      "answer": "met de trend meegaan",
+      "accepted": [
+        "met de trend meegaan",
+        "iets doen omdat veel anderen het doen",
+        "een populaire trend volgen"
+      ],
+      "explanation": "Je doet mee met iets omdat het populair is geworden. Voorbeeld: Veel bedrijven gingen mee met de trend.",
+      "difficulty": 2,
+      "translationNl": "met de trend meegaan",
+      "solutionEnglish": "jump on the bandwagon"
+    },
+    {
+      "id": "idiom-more-091",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'leave no stone unturned'?",
+      "answer": "geen mogelijkheid onbenut laten",
+      "accepted": [
+        "geen mogelijkheid onbenut laten",
+        "alles proberen",
+        "grondig zoeken"
+      ],
+      "explanation": "Je laat geen steen onomgedraaid wanneer je alles probeert om iets te vinden of op te lossen. Voorbeeld: De politie liet geen mogelijkheid onbenut.",
+      "difficulty": 2,
+      "translationNl": "geen mogelijkheid onbenut laten",
+      "solutionEnglish": "leave no stone unturned"
+    },
+    {
+      "id": "idiom-more-092",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'once bitten, twice shy'?",
+      "answer": "een ezel stoot zich niet twee keer aan dezelfde steen",
+      "accepted": [
+        "een ezel stoot zich niet twee keer aan dezelfde steen",
+        "na een slechte ervaring voorzichtiger zijn",
+        "niet snel opnieuw hetzelfde risico nemen"
+      ],
+      "explanation": "Na een vervelende ervaring ben je vaak voorzichtiger. Voorbeeld: Hij controleert de voorwaarden nu goed; een ezel stoot zich niet twee keer aan dezelfde steen.",
+      "difficulty": 2,
+      "translationNl": "een ezel stoot zich niet twee keer aan dezelfde steen",
+      "solutionEnglish": "once bitten, twice shy"
+    },
+    {
+      "id": "idiom-more-093",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'play it by ear'?",
+      "answer": "ter plekke beslissen",
+      "accepted": [
+        "ter plekke beslissen",
+        "kijken hoe het loopt",
+        "beslissen op basis van de situatie"
+      ],
+      "explanation": "Je play it by ear wanneer je nog geen vast plan maakt en later beslist. Voorbeeld: We weten nog niet hoe laat we klaar zijn; we beslissen ter plekke.",
+      "difficulty": 2,
+      "translationNl": "ter plekke beslissen",
+      "solutionEnglish": "play it by ear"
+    },
+    {
+      "id": "idiom-more-094",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'put your foot in it'?",
+      "answer": "een blunder begaan",
+      "accepted": [
+        "een blunder begaan",
+        "iets onhandigs zeggen",
+        "iemand per ongeluk beledigen"
+      ],
+      "explanation": "Je puts your foot in it wanneer je iets zegt of doet dat ongemakkelijk of kwetsend is. Voorbeeld: Ik vroeg naar haar vakantie, niet wetend dat die was afgezegd.",
+      "difficulty": 2,
+      "translationNl": "een blunder begaan",
+      "solutionEnglish": "put your foot in it"
+    },
+    {
+      "id": "idiom-more-095",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'rain cats and dogs'?",
+      "answer": "het regent pijpenstelen",
+      "accepted": [
+        "het regent pijpenstelen",
+        "heel hard regenen",
+        "met bakken uit de lucht komen"
+      ],
+      "explanation": "Dit betekent dat het heel hard regent. Voorbeeld: Neem een paraplu mee, het regent pijpenstelen.",
+      "difficulty": 2,
+      "translationNl": "het regent pijpenstelen",
+      "solutionEnglish": "rain cats and dogs"
+    },
+    {
+      "id": "idiom-more-096",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'save for a rainy day'?",
+      "answer": "sparen voor later",
+      "accepted": [
+        "sparen voor later",
+        "geld bewaren voor moeilijke tijden",
+        "iets achter de hand houden"
+      ],
+      "explanation": "Je bewaart geld voor een rainy day wanneer je spaart voor een onverwachte tegenvaller. Voorbeeld: Ze zette elke maand wat geld opzij voor later.",
+      "difficulty": 2,
+      "translationNl": "sparen voor later",
+      "solutionEnglish": "save for a rainy day"
+    },
+    {
+      "id": "idiom-more-097",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'take the plunge'?",
+      "answer": "de sprong wagen",
+      "accepted": [
+        "de sprong wagen",
+        "een grote stap zetten",
+        "eindelijk een besluit nemen"
+      ],
+      "explanation": "Je neemt the plunge wanneer je na twijfel een grote stap zet. Voorbeeld: Na maanden twijfelen waagde hij de sprong en verhuisde.",
+      "difficulty": 2,
+      "translationNl": "de sprong wagen",
+      "solutionEnglish": "take the plunge"
+    },
+    {
+      "id": "idiom-more-098",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'the tip of the iceberg'?",
+      "answer": "het topje van de ijsberg",
+      "accepted": [
+        "het topje van de ijsberg",
+        "maar een klein zichtbaar deel van een groter probleem",
+        "er is nog veel meer aan de hand"
+      ],
+      "explanation": "Het zichtbare deel is maar een klein deel van wat er werkelijk speelt. Voorbeeld: Deze klacht is slechts het topje van de ijsberg.",
+      "difficulty": 2,
+      "translationNl": "het topje van de ijsberg",
+      "solutionEnglish": "the tip of the iceberg"
+    },
+    {
+      "id": "idiom-more-099",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'turn a blind eye'?",
+      "answer": "een oogje dichtknijpen",
+      "accepted": [
+        "een oogje dichtknijpen",
+        "doen alsof je iets niet ziet",
+        "iets bewust negeren"
+      ],
+      "explanation": "Je turns a blind eye wanneer je bewust doet alsof je iets niet merkt. Voorbeeld: De manager kneep een oogje dicht voor de kleine fout.",
+      "difficulty": 2,
+      "translationNl": "een oogje dichtknijpen",
+      "solutionEnglish": "turn a blind eye"
+    },
+    {
+      "id": "idiom-more-100",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'when it rains, it pours'?",
+      "answer": "als het regent, giet het",
+      "accepted": [
+        "als het regent, giet het",
+        "problemen komen vaak tegelijk",
+        "na één tegenslag volgen er meer"
+      ],
+      "explanation": "Dit zeg je wanneer meerdere problemen kort na elkaar gebeuren. Voorbeeld: Eerst viel de auto uit en toen miste ik de bus; als het regent, giet het.",
+      "difficulty": 2,
+      "translationNl": "als het regent, giet het",
+      "solutionEnglish": "when it rains, it pours"
+    },
+    {
+      "id": "idiom-more-101",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'without a hitch'?",
+      "answer": "zonder problemen",
+      "accepted": [
+        "zonder problemen",
+        "zonder moeilijkheden",
+        "soepel verlopen"
+      ],
+      "explanation": "Iets gaat without a hitch wanneer alles soepel verloopt. Voorbeeld: De verhuizing verliep zonder problemen.",
+      "difficulty": 2,
+      "translationNl": "zonder problemen",
+      "solutionEnglish": "without a hitch"
+    },
+    {
+      "id": "idiom-more-102",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'at the drop of a hat'?",
+      "answer": "meteen",
+      "accepted": [
+        "meteen",
+        "zonder aarzelen",
+        "onmiddellijk"
+      ],
+      "explanation": "Dit betekent dat iemand iets direct doet, zonder lang na te denken. Voorbeeld: Hij helpt zijn vrienden meteen.",
+      "difficulty": 2,
+      "translationNl": "meteen",
+      "solutionEnglish": "at the drop of a hat"
+    },
+    {
+      "id": "idiom-more-103",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'off the hook'?",
+      "answer": "uit de problemen zijn",
+      "accepted": [
+        "uit de problemen zijn",
+        "niet langer verantwoordelijk zijn",
+        "niet langer in moeilijkheden zitten"
+      ],
+      "explanation": "Je bent off the hook wanneer je niet langer verantwoordelijk wordt gehouden of geen straf krijgt. Voorbeeld: De leraar geloofde zijn uitleg, dus hij was uit de problemen.",
+      "difficulty": 2,
+      "translationNl": "uit de problemen zijn",
+      "solutionEnglish": "off the hook"
+    },
+    {
+      "id": "idiom-more-104",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'on cloud nine'?",
+      "answer": "in de zevende hemel zijn",
+      "accepted": [
+        "in de zevende hemel zijn",
+        "heel gelukkig zijn",
+        "dolblij zijn"
+      ],
+      "explanation": "Je bent on cloud nine wanneer je ontzettend blij bent. Voorbeeld: Na het goede nieuws was ze in de zevende hemel.",
+      "difficulty": 2,
+      "translationNl": "in de zevende hemel zijn",
+      "solutionEnglish": "on cloud nine"
+    },
+    {
+      "id": "idiom-more-105",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'a penny for your thoughts'?",
+      "answer": "waar denk je aan?",
+      "accepted": [
+        "waar denk je aan?",
+        "wat gaat er in je om?",
+        "vertel eens wat je denkt"
+      ],
+      "explanation": "Dit is een vriendelijke vraag aan iemand die stil lijkt en vraagt waar die aan denkt. Voorbeeld: Je bent zo stil; waar denk je aan?",
+      "difficulty": 2,
+      "translationNl": "waar denk je aan?",
+      "solutionEnglish": "a penny for your thoughts"
+    },
+    {
+      "id": "idiom-more-106",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'be in two minds'?",
+      "answer": "ergens over twijfelen",
+      "accepted": [
+        "ergens over twijfelen",
+        "niet kunnen kiezen",
+        "twee gedachten hebben"
+      ],
+      "explanation": "Je bent in two minds wanneer je twijfelt tussen twee mogelijkheden. Voorbeeld: Ik twijfel of ik de trein of de bus neem.",
+      "difficulty": 2,
+      "translationNl": "ergens over twijfelen",
+      "solutionEnglish": "be in two minds"
+    },
+    {
+      "id": "idiom-more-107",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'come rain or shine'?",
+      "answer": "wat er ook gebeurt",
+      "accepted": [
+        "wat er ook gebeurt",
+        "onder alle omstandigheden",
+        "door dik en dun"
+      ],
+      "explanation": "Dit betekent dat iets sowieso gebeurt, ongeacht het weer of de omstandigheden. Voorbeeld: Ze gaat elke ochtend wandelen, wat er ook gebeurt.",
+      "difficulty": 2,
+      "translationNl": "wat er ook gebeurt",
+      "solutionEnglish": "come rain or shine"
+    },
+    {
+      "id": "idiom-more-108",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'get the ball rolling'?",
+      "answer": "iets op gang brengen",
+      "accepted": [
+        "iets op gang brengen",
+        "beginnen",
+        "de eerste stap zetten"
+      ],
+      "explanation": "Je gets the ball rolling wanneer je iets in beweging zet of begint. Voorbeeld: Laten we met een korte vergadering beginnen.",
+      "difficulty": 2,
+      "translationNl": "iets op gang brengen",
+      "solutionEnglish": "get the ball rolling"
+    },
+    {
+      "id": "idiom-more-109",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'in black and white'?",
+      "answer": "zwart op wit",
+      "accepted": [
+        "zwart op wit",
+        "schriftelijk vastgelegd",
+        "duidelijk op papier"
+      ],
+      "explanation": "Dit betekent dat iets schriftelijk en duidelijk is vastgelegd. Voorbeeld: De afspraak staat zwart op wit in het contract.",
+      "difficulty": 2,
+      "translationNl": "zwart op wit",
+      "solutionEnglish": "in black and white"
+    },
+    {
+      "id": "idiom-more-110",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'keep something at bay'?",
+      "answer": "iets op afstand houden",
+      "accepted": [
+        "iets op afstand houden",
+        "voorkomen dat iets erger wordt",
+        "iets onder controle houden"
+      ],
+      "explanation": "Je houdt iets at bay wanneer je voorkomt dat het dichterbij komt of erger wordt. Voorbeeld: De medicijnen hielden de pijn op afstand.",
+      "difficulty": 3,
+      "translationNl": "iets op afstand houden",
+      "solutionEnglish": "keep something at bay"
+    },
+    {
+      "id": "idiom-more-111",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'make up your mind'?",
+      "answer": "een besluit nemen",
+      "accepted": [
+        "een besluit nemen",
+        "kiezen",
+        "beslissen wat je wilt"
+      ],
+      "explanation": "Je make up your mind wanneer je beslist wat je kiest. Voorbeeld: Neem je tijd, maar neem uiteindelijk een besluit.",
+      "difficulty": 2,
+      "translationNl": "een besluit nemen",
+      "solutionEnglish": "make up your mind"
+    },
+    {
+      "id": "idiom-more-112",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'not see eye to eye'?",
+      "answer": "het niet met elkaar eens zijn",
+      "accepted": [
+        "het niet met elkaar eens zijn",
+        "van mening verschillen",
+        "het oneens zijn"
+      ],
+      "explanation": "Mensen do not see eye to eye wanneer ze verschillende meningen hebben. Voorbeeld: Ze zijn het niet altijd eens over geld.",
+      "difficulty": 2,
+      "translationNl": "het niet met elkaar eens zijn",
+      "solutionEnglish": "not see eye to eye"
+    },
+    {
+      "id": "idiom-more-113",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'on the tip of your tongue'?",
+      "answer": "op het puntje van je tong liggen",
+      "accepted": [
+        "op het puntje van je tong liggen",
+        "bijna weten maar er net niet opkomen",
+        "het bijna kunnen herinneren"
+      ],
+      "explanation": "Je zegt dit wanneer je iets bijna weet, maar het woord of de naam niet kunt herinneren. Voorbeeld: Haar naam ligt me op het puntje van mijn tong.",
+      "difficulty": 3,
+      "translationNl": "op het puntje van je tong liggen",
+      "solutionEnglish": "on the tip of your tongue"
+    },
+    {
+      "id": "idiom-more-114",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'put your money where your mouth is'?",
+      "answer": "de daad bij het woord voegen",
+      "accepted": [
+        "de daad bij het woord voegen",
+        "laten zien dat je meent wat je zegt",
+        "je woorden met daden bewijzen"
+      ],
+      "explanation": "Je doet dit wanneer je met daden bewijst wat je hebt gezegd. Voorbeeld: Hij zei dat hij zou helpen en voegde de daad bij het woord.",
+      "difficulty": 3,
+      "translationNl": "de daad bij het woord voegen",
+      "solutionEnglish": "put your money where your mouth is"
+    },
+    {
+      "id": "idiom-more-115",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'read between the lines'?",
+      "answer": "tussen de regels door lezen",
+      "accepted": [
+        "tussen de regels door lezen",
+        "de verborgen boodschap begrijpen",
+        "begrijpen wat niet letterlijk wordt gezegd"
+      ],
+      "explanation": "Je leest tussen de regels door wanneer je begrijpt wat iemand bedoelt zonder dat die het rechtstreeks zegt. Voorbeeld: Haar antwoord was beleefd, maar tussen de regels door las ik dat ze nee zei.",
+      "difficulty": 3,
+      "translationNl": "tussen de regels door lezen",
+      "solutionEnglish": "read between the lines"
+    },
+    {
+      "id": "idiom-more-116",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'the whole nine yards'?",
+      "answer": "alles erop en eraan",
+      "accepted": [
+        "alles erop en eraan",
+        "alles volledig doen",
+        "het complete pakket"
+      ],
+      "explanation": "Dit betekent dat je alles doet of geeft, tot het volledige pakket aan toe. Voorbeeld: Voor het feest pakten ze alles erop en eraan uit.",
+      "difficulty": 3,
+      "translationNl": "alles erop en eraan",
+      "solutionEnglish": "the whole nine yards"
+    },
+    {
+      "id": "idiom-more-117",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'through the roof'?",
+      "answer": "de pan uit rijzen",
+      "accepted": [
+        "de pan uit rijzen",
+        "heel hoog worden",
+        "sterk toenemen"
+      ],
+      "explanation": "Dit zeg je wanneer iets zoals een prijs of gevoel extreem hoog wordt. Voorbeeld: De prijzen zijn de pan uit gerezen.",
+      "difficulty": 2,
+      "translationNl": "de pan uit rijzen",
+      "solutionEnglish": "through the roof"
+    },
+    {
+      "id": "idiom-more-118",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'to be on the safe side'?",
+      "answer": "voor de zekerheid",
+      "accepted": [
+        "voor de zekerheid",
+        "om risico te vermijden",
+        "liever het zekere voor het onzekere nemen"
+      ],
+      "explanation": "Je doet iets to be on the safe side wanneer je extra voorzichtig wilt zijn. Voorbeeld: Neem voor de zekerheid een extra trui mee.",
+      "difficulty": 2,
+      "translationNl": "voor de zekerheid",
+      "solutionEnglish": "to be on the safe side"
+    },
+    {
+      "id": "idiom-more-119",
+      "topic": "idioms-sayings",
+      "type": "typed",
+      "prompt": "Wat betekent de uitdrukking 'your heart is in the right place'?",
+      "answer": "je bedoelt het goed",
+      "accepted": [
+        "je bedoelt het goed",
+        "goede bedoelingen hebben",
+        "het goed met iemand voorhebben"
+      ],
+      "explanation": "Dit zeg je over iemand die goede bedoelingen heeft, ook als de aanpak niet perfect is. Voorbeeld: Hij bedoelde het goed, ook al kwam zijn grap verkeerd over.",
+      "difficulty": 2,
+      "translationNl": "je bedoelt het goed",
+      "solutionEnglish": "your heart is in the right place"
     }
   ],
   "placement": [
