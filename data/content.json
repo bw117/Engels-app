@@ -1,5 +1,5 @@
 {
-  "version": "1.12.2",
+  "version": "1.12.3",
   "topics": [
     {
       "id": "be-verbs",
@@ -7348,9 +7348,13 @@
       "prompt": "Vertaal: 'Hoe laat begint de les?'",
       "answer": "What time does the lesson start?",
       "accepted": [
-        "what time does the lesson start"
+        "what time does the lesson start",
+        "at what time does class start",
+        "what time does class start",
+        "when does class start",
+        "at what time does the lesson begin"
       ],
-      "explanation": "What time + does + subject + base verb.",
+      "explanation": "What time en at what time vragen naar het tijdstip. ‘Class’ is een natuurlijk alternatief voor ‘lesson’, vooral in Amerikaans Engels.",
       "difficulty": 2,
       "translationNl": "Hoe laat begint de les?",
       "solutionEnglish": "What time does the lesson start?"
@@ -7390,9 +7394,13 @@
       "prompt": "Vertaal: 'Ik geef hem mijn telefoon.'",
       "answer": "I give him my phone.",
       "accepted": [
-        "i give him my phone"
+        "i give him my phone",
+        "i give him my cellphone",
+        "i give him my cell phone",
+        "i give him my mobile phone",
+        "i give him my mobile"
       ],
-      "explanation": "Na give kan him het meewerkend voorwerp zijn.",
+      "explanation": "Na give kan him het meewerkend voorwerp zijn. Phone is de gebruikelijke algemene term; cellphone/cell phone is Amerikaans Engels en mobile phone vooral Brits Engels.",
       "difficulty": 2,
       "translationNl": "Ik geef hem mijn telefoon.",
       "solutionEnglish": "I give him my phone"
@@ -8512,9 +8520,11 @@
       "prompt": "Wat is 'plank' in het Engels?",
       "answer": "shelf",
       "accepted": [
-        "shelf"
+        "shelf",
+        "board",
+        "plank"
       ],
-      "explanation": "Shelf is één plank aan de muur of in een kast; shelves is het meervoud.",
+      "explanation": "Een shelf is een losse, horizontale opbergplank, bijvoorbeeld aan de muur of in een kast. Voor een hele stelling zeg je shelving unit of rack. Bedoel je een houten plank als materiaal, dan past board ook.",
       "difficulty": 2,
       "translationNl": "plank",
       "solutionEnglish": "shelf"
@@ -10093,9 +10103,11 @@
       "prompt": "Vertaal: 'Hoe vaak eet jij buiten de deur?'",
       "answer": "How often do you eat out?",
       "accepted": [
-        "how often do you eat out"
+        "how often do you eat out",
+        "how many times do you eat out",
+        "how many times do you eat out in a week"
       ],
-      "explanation": "Eat out is een vaste uitdrukking voor buitenshuis eten. In een vraag gebruik je how often + do + you + basisvorm.",
+      "explanation": "‘How often’ is de gebruikelijkste vraag naar algemene frequentie. ‘How many times’ is ook goed als je naar een aantal vraagt, bijvoorbeeld per week.",
       "difficulty": 2,
       "translationNl": "Hoe vaak eet jij buiten de deur?",
       "solutionEnglish": "How often do you eat out?"
@@ -10149,9 +10161,11 @@
       "prompt": "Vertaal: 'Deze soep smaakt beter dan gisteren.'",
       "answer": "This soup tastes better than it did yesterday.",
       "accepted": [
-        "this soup tastes better than it did yesterday"
+        "this soup tastes better than it did yesterday",
+        "this soup tastes better than yesterday",
+        "this soup tastes better today than yesterday"
       ],
-      "explanation": "Bij this soup hoort tastes. Better is de vergrotende trap van good; than it did yesterday vergelijkt met hoe de soep gisteren smaakte.",
+      "explanation": "De kern van je antwoord is goed. In informeel Engels is ‘than yesterday’ begrijpelijk als verkorte vergelijking. De volledige, duidelijke vorm is ‘than it did yesterday’: je vergelijkt hoe de soep nu smaakt met hoe die gisteren smaakte.",
       "difficulty": 2,
       "translationNl": "Deze soep smaakt beter dan gisteren.",
       "solutionEnglish": "This soup tastes better than it did yesterday."
@@ -20213,6 +20227,22 @@
       "difficulty": 2,
       "translationNl": "je bedoelt het goed",
       "solutionEnglish": "your heart is in the right place"
+    },
+    {
+      "id": "word-extra-103",
+      "topic": "vocabulary-daily",
+      "type": "word",
+      "prompt": "Wat is 'stelling' (meubel) in het Engels?",
+      "answer": "shelving unit",
+      "accepted": [
+        "shelving unit",
+        "shelf unit",
+        "rack"
+      ],
+      "explanation": "Een shelving unit of rack is de hele stelling. Een shelf is één plank in die stelling.",
+      "difficulty": 2,
+      "translationNl": "stelling",
+      "solutionEnglish": "shelving unit"
     }
   ],
   "placement": [
