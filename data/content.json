@@ -1,5 +1,5 @@
 {
-  "version": "1.12.0",
+  "version": "1.12.1",
   "topics": [
     {
       "id": "be-verbs",
@@ -18266,7 +18266,10 @@
         "dat is heel eenvoudig",
         "supermakkelijk",
         "het is heel makkelijk",
-        "dit is makkelijk"
+        "dit is makkelijk",
+        "heel gemakkelijk",
+        "makkelijk",
+        "gemakkelijk"
       ],
       "explanation": "Dit betekent dat iets heel makkelijk is, niet dat er letterlijk taart is. Example: ‘The test was a piece of cake.’",
       "difficulty": 2,
@@ -18294,7 +18297,10 @@
         "precies raak zijn",
         "precies goed zijn",
         "de juiste snaar raken",
-        "precies de kern raken"
+        "precies de kern raken",
+        "precies raak",
+        "precies goed",
+        "helemaal gelijk hebben"
       ],
       "explanation": "Dit zeg je wanneer iemand precies het juiste zegt of de oorzaak goed aanwijst. ‘You hit the nail on the head’ betekent dus dat iemand het precies goed heeft.",
       "difficulty": 2,
@@ -18310,7 +18316,8 @@
       "accepted": [
         "heel zelden",
         "bijna nooit",
-        "zelden"
+        "zelden",
+        "heel af en toe"
       ],
       "explanation": "Dit beschrijft iets dat bijna nooit gebeurt. Example: ‘We only eat out once in a blue moon.’",
       "difficulty": 2,
@@ -18326,7 +18333,12 @@
       "accepted": [
         "je niet lekker voelen",
         "een beetje ziek zijn",
-        "je niet goed voelen"
+        "je niet goed voelen",
+        "ziek",
+        "ziek zijn",
+        "je voelt je ziek",
+        "je niet fit voelen",
+        "je beroerd voelen"
       ],
       "explanation": "Dit is een informele manier om te zeggen dat je je niet goed voelt. Example: ‘I'm feeling under the weather today.’",
       "difficulty": 2,
@@ -18344,7 +18356,11 @@
         "heel veel geld kosten",
         "handenvol geld kosten",
         "peperduur zijn",
-        "erg duur zijn"
+        "erg duur zijn",
+        "heel duur",
+        "erg duur",
+        "een vermogen kosten",
+        "heel veel kosten"
       ],
       "explanation": "Dit zeg je over iets dat uitzonderlijk duur is. Example: ‘That car costs an arm and a leg.’",
       "difficulty": 2,
@@ -18360,7 +18376,12 @@
       "accepted": [
         "het geheim verklappen",
         "de verrassing verklappen",
-        "iets verklappen"
+        "iets verklappen",
+        "geheim verklappen",
+        "een geheim verklappen",
+        "een geheim onthullen",
+        "het geheim onthullen",
+        "iets verraden"
       ],
       "explanation": "Je verklapt informatie die geheim moest blijven. Example: ‘Who spilled the beans about the party?’",
       "difficulty": 2,
@@ -18376,7 +18397,11 @@
       "accepted": [
         "het geheim verklappen",
         "de verrassing verklappen",
-        "iets per ongeluk verklappen"
+        "iets per ongeluk verklappen",
+        "geheim verklappen",
+        "een geheim verklappen",
+        "een geheim onthullen",
+        "een verrassing verklappen"
       ],
       "explanation": "Dit betekent per ongeluk een geheim of verrassing bekendmaken. Example: ‘She let the cat out of the bag.’",
       "difficulty": 2,
@@ -18454,7 +18479,8 @@
       "accepted": [
         "er voor vandaag mee stoppen",
         "voor vandaag ophouden",
-        "er voor vandaag een punt achter zetten"
+        "er voor vandaag een punt achter zetten",
+        "voor vandaag stoppen"
       ],
       "explanation": "Je zegt dit wanneer je besluit dat je genoeg hebt gewerkt en stopt. Example: ‘We've done enough; let's call it a day.’",
       "difficulty": 2,
@@ -18486,7 +18512,9 @@
       "accepted": [
         "een geluk bij een ongeluk",
         "iets goeds dat eerst slecht leek",
-        "achteraf een geluk"
+        "achteraf een geluk",
+        "geluk bij een ongeluk",
+        "iets dat eerst slecht lijkt maar goed uitpakt"
       ],
       "explanation": "Dit is iets dat eerst vervelend lijkt maar later goed uitpakt. Example: ‘Missing that bus was a blessing in disguise.’",
       "difficulty": 2,
@@ -18519,7 +18547,9 @@
       "accepted": [
         "de boot missen",
         "een kans missen",
-        "te laat zijn voor een kans"
+        "te laat zijn voor een kans",
+        "te laat zijn",
+        "een mogelijkheid missen"
       ],
       "explanation": "Je hebt een kans gemist doordat je te laat was of niet handelde. Example: ‘We missed the boat on those cheap tickets.’",
       "difficulty": 2,
@@ -18631,7 +18661,10 @@
       "accepted": [
         "terugdeinzen",
         "zenuwachtig worden en niet meer durven",
-        "op het laatste moment bang worden"
+        "op het laatste moment bang worden",
+        "bang worden",
+        "op het laatste moment twijfelen",
+        "op het laatste moment terugdeinzen"
       ],
       "explanation": "Je krijgt cold feet wanneer je vlak voor een belangrijke stap bang wordt en twijfelt. Example: ‘He got cold feet before the wedding.’",
       "difficulty": 2,
@@ -18663,7 +18696,8 @@
       "accepted": [
         "rondkomen",
         "genoeg geld hebben om van te leven",
-        "de eindjes aan elkaar knopen"
+        "de eindjes aan elkaar knopen",
+        "genoeg geld hebben"
       ],
       "explanation": "Dit gaat over genoeg geld hebben voor je gewone kosten. Example: ‘They work hard to make ends meet.’",
       "difficulty": 2,
@@ -18791,7 +18825,8 @@
       "accepted": [
         "de druppel die de emmer doet overlopen",
         "de laatste druppel",
-        "de druppel"
+        "de druppel",
+        "de druppel die de emmer deed overlopen"
       ],
       "explanation": "Dit is het laatste probleem dat ervoor zorgt dat iemand zijn geduld verliest. Voorbeeld: De kapotte printer was de druppel die de emmer deed overlopen.",
       "difficulty": 2,
@@ -18838,7 +18873,8 @@
       "accepted": [
         "iets onder de knie krijgen",
         "ergens handigheid in krijgen",
-        "leren hoe iets werkt"
+        "leren hoe iets werkt",
+        "onder de knie krijgen"
       ],
       "explanation": "Je get the hang of something wanneer je na oefenen begrijpt hoe het werkt. Example: ‘You'll get the hang of the app soon.’",
       "difficulty": 2,
@@ -18950,7 +18986,10 @@
       "accepted": [
         "iets uitstellen tot een andere keer",
         "een uitnodiging voor later bewaren",
-        "nu niet kunnen maar later wel willen afspreken"
+        "nu niet kunnen maar later wel willen afspreken",
+        "later afspreken",
+        "een andere keer afspreken",
+        "iets uitstellen"
       ],
       "explanation": "Je zegt dit wanneer je nu niet kunt, maar later wel wilt afspreken. Example: ‘Can I take a rain check on dinner?’",
       "difficulty": 2,
@@ -19062,7 +19101,11 @@
       "accepted": [
         "flink wat geld kosten",
         "duur zijn",
-        "een hoop geld kosten"
+        "een hoop geld kosten",
+        "heel duur",
+        "erg duur",
+        "een vermogen kosten",
+        "veel geld kosten"
       ],
       "explanation": "Dit betekent dat iets behoorlijk duur is. Example: ‘That new phone costs a pretty penny.’",
       "difficulty": 2,
@@ -20054,7 +20097,12 @@
       "accepted": [
         "op het puntje van je tong liggen",
         "bijna weten maar er net niet opkomen",
-        "het bijna kunnen herinneren"
+        "het bijna kunnen herinneren",
+        "puntje van de tong",
+        "op het puntje van de tong liggen",
+        "puntje van je tong",
+        "iets bijna weten maar er niet op kunnen komen",
+        "niet op een woord kunnen komen"
       ],
       "explanation": "Je zegt dit wanneer je iets bijna weet, maar het woord of de naam niet kunt herinneren. Voorbeeld: Haar naam ligt me op het puntje van mijn tong.",
       "difficulty": 3,
