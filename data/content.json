@@ -1,5 +1,5 @@
 {
-  "version": "1.12.1",
+  "version": "1.12.2",
   "topics": [
     {
       "id": "be-verbs",
@@ -18514,7 +18514,10 @@
         "iets goeds dat eerst slecht leek",
         "achteraf een geluk",
         "geluk bij een ongeluk",
-        "iets dat eerst slecht lijkt maar goed uitpakt"
+        "iets dat eerst slecht lijkt maar goed uitpakt",
+        "iets goeds dat voortkomt uit iets vervelends",
+        "iets wat eerst vervelend lijkt maar later goed uitpakt",
+        "achteraf toch iets goeds"
       ],
       "explanation": "Dit is iets dat eerst vervelend lijkt maar later goed uitpakt. Example: ‘Missing that bus was a blessing in disguise.’",
       "difficulty": 2,
@@ -18565,7 +18568,13 @@
       "accepted": [
         "op één lijn zitten",
         "het met elkaar eens zijn",
-        "hetzelfde begrijpen"
+        "hetzelfde begrijpen",
+        "dezelfde mening hebben",
+        "hetzelfde standpunt hebben",
+        "op dezelfde lijn zitten",
+        "het met elkaar eens zijn over iets",
+        "hetzelfde idee hebben",
+        "hetzelfde begrijpen en bedoelen"
       ],
       "explanation": "Mensen are on the same page wanneer ze hetzelfde begrijpen of hetzelfde plan hebben. Example: ‘Let's check that we're on the same page.’",
       "difficulty": 2,
