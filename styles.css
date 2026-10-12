@@ -7,3 +7,5 @@
 .result-actions{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
 .result-card .level-rating-options .btn,.result-card .result-actions .btn{width:100%;min-width:0;min-height:50px;margin:0;padding:12px 10px}
 @media(max-width:600px){.level-rating-options{grid-template-columns:1fr}.result-actions{grid-template-columns:1fr}}
+
+.pronunciation-btn{display:block;margin-top:9px;padding:7px 11px;font-size:12px;line-height:1.2}.pronunciation-btn:hover{transform:translateY(-1px)}@media(max-width:640px){.pronunciation-btn{width:max-content;max-width:100%}}

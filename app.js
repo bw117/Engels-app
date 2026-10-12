@@ -156,7 +156,7 @@ function renderHome(){
  '<div class="eyebrow">'+(first?"EERSTE STAP":"VANDAAG")+'</div>'+
  '<h1>'+(first?"Small steps.<br><em>A bigger you.</em>":"Klaar voor je volgende stap?")+'</h1>'+
  '<p>'+(first?"Een korte starttest brengt je op het juiste beginpunt. Daarna groeit de moeilijkheid mee met wat je laat zien.":"Je hoeft niet te kiezen wat je moet oefenen. POLYVO kijkt naar je fouten, beheersing en herhaling en bouwt van daaruit verder.")+'</p>'+
- '<div class="hero-actions"><button class="btn primary" id="main-action">'+(first?"Start niveautest →":"Start een sessie →")+'</button>'+(first?"":'<button class="btn secondary" id="placement-again">Niveautest opnieuw</button>')+'</div></div>'+
+ '<div class="hero-actions"><button class="btn primary" id="main-action">'+(first?"Start niveautest →":"Start een sessie →")+'</button><button class="btn secondary" id="idioms-action">Oefen gezegden →</button>'+(first?"":'<button class="btn secondary" id="placement-again">Niveautest opnieuw</button>')+'</div></div>'+
  '<div class="hero-orb"><div class="orb-sun"></div><div class="orb-ring"></div><span>'+level.name.split(" · ")[0]+'</span></div></section>'+
  '<section class="level-card card"><div><div class="small">JOUW LEERREIS</div><h2>'+level.name+'</h2><p class="muted">Je groeit automatisch door naar moeilijkere vragen zodra je de basis voldoende beheerst.</p></div>'+
  '<div class="level-progress"><div class="level-line"><span style="width:'+Math.min(100,pct)+'%"></span></div><div class="level-foot"><span>'+pct+'% beheerst</span><span>Volgende: '+level.next+'</span></div></div></section>'+
@@ -171,6 +171,7 @@ function renderHome(){
  '<div class="grid">'+topicsHtml+'</div>'+
  '<section class="card next-card"><div><span class="tag">Adaptive learning</span><h2>De app wordt moeilijker als jij beter wordt.</h2><p class="muted">Eerst de basis. Daarna meer context, langere zinnen en minder hulp. Je antwoorden laten zien wanneer je klaar bent voor de volgende stap.</p></div><div class="next-icon">↗</div></section>';
  document.getElementById("main-action").addEventListener("click",first?startPlacement:startSession);
+ document.getElementById("idioms-action").addEventListener("click",startIdioms);
  document.getElementById("placement-again")?.addEventListener("click",startPlacement);
  document.getElementById("recommended").addEventListener("click",()=>startTopic(recommended.id));
  document.getElementById("word-mode").addEventListener("click",startWordMode);
@@ -212,6 +213,7 @@ function selectWordItems(n,targetDifficulty=null){const recent=recentQuestionIds
 function wordScore(item){const s=itemState(item.id),m=Number(s.mastery||0),due=s.nextReviewAt&&new Date(s.nextReviewAt)<=new Date(),fresh=!s.attempts,recentWrong=s.lastResult===false;return (1-m)*2.4+(due?2:0)+(recentWrong?1.5:0)+(fresh?.25:0)}
 
 function startTopic(id){state.sessionMode="topic";state.sessionTopic=id;const target=takeDifficultyTarget();state.session=selectItems(state.content.items.filter(i=>i.topic===id),8,true,target);state.nextDifficultyDirection=0;beginSession()}
+function startIdioms(){state.sessionMode="topic";state.sessionTopic="idioms-sayings";const target=takeDifficultyTarget();state.session=selectItems(state.content.items.filter(i=>i.topic==="idioms-sayings"),10,true,target);state.nextDifficultyDirection=0;beginSession()}
 function shuffleSession(items){const shuffled=[...items];for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]}return shuffled}
 function beginSession(){state.session=shuffleSession(state.session);rememberSessionQuestions(state.session);state.index=0;state.answered=false;state.sessionStartedAt=Date.now();state.sessionCorrect=0;renderQuestion()}
 function selectItems(items,n,topicOnly=false,targetDifficulty=null){
@@ -262,14 +264,24 @@ function answer(value,clicked){
  const text=accepted.join(" / ");
  const isWord=q.type==="typed"||q.type==="word";
  const alternatives=[...new Map([q.answer,...accepted].map(value=>[normalize(value),value])).values()];
- const bilingual=isWord?'<div class="solution-lines"><div><span class="solution-label">Nederlands</span><strong>'+escapeHtml(q.translationNl||"—")+'</strong></div><div><span class="solution-label">English</span><strong>'+escapeHtml(q.solutionEnglish||text)+'</strong></div>'+(alternatives.length>1?'<div><span class="solution-label">Andere goede antwoorden</span><strong>'+escapeHtml(alternatives.join(" · "))+'</strong></div>':"")+'</div>':"";
+ const bilingual=isWord?'<div class="solution-lines"><div><span class="solution-label">Nederlands</span><strong>'+escapeHtml(q.translationNl||"—")+'</strong></div><div><span class="solution-label">English</span><strong>'+escapeHtml(q.solutionEnglish||text)+'</strong><button class="btn secondary pronunciation-btn" type="button" id="speak-answer">🔊 Luister naar uitspraak</button></div>'+(alternatives.length>1?'<div><span class="solution-label">Andere goede antwoorden</span><strong>'+escapeHtml(alternatives.join(" · "))+'</strong></div>':"")+'</div>':"";
 
  const why='<div class="why"><span class="why-label">Waarom?</span><span>'+escapeHtml(q.explanation||"Dit antwoord past bij de grammaticaregel of woordkeuze van deze vraag.")+'</span></div>';
  const expected=accepted.length>1?"Een goed antwoord is: ":"Het antwoord dat we zoeken is: ";
  document.getElementById("feedback").innerHTML='<div class="feedback '+(correct?"good":"bad")+'"><strong>'+(correct?"Goed!":"Nog niet.")+'</strong><p>'+(correct?"Precies.":expected+"<b>"+escapeHtml(text)+"</b>.")+'</p>'+bilingual+why+'</div><button class="btn primary next-btn" id="next-btn">'+(state.index+1===state.session.length?"Bekijk resultaat":"Volgende →")+'</button>';
+ document.getElementById("speak-answer")?.addEventListener("click",()=>speakEnglish(q.solutionEnglish||text));
  document.getElementById("next-btn").addEventListener("click",nextQuestion);
 }
 function escapeHtml(value){return String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[ch]))}
+function speakEnglish(text){
+ if(!("speechSynthesis" in window)||!("SpeechSynthesisUtterance" in window))return;
+ window.speechSynthesis.cancel();
+ const utterance=new SpeechSynthesisUtterance(String(text||""));
+ utterance.lang="en-GB";utterance.rate=.86;
+ const voices=window.speechSynthesis.getVoices(),voice=voices.find(v=>/^en-GB/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang));
+ if(voice)utterance.voice=voice;
+ window.speechSynthesis.speak(utterance);
+}
 function nextQuestion(){state.index++;state.answered=false;renderQuestion()}
 function finishSession(){
  const total=state.session.length,correct=state.sessionCorrect,minutes=Math.max(1,Math.round((Date.now()-state.sessionStartedAt)/60000));
